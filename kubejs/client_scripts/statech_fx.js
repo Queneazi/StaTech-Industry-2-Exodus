@@ -41,7 +41,7 @@ const FX_ATMO = {
 
 let FX = {
     pack: false, expo: 1,
-    tick: 0, event: '', shake: 0, quakeUntil: 0, flash: 0, flashColor: 0xffffff, white: 0,
+    tick: 0, q: 1, event: '', shake: 0, quakeUntil: 0, flash: 0, flashColor: 0xffffff, white: 0,
     banners: [], cine: null, meteors: [], craters: [], launch: null, jump: null, entry: 0,
     fogKind: '', fogAmt: 0, shader: null, errors: {}, parts: {},
 };
@@ -71,7 +71,7 @@ ClientEvents.particleProviderRegistry((event) => {
     let bright = (p) => p.setLightColor((f) => FX_BRIGHT);
     let drift = (p, s) => { if (p.xd == 0 && p.yd == 0 && p.zd == 0) { p.xd = fxRand(-s, s); p.yd = fxRand(-s, s); p.zd = fxRand(-s, s); } };
     def('entry_ember', (p) => { p.lifetime = Math.floor(fxRand(24, 46)); p.setGravity(-0.006); p.setFriction(0.95); p.quadSize = fxRand(0.04, 0.08); drift(p, 0.03); bright(p); });
-    def('entry_smoke', (p) => { p.lifetime = Math.floor(fxRand(50, 80)); p.setGravity(-0.004); p.setFriction(0.96); p.quadSize = fxRand(0.7, 1.25); drift(p, 0.01); });
+    def('entry_smoke', (p) => { p.lifetime = Math.floor(fxRand(40, 60)); p.setGravity(-0.004); p.setFriction(0.96); p.quadSize = fxRand(0.7, 1.25); drift(p, 0.01); });
     def('collapse_dust', (p) => { p.lifetime = Math.floor(fxRand(30, 50)); p.setGravity(0.045); p.quadSize = fxRand(0.04, 0.07); p.setPhysicality(true); });
     def('collapse_sand', (p) => { p.lifetime = Math.floor(fxRand(36, 60)); p.setGravity(0); p.setFriction(1); p.quadSize = fxRand(1.4, 2.6) * (FX.pack ? 1.6 : 1); });
     def('collapse_shock', (p) => { p.lifetime = 8; p.setGravity(0); p.quadSize = fxRand(2.6, 4.2); bright(p); p.xd = 0; p.yd = 0; p.zd = 0; });
@@ -117,43 +117,72 @@ function fxTremorDust(power) {
     }
 }
 
+// How many optional particles meteors may spawn: follows the video setting for particles,
+// backs off when the frame rate drops and stops when the particle engine is already crowded.
+const $FxParticleStatus = Java.loadClass('net.minecraft.client.ParticleStatus');
+let fxBudget = () => {
+    let q = 1;
+    try {
+        let set = Client.options.particles().get();
+        if (set == $FxParticleStatus.DECREASED) q = 0.5;
+        else if (set == $FxParticleStatus.MINIMAL) q = 0.2;
+    } catch (e) { }
+    let fps = Client.getFps();
+    if (fps < 30) q *= 0.35; else if (fps < 50) q *= 0.6;
+    let n = Client.particleEngine.countParticles();
+    if (n > 6000) q *= 0.15; else if (n > 3000) q *= 0.5;
+    return q;
+};
+let fxSome = (n) => { let r = n * FX.q; return Math.floor(r) + (Math.random() < r % 1 ? 1 : 0); };
+
 function fxImpact(x, y, z, power) {
-    for (let i = 0; i < 5; i++) fxSpawn('collapse_shock', x + fxRand(-1.5, 1.5), y + 0.6 + i * 0.7, z + fxRand(-1.5, 1.5));
-    for (let i = 0; i < 8; i++) fxSpawn('collapse_fireball', x + fxRand(-2, 2), y + fxRand(0.5, 3), z + fxRand(-2, 2));
-    for (let i = 0; i < 14; i++) fxSpawn('collapse_trail', x + fxRand(-3, 3), y + fxRand(0.5, 4), z + fxRand(-3, 3), 0, fxRand(2.5, 4.5), 0);
-    for (let i = 0; i < 90; i++) {
-        let a = Math.random() * FX_TAU, v = fxRand(0.1, 0.55);
-        fxSpawn('entry_ember', x + fxRand(-1.5, 1.5), y + fxRand(0, 2), z + fxRand(-1.5, 1.5), Math.cos(a) * v, fxRand(0.1, 0.75), Math.sin(a) * v);
-    }
-    for (let i = 0; i < 30; i++) fxSpawn('entry_smoke', x + fxRand(-4, 4), y + fxRand(0, 4), z + fxRand(-4, 4), 0, fxRand(0.02, 0.1), 0);
-    for (let i = 0; i < 40; i++) fxSpawn('collapse_dust', x + fxRand(-5, 5), y + fxRand(0, 2), z + fxRand(-5, 5), fxRand(-0.15, 0.15), fxRand(0.15, 0.45), fxRand(-0.15, 0.15));
-    FX.craters.push({ x: x, y: y, z: z, until: FX.tick + 260 });
-    let d = fxDist(x, y, z);
+    let d = fxDist(x, y, z), big = power >= 3.5 ? 1 : 0.6;
     FX.flash = Math.max(FX.flash, Math.max(0, 1 - d / 110) * 0.5); FX.flashColor = 0xffc070;
     FX.shake = Math.max(FX.shake, Math.max(0, 1 - d / 110) * (2.2 + power * 0.3));
     if (d < 60) FX.quakeUntil = FX.tick + 30;
+    if (d > 160) return;
+    let near = d < 64 ? 1 : 0.5;
+    let k = big * near;
+    for (let i = 0; i < Math.max(1, fxSome(3 * k)); i++) fxSpawn('collapse_shock', x + fxRand(-1.5, 1.5), y + 0.6 + i * 0.7, z + fxRand(-1.5, 1.5));
+    for (let i = 0; i < fxSome(4 * k); i++) fxSpawn('collapse_fireball', x + fxRand(-2, 2), y + fxRand(0.5, 3), z + fxRand(-2, 2));
+    for (let i = 0; i < fxSome(6 * k); i++) fxSpawn('collapse_trail', x + fxRand(-3, 3), y + fxRand(0.5, 4), z + fxRand(-3, 3), 0, fxRand(2.5, 4.5), 0);
+    for (let i = 0; i < fxSome(30 * k); i++) {
+        let a = Math.random() * FX_TAU, v = fxRand(0.1, 0.55);
+        fxSpawn('entry_ember', x + fxRand(-1.5, 1.5), y + fxRand(0, 2), z + fxRand(-1.5, 1.5), Math.cos(a) * v, fxRand(0.1, 0.75), Math.sin(a) * v);
+    }
+    for (let i = 0; i < fxSome(10 * k); i++) fxSpawn('entry_smoke', x + fxRand(-3, 3), y + fxRand(0, 3), z + fxRand(-3, 3), 0, fxRand(0.02, 0.1), 0);
+    for (let i = 0; i < fxSome(12 * k); i++) fxSpawn('collapse_dust', x + fxRand(-4, 4), y + fxRand(0, 2), z + fxRand(-4, 4), fxRand(-0.15, 0.15), fxRand(0.15, 0.45), fxRand(-0.15, 0.15));
+    if (d < 96) FX.craters.push({ x: x, y: y, z: z, until: FX.tick + (big < 1 ? 100 : 160) });
+    if (FX.craters.length > 6) FX.craters.shift();
 }
 
 function fxMeteorTick() {
+    if (FX.meteors.length == 0 && FX.craters.length == 0) return;
+    FX.q = fxBudget();
+    let cam = Client.gameRenderer.getMainCamera().getPosition();
     FX.meteors = FX.meteors.filter((m) => {
         let f = (FX.tick - m.born) / m.dur;
         if (f >= 1) return false;
         let dx = (m.tx - m.sx) / m.dur, dy = (m.ty - m.sy) / m.dur, dz = (m.tz - m.sz) / m.dur;
         let x = m.sx + (m.tx - m.sx) * f, y = m.sy + (m.ty - m.sy) * f, z = m.sz + (m.tz - m.sz) * f;
-        let steps = Math.max(1, Math.ceil(Math.hypot(dx, dy, dz) / 0.35));
-        for (let i = 0; i < steps; i++) {
-            let t = i / steps;
-            fxSpawn('collapse_trail', x - dx * t + fxRand(-0.08, 0.08), y - dy * t + fxRand(-0.08, 0.08), z - dz * t + fxRand(-0.08, 0.08), 0, 1.8 - 0.5 * t, 0);
-        }
+        let d = Math.sqrt((cam.x - x) * (cam.x - x) + (cam.y - y) * (cam.y - y) + (cam.z - z) * (cam.z - z));
         fxSpawn('collapse_halo', x, y, z, dx, dy, dz);
         fxSpawn('collapse_head', x, y, z, dx, dy, dz);
-        for (let i = 0; i < 6; i++) { let t = 1.5 + i / 6; fxSpawn('entry_smoke', x - dx * t + fxRand(-0.5, 0.5), y - dy * t + fxRand(-0.5, 0.5), z - dz * t + fxRand(-0.5, 0.5)); }
-        if (Math.random() < 0.7) fxSpawn('entry_ember', x - dx * 0.5, y - dy * 0.5, z - dz * 0.5, dx * 0.3 + fxRand(-0.1, 0.1), dy * 0.3 + fxRand(-0.1, 0.1), dz * 0.3 + fxRand(-0.1, 0.1));
+        // far away the trail only needs to read as a line, so it gets sparse
+        let spacing = (d < 48 ? 0.5 : d < 128 ? 0.9 : 1.6) / Math.max(0.35, FX.q);
+        let steps = Math.max(1, Math.ceil(Math.hypot(dx, dy, dz) / spacing));
+        let size = d < 48 ? 1.8 : 2.2;
+        for (let i = 0; i < steps; i++) {
+            let t = i / steps;
+            fxSpawn('collapse_trail', x - dx * t, y - dy * t, z - dz * t, 0, size - 0.5 * t, 0);
+        }
+        if (d < 128 && Math.random() < FX.q) fxSpawn('entry_smoke', x - dx * 1.6 + fxRand(-0.4, 0.4), y - dy * 1.6 + fxRand(-0.4, 0.4), z - dz * 1.6 + fxRand(-0.4, 0.4));
+        if (d < 64 && Math.random() < 0.5 * FX.q) fxSpawn('entry_ember', x - dx * 0.5, y - dy * 0.5, z - dz * 0.5, dx * 0.3 + fxRand(-0.1, 0.1), dy * 0.3 + fxRand(-0.1, 0.1), dz * 0.3 + fxRand(-0.1, 0.1));
         return true;
     });
     FX.craters = FX.craters.filter((c) => {
-        if (FX.tick % 2 == 0) fxSpawn('entry_smoke', c.x + fxRand(-1.5, 1.5), c.y + fxRand(0, 1), c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.12), 0);
-        if (FX.tick % 5 == 0) fxSpawn('entry_ember', c.x + fxRand(-1.5, 1.5), c.y + 0.3, c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.2), 0);
+        if (FX.tick % 6 == 0 && Math.random() < FX.q) fxSpawn('entry_smoke', c.x + fxRand(-1.5, 1.5), c.y + fxRand(0, 1), c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.12), 0);
+        if (FX.tick % 10 == 0 && Math.random() < FX.q) fxSpawn('entry_ember', c.x + fxRand(-1.5, 1.5), c.y + 0.3, c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.2), 0);
         return c.until > FX.tick;
     });
 }

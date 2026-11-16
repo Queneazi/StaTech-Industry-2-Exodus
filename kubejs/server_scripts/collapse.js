@@ -11,10 +11,12 @@ const COLLAPSE = {
 };
 
 const COLLAPSE_EVENTS = {
-    sand: { seconds: [150, 300], weight: 5 },
-    storm: { seconds: [180, 300], weight: 5 },
+    sand: { seconds: [120, 240], weight: 5 },
+    storm: { seconds: [150, 240], weight: 5 },
     shower: { seconds: [60, 90], weight: 1 },
 };
+
+const COLLAPSE_KINDS = ['blight', 'tremor', 'meteor', 'sand', 'storm', 'shower'];
 
 let $CollapseChunks = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI');
 let $CollapseChunkDimPos = Java.loadClass('dev.ftb.mods.ftblibrary.math.ChunkDimPos');
@@ -38,6 +40,7 @@ let collapseFxState = {};
 
 let collapseCommand = (server, command) => server.runCommandSilent(command);
 let collapseChance = (perSecond) => Math.random() < perSecond * COLLAPSE.frequency;
+let collapseOn = (server, kind) => !server.persistentData.getCompound('collapse_off').getBoolean(kind);
 let collapseParticle = (name) => $CollapseRegistries.PARTICLE_TYPE.get($CollapseRL.parse('kubejs:' + name));
 let collapseFx = (player, fx, data) => {
     let tag = { fx: fx };
@@ -137,11 +140,13 @@ let collapseMeteorTick = (server) => {
         meteor.t++;
         if (meteor.t < meteor.duration) return true;
         if (!level.getChunkSource().getChunkNow(meteor.x >> 4, meteor.z >> 4)) return false;
-        let power = meteor.small ? 2.2 + Math.random() : 3.5 + Math.random() * 2;
+        let power = meteor.small ? 2 + Math.random() * 0.8 : 3.5 + Math.random() * 2;
         let grief = !meteor.shielded && collapseGriefing(level);
-        level.explode(null, null, null, meteor.x + 0.5, meteor.y + 0.5, meteor.z + 0.5, power, grief, grief ? $CollapseExplosion.MOB : $CollapseExplosion.NONE,
+        level.explode(null, null, null, meteor.x + 0.5, meteor.y + 0.5, meteor.z + 0.5, power, grief && !meteor.small, grief ? $CollapseExplosion.MOB : $CollapseExplosion.NONE,
             collapseParticle('entry_smoke'), collapseParticle('collapse_shock'), $CollapseSounds.GENERIC_EXPLODE);
         collapseFxNear(server, meteor.x, meteor.z, 200, 'impact', { x: meteor.x + 0.5, y: meteor.y, z: meteor.z + 0.5, power: power });
+        // the blast knocks loose dirt, leaves and stone; clear what it just dropped so showers don't litter the land with item entities
+        if (grief) collapseCommand(server, `execute in minecraft:overworld positioned ${meteor.x + 0.5} ${meteor.y + 0.5} ${meteor.z + 0.5} run kill @e[type=minecraft:item,distance=..10,nbt={Age:0s}]`);
         if (grief) {
             let crater = collapseColumn(level, meteor.x, meteor.z);
             if (crater) level.getBlock(meteor.x, crater.y - 1, meteor.z).set('minecraft:magma_block');
@@ -243,7 +248,7 @@ let collapseStartEvent = (server, kind) => {
 let collapseStopEvent = (server) => {
     let data = server.persistentData;
     data.putString('collapse_event', '');
-    data.putInt('collapse_event_cooldown', Math.floor((600 + Math.random() * 900) / Math.max(COLLAPSE.frequency, 0.05)));
+    data.putInt('collapse_event_cooldown', Math.floor((2700 + Math.random() * 2700) / Math.max(COLLAPSE.frequency, 0.05)));
     collapseFxState = {};
 };
 
@@ -251,7 +256,7 @@ let collapseWorldEvents = (server, level) => {
     let data = server.persistentData;
     let active = String(data.getString('collapse_event'));
     if (active) {
-        if (!COLLAPSE_EVENTS[active]) return collapseStopEvent(server);
+        if (!COLLAPSE_EVENTS[active] || !collapseOn(server, active)) return collapseStopEvent(server);
         let left = data.getInt('collapse_event_left') - 1;
         data.putInt('collapse_event_left', left);
         if (left > 0) return;
@@ -263,8 +268,9 @@ let collapseWorldEvents = (server, level) => {
         data.putInt('collapse_event_cooldown', cooldown - 1);
         return;
     }
-    if (!collapseChance(1 / 300)) return;
-    let total = 0, kinds = Object.keys(COLLAPSE_EVENTS);
+    if (!collapseChance(1 / 600)) return;
+    let total = 0, kinds = Object.keys(COLLAPSE_EVENTS).filter((kind) => collapseOn(server, kind));
+    if (kinds.length == 0) return;
     kinds.forEach((kind) => { total += COLLAPSE_EVENTS[kind].weight; });
     let roll = Math.random() * total;
     for (let i = 0; i < kinds.length; i++) {
@@ -299,9 +305,9 @@ let collapsePlayer = (server, level, player, event) => {
         collapseFx(player, 'state', { event: event });
     }
     if (player.isSpectator()) return;
-    if (collapseChance(0.002)) collapseTremor(server, level, player);
-    if (collapseChance(0.0012)) collapseLaunchMeteor(server, level, player);
-    if (COLLAPSE.blight) collapseBlight(level, player, event == 'sand' ? 96 : 48);
+    if (collapseOn(server, 'tremor') && collapseChance(1 / 3600)) collapseTremor(server, level, player);
+    if (collapseOn(server, 'meteor') && collapseChance(1 / 5400)) collapseLaunchMeteor(server, level, player);
+    if (COLLAPSE.blight && collapseOn(server, 'blight')) collapseBlight(level, player, event == 'sand' ? 16 : 8);
     if (event) collapseEventEffects(server, level, player, event);
 };
 
@@ -328,22 +334,51 @@ ServerEvents.tick((event) => {
 
 // -- COMMAND -- //
 
+let collapseStatus = (server) => {
+    let active = String(server.persistentData.getString('collapse_event'));
+    return COLLAPSE_KINDS.map((kind) => kind + (collapseOn(server, kind) ? ' on' : ' off') + (active == kind ? ' (now)' : '')).join(', ');
+};
+
+let collapseSet = (server, kind, on) => {
+    let data = server.persistentData;
+    let off = data.getCompound('collapse_off');
+    (kind == 'all' ? COLLAPSE_KINDS : [kind]).forEach((k) => { if (on) off.remove(k); else off.putBoolean(k, true); });
+    data.put('collapse_off', off);
+    if (!on && String(data.getString('collapse_event')) && !collapseOn(server, String(data.getString('collapse_event')))) collapseStopEvent(server);
+};
+
 ServerEvents.commandRegistry((event) => {
     let Commands = event.commands;
+    let reply = (ctx, text) => { ctx.source.sendSuccess(Text.of(text), false); return 1; };
+    let toggle = (on) => Commands.argument('kind', $CollapseString.word())
+        .suggests((ctx, builder) => { COLLAPSE_KINDS.concat(['all']).forEach((k) => builder.suggest(k)); return builder.buildFuture(); })
+        .executes((ctx) => {
+            let kind = String($CollapseString.getString(ctx, 'kind'));
+            if (kind != 'all' && COLLAPSE_KINDS.indexOf(kind) < 0) return reply(ctx, 'Unknown cataclysm: ' + kind + '. Use: ' + COLLAPSE_KINDS.join(', ') + ', all');
+            collapseSet(ctx.source.server, kind, on);
+            return reply(ctx, 'Cataclysms: ' + collapseStatus(ctx.source.server));
+        });
+    let start = Commands.argument('event', $CollapseString.word())
+        .suggests((ctx, builder) => { Object.keys(COLLAPSE_EVENTS).concat(['tremor', 'meteor']).forEach((k) => builder.suggest(k)); return builder.buildFuture(); })
+        .executes((ctx) => {
+            let kind = String($CollapseString.getString(ctx, 'event'));
+            let server = ctx.source.server;
+            let player = ctx.source.getPlayer();
+            if (COLLAPSE_KINDS.indexOf(kind) >= 0 && !collapseOn(server, kind)) return reply(ctx, kind + ' is switched off. Turn it on with /collapse on ' + kind);
+            if (COLLAPSE_EVENTS[kind]) collapseStartEvent(server, kind);
+            else if (kind == 'tremor' && player) collapseTremor(server, server.overworld(), player);
+            else if (kind == 'meteor' && player) collapseLaunchMeteor(server, server.overworld(), player);
+            else return 0;
+            return 1;
+        });
     event.register(
         Commands.literal('collapse')
             .requires((source) => source.hasPermission(2))
-            .then(Commands.argument('event', $CollapseString.word()).executes((ctx) => {
-                let kind = String($CollapseString.getString(ctx, 'event'));
-                let server = ctx.source.server;
-                let player = ctx.source.getPlayer();
-                if (kind == 'stop') collapseStopEvent(server);
-                else if (COLLAPSE_EVENTS[kind]) collapseStartEvent(server, kind);
-                else if (kind == 'tremor' && player) collapseTremor(server, server.overworld(), player);
-                else if (kind == 'meteor' && player) collapseLaunchMeteor(server, server.overworld(), player);
-                else return 0;
-                return 1;
-            }))
+            .executes((ctx) => reply(ctx, 'Cataclysms: ' + collapseStatus(ctx.source.server)))
+            .then(Commands.literal('on').then(toggle(true)))
+            .then(Commands.literal('off').then(toggle(false)))
+            .then(Commands.literal('start').then(start))
+            .then(Commands.literal('stop').executes((ctx) => { collapseStopEvent(ctx.source.server); return 1; }))
     );
 });
 

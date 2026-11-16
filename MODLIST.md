@@ -1,6 +1,6 @@
 # StaTech Industry 2: Exodus — Mod List
 
-Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.5
+Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.6
 
 ## Mods (285)
 
@@ -308,10 +308,8 @@ Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.5
 | [Complementary Shaders - Reimagined](https://www.curseforge.com/minecraft/shaders/complementary-reimagined) | EminGT | `ComplementaryReimagined_r5.9.3.zip` |
 | [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound) | EminGT | `ComplementaryUnbound_r5.9.3.zip` |
 
-## Bundled in overrides (not downloaded from CurseForge) (3)
+## Bundled in overrides (not downloaded from CurseForge) (1)
 
 | File |
 | --- |
-| `botania-neoforge-1.21.1-457-20261011.170106-13.jar` |
 | `cc-tweaked-1.21.1-forge-1.120.0.jar` |
-| `forgotten_relics_plus-1.21.1-neoforge-1.8.1.jar` |

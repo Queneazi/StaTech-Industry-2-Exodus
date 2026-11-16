@@ -7071,7 +7071,7 @@
 	quest.5C42CEBD1F18DF28.quest_desc: [
 		"The Earth you wake up on is dying. Nobody knows how long it has left, and nothing below keeps a schedule: any of it can happen on any day, from your first night to your last."
 		""
-		"&aCrop blight&r: nothing grows under the open sky any more. A crop planted outside is dead within a minute or two. Food only grows in a &asealed greenhouse&r: a closed room with a floor, walls and a roof and no gap to the outside. Glass counts as a wall, a closed door too, and a sealed cellar works as well as a glasshouse. Keep the room under about 6,000 blocks of air."
+		"&aCrop blight&r: nothing grows under the open sky any more. A crop planted outside withers within a few minutes. Food only grows in a &asealed greenhouse&r: a closed room with a floor, walls and a roof and no gap to the outside. Glass counts as a wall, a closed door too, and a sealed cellar works as well as a glasshouse. Keep the room under about 6,000 blocks of air."
 		""
 		"&6Sandstorms&r: a wall of dust rolls over the land for a few minutes. You can barely see and barely walk in it. Wait it out indoors."
 		""
@@ -7082,6 +7082,8 @@
 		"&9Superstorms&r: thunderstorms that throw lightning at the ground around you and set dry land on fire."
 		""
 		"Claimed chunks are spared the craters, cave-ins and lightning. The blight is not that polite."
+		""
+		"Server operators can switch any of this off with &e/collapse off <name>&r (blight, tremor, meteor, sand, storm, shower) and back on with &e/collapse on <name>&r."
 		""
 		"None of it can follow you off-world: &bspace&r, the other planets and &aNew Eden&r are safe. That is why we are leaving."
 	]
@@ -7406,7 +7408,7 @@
 	quest.169BDE1BFB9E27B9.quest_desc: [
 		"Build the altar shown in the Thaumonomicon, then wave a wand at it. The &dRunic Matrix&r pulls items from nearby pedestals and essentia from nearby jars."
 		""
-		"Every serious relic in this chapter is infused here."
+		"Every serious artifact in this chapter is infused here."
 	]
 	quest.7F9E4253696F6221.title: "Infusion Stabilizers"
 	quest.7F9E4253696F6221.quest_desc: ["Big infusions are unstable. &aStabilizers&r around the altar keep the items from flying off or the whole thing from exploding. Skulls and candles help too."]
@@ -7417,7 +7419,7 @@
 	quest.5F345A214F2F3AE5.quest_desc: ["Double jump on a ring."]
 	quest.36EA9435A3FB8921.quest_desc: ["The &aVerdant Charm&r cures poison and keeps you topped up."]
 	quest.3324562FD21ACE65.quest_desc: ["Learn more from every scan, at the cost of levels."]
-	quest.2BA1847CE099EB43.quest_desc: ["A &6Totem of Undying&r that can be recharged. Stronger relics later on use it as a component, so keep a few."]
+	quest.2BA1847CE099EB43.quest_desc: ["A &6Totem of Undying&r that can be recharged, so one charm can save you more than once."]
 	quest.12BAB63E7D4A6407.title: "Fortress Armor"
 	quest.12BAB63E7D4A6407.quest_desc: ["Heavy &5Thaumium&r armor that shrugs off hits and takes runic upgrades."]
 	quest.202CB7DCA7B52B33.title: "Elemental Tools"
@@ -7453,7 +7455,7 @@
 	quest.10DC11A1F171733F.title: "Void Thaumaturge Armor"
 	quest.10DC11A1F171733F.quest_desc: ["Void metal woven with cloth: the best armor for a mage."]
 	quest.65A4AB54D1D5D637.quest_desc: ["Pulls raw void out of the aura and condenses it into &5Void Seeds&r."]
-	quest.08D934E900F1EA17.quest_desc: ["A shield that eats what hits it. The &dOmega Core&r needs one."]
+	quest.08D934E900F1EA17.quest_desc: ["A shield that eats what hits it."]
 	quest.705C742C4383AEB7.title: "The Oculus"
 	quest.705C742C4383AEB7.quest_desc: ["A piece of something that stares back. You'll need four of them: every obelisk door has a key."]
 	quest.110A316DE7D67BCF.title: "The Outer Lands"
@@ -7465,7 +7467,7 @@
 	quest.03ACEADED37EF645.quest_desc: ["The master of the labyrinth. Good luck."]
 	quest.4D7D925B761C6D88.title: "Primordial Pearls"
 	quest.4D7D925B761C6D88.quest_subtitle: "Older than the world"
-	quest.4D7D925B761C6D88.quest_desc: ["You can't craft a &dPrimordial Pearl&r. Search &6urns&r, &6crates&r and treasure in eldritch ruins, and use them wisely: every top-tier relic needs at least one."]
+	quest.4D7D925B761C6D88.quest_desc: ["You can't craft a &dPrimordial Pearl&r. Search &6urns&r, &6crates&r and treasure in eldritch ruins, and use them wisely: the Ark's navigation core needs one too."]
 	quest.6DDB3D1EE8889E6A.quest_desc: ["A pearl that sees through the Void."]
 	quest.7BF95C8284ADBD5E.quest_desc: ["Closes flux rifts. A very controlled explosion, and a strong infusion component."]
 	quest.248AED45273A216A.quest_desc: ["A pickaxe, a shovel and a primordial pearl walk into an altar..."]
@@ -7477,72 +7479,6 @@
 	quest.6C7533297B660D30.quest_desc: ["Connect your vis relays to the network."]
 	quest.47368ED28E140A6B.title: "Automated Thaumaturgy"
 	quest.47368ED28E140A6B.quest_desc: ["The &dKnowledge Inscriber&r records arcane recipes, the &dArcane Assembly Chamber&r crafts them from patterns, and the &dInfusion Provider&r lets your ME system run infusions."]
-	quest.4D3E2898BB5750F3.title: "Forgotten Relics"
-	quest.4D3E2898BB5750F3.quest_subtitle: "Some things refuse to stay lost"
-	quest.4D3E2898BB5750F3.quest_desc: [
-		"The Thaumonomicon has a new tab: &dForgotten Relics&r. It opens after &cThe Crimson Rites&r."
-		""
-		"These artifacts are the strongest things in the pack, so each tier asks for materials from &dThaumaturge&r, &dSpectrum&r and &6Modern Industrialization&r:"
-		""
-		"&7Tier 1:&r Onyx"
-		"&7Tier 2:&r Moonstone and Digital Circuits"
-		"&7Tier 3:&r Stratine and Desh"
-		"&7Tier 4:&r Paltaeria, Ostrum and Calorite"
-		"&7Tier 5:&r Moonstone Cores and Quantum tech"
-	]
-	quest.6BF29A5F8BF72CD8.title: "Tier I: Adept Relics"
-	quest.6BF29A5F8BF72CD8.quest_desc: ["Your first relics need &8Onyx Shards&r and &dRadiating Ender&r from Spectrum."]
-	quest.1FB0B17B5950A922.quest_desc: ["Double mining speed and two extra blocks of reach."]
-	quest.5E9628B37126DA06.quest_desc: ["Everyone wearing this ring shares their pain."]
-	quest.730D7F1E50DAB13C.quest_desc: ["Control the weather for a handful of vis."]
-	quest.5CE0E4076EEAEC21.quest_desc: ["Store a practically unlimited amount of experience."]
-	quest.333A0E112E9C0BF7.quest_desc: ["Recreate the focus the Pech use."]
-	quest.56B0F6BF8BEB1EF0.quest_desc: ["Send anything to the Nether."]
-	quest.260C498E74AB4A71.quest_desc: ["Tell it what to consume and it will devour those items from your inventory. Great for keeping cobblestone away."]
-	quest.5C30577F82CDB49F.title: "Tier II: Scholar Relics"
-	quest.5C30577F82CDB49F.quest_desc: ["Tier II relics are bound with &fMoonstone&r and stabilised by &6Digital Circuits&r."]
-	quest.77AE0E89953E8CC5.quest_desc: ["Quadruple mining speed and four extra blocks of reach."]
-	quest.70B9121154BF066B.quest_desc: ["The belt of the Cult's knights, protecting you and those around you."]
-	quest.090C23BBC3471599.quest_desc: ["A blessing for your soul. Keep it away from other sacred relics."]
-	quest.056FAF02192F5E2D.quest_desc: ["Stand still and it heals you, quickly."]
-	quest.1EBCAD6C2787A370.quest_desc: ["Random, dangerous and very useful for the Paradox."]
-	quest.37E68E47ACCBB1AA.quest_desc: ["Remember a place and return to it, even across dimensions. Requires &bPure Echo&r."]
-	quest.5949EC833D6F20C3.title: "Discord"
-	quest.5949EC833D6F20C3.quest_desc: ["Blink through space with the &dTome of Discord&r, then cast it hands-free with the &dRing of Discord&r."]
-	quest.3D5102C25448DECF.quest_desc: ["Orbs of lightning, charged with &eStorm Stones&r."]
-	quest.2C98F27D54F420F2.quest_desc: ["Control living things with telekinesis."]
-	quest.3D963A0C7BBA1CFD.quest_desc: ["A void spell that hungers for vis."]
-	quest.0ABE8EF519900E21.quest_desc: ["The Cult's own orbs, improved."]
-	quest.2F4AABF1C29021D9.title: "Tier III: Master Relics"
-	quest.2F4AABF1C29021D9.quest_subtitle: "You'll need a rocket for this"
-	quest.2F4AABF1C29021D9.quest_desc: ["Tier III relics are forged from Deeper Down &cStratine&r and &6Desh&r from the &dMoon&r. Mastery of magic alone isn't enough any more."]
-	quest.16949CF7D60BCD9B.quest_desc: ["Refills vis and teleports you out of harm's way."]
-	quest.036AAC53F073B0B9.quest_desc: ["Built on the &6Fireproof Ring&r, the seven suns burn all around you."]
-	quest.55751F1A052A6508.quest_desc: ["Tear life from everything around you, and survive it if you can."]
-	quest.6CB902572BD7F8DC.quest_desc: ["Goggles of Revealing, remade as a crown that mobs fear."]
-	quest.7513A172E0BC5A4B.quest_desc: ["Drains souls and hands you their vitality."]
-	quest.19BBCEB2A5A18369.quest_desc: ["Borrow the attack of the Eldritch Guardians."]
-	quest.2F358C3025111D0A.quest_desc: ["Unpredictable and potentially lethal, to both sides."]
-	quest.51FFC9E6995B4AD9.quest_desc: ["Throw anything into the void under the world."]
-	quest.23863A4464BDEEAF.quest_desc: ["A weapon that shouldn't exist. Needs a &dChaos Core&r and a &dVoid Sword&r."]
-	quest.4527AA2F586A58F2.title: "Tier IV: Archmage Relics"
-	quest.4527AA2F586A58F2.quest_subtitle: "Mars, Mercury and beyond"
-	quest.4527AA2F586A58F2.quest_desc: ["Only the strongest materials can hold these relics together: &aPaltaeria&r, &6Ostrum&r and &cCalorite&r."]
-	quest.40A9DC8D01E54100.quest_desc: ["Survive a killing blow. Needs a &dTotem Pendant&r and two &dCharms of Undying&r. Never carry more than one."]
-	quest.23A98398F484DAF5.quest_desc: ["A contract with Oblivion. It protects you from everything, for a price. Starts from a &cJeopardant&r."]
-	quest.1B2EB9FF230C7B11.quest_desc: ["A nightmare for everyone without exception."]
-	quest.302FFC3D694C51D9.quest_desc: ["One of the most destructive relics ever made."]
-	quest.2E46D2710EDBD308.quest_desc: ["Charged with &aPlutonium&r. Ethereal homing bursts that ignore walls."]
-	quest.72FCB056BB5DEAAA.title: "Tier V: Apotheosis"
-	quest.72FCB056BB5DEAAA.quest_subtitle: "The end of the road"
-	quest.72FCB056BB5DEAAA.quest_desc: ["&dMoonstone Cores&r are guarded by turrets in the &bPreservation Ruins&r. Combined with &dQuantum&r technology, they can hold the last two relics together."]
-	quest.5EB164BE2B0A0F5F.quest_desc: ["Summon a storm of weapons that only strikes the living."]
-	quest.7DF76AAAA779C758.quest_subtitle: "The final relic"
-	quest.7DF76AAAA779C758.quest_desc: [
-		"Near-immortality. Carry the &dOmega Core&r and fatal wounds simply won't finish the job, your vis refills itself and harmful effects can't touch you."
-		""
-		"Just don't fall below the world."
-	]
 	quest.74F7000A2A85D56E.title: "Thaumic Additions"
 	quest.74F7000A2A85D56E.quest_subtitle: "Forgotten branches of the art"
 	quest.74F7000A2A85D56E.quest_desc: [
@@ -7756,7 +7692,7 @@
 	quest.10A3C543DD22F7B0.title: "Mithminite Fortified Jar"
 	quest.10A3C543DD22F7B0.quest_desc: ["The last jar is infused, not crafted: a mithminite ingot, amber, alumentum and a void jar around the adaminite jar."]
 	chapter.5CD999B877BD4CF2.title: "&5Thaumaturge"
-	chapter.5CD999B877BD4CF2.chapter_subtitle: ["From a pinch of salt to the Omega Core"]
+	chapter.5CD999B877BD4CF2.chapter_subtitle: ["From a pinch of salt to the edge of the Void"]
 	quest.71B1E950DB85F7FC.title: "The Last Mission"
 	quest.71B1E950DB85F7FC.quest_subtitle: "Earth is dying"
 	quest.71B1E950DB85F7FC.quest_desc: [
