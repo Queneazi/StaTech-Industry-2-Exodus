@@ -83,4 +83,19 @@ ServerEvents.recipes((event) => {
         [{ amount: 1, item: mi('netherite_hot_ingot') }],
         [{ amount: 1, item: mc('netherite_ingot') }]
     );
+
+    // -- CRYO FUEL -- //
+    vacuumFreezer(
+        event,
+        st('cryo_fuel'),
+        128,
+        200,
+        [{ amount: 1, item: mi('moon_ice_dust') }],
+        null,
+        [
+            { amount: 1000, fluid: mi('boosted_diesel') },
+            { amount: 250, fluid: mi('cryofluid') },
+        ],
+        [{ amount: 1000, fluid: 'ad_astra:cryo_fuel' }]
+    );
 });

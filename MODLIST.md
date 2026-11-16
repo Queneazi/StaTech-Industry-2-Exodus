@@ -1,275 +1,317 @@
-- [AE2 Import Export Card](https://www.curseforge.com/projects/982512) by Ultramega
-- [AE2:Crafting Tree](https://www.curseforge.com/projects/1086241) by Neuvillette
-- [AE2NetworkAnalyzer](https://www.curseforge.com/projects/961856) by GlodBlock
-- [AE2WTLib](https://www.curseforge.com/projects/459929) by mari\_023, Ridanisaurus
-- [AI\-Improvements](https://www.curseforge.com/projects/233019) by BuiltBrokenModding
-- [Accelerated Decay](https://www.curseforge.com/projects/699872) by ErrorMikey
-- [Advanced Peripherals](https://www.curseforge.com/projects/431725) by Srendi
-- [Advancement Plaques](https://www.curseforge.com/projects/499826) by Grend
-- [All The Leaks](https://www.curseforge.com/projects/1091339) by Uncandango
-- [AlmostUnified](https://www.curseforge.com/projects/633823) by Almost Reliable
-- [Alternate Current](https://www.curseforge.com/projects/548115) by Space   Walker
-- [AppleSkin](https://www.curseforge.com/projects/248787) by squeek
-- [Applied Energistics 2](https://www.curseforge.com/projects/223794) by Team AppliedEnergistics
-- [Applied Flow Analytics](https://github.com/starforcraft/Applied-Flow-Analytics) by Ultramega, XaMi
-- [Architects Palette](https://www.curseforge.com/projects/433862) by Snakeblock, THX, Smash Brothers, Orisghost, RENREN, Jsburg
-- [Architectury](https://www.curseforge.com/projects/419699) by shedaniel
-- [Artifacts](https://www.curseforge.com/projects/312353) by ochotonida
-- [Async Logger](https://www.curseforge.com/projects/1491426) by decce
-- [Athena](https://www.curseforge.com/projects/841890) by ThatGravyBoat
-- [AttributeFix](https://www.curseforge.com/projects/280510) by Darkhax
-- [Bad Wither No Cookie Reloaded](https://www.curseforge.com/projects/261251) by Kreezxil, Eleksploded
-- [Balm](https://www.curseforge.com/projects/531761) by BlayTheNinth
-- [Bank Storage](https://www.curseforge.com/projects/916710) by Natte
-- [Better Advanced Tooltips](https://www.curseforge.com/projects/1637623) by latvian\.dev
-- [Better Advancements](https://www.curseforge.com/projects/272515) by way2muchnoise
-- [Better Compatibility Checker](https://www.curseforge.com/projects/551894) by Gaz\(Gaz492\)
-- [Better ModList](https://www.curseforge.com/projects/1089803) by foxy, Prospector, haykam821, TerraformersMC
-- [Better Statistics Screen](https://github.com/TheCSMods) by TheCSDev
-- [Better Tab](https://www.curseforge.com/projects/1420609) by tricube
-- [BetterF3](https://www.curseforge.com/projects/401648) by TreyRuffy and cominixo
-- [Bigger AE2](https://www.curseforge.com/projects/1013772) by DancingSnow
-- [Biolith](https://www.curseforge.com/projects/852512) by TerraformersMC, gniftygnome
-- [Block Runner](https://www.curseforge.com/projects/442842) by Fuzs
-- [Bookshelf](https://www.curseforge.com/projects/228525) by Darkhax
-- [Brewin' And Chewin'](https://www.curseforge.com/projects/637808) by Probleyes, Umpaz, MerchantCalico
-- [Building Gadgets 2](https://www.curseforge.com/projects/298187) by Direwolf20
-- [CC: Tweaked](https://www.curseforge.com/projects/1579830) by Daniel Ratcliffe, Aaron Mills, SquidDev
-- [Caelus API](https://www.curseforge.com/projects/308989) by Illusive Soulworks
-- [CapeJS](https://www.curseforge.com/projects/911145) by staitc
-- [Charm of Undying](https://www.curseforge.com/projects/316873) by Illusive Soulworks
-- [Chat Heads](https://www.curseforge.com/projects/407206) by dzwdz, Fourmisain
-- [Cherished Worlds](https://www.curseforge.com/projects/308240) by Illusive Soulworks
-- [Chisel Reborn](https://www.curseforge.com/projects/551763)
-- [ChoiceTheorem's Overhauled Village](https://www.curseforge.com/projects/623908) by ChoiceTheorem
-- [Chunky](https://www.curseforge.com/projects/485681) by pop4959
-- [Clean Swing](https://www.curseforge.com/projects/915308) by Raycoms
-- [CleanView](https://www.curseforge.com/projects/226889) by zlainsama
-- [Client Tweaks](https://www.curseforge.com/projects/251407) by BlayTheNinth
-- [Cloth Config v15 API](https://www.curseforge.com/projects/348521) by shedaniel
-- [Clumps](https://www.curseforge.com/projects/256717) by Jared
-- [CodeChicken Lib](https://www.curseforge.com/projects/242818) by ChickenBones, covers1624
-- [Cognition](https://www.curseforge.com/projects/579484) by Cyanog3n
-- [Colorful Hearts](https://www.curseforge.com/projects/854213) by Terrails
-- [Comforts](https://www.curseforge.com/projects/276951) by Illusive Soulworks
-- [Concurrent Chunk Management Engine](https://www.curseforge.com/projects/533097) by RelativityMC, ishland
-- [ConnectedTexturesMod](https://www.curseforge.com/projects/267602) by tterrag, Drullkus, minecreatr
-- [Construction Sticks](https://www.curseforge.com/projects/1156098) by Mrbysco, ShyNieke
-- [Controlling](https://www.curseforge.com/projects/250398) by Jaredlll08
-- [CoroUtil](https://www.curseforge.com/projects/237749) by Corosus
-- [Craft Config Library](https://www.curseforge.com/projects/1530219) by ray
-- [Crafting Tweaks](https://www.curseforge.com/projects/233071) by BlayTheNinth
-- [CraftingStation](https://www.curseforge.com/projects/318551) by Tfarcenim
-- [Crash Utilities](https://www.curseforge.com/projects/371813) by Darkere
-- [CraterLib](https://www.curseforge.com/projects/867099) by HypherionSA, Zenith
-- [Crawl](https://www.curseforge.com/projects/314579) by fewizz
-- [Create](https://www.curseforge.com/projects/328085) by simibubi
-- [Create Crafts & Additions](https://www.curseforge.com/projects/439890) by MRH0
-- [Create Deco](https://www.curseforge.com/projects/509285) by Kayla, Talrey, Ordana, Cassian
-- [Create: Central Kitchen](https://www.curseforge.com/projects/820977) by DragonsPlus
-- [Create: Dragons Plus](https://www.curseforge.com/projects/1216624) by DragonsPlus
-- [Create:Schematic Checker](https://www.curseforge.com/projects/1357430) by Pink\_Cats
-- [Cryonic Config](https://www.curseforge.com/projects/1208896) by Slainlight
-- [Cultural Creators](https://www.curseforge.com/projects/953832) by Flomik
-- [Cultural Delights](https://www.curseforge.com/projects/574622) by Developer: NCP Bails \| Art: NCP Bails, Raspmary, Bagels, Nive
-- [Cupboard mod](https://www.curseforge.com/projects/326652) by Someaddon
-- [Curios API](https://www.curseforge.com/projects/309927) by C4
-- [Decorative Blocks Reborn](https://www.curseforge.com/projects/1327768) by Lilypuree, Stohun, Big\_Energy
-- [Default Options](https://www.curseforge.com/projects/232131) by BlayTheNinth
-- [Delightful Creators](https://www.curseforge.com/projects/1275340) by Flomik
-- [Drippy Loading Screen](https://www.curseforge.com/projects/511770) by Keksuccino
-- [EMI](https://www.curseforge.com/projects/580555) by Emi
-- [EMI Enchanting](https://www.curseforge.com/projects/936713) by fzzyhmstrs
-- [EMI Loot](https://www.curseforge.com/projects/681783) by fzzyhmstrs, lxly9 \(art\), unilock \(ports\)
-- [EMI Ores](https://www.curseforge.com/projects/974009) by Abbie
-- [EMI Professions \(EMIP\)](https://www.curseforge.com/projects/1065904) by Mrbysco, ShyNieke
-- [Effortless Building](https://www.curseforge.com/projects/302113) by Requios
-- [ElevatorMod](https://www.curseforge.com/projects/250832) by VsnGamer
-- [Elytra Slot](https://www.curseforge.com/projects/317716) by Illusive Soulworks
-- [EnderStorage](https://www.curseforge.com/projects/245174) by ChickenBones, covers1624
-- [Entity Model Features](https://www.curseforge.com/projects/844662) by Traben
-- [Entity Texture Features](https://www.curseforge.com/projects/568563) by Traben
-- [EntityCulling](https://www.curseforge.com/projects/448233) by tr7zw
-- [Equipment Compare](https://www.curseforge.com/projects/502561) by Grend
-- [Euphoria Patcher](https://www.curseforge.com/projects/915902) by SpacEagle17
-- [Eval](https://www.curseforge.com/projects/1405772) by Reclipse
-- [Explorer's Compass](https://www.curseforge.com/projects/491794) by ChaosTheDude
-- [Exposure](https://www.curseforge.com/projects/871755) by mortuusars
-- [Extended Industrialization](https://www.curseforge.com/projects/1068418) by Swedz
-- [ExtendedAE](https://www.curseforge.com/projects/892005) by GlodBlock
-- [Extreme Sound Muffler](https://www.curseforge.com/projects/363363) by LeoBeliik
-- [FPS Reducer](https://www.curseforge.com/projects/280294) by bre2el
-- [FTB Chunks](https://www.curseforge.com/projects/314906) by FTB Team
-- [FTB Essentials](https://www.curseforge.com/projects/410811) by FTB Team
-- [FTB Filter System](https://www.curseforge.com/projects/943925) by FTB Team
-- [FTB Library](https://www.curseforge.com/projects/404465) by FTB Team
-- [FTB Quests](https://www.curseforge.com/projects/289412) by FTB Team
-- [FTB Ranks](https://www.curseforge.com/projects/314905) by FTB Team
-- [FTB Teams](https://www.curseforge.com/projects/404468) by FTB Team
-- [FTB XMod Compat](https://www.curseforge.com/projects/889915) by FTB Team
-- [Factory Blocks](https://www.curseforge.com/projects/640001) by slaincow
-- [FallingTree](https://www.curseforge.com/projects/349559) by Rakambda
-- [FancyMenu](https://www.curseforge.com/projects/367706) by Keksuccino
-- [Farmer's Delight](https://www.curseforge.com/projects/398521) by vectorwing
-- [Farming for Blockheads](https://www.curseforge.com/projects/261924) by BlayTheNinth
-- [Fast Suite](https://www.curseforge.com/projects/475117) by Shadows\_of\_Fire
-- [Fast Workbench](https://www.curseforge.com/projects/288885) by Shadows\_of\_Fire
-- [FastFurnace](https://www.curseforge.com/projects/299540) by Shadows\_of\_Fire
-- [Faster Ladder Climbing](https://www.curseforge.com/projects/258881) by JaSpr, forkbomb
-- [Ferrite Core](https://www.curseforge.com/projects/429235) by malte0811
-- [FlickerFix](https://www.curseforge.com/projects/431430)
-- [ForgeEndertech](https://www.curseforge.com/projects/244844) by EnderLanky
-- [Forgiving Void](https://www.curseforge.com/projects/271009) by BlayTheNinth
-- [FramedBlocks](https://www.curseforge.com/minecraft/mc-mods/framedblocks) by XFactHD
-- [Functional Storage](https://www.curseforge.com/projects/556861) by Buuz135, Rid
-- [Fusion](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) by SuperMartijn642
-- [Fzzy Config](https://www.curseforge.com/projects/1005914) by fzzyhmstrs
-- [Gadgets Against Grind](https://www.curseforge.com/projects/694962) by MaxNeedsSnacks
-- [GeckoLib 4](https://www.curseforge.com/projects/388172) by Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin
-- [Glodium](https://www.curseforge.com/projects/957920) by GlodBlock
-- [GuideME](https://www.curseforge.com/projects/1173950) by shartte
-- [Hang Glider](https://www.curseforge.com/projects/852668) by gr8pefish, Fuzs
-- [I'm Fast](https://www.curseforge.com/projects/1111501) by Bielhiss
-- [Iceberg](https://www.curseforge.com/projects/520110) by Grend
-- [Iden's Decor](https://www.curseforge.com/projects/1451671) by IDENTIDADE470
-- [ImmediatelyFast](https://www.curseforge.com/projects/686911) by RK\_01
-- [Industrialization Overdrive](https://www.curseforge.com/projects/1089065) by White\_Phantom
-- [Industrially Plated](https://www.curseforge.com/projects/1427452) by AndromedaGalaxy29
-- [Invasive Optimizations](https://www.curseforge.com/projects/1528432) by Qther
-- [Inventory Essentials](https://www.curseforge.com/projects/368825) by BlayTheNinth
-- [Inventory HUD\+](https://www.curseforge.com/projects/357540) by DmitryLovin
-- [Iris](https://www.curseforge.com/projects/455508) by coderbot, IMS212
-- [Ixeris](https://www.curseforge.com/projects/1285307) by decce
-- [Jade](https://www.curseforge.com/projects/324717) by Snownee
-- [Jade Addons](https://www.curseforge.com/minecraft/mc-mods/jade-addons) by Snownee
-- [JamLib](https://www.curseforge.com/projects/623764) by Jamalam
-- [JourneyMap Integration](https://www.curseforge.com/projects/525447) by frankV
-- [Journeymap\-NeoForge](https://www.curseforge.com/projects/32274) by Mysticdrew, Techbrew, MemeSapiens
-- [Jump Over Fences](https://www.curseforge.com/projects/423421) by kreezxil, Eleksploded
-- [Just Another Void Dimension](https://www.curseforge.com/projects/370890) by UnRealDinnerbone
-- [Just Enough Breeding](https://www.curseforge.com/projects/899386) by Christofmeg
-- [Just Enough Effects Descriptions](https://www.curseforge.com/projects/532286) by MehVahdJukaar
-- [Just Hammers](https://www.curseforge.com/projects/681606) by ErrorMikey
-- [Konkrete](https://www.curseforge.com/projects/410295) by Keksuccino
-- [KubeJS](https://www.curseforge.com/projects/238086) by latvian\.dev
-- [LambDynamicLights](https://www.curseforge.com/projects/393442) by LambdAurora
-- [Large Ore Deposits](https://www.curseforge.com/projects/318833) by EnderLanky
-- [Legendary Tooltips](https://www.curseforge.com/projects/532127) by Grend
-- [LibX](https://www.curseforge.com/projects/412525) by ModdingX
-- [Light Overlay](https://www.curseforge.com/projects/325492) by shedaniel
-- [Lithium](https://www.curseforge.com/projects/360438) by 2No2Name, JellySquid
-- [Lithostitched](https://www.curseforge.com/projects/936015) by Apollo
-- [Little Big Redstone](https://www.curseforge.com/projects/1180560) by Swedz
-- [Load My F\*\*\*ing Tags](https://www.curseforge.com/projects/656346) by Blodhgarm
-- [Lootintegrations mod](https://www.curseforge.com/projects/580689) by Someaddon
-- [Lootr](https://www.curseforge.com/projects/361276) by Noobanidus
-- [Luminax](https://www.curseforge.com/projects/1165932) by Satherov
-- [ME Requester](https://www.curseforge.com/projects/688367) by Almost Reliable
-- [MEGA Cells](https://www.curseforge.com/projects/622112) by 90
-- [MI Sound Addon](https://www.curseforge.com/projects/910125) by staitc
-- [MI Tweaks](https://www.curseforge.com/projects/1068413) by Swedz
-- [MI Utilities](https://git.quantumgarbage.com/bop/MIUtilities) by esoterica
-- [Measurements](https://www.curseforge.com/projects/478559) by Mrbysco
-- [Melody](https://www.curseforge.com/projects/938643) by Keksuccino
-- [MidnightLib](https://www.curseforge.com/projects/488090) by TeamMidnightDust, Motschen
-- [Mixed Litter](https://www.curseforge.com/projects/1221222) by Tazer
-- [ModListMemory](https://www.curseforge.com/projects/1180596) by NotRyken
-- [Modern Dynamics](https://www.curseforge.com/projects/552758) by Technici4n
-- [Modern Industrialization](https://www.curseforge.com/projects/405388) by Azerococo,Technici4n
-- [Modern World Creation](https://www.curseforge.com/projects/485245) by Keksuccino
-- [ModernFix](https://www.curseforge.com/projects/790626) by embeddedt
-- [Modonomicon](https://www.curseforge.com/projects/538392) by Kli Kli
-- [Moonlight Lib](https://www.curseforge.com/projects/499980) by MehVahdJukaar
-- [More Dragon Eggs](https://www.curseforge.com/projects/358700) by Darkere
-- [More Red](https://www.curseforge.com/projects/387638) by Commoble
-- [MoreJS](https://www.curseforge.com/projects/666198) by AlmostReliable
-- [Mouse Tweaks](https://www.curseforge.com/projects/60089) by Ivan Molodetskikh \(YaLTeR\)
-- [Music And Melody](https://www.curseforge.com/projects/1544814) by Rebel459
-- [Nature's Compass](https://www.curseforge.com/projects/252848) by ChaosTheDude
-- [NetherPortalFix](https://www.curseforge.com/projects/241160) by BlayTheNinth
-- [No Chat Reports](https://www.curseforge.com/projects/634062) by Aizistral
-- [No Man's Land](https://www.curseforge.com/projects/538493) by Farcr, Tazer, and many Contributors
-- [Not Enough Recipe Book](https://www.curseforge.com/projects/738663) by OctoStudios
-- [NotEnoughAnimations](https://www.curseforge.com/projects/433760) by tr7zw
-- [Observable](https://www.curseforge.com/projects/509575) by tasgon
-- [OctoLib](https://www.curseforge.com/projects/916747) by OctoStudios
-- [OverloadedArmorBar](https://www.curseforge.com/projects/314002) by Jared
-- [PacketFixer](https://www.curseforge.com/projects/689467) by TonimatasDEV
-- [Paperdoll](https://www.curseforge.com/projects/537079) by tr7zw
-- [Phantom's Utilities](https://www.curseforge.com/projects/1181116) by White Phantom
-- [Phantom's AE2 Tweaks](https://www.curseforge.com/projects/1793293) by WhitePhant0m
-- [Pipe Connector](https://www.curseforge.com/projects/846168) by Heaser, PotatoPoweredWizard
-- [Player Animator](https://www.curseforge.com/projects/658587) by KosmX
-- [PrickleMC](https://www.curseforge.com/projects/1023259) by Darkhax
-- [Prism](https://www.curseforge.com/projects/638111) by Grend
-- [Puzzles Lib](https://www.curseforge.com/projects/495476) by Fuzs
-- [Raised](https://www.curseforge.com/projects/570368) by yurisuika
-- [Reese's Sodium Options](https://www.curseforge.com/projects/511319) by FlashyReese
-- [Resourcefulconfig](https://www.curseforge.com/projects/714059)
-- [Responsive Shields](https://www.curseforge.com/projects/557556) by Revvilo
-- [Revelationary](https://www.curseforge.com/projects/656526) by DaFuqs
-- [Rhino](https://www.curseforge.com/projects/416294) by latvian\.dev, Mozilla
-- [Right Click Harvest](https://www.curseforge.com/projects/452834) by Jamalam
-- [Rustic Delight](https://www.curseforge.com/projects/1106612) by PhantomWing
-- [Scannable](https://www.curseforge.com/projects/266784) by Sangar
-- Screw Lib by identidade470
-- [Searchables](https://www.curseforge.com/projects/858542) by Jaredlll08
-- [Showcase Item](https://www.curseforge.com/projects/627196) by Ultramega
-- [Simple Magnets](https://www.curseforge.com/projects/394140) by SuperMartijn642
-- [Simple Music Control](https://www.curseforge.com/projects/1185599) by pajic
-- [Simple RPC](https://www.curseforge.com/projects/411816) by HypherionMC
-- [Simply Light](https://www.curseforge.com/projects/300331) by Flanks255
-- [SmithingTemplateViewer](https://www.curseforge.com/projects/1133580) by Buuz135
-- [Smoothchunk mod](https://www.curseforge.com/projects/582327) by Someaddon
-- [Sodium](https://www.curseforge.com/projects/394468) by JellySquid \(jellysquid3\), IMS212
-- [Sodium Extra](https://www.curseforge.com/projects/447673) by FlashyReese
-- [Sooty Chimneys](https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys) by mortuusars
-- [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) by P3pp3rF1y, Ridanisaurus
-- [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) by P3pp3rF1y
-- [Sophisticated Inventory Interactions](https://www.curseforge.com/projects/1491239) by P3pp3rF1y
-- [Sophisticated Item Actions](https://www.curseforge.com/projects/1419142) by P3pp3rF1y
-- [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) by P3pp3rF1y, Ridanisaurus
-- [Spectral Decorations](https://www.curseforge.com/minecraft/mc-mods/spectral-decorations) by Brothers\_trouble, Garbage Data, Detrilogue , DaFuqs
-- [Spectrum](https://www.curseforge.com/projects/556967) by DaFuqs, Azzyypaaras, Noaaan, Electro\_593
-- [Spice of Life: Carrot Edition](https://www.curseforge.com/projects/277616) by Cazsius, Talonos, juliand665, Mrbysco
-- [Spiky Spikes](https://www.curseforge.com/projects/666944) by Fuzs
-- [StaTech Companion Mod](https://www.curseforge.com/projects/1610931) by staitc
-- [Stellar View](https://www.curseforge.com/projects/865273) by Povstalec
-- [Stony Cliffs Are Cool](https://www.curseforge.com/projects/939211) by bebebea\_loste
-- [Structory: Towers](https://www.curseforge.com/projects/783522) by Botany, Starmute, catter1
-- [Structure Layout Optimizer](https://www.curseforge.com/projects/1087831) by TelepathicGrunt
-- [SuperMartijn642's Config Library](https://www.curseforge.com/projects/438332) by SuperMartijn642
-- [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) by SuperMartijn642
-- [Supplementaries](https://www.curseforge.com/projects/412082) by MehVahdJukaar, Plantkillable
-- [TCD Commons API](https://github.com/TheCSDev) by TheCSDev
-- [Tank Storage](https://www.curseforge.com/projects/1032670) by Natte
-- [Tesseract API](https://www.curseforge.com/projects/1067672) by Swedz
-- [Timeless & Classics Guns: Zero](https://www.curseforge.com/projects/1353462) by Serene Wave Studio \| Timeless Squad
-- [TipTheScales](https://www.curseforge.com/projects/282313) by Jaredlll08
-- [Tips](https://www.curseforge.com/projects/306549) by Darkhax
-- [Titanium](https://www.curseforge.com/projects/287342) by TheCodedOne, Buuz135
-- [TooManyRecipeViewers](https://legacy.curseforge.com/minecraft/mc-mods/tmrv) by Nolij \(@xdMatthewbx\#1337\) & the Craftoria team
-- [Tool Belt](https://www.curseforge.com/projects/260262) by gigaherz
-- [Torchmaster](https://www.curseforge.com/projects/254268) by Xalcon
-- [Trade Cycling](https://www.curseforge.com/projects/570431) by Max Henkel
-- [Trading Post](https://www.curseforge.com/projects/539057) by Fuzs
-- [Transmog](https://www.curseforge.com/projects/848032) by Hidoni
-- [Trash Cans](https://www.curseforge.com/projects/394535) by SuperMartijn642
-- [TrashSlot](https://www.curseforge.com/projects/235577) by BlayTheNinth
-- [Travel Anchors](https://www.curseforge.com/projects/1208628) by De\-Os
-- [Trenzalore](https://www.curseforge.com/projects/870210) by UnRealDinnerbone
-- [UsefulSlime](https://www.curseforge.com/projects/417702) by MincraftEinstein
-- [WaveyCapes](https://www.curseforge.com/projects/521594) by tr7zw
-- [Waystones](https://www.curseforge.com/projects/245755) by BlayTheNinth
-- [What Are They Up To](https://www.curseforge.com/projects/945479) by Corosus
-- [Wither Skeleton Tweaks](https://www.curseforge.com/projects/255902) by Shadows\_of\_Fire
-- [Wits](https://www.curseforge.com/projects/909375) by TelepathicGrunt
-- [XTones Reworked](https://www.curseforge.com/projects/694231) by TobsenD
-- [Yeetus Experimentus](https://www.curseforge.com/projects/635427) by Sunekaer
-- [Yet Another Industrialization\!](https://www.curseforge.com/projects/1358516) by Luligabi1
-- [YetAnotherConfigLib](https://www.curseforge.com/projects/667299) by isXander
-- [You're in Grave Danger](https://www.curseforge.com/projects/544912) by b1n\_ry
-- [Zume](https://www.curseforge.com/projects/927564) by Nolij \(@xdMatthewbx\#1337\)
-- kotlinforforge\-5\.12\.0\-all
-- [lootintegrations\_ctov mod](https://www.curseforge.com/projects/1135500) by Someaddon
-- [spark](https://www.curseforge.com/projects/361579) by Luck
+# StaTech Industry 2: Exodus — Mod List
+
+Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.5
+
+## Mods (285)
+
+| Name | Author | File |
+| --- | --- | --- |
+| [[EMF] Entity Model Features [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | Traben | `entity_model_features-3.3.12-1.21-neoforge.jar` |
+| [[ETF] Entity Texture Features - [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | Traben | `entity_texture_features-7.2.6-1.21-neoforge.jar` |
+| [[UNOFFICIAL] TaCZ NeoForge Port](https://www.curseforge.com/minecraft/mc-mods/tacz-1-21-1) | MUKSC | `tacz-neoforge-1.21.1-1.1.8-hotfix-r7.jar` |
+| [Accelerated Decay](https://www.curseforge.com/minecraft/mc-mods/accelerated-decay) | ErrorMikey | `accelerated-decay-neoforge-21.0.0.jar` |
+| [Ad Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra) | terrariumearth | `adastra-1.21.1-1.16.26-neoforge.jar` |
+| [Ad Astra: Asteroid Belt](https://www.curseforge.com/minecraft/mc-mods/ad-astra-asteroid-belt) | Kononets | `Ad Astra Asteroid Belt 1.21.1.jar` |
+| [Ad Astra: Giselle Addon](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon) | gisellevonbingen | `Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.6.jar` |
+| [Ad Astra: Per Spatium](https://www.curseforge.com/minecraft/mc-mods/perspatium) | Roi_Pasteque | `perspatium-1.21.1-1.1.0.jar` |
+| [Ad Astra: Planets](https://www.curseforge.com/minecraft/mc-mods/ad-astra-planets) | dudutheslugee | `adastraplanets-1.21.1-1.0.0.jar` |
+| [AdAstra StellarView Compatibility](https://www.curseforge.com/minecraft/mc-mods/adastra-stellarview-compatibility) | lukaskabc | `adastra_stellarview_compatibility-1.21.1-1.1.0.jar` |
+| [Advanced Peripherals](https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals) | srrendi | `AdvancedPeripherals-1.21.1-0.8.2a.jar` |
+| [Advancement Plaques [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques) | Grend_G | `AdvancementPlaques-1.21.1-neoforge-1.6.8.jar` |
+| [AE2 Import Export Card](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card) | Ultramega | `ae2importexportcard-1.21.1-1.9.1.jar` |
+| [AE2 Network Analyser](https://www.curseforge.com/minecraft/mc-mods/ae2-network-analyser) | GlodBlock | `AE2NetworkAnalyzer-1.21-2.1.5-neoforge.jar` |
+| [AE2: Crafting Tree](https://www.curseforge.com/minecraft/mc-mods/ae2-crafting-tree) | nimeng1299 | `ae2ct-1.21.1-1.1.1.jar` |
+| [AI Improvements: Performance Tuning](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) | QueenOfMissiles | `AI-Improvements-1.21-0.5.3.jar` |
+| [AllTheLeaks (Memory Leak Fix)](https://www.curseforge.com/minecraft/mc-mods/alltheleaks) | Uncandango | `alltheleaks-1.1.13+1.21.1-neoforge.jar` |
+| [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almostunified) | AlmostReliable | `almostunified-neoforge-1.21.1-1.4.2.jar` |
+| [Alternate Current](https://www.curseforge.com/minecraft/mc-mods/alternate-current) | SpaceWalkerRS | `alternate_current-mc1.21-1.9.0.jar` |
+| [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | squeek502 | `appleskin-neoforge-mc1.21-3.0.9.jar` |
+| [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) | thetechnici4n | `appliedenergistics2-19.2.18.jar` |
+| [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) | Mari_023 | `ae2wtlib-19.5.1.jar` |
+| [Architect's Palette](https://www.curseforge.com/minecraft/mc-mods/architects-palette) | Jsburg | `architects_palette-neoforge-1.21.1-1.4.0-beta.5.jar` |
+| [Architectury API](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | shedaniel | `architectury-13.0.11-neoforge.jar` |
+| [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) | ochotonida | `artifacts-neoforge-13.2.5.jar` |
+| [Async Logger](https://www.curseforge.com/minecraft/mc-mods/asynclogger) | decce | `asynclogger-2.2.3+1.21.1-neoforge.jar` |
+| [Athena](https://www.curseforge.com/minecraft/mc-mods/athena) | terrariumearth | `athena-neoforge-1.21.1-4.0.6.jar` |
+| [AttributeFix](https://www.curseforge.com/minecraft/mc-mods/attributefix) | DarkhaxDev | `attributefix-neoforge-1.21.1-21.1.3.jar` |
+| [Bad Wither No Cookie - Reloaded](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded) | Kreezxil | `bwncr-neoforge-1.21.1-3.20.4.jar` |
+| [Balm](https://www.curseforge.com/minecraft/mc-mods/balm) | BlayTheNinth | `balm-neoforge-1.21.1-21.0.66.jar` |
+| [Bank Storage](https://www.curseforge.com/minecraft/mc-mods/bank-storage) | Natte | `bankstorage-1.7.0+1.21.jar` |
+| [Better Advanced Tooltips](https://www.curseforge.com/minecraft/mc-mods/better-advanced-tooltips) | Lat | `better-advanced-tooltips-2101.1.0-build.5.jar` |
+| [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements) | way2muchnoise | `BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar` |
+| [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) | Gaz_ | `better-compatability-checker-neoforge-21.1.8.jar` |
+| [Better Modlist](https://www.curseforge.com/minecraft/mc-mods/better-modlist-neoforge) | 1foxy2 | `better_modlist-21.1.5.jar` |
+| [Better Tab Info](https://www.curseforge.com/minecraft/mc-mods/bettertabinfo) | tricube | `better_tab-2.2.1+1.21.1-neoforge.jar` |
+| [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3) | cominixo | `BetterF3-11.0.3-NeoForge-1.21.1.jar` |
+| [Bigger AE2](https://www.curseforge.com/minecraft/mc-mods/bigger-ae2) | é›ªèˆžå¤©ä½¿ | `bigger_ae2-1.21.1-21.2.3.jar` |
+| [Biolith](https://www.curseforge.com/minecraft/mc-mods/biolith) | Prospector | `biolith-neoforge-3.0.14.jar` |
+| [Block Runner](https://www.curseforge.com/minecraft/mc-mods/block-runner) | Fuzs | `BlockRunner-v21.1.2-1.21.1-NeoForge.jar` |
+| [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | DarkhaxDev | `bookshelf-neoforge-1.21.1-21.1.81.jar` |
+| [Brewin' And Chewin'](https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin) | lumpazl | `BrewinAndChewin-neoforge-4.5.0+1.21.1.jar` |
+| [Building Gadgets](https://www.curseforge.com/minecraft/mc-mods/building-gadgets) | Direwolf20 | `buildinggadgets2-1.3.9.jar` |
+| [Caelus API](https://www.curseforge.com/minecraft/mc-mods/caelus) | TheIllusiveC4 | `caelus-neoforge-7.0.1+1.21.1.jar` |
+| [CapeJS](https://www.curseforge.com/minecraft/mc-mods/capejs) | static | `capejs-1.1.1-1.21.jar` |
+| [Charm of Undying (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying) | TheIllusiveC4 | `charmofundying-neoforge-9.1.0+1.21.1.jar` |
+| [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads) | dzwdz | `chat_heads-0.15.7-neoforge-1.21.jar` |
+| [Cherished Worlds](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds) | TheIllusiveC4 | `cherishedworlds-neoforge-10.1.1+1.21.1.jar` |
+| [Chisel Reborn [Forge/Fabric/NeoForge]](https://www.curseforge.com/minecraft/mc-mods/chisel-reborn) | Slaincow | `chisel-neoforge-2.0.1+mc1.21.1.jar` |
+| [ChoiceTheorem's Overhauled Village](https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village) | ChoiceTheorem | `[Neoforge]ctov-3.6.3.jar` |
+| [Chunky (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge) | pop4959 | `Chunky-NeoForge-1.4.23.jar` |
+| [Clean Swing Through Grass](https://www.curseforge.com/minecraft/mc-mods/clean-swing-through-grass) | Raycoms | `cleanswing-1.10-1.21.jar` |
+| [CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview) | LainMI | `cleanview-1.21.1-v1-neoforge.jar` |
+| [Client Tweaks](https://www.curseforge.com/minecraft/mc-mods/client-tweaks) | BlayTheNinth | `clienttweaks-neoforge-1.21.1-21.1.15.jar` |
+| [Cloth Config API (Fabric/Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | shedaniel | `cloth-config-15.0.140-neoforge.jar` |
+| [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | Jaredlll08 | `Clumps-neoforge-1.21.1-19.0.0.1.jar` |
+| [CodeChicken Lib 1.8.+](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8) | covers1624 | `CodeChickenLib-1.21.1-4.6.1.529.jar` |
+| [Cognition (Experience Obelisk)](https://www.curseforge.com/minecraft/mc-mods/cognition-mod) | cyanog3n | `Cognition-v2.4.13-1.21.1.jar` |
+| [Colorful Hearts](https://www.curseforge.com/minecraft/mc-mods/colorful-hearts) | Terrails | `colorfulhearts-neoforge-1.21.1-10.5.9.jar` |
+| [Comforts](https://www.curseforge.com/minecraft/mc-mods/comforts) | TheIllusiveC4 | `comforts-neoforge-9.0.5+1.21.1.jar` |
+| [Common Storage Lib](https://www.curseforge.com/minecraft/mc-mods/common-storage-lib) | terrariumearth | `common-storage-lib-neoforge-1.21.1-0.0.10.jar` |
+| [Concurrent Chunk Management Engine](https://www.curseforge.com/minecraft/mc-mods/c2me) | ishlandmc | `c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar` |
+| [ConnectedTexturesMod](https://www.curseforge.com/minecraft/mc-mods/ctm) | tterrag1098 | `CTM-1.21-1.2.1+3.jar` |
+| [Construction Sticks](https://www.curseforge.com/minecraft/mc-mods/construction-sticks) | Mrbysco | `ConstructionSticks-1.21.1-1.5.0.jar` |
+| [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | Jaredlll08 | `Controlling-neoforge-1.21.1-19.0.5.jar` |
+| [CoroUtil](https://www.curseforge.com/minecraft/mc-mods/coroutil) | Corosus | `coroutil-neoforge-1.21.0-1.3.9.jar` |
+| [Craft Config Lib](https://www.curseforge.com/minecraft/mc-mods/craft-config) | tricube | `craft_config-1.1.12+1.21.1-neoforge.jar` |
+| [Crafting Station](https://www.curseforge.com/minecraft/mc-mods/crafting-station) | tfarecnim | `craftingstation-neoforge-1.21.1-5.jar` |
+| [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks) | BlayTheNinth | `craftingtweaks-neoforge-1.21.1-21.1.11.jar` |
+| [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) | Darkere | `crashutilities-9.0.4.jar` |
+| [CraterLib](https://www.curseforge.com/minecraft/mc-mods/craterlib) | HypherionSA | `CraterLib-Neoforge-1.21-3.1.3.jar` |
+| [Crawl (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/crawl) | fewizz_ | `crawl-0.14.9.jar` |
+| [Create](https://www.curseforge.com/minecraft/mc-mods/create) | simibubi | `create-1.21.1-6.0.10.jar` |
+| [Create Crafts & Additions](https://www.curseforge.com/minecraft/mc-mods/createaddition) | MRHminer | `createaddition-1.7.2.jar` |
+| [Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco) | talrey | `createdeco-2.1.3.jar` |
+| [Create: Central Kitchen](https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen) | DragonsPlus | `create-central-kitchen-2.6.2b.jar` |
+| [Create: Dragons Plus](https://www.curseforge.com/minecraft/mc-mods/create-dragons-plus) | DragonsPlus | `CreateDragonsPlus-1.11.9.jar` |
+| [Cryonic Config](https://www.curseforge.com/minecraft/mc-mods/cryonicconfig) | slainlight | `cryonicconfig-neoforge-1.0.0+mc1.21.11.jar` |
+| [Cultural Creators (Create and Cultural Delights Addon)](https://www.curseforge.com/minecraft/mc-mods/cultural-creators) | Flomik | `cultural-creators-neoforge-1.21.1-1.2.0.jar` |
+| [Cultural Delights](https://www.curseforge.com/minecraft/mc-mods/cultural-delights) | Baisylia | `culturaldelights-0.17.8.jar` |
+| [Cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard) | someaddon | `cupboard-1.21.1-4.2.jar` |
+| [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios) | TheIllusiveC4 | `curios-neoforge-9.5.1+1.21.1.jar` |
+| [Decorative Blocks Reborn](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks-reborn) | big_energy | `DecorativeBlocks-Reborn-neoforge-1.21.1-6.0.2.jar` |
+| [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options) | BlayTheNinth | `defaultoptions-neoforge-1.21.1-21.1.8.jar` |
+| [Delightful Creators [Forge] (Create and Farmer's Delight Addon)](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-forge) | Flomik | `delightfulcreators-1.2.1.jar` |
+| [Drippy Loading Screen](https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen) | Keksuccino | `drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar` |
+| [Dungeons And Villages: Ad Astra](https://www.curseforge.com/minecraft/mc-mods/dungeon-and-village-ad-astra) | Kononets | `Dungeon And Village Ad Astra 1.21.1  1.1.1.jar` |
+| [Effortless Building](https://www.curseforge.com/minecraft/mc-mods/effortless-building) | Requioss | `effortlessbuilding-4.2+1.21.1.jar` |
+| [Elytra Slot](https://www.curseforge.com/minecraft/mc-mods/elytra-slot) | TheIllusiveC4 | `elytraslot-neoforge-9.0.2+1.21.1.jar` |
+| [EMI](https://www.curseforge.com/minecraft/mc-mods/emi) | EmilyPloszaj | `emi-1.1.24+1.21.1+neoforge.jar` |
+| [EMI Enchanting](https://www.curseforge.com/minecraft/mc-mods/emi-enchanting) | fzzyhmstrs | `emi_enchanting-0.1.2+1.21+neoforge.jar` |
+| [EMI Loot](https://www.curseforge.com/minecraft/mc-mods/emi-loot) | fzzyhmstrs | `emi_loot-0.7.9+1.21+neoforge.jar` |
+| [EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores) | Abbie34 | `emi_ores-1.3+1.21.1+neoforge.jar` |
+| [EMI professions (EMIP)](https://www.curseforge.com/minecraft/mc-mods/emi-professions-emip) | Mrbysco | `EMIProfessions-neoforge-1.21.1-1.0.3.jar` |
+| [Ender Storage 1.8.+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8) | covers1624 | `EnderStorage-1.21.1-2.13.0.191.jar` |
+| [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling) | tr7zw | `entityculling-neoforge-1.11.3-mc1.21.1.jar` |
+| [Equipment Compare [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/equipment-compare) | Grend_G | `EquipmentCompare-1.21.1-neoforge-1.3.13.jar` |
+| [Euphoria Patches](https://www.curseforge.com/minecraft/mc-mods/euphoria-patches) | SpacEagle17 | `EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar` |
+| [Eval](https://www.curseforge.com/minecraft/mc-mods/eval) | Reclipsel | `eval-neoforge-1.21.x-1.1.0.jar` |
+| [Explorer's Compass](https://www.curseforge.com/minecraft/mc-mods/explorers-compass) | Chaosyr | `ExplorersCompass-1.21.1-3.4.0-neoforge.jar` |
+| [Exposure](https://www.curseforge.com/minecraft/mc-mods/exposure) | mortuusars | `exposure-neoforge-1.21.1-1.9.19.jar` |
+| [Extended Industrialization](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization) | swedzish | `extended-industrialization-1.16.4-1.21.1.jar` |
+| [ExtendedAE](https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider) | GlodBlock | `ExtendedAE-1.21-2.2.41-neoforge.jar` |
+| [Extreme sound muffler - (Neo)Forge](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler) | LeoBeliik | `ExtremeSoundMuffler-3.57_NeoForge-1.21.jar` |
+| [Factory Blocks [Forge/Fabric/NeoForge]](https://www.curseforge.com/minecraft/mc-mods/factory-blocks) | Slaincow | `factory_blocks-neoforge-1.4.0+mc1.21.1.jar` |
+| [FallingTree](https://www.curseforge.com/minecraft/mc-mods/falling-tree) | rakambda | `FallingTree-1.21.1-1.21.1.11.jar` |
+| [FancyMenu](https://www.curseforge.com/minecraft/mc-mods/fancymenu) | Keksuccino | `fancymenu_neoforge_3.9.14_MC_1.21.1.jar` |
+| [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) | vectorwing | `FarmersDelight-1.21.1-1.3.4.jar` |
+| [Farming for Blockheads](https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads) | BlayTheNinth | `farmingforblockheads-neoforge-1.21.1-21.1.14.jar` |
+| [Faster Ladder Climbing](https://www.curseforge.com/minecraft/mc-mods/faster-ladder-climbing) | maddachshund | `fasterladderclimbing-0.2.14.jar` |
+| [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) | Shadows_of_Fire | `FastFurnace-1.21.1-9.0.1.jar` |
+| [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite) | Shadows_of_Fire | `FastSuite-1.21.1-6.0.7.jar` |
+| [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) | Shadows_of_Fire | `FastWorkbench-1.21.1-9.1.3.jar` |
+| [FerriteCore ((Neo)Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore) | malte0811 | `ferritecore-7.0.3-neoforge.jar` |
+| [FlickerFix](https://www.curseforge.com/minecraft/mc-mods/flickerfix) | MutantGumdrop | `flickerfix-1.21.1-6.1.0.jar` |
+| [ForgeEndertech](https://www.curseforge.com/minecraft/mc-mods/forgeendertech) | EnderLanky | `ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar` |
+| [Forgiving Void](https://www.curseforge.com/minecraft/mc-mods/forgiving-void) | BlayTheNinth | `forgivingvoid-neoforge-1.21.1-21.1.7.jar` |
+| [FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer) | bre2el | `FpsReducer2-neoforge-1.21-2.10.jar` |
+| [FramedBlocks](https://www.curseforge.com/minecraft/mc-mods/framedblocks) | XFactHD | `FramedBlocks-10.6.3.jar` |
+| [FTB Chunks (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge) | FTB | `ftb-chunks-neoforge-2101.1.22.jar` |
+| [FTB Essentials (Forge & Fabric)](https://www.curseforge.com/minecraft/mc-mods/ftb-essentials) | FTB | `ftb-essentials-neoforge-2101.1.10.jar` |
+| [FTB Filter System](https://www.curseforge.com/minecraft/mc-mods/ftb-filter-system) | FTB | `ftb-filter-system-neoforge-21.1.4.jar` |
+| [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | FTB | `ftb-library-neoforge-2101.1.37.jar` |
+| [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | FTB | `ftb-quests-neoforge-2101.1.36.jar` |
+| [FTB Ranks (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-forge) | FTB | `ftb-ranks-neoforge-2101.1.5.jar` |
+| [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | FTB | `ftb-teams-neoforge-2101.1.11.jar` |
+| [FTB XMod Compat](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | FTB | `ftb-xmod-compat-neoforge-21.1.13.jar` |
+| [Functional Storage](https://www.curseforge.com/minecraft/mc-mods/functional-storage) | Buuz135 | `functionalstorage-1.21.1-1.5.8.jar` |
+| [Fusion (Connected Textures)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures) | SuperMartijn642 | `fusion-1.3.16-neoforge-mc1.21.1.jar` |
+| [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config) | fzzyhmstrs | `fzzy_config-0.7.7+1.21+neoforge.jar` |
+| [Gadgets Against Grind](https://www.curseforge.com/minecraft/mc-mods/gag) | MaxNeedsSnacks | `gag-neoforge-1.21.1-5.2.0.jar` |
+| [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) | Gecko | `geckolib-neoforge-1.21.1-4.9.3.jar` |
+| [Glodium](https://www.curseforge.com/minecraft/mc-mods/glodium) | GlodBlock | `Glodium-1.21-2.2-neoforge.jar` |
+| [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) | shartte | `guideme-21.1.19.jar` |
+| [Hang Glider](https://www.curseforge.com/minecraft/mc-mods/hang-glider) | Fuzs | `HangGlider-v21.1.0-1.21.1-NeoForge.jar` |
+| [Iceberg [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/iceberg) | Grend_G | `Iceberg-1.21.1-neoforge-1.3.2.jar` |
+| [Iden's Decor](https://www.curseforge.com/minecraft/mc-mods/idens-decor) | identidade470 | `iden_decor-beta-3.0.3.jar` |
+| [I'm Fast](https://www.curseforge.com/minecraft/mc-mods/im-fast) | Bielhiss | `imfast-NEOFORGE-1.21.1-1.0.3.jar` |
+| [ImmediatelyFast](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) | RaphiMC | `ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar` |
+| [Industrialization Overdrive](https://www.curseforge.com/minecraft/mc-mods/industrialization-overdrive) | WhitePhantom | `industrialization_overdrive-1.14.0+1.21.1.jar` |
+| [Industrially Plated](https://www.curseforge.com/minecraft/mc-mods/industrially-plated) | AndromedaGalaxy29 | `industrially_plated-1.1.0.jar` |
+| [Invasive Optimizations](https://www.curseforge.com/minecraft/mc-mods/invasive-optimizations) | qther | `invasiveopts-1.0.25.jar` |
+| [Inventory Essentials](https://www.curseforge.com/minecraft/mc-mods/inventory-essentials) | BlayTheNinth | `inventoryessentials-neoforge-1.21.1-21.1.20.jar` |
+| [Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge) | dmitrylovin | `inventoryhud.neoforged.1.21.1-3.4.28.jar` |
+| [Iris Shaders](https://www.curseforge.com/minecraft/mc-mods/irisshaders) | coderbot | `iris-neoforge-1.8.14-beta.1+mc1.21.1.jar` |
+| [Ixeris](https://www.curseforge.com/minecraft/mc-mods/ixeris) | decce | `Ixeris-4.6.10+1.21.1-neoforge.jar` |
+| [Jade Addons (Neo/Forge)](https://www.curseforge.com/minecraft/mc-mods/jade-addons) | Snownee | `JadeAddons-1.21.1-NeoForge-6.1.2.jar` |
+| [Jade ðŸ”](https://www.curseforge.com/minecraft/mc-mods/jade) | Snownee | `Jade-1.21.1-NeoForge-15.10.6.jar` |
+| [JamLib](https://www.curseforge.com/minecraft/mc-mods/jamlib) | jamalam360 | `jamlib-neoforge-1.3.6+1.21.1.jar` |
+| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | techbrew | `journeymap-neoforge-1.21.1-6.0.9.jar` |
+| [JourneyMap Integration](https://www.curseforge.com/minecraft/mc-mods/journeymap-integration) | frankV | `jmi-neoforge-1.21.1-1.9.1.jar` |
+| [Jump Over Fences](https://www.curseforge.com/minecraft/mc-mods/jump-over-fences-forge) | Kreezxil | `jumpoverfences-neoforge-1.21.1-1.6.1.jar` |
+| [Just Another Void Dimension](https://www.curseforge.com/minecraft/mc-mods/javd) | UnRealDinnerbone | `javd-neo-9.0.0+mc1.21.1.jar` |
+| [Just Enough Breeding (JEBr)](https://www.curseforge.com/minecraft/mc-mods/justenoughbreeding) | Christofmeg | `justenoughbreeding-neoforge-1.21.1-3.3.1.jar` |
+| [Just Enough Effect Descriptions (JEED)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed) | MehVahdJukaar | `jeed-1.21-2.3.5-neoforge.jar` |
+| [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei) | mezz | `jei-1.21.1-neoforge-19.69.0.457.jar` |
+| [JustHammers](https://www.curseforge.com/minecraft/mc-mods/justhammers) | ErrorMikey | `just-hammers-neoforge-21.1.4.jar` |
+| [Konkrete](https://www.curseforge.com/minecraft/mc-mods/konkrete) | Keksuccino | `konkrete_neoforge_1.9.9_MC_1.21.jar` |
+| [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) | thedarkcolour | `kotlinforforge-5.12.0-all.jar` |
+| [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) | Lat | `kubejs-neoforge-2101.7.2-build.374.jar` |
+| [KubeJS Curios](https://www.curseforge.com/minecraft/mc-mods/kubejs-curios) | zhaiji | `kubejs_curios_neoforge_1.21.1-1.0.4.jar` |
+| [LambDynamicLights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) | LambdAurora | `lambdynamiclights-4.8.11+1.21.1.jar` |
+| [Large Ore Deposits](https://www.curseforge.com/minecraft/mc-mods/large-ore-deposits) | EnderLanky | `AdLods-1.21.1-9.1.7.0-NeoForge-build.1080.jar` |
+| [Legendary Tooltips [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips) | Grend_G | `LegendaryTooltips-1.21.1-neoforge-1.5.5.jar` |
+| [LibX](https://www.curseforge.com/minecraft/mc-mods/libx) | noeppi_noeppi | `LibX-1.21.1-6.0.15.jar` |
+| [Light Overlay (Rift/Forge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/light-overlay) | shedaniel | `light-overlay-12.0.0-neoforge.jar` |
+| [Lithium (Fabric/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lithium) | JellySquid | `lithium-neoforge-0.15.4+mc1.21.1.jar` |
+| [Lithostitched](https://www.curseforge.com/minecraft/mc-mods/lithostitched) | Apollo | `lithostitched-1.8.1-neoforge-21.1.jar` |
+| [Little Big Redstone](https://www.curseforge.com/minecraft/mc-mods/little-big-redstone) | swedzish | `little-big-redstone-1.9.12-1.21.1.jar` |
+| [Load My F***ing Tags](https://www.curseforge.com/minecraft/mc-mods/lmft) | Blodhgarm | `lmft-1.1.1+1.21.9-neoforge.jar` |
+| [Loot Integrations](https://www.curseforge.com/minecraft/mc-mods/loot-integrations) | someaddon | `lootintegrations-1.21.1-4.7.jar` |
+| [Loot Integrations: ChoiceTheorem's Overhauled Village & Immersive Structures](https://www.curseforge.com/minecraft/mc-mods/loot-integrations-choicetheorems-overhauled) | someaddon | `lootintegrations_ctov-1.6.jar` |
+| [Lootr (Forge & NeoForge)](https://www.curseforge.com/minecraft/mc-mods/lootr) | Noobanidus | `lootr-neoforge-1.21.1-1.11.38.127.jar` |
+| [Luminax](https://www.curseforge.com/minecraft/mc-mods/luminax) | Satherov | `luminax-1.3.1_neoforge_1.21.1.jar` |
+| [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester) | Relentless | `merequester-neoforge-1.21.1-1.5.0.jar` |
+| [Measurements](https://www.curseforge.com/minecraft/mc-mods/measurements) | Mrbysco | `Measurements-neoforge-1.21.1-3.0.3.jar` |
+| [MEGA Cells](https://www.curseforge.com/minecraft/mc-mods/mega-cells) | ninety | `megacells-4.11.0.jar` |
+| [Melody](https://www.curseforge.com/minecraft/mc-mods/melody) | Keksuccino | `melody_neoforge_1.0.10_MC_1.21.jar` |
+| [MI Tweaks](https://www.curseforge.com/minecraft/mc-mods/mi-tweaks) | swedzish | `mi-tweaks-1.9.6-1.21.1.jar` |
+| [MI Utilities](https://www.curseforge.com/minecraft/mc-mods/mi-utilities) | esoterica | `mi_utilities-1.3.3+1.21.1.jar` |
+| [MidnightLib](https://www.curseforge.com/minecraft/mc-mods/midnightlib) | Motschen | `midnightlib-neoforge-1.10.0+1.21.1.jar` |
+| [Mixed Litter](https://www.curseforge.com/minecraft/mc-mods/mixed-litter) | tazer | `mixed_litter-1.2.2.jar` |
+| [Modern Dynamics](https://www.curseforge.com/minecraft/mc-mods/modern-dynamics) | thetechnici4n | `Modern-Dynamics-0.9.6.jar` |
+| [Modern Industrialization](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization) | thetechnici4n | `Modern-Industrialization-2.5.11.jar` |
+| [Modern Industrialization Sound Addon](https://www.curseforge.com/minecraft/mc-mods/modern-industrialization-sound-addon) | static | `mi_sound_addon-1.3.1-1.21.1.jar` |
+| [Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation) | Keksuccino | `modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar` |
+| [ModernFix](https://www.curseforge.com/minecraft/mc-mods/modernfix) | embeddedt | `modernfix-neoforge-5.27.26+mc1.21.1.jar` |
+| [ModListMemory](https://www.curseforge.com/minecraft/mc-mods/modlistmemory) | NotRyken | `modlistmemory-neoforge-1.0.0+1.21+bm-1.1.15.jar` |
+| [Modonomicon](https://www.curseforge.com/minecraft/mc-mods/modonomicon) | kli_kli | `modonomicon-1.21.1-neoforge-1.120.7.jar` |
+| [Moonlight Lib](https://www.curseforge.com/minecraft/mc-mods/selene) | MehVahdJukaar | `moonlight-1.21.1-3.7.2-neoforge.jar` |
+| [More Dragon Eggs](https://www.curseforge.com/minecraft/mc-mods/more-dragon-eggs) | Darkere | `moredragoneggs-5.0.jar` |
+| [More Red](https://www.curseforge.com/minecraft/mc-mods/more-red) | Commoble | `morered-1.21.1-6.0.0.3.jar` |
+| [MoreJS](https://www.curseforge.com/minecraft/mc-mods/morejs) | Lytho | `morejs-neoforge-1.21.1-0.16.0.jar` |
+| [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | YaLTeR | `MouseTweaks-neoforge-mc1.21-2.26.1.jar` |
+| [Music and Melody](https://www.curseforge.com/minecraft/mc-mods/music-and-melody) | rebel0459 | `music-and-melody-21.1-r4.3-neoforge-cf.jar` |
+| [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | Chaosyr | `NaturesCompass-1.21.1-3.4.0-neoforge.jar` |
+| [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix) | BlayTheNinth | `netherportalfix-neoforge-1.21.1-21.1.1.jar` |
+| [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports) | Aizistral | `NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar` |
+| [No Mans Land](https://www.curseforge.com/minecraft/mc-mods/no-mans-land) | Farcr | `nomansland-1.6.2.jar` |
+| [Not Enough Animations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | tr7zw | `notenoughanimations-neoforge-1.12.6-mc1.21.1.jar` |
+| [Not Enough Recipe Book [NERB]](https://www.curseforge.com/minecraft/mc-mods/notenoughrecipebook) | SSKirillSS | `Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar` |
+| [Observable](https://www.curseforge.com/minecraft/mc-mods/observable) | tasgon | `observable-5.4.4.jar` |
+| [OpenBlocks Elevator](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator) | vsngarcia | `elevatorid-neoforge-1.21.1-1.11.4.jar` |
+| [Overloaded Armor Bar](https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar) | tfarecnim | `overloadedarmorbar-neoforge-1.21-2.jar` |
+| [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer) | TonimatasDEV | `packetfixer-3.3.1-1.20.5-1.21.X-merged.jar` |
+| [PaperDoll](https://www.curseforge.com/minecraft/mc-mods/paperdoll) | tr7zw | `paperdoll-neoforge-1.5.3-mc1.21.1.jar` |
+| [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) | Vazkii | `Patchouli-1.21.1-93-NEOFORGE.jar` |
+| [Phantom's Utilities](https://www.curseforge.com/minecraft/mc-mods/phantoms-utilities) | WhitePhantom | `phantoms_utilities-0.4.0.jar` |
+| [Pipe Connector](https://www.curseforge.com/minecraft/mc-mods/pipe-connector) | Heaser | `pipe_connector-neoforge-0.5.28.jar` |
+| [playerAnimator](https://www.curseforge.com/minecraft/mc-mods/playeranimator) | KosmX | `player-animation-lib-forge-2.0.4+1.21.1.jar` |
+| [Prickle](https://www.curseforge.com/minecraft/mc-mods/prickle) | DarkhaxDev | `prickle-neoforge-1.21.1-21.1.11.jar` |
+| [Prism [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/prism-lib) | Grend_G | `Prism-1.21.1-neoforge-1.0.11.jar` |
+| [ProbeJS](https://www.curseforge.com/minecraft/mc-mods/probejs) | Amygdaloideae | `ProbeJS-8.0.3.jar` |
+| [Puzzles Lib](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | Fuzs | `puzzleslib-v21.1.65-mc1.21.1+neoforge.jar` |
+| [Raised](https://www.curseforge.com/minecraft/mc-mods/raised) | yurisuika | `raised-neoforge-1.21.1-6.0.2.jar` |
+| [Reese's Sodium Options](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options) | FlashyReese | `reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar` |
+| [Resourceful Config](https://www.curseforge.com/minecraft/mc-mods/resourceful-config) | ThatGravyBoat | `resourcefulconfig-neoforge-1.21-3.0.11.jar` |
+| [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | ThatGravyBoat | `resourcefullib-neoforge-1.21-3.0.12.jar` |
+| [Responsive Shields](https://www.curseforge.com/minecraft/mc-mods/responsive-shields) | Revvilo | `responsiveshields-2.4-neoforge-mc1.21.x.jar` |
+| [Revelationary](https://www.curseforge.com/minecraft/mc-mods/revelationary) | DaFuqsy | `revelationary-neoforge-1.5.2+1.21.1.jar` |
+| [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) | Lat | `rhino-2101.2.8-build.91.jar` |
+| [RightClickHarvest](https://www.curseforge.com/minecraft/mc-mods/rightclickharvest) | jamalam360 | `rightclickharvest-neoforge-4.6.1+1.21.1.jar` |
+| [Rustic Delight](https://www.curseforge.com/minecraft/mc-mods/rustic-delight) | PhantomWing | `rusticdelight-neoforge-1.21-1.7.1.jar` |
+| [Scannable](https://www.curseforge.com/minecraft/mc-mods/scannable) | Sangar | `scannable-MC1.21.1-neoforge-1.8.1+a7f6831.jar` |
+| [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables) | Jaredlll08 | `Searchables-neoforge-1.21.1-1.0.2.jar` |
+| [Server Performance - Smooth Chunk Save](https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save) | someaddon | `smoothchunk-1.21-4.4.jar` |
+| [ShatterLib \| OctoLib](https://www.curseforge.com/minecraft/mc-mods/shatterbyte-lib) | SSKirillSS | `OctoLib-NEOFORGE-0.6.2+1.21.jar` |
+| [Showcase Item](https://www.curseforge.com/minecraft/mc-mods/showcase-item) | Ultramega | `showcaseitem-1.21.1-1.1.0.jar` |
+| [Simple Discord RPC](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc) | HypherionSA | `SimpleRPC-4.1.4.jar` |
+| [Simple Magnets](https://www.curseforge.com/minecraft/mc-mods/simple-magnets) | SuperMartijn642 | `simplemagnets-1.1.12c-neoforge-mc1.21.jar` |
+| [Simple Music Control](https://www.curseforge.com/minecraft/mc-mods/simple-music-control) | pajic | `simple_music_control-neoforge-1.5.5+1.21.1.jar` |
+| [Simple Structures: Ad Astra](https://www.curseforge.com/minecraft/mc-mods/simple-structure-ad-astra) | Kononets | `Simple Structures Ad Astra 1.21.1 1.3.jar` |
+| [Simply Light](https://www.curseforge.com/minecraft/mc-mods/simply-light) | Flanks255 | `simplylight-1.5.3+1.21.1-b4.jar` |
+| [Smithing Template Viewer for JEI/EMI](https://www.curseforge.com/minecraft/mc-mods/smithing-template-viewer) | Buuz135 | `smithingtemplateviewer-1.0.4.jar` |
+| [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) | JellySquid | `sodium-neoforge-0.8.13+mc1.21.1.jar` |
+| [Sodium Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra) | FlashyReese | `sodium-extra-neoforge-0.9.4+mc1.21.1.jar` |
+| [Sooty Chimneys](https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys) | mortuusars | `sootychimneys-neoforge-1.3.5.jar` |
+| [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) | P3pp3rF1y | `sophisticatedbackpacks-1.21.1-3.26.14.2222.jar` |
+| [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) | P3pp3rF1y | `sophisticatedcore-1.21.1-1.5.17.2426.jar` |
+| [Sophisticated Inventory Interactions](https://www.curseforge.com/minecraft/mc-mods/sophisticated-inventory-interactions) | P3pp3rF1y | `sophisticatedinventoryinteractions-1.21.1-0.1.14.224.jar` |
+| [Sophisticated Item Actions](https://www.curseforge.com/minecraft/mc-mods/sophisticated-item-actions) | P3pp3rF1y | `sophisticateditemactions-1.21.1-0.5.18.441.jar` |
+| [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) | P3pp3rF1y | `sophisticatedstorage-1.21.1-1.6.8.2196.jar` |
+| [spark](https://www.curseforge.com/minecraft/mc-mods/spark) | Iucko | `spark-1.10.124-neoforge.jar` |
+| [Spectral Decorations](https://www.curseforge.com/minecraft/mc-mods/spectral-decorations) | DaFuqsy | `SpectralDecorations-1.10.1-1.21.1-neo.jar` |
+| [Spectrum](https://www.curseforge.com/minecraft/mc-mods/spectrum) | DaFuqsy | `spectrum-1.12.9-1.21.1-neo.jar` |
+| [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition) | lordcazsius | `solcarrot-1.21.1-1.16.6.jar` |
+| [Spiky Spikes](https://www.curseforge.com/minecraft/mc-mods/spiky-spikes) | Fuzs | `SpikySpikes-v21.1.2-1.21.1-NeoForge.jar` |
+| [StaTech Companion](https://www.curseforge.com/minecraft/mc-mods/statech-companion) | static | `stcm-1.0.5.jar` |
+| [Stellar View](https://www.curseforge.com/minecraft/mc-mods/stellarview) | Povstalec | `Stellar.View-1.21.1-0.5.3-NeoForge.jar` |
+| [Stellar View Mixin Renderer](https://www.curseforge.com/minecraft/mc-mods/stellar-view-mixin-renderer) | lukaskabc | `stellarview_mixin_renderer-1.21.1-neoforge-2.1.1.jar` |
+| [Stony Cliffs Are Cool](https://www.curseforge.com/minecraft/mc-mods/stony-cliffs-are-cool) | bebebea_loste | `Stony Cliffs FML v1.1.2.jar` |
+| [Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers) | botanydev | `Structory_Towers_26.1_v1.0.16.jar` |
+| [Structure Layout Optimizer](https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer) | telepathicgrunt | `structure_layout_optimizer-neoforge-1.0.12.jar` |
+| [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) | SuperMartijn642 | `supermartijn642configlib-1.1.8-neoforge-mc1.21.jar` |
+| [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) | SuperMartijn642 | `supermartijn642corelib-1.1.25-neoforge-mc1.21.jar` |
+| [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | MehVahdJukaar | `supplementaries-1.21.1-4.0.2-neoforge.jar` |
+| [Tank Storage](https://www.curseforge.com/minecraft/mc-mods/tank-storage) | Natte | `tankstorage-1.1.1+1.21.jar` |
+| [Tesseract API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge) | swedzish | `tesseract-api-neoforge-1.12.18-1.21.1.jar` |
+| [Thaumaturge](https://www.curseforge.com/minecraft/mc-mods/thaumaturge) | Project8gbDeRam | `thaumaturge-1.21.1-NeoForge-1.1.0.jar` |
+| [Thaumic Additions CE](https://www.curseforge.com/minecraft/mc-mods/thaumic-additions-ce) | _zloyenot | `thaumic-additions-community-edition-0.18.26-thaumaturge-1.0.12-1.1.0.jar` |
+| [Thaumic Energistics CE](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-ce) | BeiWuCN | `thaumicenergistics_ce-1.21.1-neoforge-2.7.5.3.jar` |
+| [Tips](https://www.curseforge.com/minecraft/mc-mods/tips) | DarkhaxDev | `tipsmod-neoforge-1.21.1-21.1.3.jar` |
+| [TipTheScales](https://www.curseforge.com/minecraft/mc-mods/tipthescales) | Jaredlll08 | `TipTheScales-neoforge-1.21.1-16.0.0.1.jar` |
+| [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) | Buuz135 | `titanium-1.21-4.0.51.jar` |
+| [Tool Belt](https://www.curseforge.com/minecraft/mc-mods/tool-belt) | gigaherz | `ToolBelt-1.21.1-2.2.10.jar` |
+| [Torchmaster](https://www.curseforge.com/minecraft/mc-mods/torchmaster) | xalcon | `torchmaster-neoforge-1.21.1-21.1.13.jar` |
+| [Trade Cycling](https://www.curseforge.com/minecraft/mc-mods/trade-cycling) | henkelmax | `trade-cycling-neoforge-1.21.1-1.0.23.jar` |
+| [Trading Post](https://www.curseforge.com/minecraft/mc-mods/trading-post) | Fuzs | `TradingPost-v21.1.1-1.21.1-NeoForge.jar` |
+| [Transmog](https://www.curseforge.com/minecraft/mc-mods/transmog) | Hidoni | `transmog-neoforge-1.6.0+1.21.1.jar` |
+| [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans) | SuperMartijn642 | `trashcans-1.1.2-neoforge-mc1.21.jar` |
+| [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot) | BlayTheNinth | `trashslot-neoforge-1.21.1-21.1.11.jar` |
+| [Travel Anchors (modern)](https://www.curseforge.com/minecraft/mc-mods/travel-anchors-modern) | deos | `travelanchors-1.1.1.jar` |
+| [Trenzalore](https://www.curseforge.com/minecraft/mc-mods/trenzalore) | UnRealDinnerbone | `trenzalore-neo-6.1.1+mc1.21.1.jar` |
+| [Useful Slime (NeoForge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/useful-slime) | MincraftEinstein | `UsefulSlime-neoforge-1.21-1.12.1.jar` |
+| [Wavey Capes](https://www.curseforge.com/minecraft/mc-mods/waveycapes) | tr7zw | `waveycapes-neoforge-1.11.3-mc1.21.1.jar` |
+| [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) | BlayTheNinth | `waystones-neoforge-1.21.1-21.1.46.jar` |
+| [What Are They Up To (Watut)](https://www.curseforge.com/minecraft/mc-mods/what-are-they-up-to) | Corosus | `watut-neoforge-1.21.0-1.2.7.jar` |
+| [Wither Skeleton Tweaks](https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks) | Shadows_of_Fire | `WitherSkeletonTweaks-1.21.1-10.1.1.jar` |
+| [WITS (What Is This Structure?)](https://www.curseforge.com/minecraft/mc-mods/wits) | telepathicgrunt | `wits-neoforge-1.3.1.jar` |
+| [Xtones Reworked](https://www.curseforge.com/minecraft/mc-mods/xtones-reworked) | lays24mc | `xtonesreworked-1.1.1-1.21.1.jar` |
+| [Yeetus Experimentus](https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus) | Sunekaer | `yeetusexperimentus-neoforge-87.0.0.jar` |
+| [Yet Another Industrialization!](https://www.curseforge.com/minecraft/mc-mods/yet-another-industrialization) | Luligabi12 | `yet_another_industrialization-1.6.3-1.21.1.jar` |
+| [YetAnotherConfigLib](https://www.curseforge.com/minecraft/mc-mods/yacl) | isXander | `yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar` |
+| [You're in Grave Danger](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) | b1n_ry | `youre-in-grave-danger-neoforge-2.0.13.jar` |
+| [Zume](https://www.curseforge.com/minecraft/mc-mods/zume) | Nolij | `zume-1.2.2.jar` |
+
+## Resource Packs (4)
+
+| Name | Author | File |
+| --- | --- | --- |
+| [AE2 Blackout](https://www.curseforge.com/minecraft/texture-packs/ae2-blackout) | Void_Fractal | `AE2Blackout-V1.2.8.zip` |
+| [Craftoria: Emissive Ores](https://www.curseforge.com/minecraft/texture-packs/craftoria-emissive-ores) | purpledino_ | `Statech Emissive Ores 2.2.zip` |
+| [Onion Industrialization](https://www.curseforge.com/minecraft/texture-packs/onion-industrialization) | onionevan | `Onion Industrialization.zip` |
+| [Slightly Improved Font (32x)](https://www.curseforge.com/minecraft/texture-packs/slightly-improved-font) | Lat | `Slightly-Improved-Font-1.1.5.zip` |
+
+## Shader Packs (2)
+
+| Name | Author | File |
+| --- | --- | --- |
+| [Complementary Shaders - Reimagined](https://www.curseforge.com/minecraft/shaders/complementary-reimagined) | EminGT | `ComplementaryReimagined_r5.9.3.zip` |
+| [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound) | EminGT | `ComplementaryUnbound_r5.9.3.zip` |
+
+## Bundled in overrides (not downloaded from CurseForge) (3)
+
+| File |
+| --- |
+| `botania-neoforge-1.21.1-457-20261011.170106-13.jar` |
+| `cc-tweaked-1.21.1-forge-1.120.0.jar` |
+| `forgotten_relics_plus-1.21.1-neoforge-1.8.1.jar` |

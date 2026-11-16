@@ -1,0 +1,70 @@
+{
+    "type":  "thaumaturge:infusion",
+    "aspects":  [
+                    {
+                        "aspect":  "thaumaturge:motus",
+                        "amount":  65
+                    },
+                    {
+                        "aspect":  "thaumaturge:aer",
+                        "amount":  85
+                    },
+                    {
+                        "aspect":  "thaumaturge:aqua",
+                        "amount":  35
+                    },
+                    {
+                        "aspect":  "thaumaturge:permutatio",
+                        "amount":  30
+                    },
+                    {
+                        "aspect":  "thaumaturge:potentia",
+                        "amount":  75
+                    }
+                ],
+    "catalyst":  {
+                     "item":  "thaumaturge:stone_arcane"
+                 },
+    "components":  [
+                       {
+                           "item":  "spectrum:onyx_shard"
+                       },
+                       {
+                           "item":  "minecraft:ghast_tear"
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_aer"
+                       },
+                       {
+                           "type":  "neoforge:components",
+                           "items":  "thaumaturge:celestial_notes",
+                           "components":  {
+                                              "thaumaturge:celestial_body":  "sun"
+                                          }
+                       },
+                       {
+                           "tag":  "thaumaturge:nitors"
+                       },
+                       {
+                           "type":  "neoforge:components",
+                           "items":  "thaumaturge:celestial_notes",
+                           "components":  {
+                                              "thaumaturge:celestial_body":  "moon_1"
+                                          }
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_aer"
+                       },
+                       {
+                           "item":  "minecraft:ghast_tear"
+                       }
+                   ],
+    "instability":  4,
+    "research":  {
+                     "entry":  "forgotten_relics_plus:weather_stone"
+                 },
+    "result":  {
+                   "count":  1,
+                   "id":  "forgotten_relics_plus:weather_stone"
+               }
+}

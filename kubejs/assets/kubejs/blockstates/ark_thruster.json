@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kubejs:block/ark_thruster_emissive"
+        }
+    }
+}

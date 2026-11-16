@@ -171,7 +171,7 @@ ServerEvents.recipes((event) => {
     // -- CORE MINING DRILL -- //
     event
         .shaped(mi('core_drill'), ['MSM', 'CHC', 'SDS'], {
-            S: mi('clean_stainless_steel_machine_casing'),
+            S: '#c:plates/ferrolith',
             C: mi('quantum_circuit'),
             H: mi('quantum_machine_hull'),
             M: mi('large_advanced_motor'),
@@ -181,7 +181,8 @@ ServerEvents.recipes((event) => {
 
     // -- SINGULARITY FORGE -- //
     event
-        .shaped(mi('singularity_forge'), ['PPP', 'CHC', 'PPP'], {
+        .shaped(mi('singularity_forge'), ['TPT', 'CHC', 'PTP'], {
+            T: '#c:plates/tempestine',
             P: mi('plasma_handling_iridium_machine_casing'),
             C: mi('quantum_circuit'),
             H: mi('quantum_machine_hull'),
@@ -223,11 +224,11 @@ ServerEvents.recipes((event) => {
     event
         .shaped(mi('rocket_part_assembler'), ['RMR', 'GHG', 'APA'], {
             R: mi('robot_arm'),
-            M: mi('advanced_motor'),
-            G: mi('stainless_steel_gear'),
+            M: mi('motor'),
+            G: mi('steel_gear'),
             H: mi('basic_machine_hull'),
-            A: mi('digital_circuit'),
-            P: mi('advanced_pump'),
+            A: mi('electronic_circuit'),
+            P: mi('pump'),
         })
         .id(st('rocket_part_assembler'));
 

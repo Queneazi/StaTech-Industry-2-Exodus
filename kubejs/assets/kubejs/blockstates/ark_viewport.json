@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": {
+            "model": "kubejs:block/ark_viewport"
+        }
+    },
+    "athena:loader": "athena:ctm",
+    "ctm_textures": {
+        "center": "kubejs:block/ark_viewport/ctm/4",
+        "empty": "kubejs:block/ark_viewport/ctm/1",
+        "horizontal": "kubejs:block/ark_viewport/ctm/3",
+        "particle": "kubejs:block/ark_viewport/ctm/0",
+        "vertical": "kubejs:block/ark_viewport/ctm/2"
+    }
+}

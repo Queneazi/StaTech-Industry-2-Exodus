@@ -1,0 +1,115 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "forgotten_relics_plus:omega_core_enabled"
+                                }
+                            ],
+    "type":  "thaumaturge:infusion",
+    "aspects":  [
+                    {
+                        "aspect":  "thaumaturge:aer",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:aqua",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:ignis",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:terra",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:ordo",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:perditio",
+                        "amount":  512
+                    },
+                    {
+                        "aspect":  "thaumaturge:praecantatio",
+                        "amount":  256
+                    },
+                    {
+                        "aspect":  "thaumaturge:auram",
+                        "amount":  256
+                    },
+                    {
+                        "aspect":  "thaumaturge:vacuos",
+                        "amount":  256
+                    },
+                    {
+                        "aspect":  "thaumaturge:alienis",
+                        "amount":  192
+                    },
+                    {
+                        "aspect":  "thaumaturge:cognitio",
+                        "amount":  192
+                    }
+                ],
+    "catalyst":  {
+                     "item":  "spectrum:moonstone_core"
+                 },
+    "components":  [
+                       {
+                           "item":  "forgotten_relics_plus:soul_tome"
+                       },
+                       {
+                           "item":  "thaumaturge:void_siphon"
+                       },
+                       {
+                           "item":  "thaumaturge:primordial_pearl"
+                       },
+                       {
+                           "item":  "modern_industrialization:quantum_machine_hull"
+                       },
+                       {
+                           "item":  "spectrum:totem_pendant"
+                       },
+                       {
+                           "item":  "modern_industrialization:quantum_circuit"
+                       },
+                       {
+                           "item":  "thaumaturge:primordial_pearl"
+                       },
+                       {
+                           "item":  "thaumaturge:causality_collapser"
+                       },
+                       {
+                           "item":  "forgotten_relics_plus:tome_of_broken_fates"
+                       },
+                       {
+                           "item":  "spectrum:aether_vestiges"
+                       },
+                       {
+                           "item":  "thaumaturge:primordial_pearl"
+                       },
+                       {
+                           "item":  "spectrum:pure_netherite_scrap"
+                       },
+                       {
+                           "item":  "thaumaturge:jar_node"
+                       },
+                       {
+                           "item":  "spectrum:paltaeria_gem"
+                       },
+                       {
+                           "item":  "thaumaturge:primordial_pearl"
+                       },
+                       {
+                           "item":  "thaumaturge:void_shield"
+                       }
+                   ],
+    "instability":  64,
+    "result":  {
+                   "count":  1,
+                   "id":  "forgotten_relics_plus:omega_core"
+               },
+    "research":  {
+                     "entry":  "forgotten_relics_plus:omega_core"
+                 }
+}

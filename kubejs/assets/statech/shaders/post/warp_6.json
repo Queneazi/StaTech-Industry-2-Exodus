@@ -1,0 +1,7 @@
+{
+    "targets": [ "swap" ],
+    "passes": [
+        { "name": "statech:statech_warp", "intarget": "minecraft:main", "outtarget": "swap", "uniforms": [ { "name": "Intensity", "values": [ 1 ] } ] },
+        { "name": "statech:statech_copy", "intarget": "swap", "outtarget": "minecraft:main" }
+    ]
+}

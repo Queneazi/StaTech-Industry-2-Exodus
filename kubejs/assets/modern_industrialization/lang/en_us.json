@@ -470,5 +470,7 @@
     "tag.fluid.c.tetrafluoroethylene": "Tetrafluoroethylene",
     "tag.fluid.c.waste_beryl_ammonia_solution": "Waste Beryl Ammonia Solution",
     "tag.fluid.c.wood_tar": "Wood Tar",
-    "tag.modern_industrialization.me_wires": "ME Wires"
+    "tag.modern_industrialization.me_wires": "ME Wires",
+    "block.modern_industrialization.exodus_ark": "Exodus Ark",
+    "rei_categories.modern_industrialization.exodus_ark": "Exodus Ark"
 }

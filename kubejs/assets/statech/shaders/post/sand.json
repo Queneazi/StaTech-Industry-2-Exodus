@@ -1,0 +1,7 @@
+{
+    "targets": [ "swap" ],
+    "passes": [
+        { "name": "statech:statech_grade", "intarget": "minecraft:main", "outtarget": "swap", "uniforms": [ { "name": "Tint", "values": [ 1.0, 0.86, 0.6 ] }, { "name": "Desat", "values": [ 0.3 ] }, { "name": "Vignette", "values": [ 0.65 ] }, { "name": "VigColor", "values": [ 0.3, 0.2, 0.08 ] }, { "name": "Haze", "values": [ 0.0005 ] }, { "name": "Aberration", "values": [ 0 ] }, { "name": "Grain", "values": [ 0.045 ] } ] },
+        { "name": "statech:statech_copy", "intarget": "swap", "outtarget": "minecraft:main" }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": ["ad_astra:lunar_wastelands"],
+  "features": [
+    "ad_astra:moon_desh_ore"
+  ],
+  "steps": ["underground_ores"]
+}

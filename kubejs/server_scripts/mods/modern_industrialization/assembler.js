@@ -47,22 +47,6 @@ ServerEvents.recipes((event) => {
         [{ amount: 1, item: mc('heavy_core') }]
     );
 
-    // -- HIM -- //
-    assembler(
-        event,
-        st('jon_bartman'),
-        16,
-        400,
-        [
-            { amount: 4, item: mc('beef') },
-            { amount: 2, item: mi('plutonium_dust') },
-            { amount: 1, item: mc('brain_coral_block') },
-            { amount: 1, item: mc('black_wool') },
-            { amount: 1, item: mc('dragon_egg') },
-        ],
-        [{ amount: 1, item: kj('bartman') }]
-    );
-
     // -- MATTER FABRICATOR -- //
     assembler(
         event,
@@ -171,6 +155,27 @@ ServerEvents.recipes((event) => {
         [{ amount: 4, item: mi('stainless_steel_plate') }],
         [{ amount: 1, item: kj('lens_mold') }],
         [{ amount: 100, fluid: mi('polytetrafluoroethylene') }]
+    );
+
+    // -- PERSONAL SPACE SHIELD -- //
+    assembler(
+        event,
+        st('personal_space_shield'),
+        32,
+        1200,
+        [
+            { amount: 4, item: mi('tungstensteel_tank') },
+            { amount: 8, item: mi('processing_unit') },
+            { amount: 12, item: mi('superconductor_cable') },
+            { amount: 8, item: mi('small_heat_exchanger') },
+            { amount: 2, item: mi('uranium_fuel_rod') },
+            { amount: 16, item: mi('nuclear_alloy_plate') },
+        ],
+        [{ amount: 1, item: kj('personal_space_shield') }],
+        [
+            { amount: 16000, fluid: mi('oxygen') },
+            { amount: 4000, fluid: mi('cryofluid') },
+        ]
     );
 
     // -- PISTON -- //
@@ -927,10 +932,10 @@ ServerEvents.recipes((event) => {
         200,
         [
             { amount: 2, item: mi('robot_arm') },
-            { amount: 2, tag: 'c:gears/stainless_steel' },
-            { amount: 2, item: mi('digital_circuit') },
-            { amount: 1, item: mi('advanced_motor') },
-            { amount: 1, item: mi('advanced_pump') },
+            { amount: 2, tag: 'c:gears/steel' },
+            { amount: 2, item: mi('electronic_circuit') },
+            { amount: 1, item: mi('motor') },
+            { amount: 1, item: mi('pump') },
             { amount: 1, item: mi('basic_machine_hull') },
         ],
         [{ amount: 1, item: mi('rocket_part_assembler') }]
@@ -943,7 +948,7 @@ ServerEvents.recipes((event) => {
         8,
         200,
         [
-            { amount: 3, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 3, tag: 'c:plates/ferrolith' },
             { amount: 2, item: mi('quantum_circuit') },
             { amount: 2, item: mi('large_advanced_motor') },
             { amount: 1, item: mi('quantum_machine_hull') },
@@ -991,7 +996,8 @@ ServerEvents.recipes((event) => {
         8,
         200,
         [
-            { amount: 6, item: mi('plasma_handling_iridium_machine_casing') },
+            { amount: 3, item: mi('plasma_handling_iridium_machine_casing') },
+            { amount: 3, tag: 'c:plates/tempestine' },
             { amount: 2, item: mi('quantum_circuit') },
             { amount: 1, item: mi('quantum_machine_hull') },
         ],
@@ -1401,7 +1407,7 @@ ServerEvents.recipes((event) => {
         32000,
         2400,
         [
-            { amount: 64, item: mi('singularity') },
+            { amount: 64, tag: 'c:plates/cordium' },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
@@ -1425,7 +1431,7 @@ ServerEvents.recipes((event) => {
         32000,
         2400,
         [
-            { amount: 64, item: mi('singularity') },
+            { amount: 64, tag: 'c:plates/mordrine' },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
@@ -1449,8 +1455,8 @@ ServerEvents.recipes((event) => {
         32000,
         2400,
         [
-            { amount: 64, item: mi('singularity') },
-            { amount: 64, item: mi('singularity') },
+            { amount: 64, tag: 'c:plates/chasmal' },
+            { amount: 64, tag: 'c:plates/albedon' },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
             { amount: 1, item: mi('quantum_tank') },
@@ -1473,7 +1479,7 @@ ServerEvents.recipes((event) => {
         32000,
         2400,
         [
-            { amount: 64, item: mi('singularity') },
+            { amount: 64, tag: 'c:plates/shardex' },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },
             { amount: 64, item: mi('singularity') },

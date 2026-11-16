@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
         600,
         [
             { amount: 64, item: mi('tungstensteel_large_plate') },
-            { amount: 64, item: mi('enderium_plate') },
+            { amount: 64, tag: 'c:plates/azurane' },
             { amount: 64, item: kj('core_fragment') },
             { amount: 8, item: mi('nuke') },
         ],

@@ -1,0 +1,2 @@
+#Generate Helionite ore (where: the adastraplanets:has_helionite_ore biome tag)
+helionite_ore = true

@@ -49,7 +49,7 @@ MIMachineEvents.registerMachines((e) => {
         // REI Display configuration
         e.progressBar(77, 33, 'rocket'),
         // REI Item inputs, item outputs, fluid inputs, fluid outputs
-        (itemInputs) => itemInputs.addSlot(56, 35),
+        (itemInputs) => itemInputs.addSlots(56, 17, 1, 3),
         (itemOutputs) => itemOutputs.addSlots(102, 35, 4, 4),
         (fluidInputs) => {},
         (fluidOutputs) => {},

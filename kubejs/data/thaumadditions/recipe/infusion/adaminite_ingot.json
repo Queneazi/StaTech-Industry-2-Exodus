@@ -1,0 +1,66 @@
+{
+  "type": "thaumaturge:infusion",
+  "instability": 10,
+  "research": {
+    "entry": "thaumadditions:adaminite_ingot"
+  },
+  "catalyst": {
+    "item": "thaumadditions:mithrillium_ingot"
+  },
+  "components": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "tag": "c:plates/desh"
+    },
+    {
+      "item": "thaumaturge:primordial_pearl"
+    },
+    {
+      "tag": "c:plates/desh"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 100
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 120
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 100
+    },
+    {
+      "aspect": "thaumadditions:draco",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumadditions:infernum",
+      "amount": 100
+    },
+    {
+      "aspect": "thaumadditions:visum",
+      "amount": 20
+    }
+  ],
+  "result": {
+    "id": "thaumadditions:adaminite_ingot",
+    "count": 1
+  }
+}

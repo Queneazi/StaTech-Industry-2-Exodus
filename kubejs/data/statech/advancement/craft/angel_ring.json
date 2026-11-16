@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "stcm:angel_ring"
+                        "items": "kubejs:angel_ring"
                     }
                 ]
             },
@@ -19,7 +19,7 @@
         "frame": "challenge",
         "icon": {
             "count": 1,
-            "id": "stcm:angel_ring"
+            "id": "kubejs:angel_ring"
         },
         "title": {
             "translate": "advancements.statech.angel_ring"

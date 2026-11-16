@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "kubejs:block/grinder"
+            "model": "kubejs:block/computer_casing"
         }
     },
     "athena:loader": "athena:ctm",

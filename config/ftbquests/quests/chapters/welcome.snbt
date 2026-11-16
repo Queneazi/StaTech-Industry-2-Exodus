@@ -407,5 +407,24 @@
 			x: -3.5d
 			y: 1.5d
 		}
+		{
+			icon: {
+				id: "kubejs:meteorite_fragment"
+			}
+			id: "5C42CEBD1F18DF28"
+			rewards: [{
+				id: "5BCD84C26CEE825A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "38AB07A9C5C464C7"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
 	]
 }

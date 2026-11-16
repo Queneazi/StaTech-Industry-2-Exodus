@@ -1,0 +1,46 @@
+{
+  "type": "thaumaturge:infusion",
+  "instability": 8,
+  "research": {
+    "entry": "thaumadditions:mithminite_ingot"
+  },
+  "catalyst": {
+    "item": "thaumadditions:adaminite_ingot"
+  },
+  "components": [
+    {
+      "item": "thaumadditions:mithrillium_ingot"
+    },
+    {
+      "tag": "c:plates/ostrum"
+    },
+    {
+      "item": "thaumadditions:mithrillium_ingot"
+    },
+    {
+      "tag": "c:plates/calorite"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumadditions:caeles",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 60
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 90
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 120
+    }
+  ],
+  "result": {
+    "id": "thaumadditions:mithminite_ingot",
+    "count": 1
+  }
+}

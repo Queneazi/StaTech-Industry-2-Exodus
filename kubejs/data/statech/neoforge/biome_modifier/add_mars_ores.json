@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": ["ad_astra:martian_wastelands", "ad_astra:martian_canyon_creek", "ad_astra:martian_polar_caps"],
+  "features": [
+    "statech:mars_ostrum_ore",
+    "statech:mars_ruby_ore",
+    "statech:mars_monazite_ore",
+    "statech:mars_sapphire_ore"
+  ],
+  "step": "underground_ores"
+}

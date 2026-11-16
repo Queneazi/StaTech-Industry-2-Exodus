@@ -11,6 +11,7 @@ MISoundAddons.modifySounds((event) => {
     event.modifyDuration('core_drill', 67);
     event.modifyDuration('space_probe_launcher', 194);
     event.modifyDuration('quantum_space_probe_launcher', 194);
+    event.modifyDuration('exodus_ark', 194);
     event.modifyDuration('photosynthetic_chamber', 140);
     event.modifyDuration('greenhouse', 132);
     event.modifyDuration('mob_crusher', 134);

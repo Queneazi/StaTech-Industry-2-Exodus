@@ -1,0 +1,1140 @@
+#通用配置（原版分类 Generic Config）
+[generic]
+	#Mining speed boost for Mining Charm. 1.0 means that it is boosted by 100%.
+	#采矿护符的挖掘速度加成倍率。1.0 表示提升 100%。
+	# Default: 1.0
+	# Range: 0.0 ~ 32000.0
+	miningCharmBoost = 1.0
+	#Block reach increase for Mining Charm.
+	#采矿护符增加的方块触及距离。
+	# Default: 2.0
+	# Range: 0.0 ~ 32.0
+	miningCharmReach = 2.0
+	#Mining speed boost for Ethereal Mining Charm. 3.0 means that it is boosted by 300%.
+	#以太采矿护符的挖掘速度加成倍率。3.0 表示提升 300%。
+	# Default: 3.0
+	# Range: 0.0 ~ 32000.0
+	advancedMiningCharmBoost = 3.0
+	#Block reach increase for Ethereal Mining Charm.
+	#以太采矿护符增加的方块触及距离。
+	# Default: 4.0
+	# Range: 0.0 ~ 32.0
+	advancedMiningCharmReach = 4.0
+	#Whether or not Dimensional Mirror should be capable of teleporting player across dimensions.
+	#空间魔镜是否允许跨维度传送。设为 false 时，玩家必须身处目标维度才能传送过去。
+	interdimensionalMirror = true
+
+#音效（原版无此配置，为本模组新增）
+[sound]
+	#Global volume multiplier applied to every Forgotten Relics sound effect.
+	#本模组所有音效的音量倍率。原版音量偏大，1.6.2 玩家实测仍嫌响，默认降到 40%；
+	#设为 1.0 即恢复原版音量。注意：真实响度 = clamp(原始音量,0,1) * 本倍率 * 玩家音量滑条。
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	soundVolumeMultiplier = 0.4
+
+#Vis 储量上限（原版分类 Vis）
+[vis]
+	#Max Vis charge for Runic Stone.
+	#符文天象石的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	weatherStoneMaxCharge = 100
+	#Max Vis charge for Dimensional Mirror.
+	#空间魔镜的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	dimensionalMirrorMaxCharge = 100
+
+#经验之书（原版分类 XP Tome）
+[xp_tome]
+	#Experience points transferred per tick by Tome of Experience.
+	#经验之书每 tick 转移的经验点数。
+	# Default: 5
+	# Range: 1 ~ 32768
+	xpTomeTransferRate = 5
+
+#符文天象石（原版分类 Weather Stone）
+[weather_stone]
+	#Base Vis cost per cast for Runic Stone.
+	#符文天象石每次施法的 Vis 基础消耗。
+	# Default: 25
+	# Range: 0 ~ 32768
+	weatherStoneVisCost = 25
+	#Vis cost multiplier for Runic Stone.
+	#符文天象石的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	weatherStoneVisMult = 1.0
+	#Channel duration in ticks for Runic Stone.
+	#符文天象石的引导时长（tick）。
+	# Default: 60
+	# Range: 1 ~ 32768
+	weatherStoneChannelDuration = 60
+	#Cooldown in ticks after using Runic Stone.
+	#符文天象石使用后的冷却（tick）。
+	# Default: 100
+	# Range: 0 ~ 32768
+	weatherStoneCooldown = 100
+
+#空间魔镜（原版分类 Dimensional Mirror）
+[dimensional_mirror]
+	#Channel duration in ticks for Dimensional Mirror.
+	#空间魔镜的引导时长（tick）。
+	# Default: 80
+	# Range: 1 ~ 32768
+	dimensionalMirrorChannelDuration = 80
+
+#日耀石（原版分类 Shiny Stone）
+[shiny_stone]
+	#Interval in ticks between stillness checks.
+	#日耀石的静止判定间隔（tick）。
+	# Default: 4
+	# Range: 1 ~ 32768
+	shinyStoneCheckrate = 4
+	#Still-tick threshold for the second heal rate.
+	#静止累计达到该值时进入第 2 档回血速度。
+	# Default: 40
+	# Range: 0 ~ 32768
+	shinyStoneStillThreshold2 = 40
+	#Still-tick threshold for the third heal rate.
+	#静止累计达到该值时进入第 3 档回血速度。
+	# Default: 80
+	# Range: 0 ~ 32768
+	shinyStoneStillThreshold3 = 80
+	#Still-tick threshold for the fourth heal rate.
+	#静止累计达到该值时进入第 4 档回血速度。
+	# Default: 200
+	# Range: 0 ~ 32768
+	shinyStoneStillThreshold4 = 200
+	#Increment added to the still counter on each successful check.
+	#每次判定静止时，累计值的增量。
+	# Default: 4
+	# Range: 0 ~ 32768
+	shinyStoneStillIncrement = 4
+	#Health restored per heal tick.
+	#每次回血回复的生命值。
+	# Default: 1.0
+	# Range: 0.0 ~ 32768.0
+	shinyStoneHealAmount = 1.0
+
+#湮灭之钥（第七波：合成栏绑定物品、背包按模式吞噬）
+[oblivion_stone]
+	#How many items a single Keystone of The Oblivion can bind before it refuses more.
+	#单把湮灭之钥能绑定的物品条数上限，超过后合成栏不再接受新样本。原版配置 key 是 oblivionStoneHardCap，默认 64（用于防止超长清单带来性能问题）。
+	# Default: 64
+	# Range: 0 ~ 2048
+	oblivionStoneHardCap = 64
+	#How many entries the Ctrl tooltip lists before it switches to a random sample.
+	#Ctrl 清单全量展开的条数上限，超过后只随机显示这么多条（避免清单长到看不清）。原版配置 key 是 oblivionStoneSoftCap，默认 28。
+	# Default: 28
+	# Range: 0 ~ 2048
+	oblivionStoneSoftCap = 28
+	#Warp granted by the Keystone of The Oblivion. Original getWarp returns 2.
+	#湮灭之钥附带的扭曲值。原版 ItemOblivionStone#getWarp 返回 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	oblivionStoneWarp = 2
+
+#叠加之戒（原版分类 Superposition Ring）
+[superposition_ring]
+	#Chance per check for Ring of Superposition to swap positions.
+	#叠加之戒每次判定时的位置交换概率。
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	superpositionRingSwapChance = 0.025
+	#Check interval in ticks for Ring of Superposition.
+	#叠加之戒的交换判定间隔（tick）。
+	# Default: 600
+	# Range: 1 ~ 32768
+	superpositionRingCheckInterval = 600
+	#Lower bound of the fraction of incoming damage split among other wearers.
+	#受到伤害时，分摊给其他佩戴者的比例下限。原版是 0.12。
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	superpositionRingSplitMin = 0.12
+	#Upper bound of the fraction of incoming damage split among other wearers.
+	#分摊比例的上限。原版是 0.74（即 0.12 + 随机 0.62）。
+	# Default: 0.74
+	# Range: 0.0 ~ 1.0
+	superpositionRingSplitMax = 0.74
+
+#远古之庇护（原版分类 Generic Config / Ancient Aegis）
+[ancient_aegis]
+	#Damage reduction for Ancient Aegis. 1.0 equals 100% reduction.
+	#远古之庇护为佩戴者提供的伤害减免比例。0.25 表示 25%。
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	ancientAegisDamageReduction = 0.25
+	#Heal amount per interval for Ancient Aegis.
+	#远古之庇护每次治疗回复的生命值。
+	# Default: 1.0
+	# Range: 0.0 ~ 32768.0
+	ancientAegisHealAmount = 1.0
+	#Heal interval in ticks for Ancient Aegis.
+	#远古之庇护的治疗判定间隔（tick）。
+	# Default: 20
+	# Range: 1 ~ 32768
+	ancientAegisHealInterval = 20
+	#Knockback resistance granted by Ancient Aegis.
+	#远古之庇护提供的击退抗性。1.0 表示完全免疫击退。
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	ancientAegisKnockbackResistance = 1.0
+
+#七阳之戒（原版分类 Generic Config / Dark Sun Ring）
+[dark_sun_ring]
+	#Damage cap for Ring of The Seven Suns. Attacks exceeding this are negated.
+	#七阳之戒的伤害上限。超过该数值的攻击会被完全抵消。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	darkSunRingDamageCap = 100.0
+	#Chance to deflect an attack back to its source.
+	#把攻击反弹给攻击者的概率。
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	darkSunRingDeflectChance = 0.2
+	#Enables a cooldown on the fire-damage-to-healing conversion.
+	#是否给「火焰伤害转化为治疗」加上冷却限制，避免站在火里瞬间回满血。
+	darkSunRingHealLimit = false
+	#Max Vis charge for Ring of The Seven Suns.
+	#七阳之戒的最大 Vis 储量。
+	# Default: 500
+	# Range: 0 ~ 32768
+	darkSunRingMaxCharge = 500
+
+#神圣护身符（原版分类 Deific Amulet）
+[deific_amulet]
+	#Whether Deific Amulet grants immunity to status effects.
+	#神圣护身符是否免疫状态效果。
+	deificAmuletEffectImmunity = true
+	#When true, only debuffs are removed and buffs are kept.
+	#开启后只清除减益效果，保留增益效果。
+	deificAmuletOnlyNegatesDebuffs = false
+	#Whether Deific Amulet extends invincibility frames.
+	#神圣护身符是否延长无敌帧。
+	deificAmuletInvincibility = true
+	#Invincibility frame extension in ticks.
+	#延长后的无敌帧时长（tick）。
+	# Default: 40
+	# Range: 0 ~ 32768
+	deificAmuletInvincibilityExtension = 40
+	#Cooldown in ticks for the invincibility frame extension.
+	#无敌帧延长效果的冷却（tick）。
+	# Default: 32
+	# Range: 0 ~ 32768
+	deificAmuletInvincibilityCooldown = 32
+	#Air supply in ticks restored when the wearer is suffocating.
+	#佩戴者窒息时补充的氧气量（tick），原版换算自 deificAmuletFireDuration。
+	# Default: 300
+	# Range: 0 ~ 32768
+	deificAmuletAirSupply = 300
+	#Base Vis cost for Deific Amulet suffocation prevention.
+	#神圣护身符补充氧气的 Vis 基础消耗。
+	# Default: 10
+	# Range: 0 ~ 32768
+	deificAmuletFireVisCost = 10
+	#Vis cost multiplier for Deific Amulet.
+	#神圣护身符的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	deificAmuletVisCost = 1.0
+	#Max Vis charge for Deific Amulet.
+	#神圣护身符的最大 Vis 储量。
+	# Default: 200
+	# Range: 0 ~ 32768
+	deificAmuletMaxCharge = 200
+
+#湮灭护符（原版分类 Oblivion Amulet）
+[oblivion_amulet]
+	#Chance per tick to release stored damage.
+	#湮灭护符每 tick 释放已储存伤害的概率。
+	# Default: 8.0E-4
+	# Range: 0.0 ~ 1.0
+	oblivionAmuletDamageReleaseChance = 8.0E-4
+	#Upper bound for a single damage release.
+	#单次释放伤害的上限。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	oblivionAmuletDamageCap = 100.0
+	#Chance to clamp an over-cap release to a random value below the cap.
+	#释放伤害超过上限时，改为按上限随机取值的概率。
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	oblivionAmuletHighDamageReductionChance = 0.9
+	#Chance per tick to apply a random debuff.
+	#湮灭护符每 tick 施加随机负面效果的概率。
+	# Default: 4.0E-4
+	# Range: 0.0 ~ 1.0
+	oblivionAmuletPotionChance = 4.0E-4
+	#Minimum duration of the random debuff.
+	#随机负面效果的最短持续时间（tick）。
+	# Default: 100
+	# Range: 0 ~ 32768
+	oblivionAmuletPotionDurationMin = 100
+	#Maximum duration of the random debuff.
+	#随机负面效果的最长持续时间（tick）。
+	# Default: 2100
+	# Range: 0 ~ 32768
+	oblivionAmuletPotionDurationMax = 2100
+	#Minimum amplifier of the random debuff.
+	#随机负面效果的最低等级（0 表示 I 级）。
+	# Default: 0
+	# Range: 0 ~ 255
+	oblivionAmuletPotionLevelMin = 0
+	#Maximum amplifier of the random debuff.
+	#随机负面效果的最高等级。
+	# Default: 3
+	# Range: 0 ~ 255
+	oblivionAmuletPotionLevelMax = 3
+	#Warp granted by Amulet of The Oblivion.
+	#湮灭护符附带的扭曲值。
+	# Default: 4
+	# Range: 0 ~ 32768
+	oblivionAmuletWarp = 4
+	#Vis cost multiplier for Amulet of The Oblivion.
+	#湮灭护符储存伤害的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	oblivionAmuletVisCost = 1.0
+	#Max Vis charge for Amulet of The Oblivion.
+	#湮灭护符的最大 Vis 储量。
+	# Default: 400
+	# Range: 0 ~ 32768
+	oblivionAmuletMaxCharge = 400
+
+#浑浊之核与休眠态（原版分类 Nebulous Core）
+[arcanum]
+	#Multiplier applied to the 2.5% per-tick chance of generating Vis.
+	#浑浊之核被动生成 Vis 的概率倍率（基础概率 2.5%）。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	arcanumGenRate = 1.0
+	#Chance per tick to teleport the wearer at random.
+	#浑浊之核每 tick 随机传送佩戴者的概率。
+	# Default: 2.08E-4
+	# Range: 0.0 ~ 1.0
+	arcanumTeleportChance = 2.08E-4
+	#Maximum teleport distance in blocks.
+	#随机传送的最大距离（格）。
+	# Default: 32
+	# Range: 1 ~ 256
+	arcanumTeleportRange = 32
+	#Chance per tick to fall dormant.
+	#浑浊之核每 tick 转化为休眠态的概率。
+	# Default: 2.7E-5
+	# Range: 0.0 ~ 1.0
+	arcanumDormantTransformChance = 2.7E-5
+	#Minimum dormant lifetime.
+	#休眠态寿命的最小值。
+	# Default: 12
+	# Range: 0 ~ 32768
+	arcanumDormantLifeMin = 12
+	#Maximum dormant lifetime.
+	#休眠态寿命的最大值。
+	# Default: 72
+	# Range: 0 ~ 32768
+	arcanumDormantLifeMax = 72
+	#Vis discount percentage granted by Nebulous Core.
+	#浑浊之核提供的 Vis 折扣（百分比）。
+	# Default: 35.0
+	# Range: 0.0 ~ 100.0
+	arcanumVisDiscount = 35.0
+	#Max Vis charge for Nebulous Core.
+	#浑浊之核的最大 Vis 储量。
+	# Default: 500
+	# Range: 0 ~ 32768
+	arcanumMaxCharge = 500
+	#Chance to dodge an incoming attack while wearing Nebulous Core.
+	#佩戴浑浊之核时闪避一次攻击的概率。
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	nebulousCoreDodgeChance = 0.4
+	#Vis consumed per tick while dormant.
+	#休眠浑浊之核每 tick 唤醒消耗的 Vis。
+	# Default: 3
+	# Range: 0 ~ 32768
+	dormantArcanumVisCostPerTick = 3
+	#Max Vis charge for Dormant Nebulous Core.
+	#休眠浑浊之核的最大 Vis 储量。
+	# Default: 300
+	# Range: 0 ~ 32768
+	dormantArcanumMaxCharge = 300
+	#Lifetime multiplier applied when falling dormant.
+	#转化为休眠态时的寿命倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	dormantArcanumVisMult = 1.0
+
+#混沌之核（第四波：核心类）
+[chaos_core]
+	#Chance per tick to apply a random potion effect while carried.
+	#随身携带时，每 tick 施加随机状态效果的概率。原版写死 2.08E-4。
+	# Default: 2.08E-4
+	# Range: 0.0 ~ 1.0
+	chaosCoreChance = 2.08E-4
+	#Minimum effect duration in ticks.
+	#状态效果的最短持续时间（tick）。原版是 100。
+	# Default: 100
+	# Range: 0 ~ 32768
+	chaosCoreDurationMin = 100
+	#Random span added on top of the minimum duration, in ticks.
+	#在最短持续时间之上再随机叠加的区间长度（tick）。原版是 2400。
+	# Default: 2400
+	# Range: 0 ~ 32768
+	chaosCoreDurationSpan = 2400
+	#Highest amplifier that can be rolled (0 means level I).
+	#能随机到的最高等级（0 即 I 级）。原版是 0~2。
+	# Default: 2
+	# Range: 0 ~ 255
+	chaosCoreMaxAmplifier = 2
+	#Warp granted by the Chaos Core.
+	#混沌之核附带的扭曲值。原版是 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	chaosCoreWarp = 2
+	#Chance to redirect damage when the carrier is the attacker.
+	#携带者是攻击者时，把伤害转嫁给 16 格内随机实体的概率。原版是 0.45。
+	# Default: 0.45
+	# Range: 0.0 ~ 1.0
+	chaosCoreRedirectAttack = 0.45
+	#Chance to redirect damage when the carrier is the victim.
+	#携带者是受害者时，把伤害转嫁给 16 格内随机实体的概率。原版是 0.42。
+	# Default: 0.42
+	# Range: 0.0 ~ 1.0
+	chaosCoreRedirectDefend = 0.42
+	#Chance for the redirected damage to bounce back onto the attacker instead.
+	#转嫁时改为反弹给攻击者自己的概率。原版是 0.15。
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	chaosCoreSelfReflect = 0.15
+	#Upper bound of the random multiplier applied to redirected damage and incoming damage.
+	#转嫁量与「受到的伤害随机系数」的上限倍率。原版写死 2.0（即 0~2 倍）。
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	chaosCoreDamageMultMax = 2.0
+
+#欧米伽之核（第四波：原版无配方与研究的创造模式物品）
+[omega_core]
+	#Enable Omega Core research and crafting when Re:Avaritia is installed. Restart required.
+	#是否启用欧米伽之核研究与合成；仍需安装 Re:Avaritia。修改后需重启游戏或服务器。
+	enabled = true
+	#Vis added to each primal aspect of each wand per tick while carried.
+	#随身携带时，每 tick 给法杖的每个原初要素补充的 Vis。原版是 1。
+	# Default: 1
+	# Range: 0 ~ 32768
+	omegaCoreVisPerTick = 1
+	#Charge added per tick to every Forgotten Relics rechargeable item the carrier holds.
+	#随身携带时，每 tick 给身上每件遗物（物品自身充能）补充的点数。1.21.1 没有玩家 Vis 池，遗物的 Vis 存在物品充能里，所以欧米伽之核必须同时给它们充能；0 表示关闭这一支（只补法杖）。
+	# Default: 1
+	# Range: 0 ~ 32768
+	omegaCoreRechargePerTick = 1
+	#Protect the carrier from lethal health writes, death methods and destructive entity removal.
+	#携带欧米伽之核时是否免疫致死改血量（含 setHealth）、死亡调用及致死实体移除，生命最低为 1。
+	omegaCorePreventDeath = true
+
+#恐惧之冠（原版分类 Crown of Terror）
+[terror_crown]
+	# Default: 5
+	# Range: 1 ~ 200
+	terrorCrownHavocInterval = 5
+	#Radius in blocks for Crown of Terror to turn mobs against each other.
+	#恐惧之冠挑拨怪物互相攻击的作用半径（格）。
+	# Default: 24
+	# Range: 0 ~ 256
+	terrorCrownHavocRange = 24
+	#Maximum distance in blocks for the gaze debuff.
+	#恐惧之冠注视目标的最大距离（格）。
+	# Default: 32.0
+	# Range: 0.0 ~ 256.0
+	terrorCrownScanRange = 32.0
+	#Blindness duration in ticks.
+	#注视目标的失明持续时间（tick）。
+	# Default: 100
+	# Range: 0 ~ 32768
+	terrorCrownBlindnessDuration = 100
+	#Wither duration in ticks.
+	#凋零持续时间（tick）。
+	# Default: 40
+	# Range: 0 ~ 32768
+	terrorCrownWitherDuration = 40
+	#Wither amplifier.
+	#凋零等级。
+	# Default: 0
+	# Range: 0 ~ 255
+	terrorCrownWitherLevel = 0
+	#Nausea duration in ticks.
+	#反胃持续时间（tick）。
+	# Default: 100
+	# Range: 0 ~ 32768
+	terrorCrownNauseaDuration = 100
+	#Nausea amplifier.
+	#反胃等级。
+	# Default: 1
+	# Range: 0 ~ 255
+	terrorCrownNauseaLevel = 1
+	#Slowness duration in ticks.
+	#缓慢持续时间（tick）。
+	# Default: 30
+	# Range: 0 ~ 32768
+	terrorCrownSlownessDuration = 30
+	#Slowness amplifier.
+	#缓慢等级。
+	# Default: 1
+	# Range: 0 ~ 255
+	terrorCrownSlownessLevel = 1
+	#Weakness duration in ticks.
+	#虚弱持续时间（tick）。
+	# Default: 80
+	# Range: 0 ~ 32768
+	terrorCrownWeaknessDuration = 80
+	#Weakness amplifier.
+	#虚弱等级。
+	# Default: 2
+	# Range: 0 ~ 255
+	terrorCrownWeaknessLevel = 2
+	#Mana consumed per point of durability repaired.
+	#恐惧之冠每修复 1 点耐久消耗的魔力。
+	# Default: 200
+	# Range: 0 ~ 32768
+	terrorCrownManaCost = 200
+	#Warp granted by Crown of Terror.
+	#恐惧之冠附带的扭曲值。
+	# Default: 3
+	# Range: 0 ~ 32768
+	terrorCrownWarp = 3
+
+#食尸鬼之颅（原创补完物品：1.7.10 原版只有未写完的骨架）
+[ghastly_skull]
+	#Minimum health required to sacrifice. Below this the skull refuses to fire.
+	#允许献祭所需的最低生命值，低于此值则拒绝发动（避免变成自杀）。
+	# Default: 6
+	# Range: 2 ~ 32768
+	ghastlySkullMinHealth = 6
+	#Maximum distance in blocks the spectral burst reaches along the line of sight.
+	#怨魂冲击沿视线能到达的最大距离（格）。原版那段残代码里写死的是 16。
+	# Default: 16
+	# Range: 1 ~ 256
+	ghastlySkullBurstRange = 16
+	#Radius in blocks of the spectral burst.
+	#怨魂冲击的作用半径（格）。
+	# Default: 5.0
+	# Range: 0.0 ~ 64.0
+	ghastlySkullBurstRadius = 5.0
+	#Damage dealt per point of sacrificed health.
+	#每献祭 1 点生命造成的伤害。
+	# Default: 1.5
+	# Range: 0.0 ~ 1024.0
+	ghastlySkullDamageMult = 1.5
+	#Upper limit of a single burst's damage.
+	#单次怨魂冲击的伤害上限。
+	# Default: 30.0
+	# Range: 0.0 ~ 32768.0
+	ghastlySkullMaxDamage = 30.0
+	#Health restored per entity hit. The total never exceeds the health sacrificed.
+	#每命中一个目标回复的生命值；总量不会超过献祭掉的生命。
+	# Default: 2.0
+	# Range: 0.0 ~ 32768.0
+	ghastlySkullHealPerTarget = 2.0
+	#Wither duration in ticks applied to hit entities.
+	#命中目标的凋零持续时间（tick）。
+	# Default: 100
+	# Range: 0 ~ 32768
+	ghastlySkullWitherDuration = 100
+	#Wither amplifier applied to hit entities.
+	#命中目标的凋零等级。
+	# Default: 1
+	# Range: 0 ~ 255
+	ghastlySkullWitherLevel = 1
+	#Vis consumed per use.
+	#每次发动消耗的 Vis。
+	# Default: 100
+	# Range: 0 ~ 32768
+	ghastlySkullVisCost = 100
+	#Max Vis charge for the Ghastly Skull.
+	#食尸鬼之颅的最大 Vis 储量。
+	# Default: 300
+	# Range: 0 ~ 32768
+	ghastlySkullMaxCharge = 300
+	#Cooldown in ticks after each use.
+	#每次发动后的冷却（tick）。
+	# Default: 200
+	# Range: 0 ~ 32768
+	ghastlySkullCooldown = 200
+	#Warp granted by the Ghastly Skull.
+	#食尸鬼之颅附带的扭曲值。
+	# Default: 3
+	# Range: 0 ~ 32768
+	ghastlySkullWarp = 3
+
+#悖论之刃（第四波：武器）
+[paradox]
+	#Upper bound of the Paradox's damage. The damage dealt to the target and the damage
+	#dealt back to the wielder always add up to this value.
+	#悖论之刃的伤害上限。目标所受与自身所受之和恒等于该值（原版默认 200）。
+	# Default: 200.0
+	# Range: 0.0 ~ 32000.0
+	paradoxDamageCap = 200.0
+	#Warp granted by the Paradox.
+	#悖论之刃附带的扭曲值。原版是 8，全模组最高。
+	# Default: 8
+	# Range: 0 ~ 32768
+	paradoxWarp = 8
+
+#虚伪审判（第四波：携带生效的转化与免死）
+[false_justice]
+	#Multiplier applied when damage is converted into true damage.
+	#伤害转化为真实伤害时的倍率。原版是 2.0。
+	# Default: 2.0
+	# Range: 0.0 ~ 1024.0
+	falseJusticeDamageMultiplier = 2.0
+	#Whether carrying False Justice prevents the carrier and their victims from dying.
+	#携带虚伪审判时是否阻止死亡（携带者本人，以及被携带者打死的目标）。
+	falseJusticePreventDeath = true
+	#Warp granted by False Justice.
+	#虚伪审判附带的扭曲值。原版是 4。
+	# Default: 4
+	# Range: 0 ~ 32768
+	falseJusticeWarp = 4
+
+#霹雳咒书（第六波：弹射物书籍）
+[thunderpeal]
+	#Damage dealt to the entity the orb hits directly.
+	#直接命中实体的伤害。原版 key 是 damageThunderpealDirect，默认 24。
+	# Default: 24.0
+	# Range: 0.0 ~ 32768.0
+	thunderpealDirectDamage = 24.0
+	#Damage dealt to every entity in the blast, and halved again for chained targets.
+	#范围伤害；链式闪电按它的一半结算。原版 key 是 damageThunderpealBolt，默认 16。
+	# Default: 16.0
+	# Range: 0.0 ~ 32768.0
+	thunderpealBoltDamage = 16.0
+	#Base Vis cost per cast for Thunderpeal.
+	#霹雳咒书每次施法的 Vis 基础消耗。原版是风 1.35 + 火 0.85 = 2.2，充能为整数故取 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	thunderpealVisCost = 2
+	#Vis cost multiplier for Thunderpeal.
+	#霹雳咒书的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	thunderpealVisMult = 1.0
+	#Max Vis charge for Thunderpeal.
+	#霹雳咒书的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	thunderpealMaxCharge = 100
+	#Cooldown in ticks after casting Thunderpeal.
+	#霹雳咒书使用后的冷却（tick）。原版是 30。
+	# Default: 30
+	# Range: 0 ~ 32768
+	thunderpealCooldown = 30
+
+#错位之典（第七波：三种传送模式的法术典籍）
+[tome_of_discord]
+	#Base Vis cost per cast for the Tome of Discord.
+	#错位之典每次施法的 Vis 基础消耗。原版是风 1.60 + 秩序 2.40 + 混沌 2.40 = 6.4，充能为整数故取 6。
+	# Default: 6
+	# Range: 0 ~ 32768
+	discordTomeVisCost = 6
+	#Vis cost multiplier for the Tome of Discord.
+	#错位之典的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	discordTomeVisMult = 1.0
+	#Max Vis charge for the Tome of Discord.
+	#错位之典的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	discordTomeMaxCharge = 100
+	#Cooldown in ticks after casting the Tome of Discord.
+	#错位之典使用后的冷却（tick）。原版是 20。
+	# Default: 20
+	# Range: 0 ~ 32768
+	discordTomeCooldown = 20
+
+#虚空吞噬者（第七波：神秘方尖碑引导）
+[devourer_of_the_void]
+	#Multiplier applied to the Vis the Devourer of The Void grants to wands. Original key: obeliskDrainerVisMult.
+	#虚空吞噬者给背包法杖补 Vis 的倍率。原版配置 key 就是 obeliskDrainerVisMult，默认 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	devourerOfTheVoidVisMult = 1.0
+	#Radius in blocks within which the Devourer of The Void can sense an Eldritch Obelisk.
+	#虚空吞噬者能感知到神秘方尖碑的最大距离（格）。原版写死 16。
+	# Default: 16.0
+	# Range: 1.0 ~ 128.0
+	devourerOfTheVoidRange = 16.0
+	#Interval in ticks between two drain pulses.
+	#虚空吞噬者两次抽取之间的间隔（tick）。原版写死 30。
+	# Default: 30
+	# Range: 1 ~ 32768
+	devourerOfTheVoidPulseInterval = 30
+	#Health restored per drain pulse.
+	#虚空吞噬者每次抽取回复的生命值。原版写死 4.0。
+	# Default: 4.0
+	# Range: 0.0 ~ 32768.0
+	devourerOfTheVoidHeal = 4.0
+	#Hunger restored per drain pulse.
+	#虚空吞噬者每次抽取补充的饥饿值。原版写死 2。
+	# Default: 2
+	# Range: 0 ~ 20
+	devourerOfTheVoidHunger = 2
+	#Warp granted by the Devourer of The Void.
+	#虚空吞噬者附带的扭曲值。原版 ItemObeliskDrainer#getWarp 返回 4。
+	# Default: 4
+	# Range: 0 ~ 32768
+	devourerOfTheVoidWarp = 4
+
+#邪术之咒（第七波：暗物质法球）
+[eldritch_spell]
+	#Base Vis cost per cast for the Eldritch Spell.
+	#邪术之咒每次施法的 Vis 基础消耗。原版是混沌（Perditio）400 厘 Vis，即 4 点。
+	# Default: 4
+	# Range: 0 ~ 32768
+	eldritchSpellVisCost = 4
+	#Vis cost multiplier for the Eldritch Spell.
+	#邪术之咒的 Vis 消耗倍率。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	eldritchSpellVisMult = 1.0
+	#Max Vis charge for the Eldritch Spell.
+	#邪术之咒的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	eldritchSpellMaxCharge = 100
+	#Cooldown in ticks after casting the Eldritch Spell.
+	#邪术之咒使用后的冷却（tick）。原版是 20。
+	# Default: 20
+	# Range: 0 ~ 32768
+	eldritchSpellCooldown = 20
+	#Damage dealt by the Dark Matter Orb outside the Outer Lands.
+	#暗物质法球在普通维度造成的伤害。原版是 eldritchSpellDamage，默认 32.5。
+	# Default: 32.5
+	# Range: 0.0 ~ 32768.0
+	eldritchSpellDamage = 32.5
+	#Damage dealt by the Dark Matter Orb inside the Outer Lands.
+	#暗物质法球在外域（Outer Lands）造成的伤害。原版是 eldritchSpellDamageEx，默认 100。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	eldritchSpellDamageEx = 100.0
+
+#腥红之咒（第七波：猩红法球）
+[crimson_spell]
+	#Base Vis cost per cast for the Crimson Spell.
+	#腥红之咒每次施法的 Vis 基础消耗。原版是火 4.8 + 混沌 3.6 = 8.4，充能为整数故取 8。
+	# Default: 8
+	# Range: 0 ~ 32768
+	crimsonSpellVisCost = 8
+	#Vis cost multiplier for the Crimson Spell.
+	#腥红之咒的 Vis 消耗倍率。注意：原版此处的代码误乘了 chaosTomeVisMult，这里按配置本意使用本项。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	crimsonSpellVisMult = 1.0
+	#Max Vis charge for the Crimson Spell.
+	#腥红之咒的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	crimsonSpellMaxCharge = 100
+	#Cooldown in ticks after casting the Crimson Spell.
+	#腥红之咒使用后的冷却（tick）。原版是 30。
+	# Default: 30
+	# Range: 0 ~ 32768
+	crimsonSpellCooldown = 30
+	#Minimal damage dealt by the Crimson Orbs.
+	#猩红法球能造成的伤害下限。原版 key 是 crimsonSpellDamageMIN，默认 42。
+	# Default: 42.0
+	# Range: 0.0 ~ 32768.0
+	crimsonSpellDamageMIN = 42.0
+	#Maximal damage dealt by the Crimson Orbs.
+	#猩红法球能造成的伤害上限。原版 key 是 crimsonSpellDamageMAX，默认 100。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	crimsonSpellDamageMAX = 100.0
+	#Warp granted by the Crimson Spell.
+	#腥红之咒附带的扭曲值。原版 ItemCrimsonSpell#getWarp 返回 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	crimsonSpellWarp = 3
+
+#原初混沌之典（第七波：原初能量法球）
+[tome_of_primal_chaos]
+	#Base Vis cost for spawning one Primal Orb.
+	#每生成一颗原初能量法球的 Vis 基础消耗。原版是六大原初要素各随机抽 0~100 厘 Vis，合计平均 300 厘 = 3 点，充能为整数故取 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	tomeOfPrimalChaosVisCost = 3
+	#Vis cost multiplier for the Tome of Primal Chaos.
+	#原初混沌之典的 Vis 消耗倍率。原版对应 chaosTomeVisMult。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	tomeOfPrimalChaosVisMult = 1.0
+	#Max Vis charge for the Tome of Primal Chaos.
+	#原初混沌之典的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	tomeOfPrimalChaosMaxCharge = 100
+	#Ticks between two Primal Orbs while channelling.
+	#连续引导时两次生成法球的间隔（tick）。原版硬编码 count % 2 == 0，即 2；这不是施法后的冷却（原版没有冷却）。
+	# Default: 2
+	# Range: 1 ~ 32768
+	tomeOfPrimalChaosCooldown = 2
+	#Maximal damage dealt by Primal Orbs on hit (original chaosTomeDamageCap).
+	#原初能量法球命中伤害的上限。原版 key 是 chaosTomeDamageCap，默认 100。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	chaosTomeDamageCap = 100.0
+	#Warp granted by the Tome of Primal Chaos.
+	#原初混沌之典附带的扭曲值。原版 ItemChaosTome#getWarp 返回 4。
+	# Default: 4
+	# Range: 0 ~ 32768
+	tomeOfPrimalChaosWarp = 4
+
+#核子之怒（第六波：追踪导弹法书）
+[nuclear_fury]
+	#Base Vis cost per second while channelling Nuclear Fury.
+	#核子之怒每秒的 Vis 基础消耗。原版每颗法球从法杖抽火 0.20 + 秩序 0.10 + 混沌 0.15 = 0.45 点，每秒 10 颗即 4.5 点，RE 折算为 5；充能为整数，故沿用 5。
+	# Default: 5
+	# Range: 0 ~ 32768
+	nuclearFuryVisCostPerSecond = 5
+	#Vis cost multiplier for Nuclear Fury.
+	#核子之怒的 Vis 消耗倍率。原版配置 key 是 nuclearFuryVisCost，字段名叫 nuclearFuryVisMult。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	nuclearFuryVisMult = 1.0
+	#Max Vis charge for Nuclear Fury.
+	#核子之怒的最大 Vis 储量。RE 的折算：500 点正好支持 100 秒连续引导。
+	# Default: 500
+	# Range: 0 ~ 32768
+	nuclearFuryMaxCharge = 500
+	#Target search radius in blocks for the Rageous Missiles. Original 1.7.10 hardcodes 32; RE reuses the same 32 as its nuclearFuryClearRange.
+	#导弹的目标搜索半径（格）。1.7.10 的实体里写死的就是 32；RE 的同名配置 nuclearFuryClearRange（用于左键清弹，1.7.10 没有该功能）也是 32，这里沿用该 key 作为搜索半径。
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	nuclearFuryClearRange = 32.0
+	#Minimal damage dealt by a Rageous Missile.
+	#每颗导弹能造成的伤害下限。原版 key 是 nuclearFuryDamageMIN，默认 24。
+	# Default: 24.0
+	# Range: 0.0 ~ 32768.0
+	nuclearFuryDamageMIN = 24.0
+	#Maximal damage dealt by a Rageous Missile.
+	#每颗导弹能造成的伤害上限。原版 key 是 nuclearFuryDamageMAX，默认 32。
+	# Default: 32.0
+	# Range: 0.0 ~ 32768.0
+	nuclearFuryDamageMAX = 32.0
+	#Warp granted by Nuclear Fury.
+	#核子之怒附带的扭曲值。原版 ItemMissileTome#getWarp 返回 5。
+	# Default: 5
+	# Range: 0 ~ 32768
+	nuclearFuryWarp = 5
+
+#千咒之诫（第七波：拉弓持续引导的范围灵魂汲取）
+[soul_tome]
+	#Base Vis cost for each soul drain pulse (one pulse every 4 ticks). Original: Earth 25 + Air 20 + Fire 35 + Entropy 50 = 130 centivis = 1.30 vis, rounded to 1 since the item charge is an integer.
+	#每 4 tick 一次灵魂抽取的 Vis 基础消耗。原版是土（Terra）25 + 风（Aer）20 + 火（Ignis）35 + 混沌（Perditio）50 厘 Vis = 1.30 点；充能是整数，故取 1。
+	# Default: 1
+	# Range: 0 ~ 32768
+	soulTomeVisCost = 1
+	#Vis cost multiplier for the Edict of a Thousand Damned Souls.
+	#千咒之诫的 Vis 消耗倍率。注意：原版配置的 key 就叫 soulTomeVisCost（默认 1.0），语义却是倍率，属于和核子之怒 nuclearFuryVisCost 同一类命名冲突；这里按本项目惯例把 key 定为 soulTomeVisMult。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	soulTomeVisMult = 1.0
+	#Base Vis cost charged per entity pushed back inside the knockback range. Original: Fire 150 + Entropy 120 = 270 centivis = 2.70 vis, rounded to 2 (same as RE).
+	#近距离击退每命中一个实体扣一次的 Vis 基础消耗。原版是火（Ignis）150 + 混沌（Perditio）120 = 2.70 点，充能为整数故取 2（与 1.12.2 RE 的取值一致）。
+	# Default: 2
+	# Range: 0 ~ 32768
+	soulTomeKnockbackVisCost = 2
+	#Max Vis charge for the Edict of a Thousand Damned Souls. RE uses 1000, which is exactly 200 seconds of soul draining at 1 vis per 4 ticks.
+	#千咒之诫的最大 Vis 储量。沿用 RE 的 1000：每 4 tick 抽 1 点，正好支撑 200 秒连续灵魂抽取。
+	# Default: 1000
+	# Range: 0 ~ 32768
+	soulTomeMaxCharge = 1000
+	#Divisor used during damage calculations by the Edict of a Thousand Damned Souls. Setting this to 10 basically means that most of the time it drains 1/10 of the target's max health per attack.
+	#千咒之诫灵魂抽取伤害的计算除数：伤害 = 目标最大生命 / 该值。原版配置 key 就是 soulTomeDivisor，默认 10，即每次抽取大约抽掉目标最大生命的 1/10。
+	# Default: 10.0
+	# Range: 0.0 ~ 32768.0
+	soulTomeDivisor = 10.0
+	#Warm-up ticks after starting to channel before any effect applies. Original hardcodes 20.
+	#开始引导后的预热时间（tick），期间不结算任何效果。原版硬编码 20。
+	# Default: 20
+	# Range: 0 ~ 32768
+	soulTomeWarmupTicks = 20
+	#Minimal soul drain damage per pulse. Original hardcodes 1.0.
+	#每次灵魂抽取的伤害下限。原版硬编码 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 32768.0
+	soulTomeDamageMin = 1.0
+	#Maximal soul drain damage per pulse. Original hardcodes 20.0.
+	#每次灵魂抽取的伤害上限。原版硬编码 20.0。
+	# Default: 20.0
+	# Range: 0.0 ~ 32768.0
+	soulTomeDamageMax = 20.0
+	#Minimal true lightning damage dealt to an entity pushed back. Original: 20.0.
+	#近距离击退造成的真雷伤害下限。原版是 20.0。
+	# Default: 20.0
+	# Range: 0.0 ~ 32768.0
+	soulTomeKnockbackDamageMin = 20.0
+	#Maximal true lightning damage dealt to an entity pushed back. Original: 20.0 + 80.0 * random, i.e. 100.0.
+	#近距离击退造成的真雷伤害上限。原版是 20.0 + 80.0 × 随机，即 100.0。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	soulTomeKnockbackDamageMax = 100.0
+	#Warp granted by the Edict of a Thousand Damned Souls. Original getWarp returns 3.
+	#千咒之诫附带的扭曲值。原版 getWarp 返回 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	soulTomeWarp = 3
+
+#永恒放逐之诫（第七波：拉弓引导把目标放逐到下界）
+[edict_of_banishment]
+	#Base Vis cost per second while channelling the Edict of Eternal Banishment. Original: Fire 8 + Order 5 + Entropy 5 centivis per tick = 0.18 vis/tick, i.e. 3.6 vis per second, rounded up to 4 since the item charge is an integer.
+	#引导永恒放逐之诫时每秒的 Vis 基础消耗。原版是每 tick 火（Ignis）8 + 秩序（Ordo）5 + 混沌（Perditio）5 厘 Vis = 0.18 点/tick，即 3.6 点/秒；充能是整数，故按核子之怒的先例向上取整为 4。
+	# Default: 4
+	# Range: 0 ~ 32768
+	edictOfBanishmentVisCost = 4
+	#Vis cost multiplier for the Edict of Eternal Banishment. Original key: overthrowerVisMult.
+	#永恒放逐之诫的 Vis 消耗倍率。原版配置 key 就是 overthrowerVisMult，默认 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	edictOfBanishmentVisMult = 1.0
+	#Max Vis charge for the Edict of Eternal Banishment. One full 150-tick channel costs 8 x 4 = 32 vis, so 100 is a little over three channels.
+	#永恒放逐之诫的最大 Vis 储量。一次完整引导（150 tick）扣 8 次 × 4 = 32 点，100 点可支撑三次多一点。
+	# Default: 100
+	# Range: 0 ~ 32768
+	edictOfBanishmentMaxCharge = 100
+	#Full channel duration in ticks. Original getMaxItemUseDuration returns 150.
+	#完整引导时长（tick）。原版 getMaxItemUseDuration 返回 150，即 7.5 秒。
+	# Default: 150
+	# Range: 1 ~ 32768
+	edictOfBanishmentChannelDuration = 150
+	#Warp granted by the Edict of Eternal Banishment. Original getWarp returns 2.
+	#永恒放逐之诫附带的扭曲值。原版 ItemOverthrower#getWarp 返回 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	edictOfBanishmentWarp = 2
+
+#深渊魔典（第七波：拉弓引导把目标放逐进虚空）
+[void_grimoire]
+	#Base Vis cost per second while channelling the Grimoire of The Abyss. Original: Order 9 + Entropy 16 centivis per tick = 0.25 vis/tick, i.e. exactly 5 vis per second.
+	#引导深渊魔典时每秒的 Vis 基础消耗。原版是每 tick 秩序（Ordo）9 + 混沌（Perditio）16 厘 Vis = 0.25 点/tick，即恰好 5 点/秒。
+	# Default: 5
+	# Range: 0 ~ 32768
+	voidGrimoireVisCost = 5
+	#Vis cost multiplier for the Grimoire of The Abyss. Original key: voidGrimoireVisMult.
+	#深渊魔典的 Vis 消耗倍率。原版配置 key 就是 voidGrimoireVisMult，默认 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	voidGrimoireVisMult = 1.0
+	#Max Vis charge for the Grimoire of The Abyss. One full 100-tick channel costs 5 x 5 = 25 vis, so 100 is exactly four channels.
+	#深渊魔典的最大 Vis 储量。一次完整引导（100 tick）扣 5 次 × 5 = 25 点，100 点正好够四次。
+	# Default: 100
+	# Range: 0 ~ 32768
+	voidGrimoireMaxCharge = 100
+	#Full channel duration in ticks. Original getMaxItemUseDuration returns 100.
+	#完整引导时长（tick）。原版 getMaxItemUseDuration 返回 100，即 5 秒。
+	# Default: 100
+	# Range: 1 ~ 32768
+	voidGrimoireChannelDuration = 100
+	#Shared cooldown in ticks after a completed channel. Original SuperpositionHandler.setCasted(player, 30, false).
+	#一次完整引导结束后的共用冷却（tick）。原版 SuperpositionHandler.setCasted(player, 30, false)。
+	# Default: 30
+	# Range: 0 ~ 32768
+	voidGrimoireCooldown = 30
+	#Warp granted by the Grimoire of The Abyss. Original getWarp returns 3.
+	#深渊魔典附带的扭曲值。原版 ItemVoidGrimoire#getWarp 返回 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	voidGrimoireWarp = 3
+
+#预言之典（第七波：念力控制 + 闪电攻击）
+[tome_of_predestiny]
+	#Vis cost multiplier for the Tome of Predestiny. Original key: telekinesisTomeVisCost.
+	#预言之典的 Vis 消耗倍率。原版配置 key 就叫 telekinesisTomeVisCost（默认 1.0），语义却是倍率，属于和核子之怒 nuclearFuryVisCost 同一类命名冲突；这里按本项目惯例把 key 定为 tomeOfPredestinyVisMult。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	tomeOfPredestinyVisMult = 1.0
+	#Max Vis charge for the Tome of Predestiny.
+	#预言之典的最大 Vis 储量。
+	# Default: 100
+	# Range: 0 ~ 32768
+	tomeOfPredestinyMaxCharge = 100
+	#Base Vis cost per second while telekinetically controlling a target. Original: Air 6 + Order 8 centivis per tick = 0.14 vis/tick, i.e. 2.8 vis per second, rounded up to 3 since the item charge is an integer.
+	#念力引导每秒的 Vis 基础消耗。原版是每 tick 风（Aer）6 + 秩序（Ordo）8 厘 Vis = 0.14 点/tick，即 2.8 点/秒；充能是整数，故向上取整为 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	tomeOfPredestinyControlVisCost = 3
+	#Base Vis cost per lightning attack. Original: Air 80 + Order 50 + Fire 200 centivis = 3.3 vis, rounded to 3.
+	#闪电攻击的 Vis 基础消耗。原版是风（Aer）80 + 秩序（Ordo）50 + 火（Ignis）200 厘 Vis = 3.3 点，充能为整数故就近取 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	tomeOfPredestinyLightningVisCost = 3
+	#Base Vis cost of the sneak + left-click shove. Original: Air 150 + Order 80 centivis = 2.3 vis, rounded to 2.
+	#潜行 + 左键「抛开」的 Vis 基础消耗。原版是风（Aer）150 + 秩序（Ordo）80 厘 Vis = 2.3 点，充能为整数故就近取 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	tomeOfPredestinyShoveVisCost = 2
+	#Shared cooldown in ticks after a lightning attack. Original SuperpositionHandler.setCasted(player, 10, true).
+	#一次闪电攻击后的共用冷却（tick）。原版 SuperpositionHandler.setCasted(player, 10, true)。
+	# Default: 10
+	# Range: 0 ~ 32768
+	tomeOfPredestinyCooldown = 10
+	#Ticks during which telekinetic control is disabled after a shove. Original writes ticksCooldown = 40 in the shove branch.
+	#「抛开」之后不能再用念力控制的时长（tick）。原版在抛开分支里把 ticksCooldown 写成 40。
+	# Default: 40
+	# Range: 0 ~ 32768
+	tomeOfPredestinyShoveCooldown = 40
+	#Minimal lightning attack damage. Original key: telekinesisTomeDamageMIN, default 16.
+	#闪电攻击的伤害下限。原版 key 是 telekinesisTomeDamageMIN，默认 16。
+	# Default: 16.0
+	# Range: 0.0 ~ 32768.0
+	tomeOfPredestinyDamageMIN = 16.0
+	#Maximal lightning attack damage. Original key: telekinesisTomeDamageMAX, default 40.
+	#闪电攻击的伤害上限。原版 key 是 telekinesisTomeDamageMAX，默认 40。
+	# Default: 40.0
+	# Range: 0.0 ~ 32768.0
+	tomeOfPredestinyDamageMAX = 40.0
+	#Warp granted by the Tome of Predestiny. Original getWarp returns 4.
+	#预言之典附带的扭曲值。原版 ItemTelekinesisTome#getWarp 返回 4。
+	# Default: 4
+	# Range: 0 ~ 32768
+	tomeOfPredestinyWarp = 4
+
+#月耀咒书（第七波：从天而降的耀月之辉）
+[tome_of_lunar_flares]
+	#Base Vis cost per Lunar Flare. Original: Air 35 + Fire 50 + Order 65 centivis = 1.5 vis, rounded to 2.
+	#每发一颗耀月之辉的 Vis 基础消耗。原版是风（Aer）35 + 火（Ignis）50 + 秩序（Ordo）65 厘 Vis = 1.5 点，充能为整数故就近取 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	tomeOfLunarFlaresVisCost = 2
+	#Vis cost multiplier for the Tome of Lunar Flares. Original key: lunarFlaresVisCost.
+	#月耀咒书的 Vis 消耗倍率。原版配置 key 就叫 lunarFlaresVisCost（默认 1.0），语义却是倍率，属于和核子之怒 nuclearFuryVisCost 同一类命名冲突；这里按本项目惯例把 key 定为 tomeOfLunarFlaresVisMult。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	tomeOfLunarFlaresVisMult = 1.0
+	#Max Vis charge for the Tome of Lunar Flares. 300 = 150 flares (one full wand's worth of the bottleneck Order aspect).
+	#月耀咒书的最大 Vis 储量。原版三项消耗里秩序（Ordo）是瓶颈，一本标准满 Vis 的法杖约能支撑 150 发，故取 150 x 2 = 300。
+	# Default: 300
+	# Range: 0 ~ 32768
+	tomeOfLunarFlaresMaxCharge = 300
+	#Interval in ticks between two Lunar Flares while channelling. Original writes count % 2 == 0 in onUsingTick; the item has no post-cast cooldown.
+	#连续引导时两次发射之间的间隔（tick）。原版在 onUsingTick 里写的是 count % 2 == 0，物品本身没有任何施法后冷却，所以这一项不接 CooldownHelper。
+	# Default: 2
+	# Range: 1 ~ 32768
+	tomeOfLunarFlaresCooldown = 2
+	#Damage of a direct hit by a Lunar Flare. Original key: damageLunarFlareDirect, default 72.
+	#耀月之辉直击命中的伤害。原版 key 是 damageLunarFlareDirect，默认 72。
+	# Default: 72.0
+	# Range: 0.0 ~ 32768.0
+	tomeOfLunarFlaresDirectDamage = 72.0
+	#Damage taken by entities inside the impact zone. Original key: damageLunarFlareImpact, default 40.
+	#耀月之辉爆发的范围伤害。原版 key 是 damageLunarFlareImpact，默认 40。
+	# Default: 40.0
+	# Range: 0.0 ~ 32768.0
+	tomeOfLunarFlaresImpactDamage = 40.0
+	#Warp granted by the Tome of Lunar Flares. Original getWarp returns 3.
+	#月耀咒书附带的扭曲值。原版 ItemLunarFlares#getWarp 返回 3。
+	# Default: 3
+	# Range: 0 ~ 32768
+	tomeOfLunarFlaresWarp = 3
+
+#神化（第七波：召唤成排的巴比伦武器）
+[apotheosis]
+	#Base Vis cost per summoned Babylon Weapon. Original: Earth 30 + Fire 60 + Order 50 + Entropy 75 centivis = 2.15 vis, rounded to 2.
+	#每次召唤一把巴比伦武器的 Vis 基础消耗。原版是地（Terra）30 + 火（Ignis）60 + 秩序（Ordo）50 + 混沌（Perditio）75 厘 Vis = 2.15 点，充能为整数故就近取 2。
+	# Default: 2
+	# Range: 0 ~ 32768
+	apotheosisVisCost = 2
+	#Vis cost multiplier for Apotheosis. Original key: apotheosisVisMult, default 1.0.
+	#神化的 Vis 消耗倍率。原版配置 key 就是 apotheosisVisMult，默认 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	apotheosisVisMult = 1.0
+	#Max Vis charge for Apotheosis. The original bottleneck is Entropy: a full 100-vis wand sustains 10000 / 75 = 133 summons, times the rounded cost 2 gives 266, rounded up to 300.
+	#神化的最大 Vis 储量。原版四项消耗里混沌（Perditio）是瓶颈，一把每要素满 100 的标准法杖约支撑 10000 / 75 = 133 次召唤，乘取整后的 2 得 266，向上取整到 300（约 150 次）。
+	# Default: 300
+	# Range: 0 ~ 32768
+	apotheosisMaxCharge = 300
+	#Interval in ticks between two summoned Babylon Weapons while channelling. Original writes count % 2 == 0 in onUsingTick; the item has no post-cast cooldown.
+	#连续引导时两次召唤之间的间隔（tick）。原版在 onUsingTick 里写的是 count % 2 == 0，物品本身没有任何施法后冷却，所以这一项不接 CooldownHelper。
+	# Default: 2
+	# Range: 1 ~ 32768
+	apotheosisCooldown = 2
+	#Damage of a Babylon Weapon's direct hit. Original key: damageApotheosisDirect, default 100.
+	#巴比伦武器直击命中的伤害。原版 key 是 damageApotheosisDirect，默认 100。
+	# Default: 100.0
+	# Range: 0.0 ~ 32768.0
+	damageApotheosisDirect = 100.0
+	#Damage taken by entities inside a Babylon Weapon's impact zone. Original key: damageApotheosisImpact, default 75.
+	#巴比伦武器爆炸时范围内活体受到的伤害。原版 key 是 damageApotheosisImpact，默认 75。
+	# Default: 75.0
+	# Range: 0.0 ~ 32768.0
+	damageApotheosisImpact = 75.0
+	#Warp granted by Apotheosis. Original getWarp returns 5.
+	#神化附带的扭曲值。原版 ItemApotheosis#getWarp 返回 5。
+	# Default: 5
+	# Range: 0 ~ 32768
+	apotheosisWarp = 5
+
+#破碎的命运巨著（第七波：随身携带的免死典籍）
+[tome_of_broken_fates]
+	#Base Vis cost per death-prevention trigger for the Tome of Broken Fates. Original: each of the six primal aspects pays 10000 centivis = 100 vis, 600 vis in total.
+	#破碎的命运巨著每次免死的 Vis 基础消耗。原版是六大原初要素各扣 10000 厘 = 100 点，合计 600 点。
+	# Default: 600
+	# Range: 0 ~ 32768
+	tomeOfBrokenFatesVisCost = 600
+	#Vis cost multiplier for the Tome of Broken Fates. Original key: fateTomeVisMult, default 1.0.
+	#破碎的命运巨著的 Vis 消耗倍率。原版配置 key 是 fateTomeVisMult，默认 1.0。
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	tomeOfBrokenFatesVisMult = 1.0
+	#Max Vis charge for the Tome of Broken Fates. 600 comes from the 1.12.2 port's fateTomeMaxCharge and equals exactly one full 600-vis trigger.
+	#破碎的命运巨著的最大 Vis 储量。沿用 1.12.2 移植版的 fateTomeMaxCharge 默认 600：正好支撑一次 600 点的免死，之后需要重新从周围灵气充满。
+	# Default: 600
+	# Range: 0 ~ 32768
+	tomeOfBrokenFatesMaxCharge = 600
+	#Minimal possible cooldown in seconds for the death-prevention effect. Original key: fateTomeCooldownMIN, default 30.
+	#免死效果的冷却下限（秒）。原版配置 key 是 fateTomeCooldownMIN，默认 30。
+	# Default: 30
+	# Range: 0 ~ 32768
+	tomeOfBrokenFatesCooldownMIN = 30
+	#Maximal possible cooldown in seconds for the death-prevention effect. Original key: fateTomeCooldownMAX, default 90. Setting this to 0 disables the cooldown entirely.
+	#免死效果的冷却上限（秒）。原版配置 key 是 fateTomeCooldownMAX，默认 90；设为 0 即完全关闭冷却。
+	# Default: 90
+	# Range: 0 ~ 32768
+	tomeOfBrokenFatesCooldownMAX = 90
+	#Chance per tick to trigger the disastrous consequence while carrying more than one tome. Original key: fateTomeMultiHeldChance, default 1.6E-5.
+	#同时携带多本巨著时，每 tick 触发自毁惩罚的概率。原版配置 key 是 fateTomeMultiHeldChance，默认 1.6E-5。
+	# Default: 1.6E-5
+	# Range: 0.0 ~ 1.0
+	tomeOfBrokenFatesMultiHeldChance = 1.6E-5
+	#Radius in blocks of the disastrous consequence's entity sweep. Original hardcodes 64.
+	#自毁惩罚扫描活体的半径（格）。原版硬编码 64，即取以玩家为中心的立方体 ±64。
+	# Default: 64.0
+	# Range: 1.0 ~ 256.0
+	tomeOfBrokenFatesMultiHeldRange = 64.0
+	#Damage dealt to every living entity caught in the disastrous consequence. Original key: fateTomeDamage, default 40000.0.
+	#自毁惩罚对范围内每个活体造成的命运伤害。原版配置 key 是 fateTomeDamage，默认 40000.0。
+	# Default: 40000.0
+	# Range: 0.0 ~ 1000000.0
+	tomeOfBrokenFatesDamage = 40000.0
+	#Explosion radius spawned at every entity caught in the disastrous consequence. Original key: fateTomeExplosionRadius, default 16.0.
+	#自毁惩罚在每个被命中的活体处生成的爆炸半径。原版配置 key 是 fateTomeExplosionRadius，默认 16.0。
+	# Default: 16.0
+	# Range: 0.0 ~ 256.0
+	tomeOfBrokenFatesExplosionRadius = 16.0
+	#Final explosion radius at the carrier. Original key: fateTomeBigExplosionRadius, default 100.0.
+	#自毁惩罚结束时在携带者处生成的大爆炸半径。原版配置 key 是 fateTomeBigExplosionRadius，默认 100.0。
+	# Default: 100.0
+	# Range: 0.0 ~ 256.0
+	tomeOfBrokenFatesBigExplosionRadius = 100.0
+	#Chance for the death-prevention to apply buffs instead of debuffs. Original key: fateTomeBuffChance, default 0.75.
+	#免死时施加增益（而不是减益）的概率。原版配置 key 是 fateTomeBuffChance，默认 0.75。
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	tomeOfBrokenFatesBuffChance = 0.75
+	#Warp granted by the Tome of Broken Fates. Original getWarp returns 7, the second highest value in the mod.
+	#破碎的命运巨著附带的扭曲值。原版 getWarp 返回 7，全模组第二高（仅次于悖论之刃的 8）。
+	# Default: 7
+	# Range: 0 ~ 32768
+	tomeOfBrokenFatesWarp = 7

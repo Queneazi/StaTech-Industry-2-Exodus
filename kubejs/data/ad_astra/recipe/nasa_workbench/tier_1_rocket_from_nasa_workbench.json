@@ -1,0 +1,51 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "kubejs:rocket_cone"
+    },
+    {
+      "item": "kubejs:mki_probe_computer"
+    },
+    {
+      "tag": "c:storage_blocks/aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/aluminum"
+    },
+    {
+      "tag": "c:storage_blocks/aluminum"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:steel_fuel_tank"
+    },
+    {
+      "item": "kubejs:steel_fuel_tank"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:steel_engine"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_1_rocket"
+  }
+}

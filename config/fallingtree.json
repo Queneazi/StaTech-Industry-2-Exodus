@@ -33,7 +33,7 @@
       "#kubejs:lumberaxes"
     ],
     "denied": [
-      "#kubejs:lumberaxe_blacklist"
+      "#minecraft:axes"
     ],
     "durabilityMode": "SAVE",
     "ignoreTools": false,

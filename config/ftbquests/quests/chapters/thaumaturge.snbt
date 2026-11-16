@@ -1,0 +1,5756 @@
+{
+	autofocus_id: "43A604D625827D71"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "thaumaturge"
+	group: "109C2F5A861C0A8B"
+	icon: {
+		id: "thaumaturge:thaumonomicon"
+	}
+	id: "5CD999B877BD4CF2"
+	images: [
+		{
+			height: 3.0d
+			id: "4B069042AC304367"
+			image: "thaumaturge:textures/research/cat_auromancy.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			id: "121DE3DAAEC4CA5A"
+			image: "thaumaturge:textures/research/cat_alchemy.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			height: 3.0d
+			id: "6CC575CA120BAA01"
+			image: "thaumaturge:textures/research/cat_infusion.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 19.25d
+		}
+		{
+			height: 3.0d
+			id: "153F228CBC8802FC"
+			image: "thaumaturge:textures/research/cat_artifice.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.5d
+			y: 25.0d
+		}
+		{
+			height: 3.0d
+			id: "25AA87223C7F15C2"
+			image: "thaumaturge:textures/research/cat_golemancy.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.5d
+			y: 25.0d
+		}
+		{
+			height: 3.0d
+			id: "20AB757113ED7339"
+			image: "thaumaturge:textures/research/cat_eldritch.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -15.5d
+			y: 30.0d
+		}
+		{
+			height: 10.8d
+			id: "1616890D65F4D30D"
+			image: "kubejs:textures/gui/quests/circle_blue.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.8d
+			x: 20.0d
+			y: 33.5d
+		}
+		{
+			height: 13.6d
+			id: "40E6E2416651DED9"
+			image: "kubejs:textures/gui/quests/circle_silver.png"
+			order: -1
+			rotation: 0.0d
+			width: 13.6d
+			x: 40.0d
+			y: 33.5d
+		}
+		{
+			height: 11.9d
+			id: "124AF2087A2DD888"
+			image: "kubejs:textures/gui/quests/circle_red.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.9d
+			x: 40.0d
+			y: 49.5d
+		}
+		{
+			height: 9.1d
+			id: "66C9B0EDA03A8BC2"
+			image: "kubejs:textures/gui/quests/circle_green.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.1d
+			x: 20.0d
+			y: 49.5d
+		}
+		{
+			height: 10.5d
+			id: "63E130CC9204E0CB"
+			image: "kubejs:textures/gui/quests/circle_gold.png"
+			order: -1
+			rotation: 0.0d
+			width: 10.5d
+			x: 30.5d
+			y: 41.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "thaumaturge:crystal_ordo"
+			}
+			id: "43A604D625827D71"
+			rewards: [
+				{
+					count: 4
+					id: "1DC0A39C77B55DAB"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "70D577A77B082D0D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "00C5C0FE022840A9"
+					item: { count: 1, id: "thaumaturge:crystal_aer" }
+					type: "item"
+				}
+				{
+					id: "380D069976DC228E"
+					item: { count: 1, id: "thaumaturge:crystal_terra" }
+					type: "item"
+				}
+				{
+					id: "43A2D2A4A3E26916"
+					item: { count: 1, id: "thaumaturge:crystal_ignis" }
+					type: "item"
+				}
+				{
+					id: "32F19B307FB7835D"
+					item: { count: 1, id: "thaumaturge:crystal_aqua" }
+					type: "item"
+				}
+				{
+					id: "24ED97F57C4C4733"
+					item: { count: 1, id: "thaumaturge:crystal_ordo" }
+					type: "item"
+				}
+				{
+					id: "6147F27F54334A20"
+					item: { count: 1, id: "thaumaturge:crystal_perditio" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43A604D625827D71"]
+			id: "20072A8643264595"
+			rewards: [
+				{
+					count: 4
+					id: "3463E848BB96AAD3"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "48B5DE44D1B50432"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "354B507B54CE6200"
+				item: { count: 1, id: "thaumaturge:salis_mundus" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20072A8643264595"]
+			id: "5EFEC66895652620"
+			rewards: [
+				{
+					count: 4
+					id: "7742FA25CDC2015E"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "65290B1A77B7CFD9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "1CA72E573032FC0A"
+				item: { count: 1, id: "thaumaturge:thaumonomicon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EFEC66895652620"]
+			id: "2B43AD86D096708B"
+			rewards: [
+				{
+					count: 4
+					id: "6256C7FF08727264"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "6124BE6EA6B44DF7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "18DFE75B3F2E5909"
+				item: { count: 1, id: "thaumaturge:arcane_workbench" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EFEC66895652620"]
+			id: "319F3D7256A82D9A"
+			rewards: [
+				{
+					count: 4
+					id: "57D3185FC324442B"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "00D2CB2F842B6B4D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4DE80817EE9344CB"
+				item: { count: 1, id: "thaumaturge:wand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B43AD86D096708B"]
+			id: "64DC300AD748D5A8"
+			rewards: [
+				{
+					count: 4
+					id: "6CEC0EC45FB51AD2"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "27E2CD090C7429D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4CBA25346090D89B"
+				item: { count: 1, id: "thaumaturge:thaumometer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64DC300AD748D5A8"]
+			icon: {
+				id: "thaumaturge:research_table"
+			}
+			id: "1946BB5B68DB4A16"
+			rewards: [
+				{
+					count: 4
+					id: "43824CBE482BA9A3"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "470AD277F64A1DDA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2B69140DBE59DA8E"
+					item: { count: 1, id: "thaumaturge:research_table" }
+					type: "item"
+				}
+				{
+					id: "62E54F79C2F4D978"
+					item: { count: 1, id: "thaumaturge:scribing_tools" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1946BB5B68DB4A16"]
+			icon: {
+				id: "thaumaturge:sanity_checker"
+			}
+			id: "04E3ED3DACB27C36"
+			rewards: [
+				{
+					count: 4
+					id: "75E1708D55EED2CE"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "6916BE5C5EEACF10"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "727C4E1D4DD8C9D2"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["319F3D7256A82D9A"]
+			id: "1D3E64E3909C5C57"
+			rewards: [
+				{
+					count: 4
+					id: "7D86AF71BD4DB320"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "6D77FD569A358B57"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "11183F62CCF1A76B"
+				item: { count: 1, id: "thaumaturge:crucible" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D3E64E3909C5C57"]
+			id: "1DF5AD24817E5501"
+			rewards: [
+				{
+					count: 2
+					id: "77F65F48F6B274A0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "19DF448D041A97BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6D82DA5EDAAC7FD5"
+				item: { count: 1, id: "thaumaturge:ingot_thaumium" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1DF5AD24817E5501"]
+			id: "7E46783F771A8871"
+			rewards: [
+				{
+					count: 4
+					id: "09CF7EF386E197BD"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "2B016FC206644E41"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 4L
+				id: "516513EACED7E0B0"
+				item: { count: 1, id: "thaumaturge:ingot_brass" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E46783F771A8871"]
+			id: "5F142EBE294E5402"
+			rewards: [
+				{
+					count: 4
+					id: "19D6E471A0D36D80"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "5A268743587860C6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "7406C67AB7F1D922"
+				item: { count: 1, id: "thaumaturge:alumentum" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F142EBE294E5402"]
+			id: "16F83187FA3FB57F"
+			rewards: [
+				{
+					count: 4
+					id: "21682743A3798791"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4FAAD3C13503769E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0074516071FC8728"
+				item: { count: 1, id: "thaumaturge:nitor_yellow" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D3E64E3909C5C57"]
+			icon: {
+				id: "thaumaturge:jar_normal"
+			}
+			id: "1557EADE1B07D495"
+			rewards: [
+				{
+					count: 2
+					id: "1DF419AE14855B8A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "13CE70000A9F49D2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "69A74B99D3089043"
+					item: { count: 1, id: "thaumaturge:jar_normal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4730640526DEE1C6"
+					item: { count: 1, id: "thaumaturge:label" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1557EADE1B07D495"]
+			icon: {
+				id: "thaumaturge:smelter_basic"
+			}
+			id: "06B1C855FFDADBCF"
+			rewards: [
+				{
+					count: 2
+					id: "60AEAC422015500C"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3F0E5732F8B24345"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2C4130DB968B7FB5"
+					item: { count: 1, id: "thaumaturge:smelter_basic" }
+					type: "item"
+				}
+				{
+					id: "1127BC416AE831A8"
+					item: { count: 1, id: "thaumaturge:alembic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["06B1C855FFDADBCF"]
+			id: "644222848A64B7E1"
+			rewards: [
+				{
+					count: 2
+					id: "65FAB61F5BE82E1B"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "248F504B2246A14F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 8L
+				id: "2D074CDAB0FF290D"
+				item: { count: 1, id: "thaumaturge:tube" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["06B1C855FFDADBCF"]
+			id: "6FCAFF82133C7E4E"
+			rewards: [
+				{
+					count: 7
+					id: "329EABC15E0B365B"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7F2F48C4264678D1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1EA771AD4387D493"
+				item: { count: 1, id: "thaumaturge:smelter_thaumium" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["644222848A64B7E1"]
+			id: "0D1F3CA05F1D0D73"
+			rewards: [
+				{
+					count: 7
+					id: "31DD3CC28D160C44"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6E0F9064754CD0D0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7F5692B91FF81035"
+				item: { count: 1, id: "thaumaturge:thaumatorium" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["644222848A64B7E1"]
+			id: "325AB092075B23FA"
+			rewards: [
+				{
+					count: 2
+					id: "710BA5EC211704B3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7A68356EC5B56AA6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5B981AA76A2AB465"
+				item: { count: 1, id: "thaumaturge:centrifuge" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["644222848A64B7E1"]
+			id: "784CBAE48AD278F5"
+			rewards: [
+				{
+					count: 2
+					id: "0C6CBB90E308ACC0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "569E7E7A2353D788"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "27694740F84A4144"
+				item: { count: 1, id: "thaumaturge:essentia_crystalizer" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7E46783F771A8871"]
+			icon: {
+				id: "thaumaturge:sanity_soap"
+			}
+			id: "2192A6D11FE26491"
+			rewards: [
+				{
+					count: 2
+					id: "54CC1BDC71C3E4B6"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "62B837202A8910AB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "330D350655A12E60"
+					item: { count: 1, id: "thaumaturge:bath_salts" }
+					type: "item"
+				}
+				{
+					id: "3D9407BABE96C266"
+					item: { count: 1, id: "thaumaturge:sanity_soap" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5F142EBE294E5402"]
+			id: "12838C8A081ED53A"
+			rewards: [
+				{
+					count: 2
+					id: "2C21F16BA5620FE3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "09B08B5DA636BCAA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "464AD87D3E615A2E"
+				item: { count: 1, id: "thaumaturge:ethereal_bloom" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["319F3D7256A82D9A"]
+			id: "5D73E50D297A7397"
+			rewards: [
+				{
+					count: 4
+					id: "47B319BD3C1ABFA1"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "63E05508AE82D957"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "4209787658522FA6"
+				item: { count: 1, id: "thaumaturge:wand_cap_gold" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D73E50D297A7397"]
+			id: "0CDBADC233648117"
+			rewards: [
+				{
+					count: 4
+					id: "016730DC4F0B5D61"
+					item: {
+						count: 1
+						id: "kubejs:coin_common"
+					}
+					type: "item"
+				}
+				{
+					id: "4DFA3A93F958AD29"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5D7085DB95EFCC6E"
+				item: { count: 1, id: "thaumaturge:wand_rod_greatwood" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0CDBADC233648117"]
+			icon: {
+				id: "thaumaturge:wand_rod_silverwood"
+			}
+			id: "5F7DED22156A32C0"
+			rewards: [
+				{
+					count: 7
+					id: "34B3F95B961EBE92"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "49301548B131684B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4F5693F402FE650D"
+					item: { count: 1, id: "thaumaturge:wand_rod_silverwood" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5051125B820F5A9F"
+					item: { count: 1, id: "thaumaturge:wand_cap_thaumium_inert" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["319F3D7256A82D9A"]
+			icon: {
+				id: "thaumaturge:focus_1"
+			}
+			id: "40397282662BA134"
+			rewards: [
+				{
+					count: 2
+					id: "17B4E2F19FF954F3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "769708EDCCBA21BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4524266AA9F70585"
+					item: { count: 1, id: "thaumaturge:focus_1" }
+					type: "item"
+				}
+				{
+					id: "27E661F94AEE3593"
+					item: { count: 1, id: "thaumaturge:focal_manipulator" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40397282662BA134"]
+			id: "1C154D52669C7CE4"
+			rewards: [
+				{
+					count: 2
+					id: "3EDF3E8F0B6F5FFF"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "27C01B8AD3E17709"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "44D3E0359B94F46F"
+				item: { count: 1, id: "thaumaturge:focus_2" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C154D52669C7CE4"]
+			id: "3D47158F7B1AC323"
+			rewards: [
+				{
+					id: "2257F7867997F3DD"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4DCD33F19CA3EA62"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3566DAB21E012A6E"
+				item: { count: 1, id: "thaumaturge:focus_3" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["319F3D7256A82D9A"]
+			id: "13A29ECE67B2AC92"
+			rewards: [
+				{
+					count: 2
+					id: "78686704303A3FB8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6853DC1A3ACED9FF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "66F0828127ABC489"
+				item: { count: 1, id: "thaumaturge:recharge_pedestal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["13A29ECE67B2AC92"]
+			id: "4C792D087A51BDA5"
+			rewards: [
+				{
+					count: 2
+					id: "0EE5D89ABFCF3EC0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "54764D11CEF83A71"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6EEAAE3D85525997"
+				item: { count: 1, id: "thaumaturge:vis_battery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C792D087A51BDA5"]
+			id: "36B2B6BC91FC6788"
+			rewards: [
+				{
+					count: 7
+					id: "60792E09F16F8B4C"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4DB97CB974A70BC9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "31083F577CDC8CDE"
+				item: { count: 1, id: "thaumaturge:amulet_vis_crafted" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["36B2B6BC91FC6788"]
+			icon: {
+				id: "thaumaturge:jar_node"
+			}
+			id: "6204DF771C9E4C15"
+			rewards: [
+				{
+					count: 7
+					id: "1DFDAF0F97AF7616"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5798743C9536D2AB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1F4B0CEB9C1EA100"
+					item: { count: 1, id: "thaumaturge:node_stabilizer" }
+					type: "item"
+				}
+				{
+					id: "355DC95D4A4E3BE1"
+					item: { count: 1, id: "thaumaturge:jar_node" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6204DF771C9E4C15"]
+			icon: {
+				id: "thaumaturge:node_transducer"
+			}
+			id: "78E11EEC806BA989"
+			rewards: [
+				{
+					count: 7
+					id: "2FB7CAD471CA79F0"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "47C3B3A37A6A39D3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "7C51AFD5BF1EF069"
+					item: { count: 1, id: "thaumaturge:node_transducer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "69B94C1BAC29A92D"
+					item: { count: 1, id: "thaumaturge:vis_relay" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D3E64E3909C5C57"]
+			icon: {
+				id: "thaumaturge:infusion_matrix"
+			}
+			id: "169BDE1BFB9E27B9"
+			rewards: [
+				{
+					count: 7
+					id: "3F287296A19777F4"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "290C0CB8965D6E09"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [
+				{
+					id: "62C089C36AB471CC"
+					item: { count: 1, id: "thaumaturge:infusion_matrix" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0CE9AF49BCBEF83D"
+					item: { count: 1, id: "thaumaturge:pedestal_arcane" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "7F9E4253696F6221"
+			rewards: [
+				{
+					count: 2
+					id: "607F9CF93DF2F453"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5574BA4B3A1793BB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				count: 4L
+				id: "39683363A35AB00A"
+				item: { count: 1, id: "thaumaturge:stabilizer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7F9E4253696F6221"]
+			icon: {
+				id: "thaumaturge:matrix_speed"
+			}
+			id: "1016EAF958FB9D58"
+			rewards: [
+				{
+					count: 7
+					id: "7579852D50626577"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6F2E0E2EC418A773"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "57A1CF311C11D211"
+					item: { count: 1, id: "thaumaturge:matrix_cost" }
+					type: "item"
+				}
+				{
+					id: "48A9E64DC7A176EC"
+					item: { count: 1, id: "thaumaturge:matrix_speed" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "7057E1ED8864A3B2"
+			rewards: [
+				{
+					count: 7
+					id: "6CBFAFE3B70A4471"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5D966E8AC902CE84"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1C9B43FAFDF24B93"
+				item: { count: 1, id: "thaumaturge:traveller_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7057E1ED8864A3B2"]
+			id: "5EC5E6AA2B08E123"
+			rewards: [
+				{
+					count: 7
+					id: "745EB96F9F9676F8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "55A505B98FE1FB3F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "59B71E57D307F65A"
+				item: { count: 1, id: "thaumaturge:thaumostatic_harness" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "5F345A214F2F3AE5"
+			rewards: [
+				{
+					count: 2
+					id: "0A19BBFE9188340D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "092BD89A857651D9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7E52E6466D6A143F"
+				item: { count: 1, id: "thaumaturge:cloud_ring" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5F345A214F2F3AE5"]
+			id: "36EA9435A3FB8921"
+			rewards: [
+				{
+					count: 7
+					id: "4C2C1E18A67C8BB2"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2178E0E0A961D192"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "68A9486249AE0598"
+				item: { count: 1, id: "thaumaturge:verdant_charm" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["36EA9435A3FB8921"]
+			id: "3324562FD21ACE65"
+			rewards: [
+				{
+					count: 7
+					id: "32905010C26D0CA3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5E3593E10D43E5E3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3F96D6DC31932438"
+				item: { count: 1, id: "thaumaturge:curiosity_band" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3324562FD21ACE65"]
+			id: "2BA1847CE099EB43"
+			rewards: [
+				{
+					count: 7
+					id: "7050EBD49D342B6A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1A46363B745BB845"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6E59A5DB9439E3C1"
+				item: { count: 1, id: "thaumaturge:charm_undying" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			icon: {
+				id: "thaumaturge:fortress_chest"
+			}
+			id: "12BAB63E7D4A6407"
+			rewards: [
+				{
+					count: 7
+					id: "2A9139A08C14AB4D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6577CC85B186ED47"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2FF7A0EC6E281295"
+					item: { count: 1, id: "thaumaturge:fortress_helm" }
+					type: "item"
+				}
+				{
+					id: "70207D5FFA1EFE49"
+					item: { count: 1, id: "thaumaturge:fortress_chest" }
+					type: "item"
+				}
+				{
+					id: "66F508BB1F16315E"
+					item: { count: 1, id: "thaumaturge:fortress_legs" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["12BAB63E7D4A6407"]
+			id: "202CB7DCA7B52B33"
+			rewards: [
+				{
+					count: 7
+					id: "6FD05DCCAB0B63CF"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7E5E787E7A6032AB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "618C009DB62E277C"
+				item: { count: 1, id: "thaumaturge:elemental_pickaxe" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1016EAF958FB9D58"]
+			icon: {
+				id: "thaumaturge:hand_mirror"
+			}
+			id: "635FBDC9EE0E1CB2"
+			rewards: [
+				{
+					count: 7
+					id: "5789D9D02EF0588D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "36B94B3EFECDDB1F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "38D9871F254B49B5"
+					item: { count: 1, id: "thaumaturge:mirror" }
+					type: "item"
+				}
+				{
+					id: "12153D9255BA3AFD"
+					item: { count: 1, id: "thaumaturge:hand_mirror" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "305334FAD2E541B9"
+			rewards: [
+				{
+					count: 2
+					id: "0B9FA6D8DC8106D3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "581802A3097DF60C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "175DFEAC6B72AAB6"
+				item: { count: 1, id: "thaumaturge:infernal_furnace" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["305334FAD2E541B9"]
+			id: "034D76C9BE66A66E"
+			rewards: [
+				{
+					count: 7
+					id: "5BBE5F3FBB52DA6B"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "586116A7EBEDFEC1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "21E32289139632C3"
+				item: { count: 1, id: "thaumaturge:arcane_bore" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["034D76C9BE66A66E"]
+			id: "51383F45C8963DA8"
+			rewards: [
+				{
+					count: 7
+					id: "7F88E7840A02D346"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2FF736B8F6E5CB79"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "686196F55DB1791D"
+				item: { count: 1, id: "thaumaturge:levitator" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["305334FAD2E541B9"]
+			icon: {
+				id: "thaumaturge:lamp_growth"
+			}
+			id: "31D8FC0AE4801CA9"
+			rewards: [
+				{
+					count: 2
+					id: "5E6EE6C80F373FBB"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "76FEFCCF2ABF82A9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "16081E47C7F1D0B6"
+					item: { count: 1, id: "thaumaturge:lamp_arcane" }
+					type: "item"
+				}
+				{
+					id: "30BB0ED9CA847C2C"
+					item: { count: 1, id: "thaumaturge:lamp_growth" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["31D8FC0AE4801CA9"]
+			id: "167C5D950612A032"
+			rewards: [
+				{
+					count: 2
+					id: "612349AFCD1C5364"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "73EC8EAE3FA47A89"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6103ABE60F392311"
+				item: { count: 1, id: "thaumaturge:grapple_gun" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "02419EC98A19048F"
+			rewards: [
+				{
+					count: 7
+					id: "2B34F56E5E8E7358"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "20A80A02D750854B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3EBDB5F7EF0A73F4"
+				item: { count: 1, id: "thaumaturge:golem_builder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["02419EC98A19048F"]
+			icon: {
+				id: "thaumaturge:golem"
+			}
+			id: "78F4A515614277E7"
+			rewards: [
+				{
+					count: 7
+					id: "693F38150C2ECD69"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2A5221431607A7BD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "54369D4C875804C8"
+					item: { count: 1, id: "thaumaturge:mind_clockwork" }
+					type: "item"
+				}
+				{
+					id: "7E06FFB304E86886"
+					item: { count: 1, id: "thaumaturge:golem" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["78F4A515614277E7"]
+			icon: {
+				id: "thaumaturge:seal_pickup"
+			}
+			id: "0A0140883B479FCB"
+			rewards: [
+				{
+					count: 7
+					id: "76722EC3D3D5E551"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4DCD73C388C00FDD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6F0624AB89D04A4A"
+					item: { count: 1, id: "thaumaturge:seal_blank" }
+					type: "item"
+				}
+				{
+					id: "5C6F83045809B6D0"
+					item: { count: 1, id: "thaumaturge:seal_pickup" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0A0140883B479FCB"]
+			icon: {
+				id: "thaumaturge:seal_harvest"
+			}
+			id: "7FF30347CCAF3720"
+			rewards: [
+				{
+					count: 7
+					id: "671100FED495E952"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "16EA04C7429C1CEC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "7DC7E2DBAC499577"
+					item: { count: 1, id: "thaumaturge:seal_harvest" }
+					type: "item"
+				}
+				{
+					id: "1E03503342819B74"
+					item: { count: 1, id: "thaumaturge:seal_lumber" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["78F4A515614277E7"]
+			id: "16219875D0FC6902"
+			rewards: [
+				{
+					count: 7
+					id: "41F118D1E834ADC8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5609D37071C04788"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2CC7D9C5D362EE81"
+				item: { count: 1, id: "thaumaturge:jar_brain" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["169BDE1BFB9E27B9"]
+			id: "41889ADAACF8310D"
+			rewards: [
+				{
+					count: 7
+					id: "67B0E80009C60EE9"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "40ECF11657A6CA4F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "510E245E3AF834F2"
+				item: { count: 1, id: "thaumaturge:curio_rites" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["41889ADAACF8310D"]
+			icon: {
+				id: "thaumaturge:crimson_blade"
+			}
+			id: "0E8D825AAD83D897"
+			rewards: [
+				{
+					count: 7
+					id: "3FBF0436538A45EF"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6B9891885629A1AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				entity: "thaumaturge:cultist_knight"
+				id: "7A909DEE26DB605D"
+				type: "kill"
+				value: 4L
+			}]
+			x: -3.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["41889ADAACF8310D"]
+			id: "47F3D18E7AD62965"
+			rewards: [
+				{
+					count: 7
+					id: "34448BE81310CA1F"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0C5BEF75B79D5B5B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "19D3EB19A973239B"
+				item: { count: 1, id: "thaumaturge:void_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["47F3D18E7AD62965"]
+			id: "6D60E20A319C9208"
+			rewards: [
+				{
+					id: "2879B544CC840F97"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "08DFEEE82395ECB8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "49FC41B216D94BD3"
+				item: { count: 1, id: "thaumaturge:ingot_void" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["6D60E20A319C9208"]
+			icon: {
+				id: "thaumaturge:void_sword"
+			}
+			id: "2838A7545C6061E6"
+			rewards: [
+				{
+					id: "0E18DC632DAE858F"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4157F76612B44052"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4B539DD603B5E051"
+					item: { count: 1, id: "thaumaturge:void_sword" }
+					type: "item"
+				}
+				{
+					id: "184A2987B89B43A5"
+					item: { count: 1, id: "thaumaturge:void_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["2838A7545C6061E6"]
+			icon: {
+				id: "thaumaturge:void_robe_chest"
+			}
+			id: "10DC11A1F171733F"
+			rewards: [
+				{
+					id: "0EE38983D9392428"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2768DDACBA5FC103"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "225EB084E37FC864"
+					item: { count: 1, id: "thaumaturge:void_robe_helm" }
+					type: "item"
+				}
+				{
+					id: "3F93E98189F8BFEE"
+					item: { count: 1, id: "thaumaturge:void_robe_chest" }
+					type: "item"
+				}
+				{
+					id: "2E88A14D6C4F276D"
+					item: { count: 1, id: "thaumaturge:void_robe_legs" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["6D60E20A319C9208"]
+			id: "65A4AB54D1D5D637"
+			rewards: [
+				{
+					id: "4F4A89375CE46707"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4F72D15216665A55"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "72E22CC339D60B12"
+				item: { count: 1, id: "thaumaturge:void_siphon" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["2838A7545C6061E6"]
+			id: "08D934E900F1EA17"
+			rewards: [
+				{
+					id: "268FEAC01A9088FB"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "27A22636269DB22E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5363CB3857AE1982"
+				item: { count: 1, id: "thaumaturge:void_shield" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["41889ADAACF8310D"]
+			id: "705C742C4383AEB7"
+			rewards: [
+				{
+					id: "409BFDEF04202608"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1D7187D2BCE351AE"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "403B683F73101932"
+				item: { count: 1, id: "thaumaturge:eldritch_eye" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["705C742C4383AEB7"]
+			icon: {
+				id: "thaumaturge:eldritch_stone"
+			}
+			id: "110A316DE7D67BCF"
+			rewards: [
+				{
+					count: 3
+					id: "334102993AD73A7D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "398DFE54C0691DD8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "thaumaturge:outer_lands"
+				id: "382E36480314A559"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["110A316DE7D67BCF"]
+			icon: {
+				id: "thaumaturge:eldritch_guardian_spawn_egg"
+			}
+			id: "333C6E4F44956778"
+			rewards: [
+				{
+					id: "4296A4EB7AFFDC01"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "3BB744BE7279988B"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				entity: "thaumaturge:eldritch_guardian"
+				id: "5AFFDB56B3FC9035"
+				type: "kill"
+				value: 3L
+			}]
+			x: -9.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["333C6E4F44956778"]
+			icon: {
+				id: "thaumaturge:eldritch_warden_spawn_egg"
+			}
+			id: "03ACEADED37EF645"
+			rewards: [
+				{
+					count: 3
+					id: "4DCE3F8110BD2EEC"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "33AB029BF716CB79"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "thaumaturge:eldritch_warden"
+				id: "3EBE6A34D9650E84"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["41889ADAACF8310D"]
+			id: "4D7D925B761C6D88"
+			rewards: [
+				{
+					id: "20520F65F9213E9C"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "5FB36A3A15272695"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5468B88DAC948AE7"
+				item: { count: 1, id: "thaumaturge:primordial_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4D7D925B761C6D88"]
+			id: "6DDB3D1EE8889E6A"
+			rewards: [
+				{
+					id: "6CEE1CCD27717480"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "7EF3822B5F82A396"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2DE082A01A475A52"
+				item: { count: 1, id: "thaumaturge:voidseer_charm" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4D7D925B761C6D88"]
+			id: "7BF95C8284ADBD5E"
+			rewards: [
+				{
+					id: "229245C86AEC97C5"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "548FE0CA7C0FD8A1"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "05BC3BBDEEA7E6F4"
+				item: { count: 1, id: "thaumaturge:causality_collapser" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4D7D925B761C6D88"]
+			id: "248AED45273A216A"
+			rewards: [
+				{
+					count: 3
+					id: "06733411EF6DF476"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "008030AEB083154B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "739CAB774F1926A4"
+				item: { count: 1, id: "thaumaturge:primal_crusher" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4D7D925B761C6D88"]
+			id: "1B1EB36B7EAAF894"
+			rewards: [
+				{
+					count: 3
+					id: "3BF608FADB12022B"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "781422AF103C09C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2BD8585EB4F92596"
+				item: { count: 1, id: "thaumaturge:staff_rod_primal" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["0D1F3CA05F1D0D73"]
+			id: "4D92F06D10AA03AA"
+			rewards: [
+				{
+					count: 7
+					id: "5F399713C4DEC98D"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2786B7488B690C19"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7F5FFACA83C45201"
+				item: { count: 1, id: "thaumicenergistics_ce:essentia_cell_1k" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4D92F06D10AA03AA"]
+			icon: {
+				id: "thaumicenergistics_ce:arcane_crafting_terminal"
+			}
+			id: "20075BF3A81A4F30"
+			rewards: [
+				{
+					count: 7
+					id: "63C3CB61301504E1"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6E6B38E4603BD3D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "7D232159D51F25AB"
+					item: { count: 1, id: "thaumicenergistics_ce:arcane_crafting_terminal" }
+					type: "item"
+				}
+				{
+					id: "3FAD43F194F4D688"
+					item: { count: 1, id: "thaumicenergistics_ce:essentia_terminal" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4D92F06D10AA03AA"]
+			id: "6C7533297B660D30"
+			rewards: [
+				{
+					count: 7
+					id: "4F4F729179C51B9C"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "59D239737538E308"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4C0338FF33932A82"
+				item: { count: 1, id: "thaumicenergistics_ce:vis_interface" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["20075BF3A81A4F30"]
+			icon: {
+				id: "thaumicenergistics_ce:arcane_assembler"
+			}
+			id: "47368ED28E140A6B"
+			rewards: [
+				{
+					id: "75499AB841EF28B9"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "5C7DCBD890A18142"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "64C8318C175EBDC2"
+					item: { count: 1, id: "thaumicenergistics_ce:knowledge_inscriber" }
+					type: "item"
+				}
+				{
+					id: "0618FC146AA5CB89"
+					item: { count: 1, id: "thaumicenergistics_ce:arcane_assembler" }
+					type: "item"
+				}
+				{
+					id: "34EE6F2BB018EDDA"
+					item: { count: 1, id: "thaumicenergistics_ce:infusion_provider" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D60E20A319C9208"]
+			icon: {
+				id: "thaumaturge:thaumonomicon"
+			}
+			id: "4D3E2898BB5750F3"
+			rewards: [
+				{
+					count: 7
+					id: "5788DD044CB273ED"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "52DA0A92E2A051B8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "09CB5E5807851CD8"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["4D3E2898BB5750F3"]
+			icon: {
+				id: "spectrum:onyx_shard"
+			}
+			id: "6BF29A5F8BF72CD8"
+			rewards: [
+				{
+					count: 7
+					id: "3125DDCB152F27A8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "2B08FB460D22CF96"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "7C7C27A718345FBC"
+					item: { count: 1, id: "spectrum:onyx_shard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3ACC788BDF0113CC"
+					item: { count: 1, id: "spectrum:radiating_ender" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "1FB0B17B5950A922"
+			rewards: [
+				{
+					count: 7
+					id: "42F4383F349C9CD7"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "695FEBC15C5FC260"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5054895980FEC28C"
+				item: { count: 1, id: "forgotten_relics_plus:mining_charm" }
+				type: "item"
+			}]
+			x: 15.75d
+			y: 35.5d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "5E9628B37126DA06"
+			rewards: [
+				{
+					count: 7
+					id: "550E256B8809EEBA"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6DC6DB87EBDD881C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "767588E53B2F786E"
+				item: { count: 1, id: "forgotten_relics_plus:superposition_ring" }
+				type: "item"
+			}]
+			x: 17.75d
+			y: 37.75d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "730D7F1E50DAB13C"
+			rewards: [
+				{
+					count: 7
+					id: "5FAB22C6A513B9A6"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "6754EFD8358D0C74"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1571339C8CD416EB"
+				item: { count: 1, id: "forgotten_relics_plus:weather_stone" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 30.25d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "5CE0E4076EEAEC21"
+			rewards: [
+				{
+					count: 7
+					id: "41727BD9C871360B"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0BB419F4330120C7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "763075F7299B34D8"
+				item: { count: 1, id: "forgotten_relics_plus:xp_tome" }
+				type: "item"
+			}]
+			x: 20.75d
+			y: 28.75d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "333A0E112E9C0BF7"
+			rewards: [
+				{
+					count: 7
+					id: "48C5D52E4E4B9B69"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "53C1E54DDE87F512"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "48C7097F96E59911"
+				item: { count: 1, id: "thaumaturge:pech_wand" }
+				type: "item"
+			}]
+			x: 17.75d
+			y: 29.25d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "56B0F6BF8BEB1EF0"
+			rewards: [
+				{
+					count: 7
+					id: "0D072651AF0FCE04"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1FCF864DE8998C80"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7D4D46F1924B4266"
+				item: { count: 1, id: "forgotten_relics_plus:edict_of_banishment" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: 36.75d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			id: "260C498E74AB4A71"
+			rewards: [
+				{
+					count: 7
+					id: "2747BC8D37B5227E"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3D18E2367DF45128"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "251D14FB312E7A26"
+				item: { count: 1, id: "forgotten_relics_plus:oblivion_stone" }
+				type: "item"
+			}]
+			x: 20.75d
+			y: 38.25d
+		}
+		{
+			dependencies: ["6BF29A5F8BF72CD8"]
+			icon: {
+				id: "spectrum:moonstone_shard"
+			}
+			id: "5C30577F82CDB49F"
+			rewards: [
+				{
+					id: "6EA69281BFDDCD06"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0BF5FBA720ED6C8F"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "7DD9B20CB0792B31"
+					item: { count: 1, id: "spectrum:moonstone_shard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1A88F1DF24742E8D"
+					item: { count: 1, id: "modern_industrialization:digital_circuit" }
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "77AE0E89953E8CC5"
+			rewards: [
+				{
+					id: "14439453AE0179D6"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "02E6200B4CDD21F1"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "092A12F5A9FCB20B"
+				item: { count: 1, id: "forgotten_relics_plus:advanced_mining_charm" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 38.25d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "70B9121154BF066B"
+			rewards: [
+				{
+					id: "593060F9E819DDCC"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6F6559E17F82F316"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "07D2428CE6CD3008"
+				item: { count: 1, id: "forgotten_relics_plus:ancient_aegis" }
+				type: "item"
+			}]
+			x: 45.25d
+			y: 36.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "090C23BBC3471599"
+			rewards: [
+				{
+					id: "6024766C36605DEF"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4DCE5389D27EA3E0"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0282442C0FEF481E"
+				item: { count: 1, id: "forgotten_relics_plus:deific_amulet" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: 34.25d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "056FAF02192F5E2D"
+			rewards: [
+				{
+					id: "40FA88C406DD2967"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4195C26B884D8F0F"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "74FFDE766D263E56"
+				item: { count: 1, id: "forgotten_relics_plus:shiny_stone" }
+				type: "item"
+			}]
+			x: 45.75d
+			y: 31.75d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "1EBCAD6C2787A370"
+			rewards: [
+				{
+					id: "6A88E321D43BDC66"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "02A4054B58444158"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5C39AD1D505861A0"
+				item: { count: 1, id: "forgotten_relics_plus:chaos_core" }
+				type: "item"
+			}]
+			x: 44.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "37E68E47ACCBB1AA"
+			rewards: [
+				{
+					id: "4993475A571CE768"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "51A21B0BE2A8B4F9"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "67D8B96F3EBC2512"
+				item: { count: 1, id: "forgotten_relics_plus:dimensional_mirror" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			icon: {
+				id: "forgotten_relics_plus:tome_of_discord"
+			}
+			id: "5949EC833D6F20C3"
+			rewards: [
+				{
+					id: "4A5B630A074C95EE"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "65A122728EFAE885"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "59DAA4F6F75CA04B"
+					item: { count: 1, id: "forgotten_relics_plus:tome_of_discord" }
+					type: "item"
+				}
+				{
+					id: "0130352B05C8B89E"
+					item: { count: 1, id: "forgotten_relics_plus:discord_ring" }
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "3D5102C25448DECF"
+			rewards: [
+				{
+					id: "14EAB2D20CB3B1A5"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0718626640509C11"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3B228D29FB60504E"
+				item: { count: 1, id: "forgotten_relics_plus:thunderpeal" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "2C98F27D54F420F2"
+			rewards: [
+				{
+					id: "5D5BB379D089F867"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "028A4EB0F5A73979"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "04632A0BF68A71F9"
+				item: { count: 1, id: "forgotten_relics_plus:tome_of_predestiny" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "3D963A0C7BBA1CFD"
+			rewards: [
+				{
+					id: "09ED75E67825EA19"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "53B2C7AD7FAF128A"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2530DEDD4E35999A"
+				item: { count: 1, id: "forgotten_relics_plus:devourer_of_the_void" }
+				type: "item"
+			}]
+			x: 34.75d
+			y: 36.5d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			id: "0ABE8EF519900E21"
+			rewards: [
+				{
+					id: "350E2AE516F5A956"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "27BA76B8CB656D5E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "54729B718FA1C6DF"
+				item: { count: 1, id: "forgotten_relics_plus:crimson_spell" }
+				type: "item"
+			}]
+			x: 36.5d
+			y: 38.25d
+		}
+		{
+			dependencies: ["5C30577F82CDB49F"]
+			icon: {
+				id: "spectrum:stratine_gem"
+			}
+			id: "2F4AABF1C29021D9"
+			rewards: [
+				{
+					count: 3
+					id: "018E30816576B082"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "70508164E4670B4B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "4B81A822798F3AD1"
+					item: { count: 1, id: "spectrum:stratine_gem" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57AE427CDE843C1D"
+					item: { count: 1, id: "modern_industrialization:desh_ingot" }
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "16949CF7D60BCD9B"
+			rewards: [
+				{
+					count: 3
+					id: "39C319C7F6209297"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "5491EEB8476F31DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "36FE5766AF20CE08"
+				item: { count: 1, id: "forgotten_relics_plus:arcanum" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 46.25d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "036AAC53F073B0B9"
+			rewards: [
+				{
+					count: 3
+					id: "49977EAA185D326D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "67EE055EDE03AA92"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1FB52AC8C3619201"
+				item: { count: 1, id: "forgotten_relics_plus:dark_sun_ring" }
+				type: "item"
+			}]
+			x: 42.25d
+			y: 44.75d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "55751F1A052A6508"
+			rewards: [
+				{
+					count: 3
+					id: "04B52F991D71A57D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6B25D93C9598A4DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "027EE32D59050A6E"
+				item: { count: 1, id: "forgotten_relics_plus:ghastly_skull" }
+				type: "item"
+			}]
+			x: 44.25d
+			y: 46.5d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "6CB902572BD7F8DC"
+			rewards: [
+				{
+					count: 3
+					id: "42E67402C6B3683D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "5BE28A3556F42214"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "05601512F4B550BF"
+				item: { count: 1, id: "forgotten_relics_plus:terror_crown" }
+				type: "item"
+			}]
+			x: 45.25d
+			y: 49.0d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "7513A172E0BC5A4B"
+			rewards: [
+				{
+					count: 3
+					id: "40E757B672E60DF6"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4A2CAFE8A618C63A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3D8CA22EF89AFE51"
+				item: { count: 1, id: "forgotten_relics_plus:soul_tome" }
+				type: "item"
+			}]
+			x: 44.75d
+			y: 51.75d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "19BBCEB2A5A18369"
+			rewards: [
+				{
+					count: 3
+					id: "0DEF1D9D5F8BBE82"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1064BC482C54208B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "39DDFFC4EB488C65"
+				item: { count: 1, id: "forgotten_relics_plus:eldritch_spell" }
+				type: "item"
+			}]
+			x: 43.25d
+			y: 53.75d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "2F358C3025111D0A"
+			rewards: [
+				{
+					count: 3
+					id: "1790BF8CD6E7DF26"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "02C46C695521D629"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3ACADCD5DDFD1C76"
+				item: { count: 1, id: "forgotten_relics_plus:tome_of_primal_chaos" }
+				type: "item"
+			}]
+			x: 40.75d
+			y: 54.75d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "51FFC9E6995B4AD9"
+			rewards: [
+				{
+					count: 3
+					id: "52F2AB9A64CB213A"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "7366FE7C1C204CF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2543C31CBD9D2FD2"
+				item: { count: 1, id: "forgotten_relics_plus:void_grimoire" }
+				type: "item"
+			}]
+			x: 38.0d
+			y: 54.25d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			id: "23863A4464BDEEAF"
+			rewards: [
+				{
+					count: 3
+					id: "0D8E6352320C3B99"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1E144999BAB4DC3E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1A6950B7A2E5ABA2"
+				item: { count: 1, id: "forgotten_relics_plus:paradox" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: 52.75d
+		}
+		{
+			dependencies: ["2F4AABF1C29021D9"]
+			icon: {
+				id: "spectrum:paltaeria_gem"
+			}
+			id: "4527AA2F586A58F2"
+			rewards: [
+				{
+					count: 3
+					id: "5C1F6BB98EF7FC8F"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4ED72DBD0AD06E06"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "326D2EF74B50332D"
+					item: { count: 1, id: "spectrum:paltaeria_gem" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "785A5C21AA2D2A6C"
+					item: { count: 1, id: "modern_industrialization:ostrum_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1DCAE47DC1147CAB"
+					item: { count: 1, id: "modern_industrialization:calorite_ingot" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			id: "40A9DC8D01E54100"
+			rewards: [
+				{
+					count: 3
+					id: "729C34F83CC60BE8"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "26E160E710B4517E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1D8672D701DC5ABB"
+				item: { count: 1, id: "forgotten_relics_plus:tome_of_broken_fates" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 52.5d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			id: "23A98398F484DAF5"
+			rewards: [
+				{
+					count: 3
+					id: "680A3B381F90F586"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0FAF4E479FCA1191"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0956AA5263B1928D"
+				item: { count: 1, id: "forgotten_relics_plus:oblivion_amulet" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 53.25d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			id: "1B2EB9FF230C7B11"
+			rewards: [
+				{
+					count: 3
+					id: "4EC7622645E162C7"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "5AE41A1DCBB5086A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "69467F891976AC55"
+				item: { count: 1, id: "forgotten_relics_plus:false_justice" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 51.0d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			id: "302FFC3D694C51D9"
+			rewards: [
+				{
+					count: 3
+					id: "6EC30649F35A9863"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "02D4EA3E0A864B78"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5AF8B3C6F2D088E2"
+				item: { count: 1, id: "forgotten_relics_plus:tome_of_lunar_flares" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 47.25d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			id: "2E46D2710EDBD308"
+			rewards: [
+				{
+					count: 3
+					id: "3072D58392B55BB9"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "441270263C385DA0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3FFAD4CE7A38BBAC"
+				item: { count: 1, id: "forgotten_relics_plus:nuclear_fury" }
+				type: "item"
+			}]
+			x: 19.75d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4527AA2F586A58F2"]
+			icon: {
+				id: "spectrum:moonstone_core"
+			}
+			id: "72FCB056BB5DEAAA"
+			rewards: [
+				{
+					id: "745985F499AC6F1D"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "012605470DF7FBF4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					id: "10740F92440F4950"
+					item: { count: 1, id: "spectrum:moonstone_core" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A970843347D5B93"
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["72FCB056BB5DEAAA"]
+			id: "5EB164BE2B0A0F5F"
+			rewards: [
+				{
+					id: "5A0B56C6C6158134"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "334E65A4785EEBF4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "701EC7A463E4664B"
+				item: { count: 1, id: "forgotten_relics_plus:apotheosis" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5EB164BE2B0A0F5F"]
+			id: "7DF76AAAA779C758"
+			rewards: [
+				{
+					id: "31015B3DE10A9B52"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "58224DA1D5284B57"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "42760E6130B29933"
+				item: { count: 1, id: "forgotten_relics_plus:omega_core" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["5EFEC66895652620"]
+			icon: {
+				id: "thaumadditions:thaumic_lectern"
+			}
+			id: "74F7000A2A85D56E"
+			rewards: [
+				{
+					count: 2
+					id: "3B0D1CE47B76FF98"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "475052508C607F9E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4FC5C9BD280B5B72"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "7858D44C81543FE4"
+			rewards: [
+				{
+					count: 2
+					id: "7BFC7E1F009FD853"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "47E662DF20EC2AEA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "658A0FC5CF6FED76"
+				item: { count: 1, id: "thaumadditions:thaumic_lectern" }
+				type: "item"
+			}]
+			x: -6.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "389E50EBCD2FFC00"
+			rewards: [
+				{
+					count: 2
+					id: "610E3600A9BCFA2C"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7EE0F1D99667154F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5064440A97841D52"
+				item: { count: 1, id: "thaumadditions:zeith_fur" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "72504CACB4E4DD5B"
+			rewards: [
+				{
+					count: 2
+					id: "38F13C13C49B7072"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "7FAFBD26F3B0CD0B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "54747EF157F2B853"
+				item: { count: 1, id: "thaumadditions:disenchant_fabric" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.25d
+		}
+		{
+			dependencies: ["72504CACB4E4DD5B"]
+			icon: {
+				id: "thaumadditions:crystal_lamp"
+			}
+			id: "5643B6843FA82AE3"
+			rewards: [
+				{
+					count: 2
+					id: "18AF598C739CA634"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3069ECC6CA88BA03"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7A1DA50DFCC6B8BA"
+					item: { count: 1, id: "thaumadditions:amber_lamp" }
+					type: "item"
+				}
+				{
+					id: "25D24F7CC826250C"
+					item: { count: 1, id: "thaumadditions:crystal_lamp" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -17.25d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "34F7E9BB756A7708"
+			rewards: [
+				{
+					count: 7
+					id: "567DFFE5F22E9C21"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "60768A01896C0C8A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "19CE636C0F819F1A"
+				item: { count: 1, id: "thaumadditions:flux_concentrator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.25d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "366E88C9168E477F"
+			rewards: [
+				{
+					count: 7
+					id: "5D5B7ADDC054D346"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4A16A3715D1A75F8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3AA5EB375FBE276A"
+				item: { count: 1, id: "thaumadditions:traveller_belt" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["366E88C9168E477F"]
+			id: "139BE7AD3816C49E"
+			rewards: [
+				{
+					count: 7
+					id: "6FC70881250474E9"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "753A9189F1C2322D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "232CDE27C095CA4F"
+				item: { count: 1, id: "thaumadditions:striding_belt" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["139BE7AD3816C49E"]
+			id: "5E871845B2C63AC1"
+			rewards: [
+				{
+					id: "6C90AF285499E682"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "51B33816488983EB"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4699E187552C71B5"
+				item: { count: 1, id: "thaumadditions:meteor_belt" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "2751ADD3E613873B"
+			rewards: [
+				{
+					count: 7
+					id: "516328DB3FAD0886"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "67285D7648469B85"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "74261CC7D865996E"
+				item: { count: 1, id: "thaumadditions:levitation_device" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -16.25d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "0042D2DC9ACB8631"
+			rewards: [
+				{
+					count: 7
+					id: "6ABA336B43F24AE3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "17FEC6C93341F4A5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "24A24E8205A2F5A0"
+				item: { count: 1, id: "thaumadditions:fragnant_pendant" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -15.25d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "7F681ECAB5E1015B"
+			rewards: [
+				{
+					count: 7
+					id: "344D0F7CDCE7DAEB"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "19E61A945FA6554D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "57C8E0B7CB87CCC6"
+				item: { count: 1, id: "thaumadditions:phantom_ink_phial" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "2406A7776D5ACD90"
+			rewards: [
+				{
+					count: 7
+					id: "03235B0F2B05DC30"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "658CBA0308DEBD90"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "115AC5FD7A4019CC"
+				item: { count: 1, id: "thaumadditions:crystal_bag" }
+				type: "item"
+			}]
+			x: 6.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "4DFCA2D9E4414EEE"
+			rewards: [
+				{
+					count: 2
+					id: "456713BEDA6367C2"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "77230BE4D544B031"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "785F6F420213D7D5"
+				item: { count: 1, id: "thaumadditions:salt_essence" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4DFCA2D9E4414EEE"]
+			id: "0EE70FFB999B3F63"
+			rewards: [
+				{
+					count: 7
+					id: "7AA92B52FE8139F9"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "77D5598BE038CE7D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "7F15C1A85E051BF7"
+				item: { count: 1, id: "thaumadditions:aura_disperser" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0EE70FFB999B3F63"]
+			id: "6DDB9216716845D8"
+			rewards: [
+				{
+					count: 7
+					id: "579E87BEC257D8D5"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "189A111E895B9752"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "283AF7F4476469B2"
+				item: { count: 1, id: "thaumadditions:essentia_pistol" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4DFCA2D9E4414EEE"]
+			id: "7995F6B47ADD500B"
+			rewards: [
+				{
+					id: "0A9C2DB2683923CB"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4791501D69AD3632"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "56F0ED15BA472D7C"
+				item: { count: 1, id: "thaumadditions:cake" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4DFCA2D9E4414EEE"]
+			icon: {
+				id: "thaumadditions:dawn_totem"
+			}
+			id: "2D9BAB1291E1C680"
+			rewards: [
+				{
+					count: 2
+					id: "347BD9C30722F1E8"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "041E28D4CEEE6081"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3CA30B5B0A687777"
+					item: { count: 1, id: "thaumadditions:dawn_totem" }
+					type: "item"
+				}
+				{
+					id: "3B6A1524F14091BE"
+					item: { count: 1, id: "thaumadditions:twilight_totem" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2D9BAB1291E1C680"]
+			id: "3A839DBAB6F35E66"
+			rewards: [
+				{
+					count: 7
+					id: "2105C8076897FACC"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5ECC5CC8D7B81A86"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "28692E3ED554B7D7"
+				item: { count: 1, id: "thaumadditions:puriflower" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2D9BAB1291E1C680"]
+			id: "049AF2BC58F9811C"
+			rewards: [
+				{
+					count: 2
+					id: "7B2745B375C084A6"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "22E6502CF9DDEE49"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1E6843FB7FED2B75"
+				item: { count: 1, id: "thaumadditions:taintkin" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DFCA2D9E4414EEE"]
+			id: "170A78F8466A69AD"
+			rewards: [
+				{
+					count: 2
+					id: "2327B30FEAA1A999"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "37901B1C82135EDC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6BEC0DAF2040E11F"
+				item: { count: 1, id: "thaumadditions:crystal_block" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["170A78F8466A69AD"]
+			id: "5A14B3F488C8860B"
+			rewards: [
+				{
+					count: 7
+					id: "5A76CC43D4B7E6C1"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "69B1835CC4ED8100"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "008B4B4B2247032A"
+				item: { count: 1, id: "thaumadditions:growth_chamber" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["170A78F8466A69AD"]
+			id: "047A46127EBE06D4"
+			rewards: [
+				{
+					count: 7
+					id: "5CA71CA97B72096F"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "443B2C15D7CFB223"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5A5B668912C3D4BD"
+				item: { count: 1, id: "thaumadditions:crystal_crusher" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["170A78F8466A69AD"]
+			id: "4655EF4A767A56FA"
+			rewards: [
+				{
+					count: 2
+					id: "1632C94FB1D75903"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5FE4036ED47D0553"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "67942E0E209CB103"
+				item: { count: 1, id: "thaumadditions:crystal_water_bucket" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["170A78F8466A69AD"]
+			id: "0CC0BFE6F3E231FF"
+			rewards: [
+				{
+					count: 7
+					id: "25C859CF176B4C21"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "495577B9DC93F920"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1CD0AA6B45C6FDA5"
+				item: { count: 1, id: "thaumadditions:crystal_bore" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["170A78F8466A69AD"]
+			id: "358BE4AB6FC37375"
+			rewards: [
+				{
+					count: 7
+					id: "7BF5AF4ADE454B8A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "44DC1D3F04C2E12F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0F21F21A9C10D699"
+				item: { count: 1, id: "thaumadditions:vis_seeds" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["358BE4AB6FC37375"]
+			icon: {
+				id: "thaumadditions:vis_pod_aer"
+			}
+			id: "3B6C7F5B43495187"
+			rewards: [
+				{
+					count: 2
+					id: "5F6C7B19AE9FD4ED"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3AD855D1D420B851"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "025B782DAA0ADCE8"
+				type: "checkmark"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["358BE4AB6FC37375"]
+			id: "0A82D58B1D2D1946"
+			rewards: [
+				{
+					count: 7
+					id: "434F2EA876B7D499"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4F04695713ED6E67"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "3FB2F5506459D59F"
+				item: { count: 1, id: "thaumadditions:vis_seeds_gelum" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0A82D58B1D2D1946"]
+			id: "706E026153C43754"
+			rewards: [
+				{
+					count: 7
+					id: "15ED9BEE6BF21A1F"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "3A8FAC2AA844FF52"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "53BDC8AE2498D59F"
+				item: { count: 1, id: "thaumadditions:vis_seeds_bestia" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["706E026153C43754"]
+			id: "67C12C603BC7423D"
+			rewards: [
+				{
+					id: "6A45B1E41D4BAF86"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "711C8431E10669D3"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1F29D0CCED98C161"
+				item: { count: 1, id: "thaumadditions:vis_seeds_alienis" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["67C12C603BC7423D"]
+			id: "4CAF2DD2D5590D47"
+			rewards: [
+				{
+					id: "267BE23E274FD5FC"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "504195D3689926CF"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "558B456B6B5B85E7"
+				item: { count: 1, id: "thaumadditions:vis_seeds_aversio" }
+				type: "item"
+			}]
+			x: -24.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["358BE4AB6FC37375"]
+			id: "60E5C8865000C2A7"
+			rewards: [
+				{
+					count: 2
+					id: "2FAE76D77F2ACECA"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "67488F73235F0A21"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "103C4A0762C6E392"
+				item: { count: 1, id: "thaumadditions:seal" }
+				type: "item"
+			}]
+			x: -26.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["60E5C8865000C2A7"]
+			id: "4FDCF3F3B343AAA6"
+			rewards: [
+				{
+					count: 7
+					id: "4514086CF7DED5A4"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0E131B7FA1CCF755"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2F6529A5C364E866"
+				item: { count: 1, id: "thaumadditions:seal_symbol" }
+				type: "item"
+			}]
+			x: -26.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4FDCF3F3B343AAA6"]
+			id: "66D8B00CB1754E8D"
+			rewards: [
+				{
+					count: 7
+					id: "407D5D4D834361BE"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "4DF4981A8E6AB1F8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4E581D8AF28967CF"
+				item: { count: 1, id: "thaumadditions:seal_globe" }
+				type: "item"
+			}]
+			x: -26.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["358BE4AB6FC37375"]
+			id: "6C175C0A93A02E41"
+			rewards: [
+				{
+					count: 7
+					id: "5D6D701C2DB04E47"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "703C27E6F4492544"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "48C6F1FC61B2756C"
+				item: { count: 1, id: "thaumadditions:dna_sample" }
+				type: "item"
+			}]
+			x: -31.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6C175C0A93A02E41"]
+			id: "675093D4F3CF01FE"
+			rewards: [
+				{
+					id: "13BA76E4EEB6B573"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0E3EF36626ECA3BF"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "627E480088627108"
+				item: { count: 1, id: "thaumadditions:entity_summoner" }
+				type: "item"
+			}]
+			x: -31.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6C175C0A93A02E41"]
+			id: "2FBAFAC14E3DEF7B"
+			rewards: [
+				{
+					count: 7
+					id: "4519F30199A57D0A"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "64DCA1155B12F70C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1E9F7A53A3EC2502"
+				item: { count: 1, id: "thaumadditions:chester" }
+				type: "item"
+			}]
+			x: -33.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "32A8B6B3B6A599F4"
+			rewards: [
+				{
+					id: "2DCBAA8B5773DC17"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "676BBA27B02C2206"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "47F2DBEA94C2C795"
+				item: { count: 1, id: "thaumadditions:void_anvil" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["32A8B6B3B6A599F4"]
+			icon: {
+				id: "thaumadditions:void_elemental_pickaxe"
+			}
+			id: "6458891992C2C8C3"
+			rewards: [
+				{
+					count: 3
+					id: "58DB98683F1E2357"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6A342A6868764AD7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "03C1260D5CD980F7"
+					item: { count: 1, id: "thaumadditions:void_elemental_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "29F3134ABD7786E6"
+					item: { count: 1, id: "thaumadditions:void_elemental_axe" }
+					type: "item"
+				}
+				{
+					id: "3C7CE22AA38EE16E"
+					item: { count: 1, id: "thaumadditions:void_elemental_shovel" }
+					type: "item"
+				}
+				{
+					id: "31102E7FDDFFF21C"
+					item: { count: 1, id: "thaumadditions:void_elemental_hoe" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6458891992C2C8C3"]
+			icon: {
+				id: "thaumadditions:void_seed"
+			}
+			id: "338ED174CFAE94CB"
+			rewards: [
+				{
+					id: "355B9D25E903FA22"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1689716060484300"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5C217F00CC4E57E9"
+					item: { count: 1, id: "thaumadditions:void_seed" }
+					type: "item"
+				}
+				{
+					id: "502E4AA350A1D331"
+					item: { count: 1, id: "thaumadditions:void_fruit" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["32A8B6B3B6A599F4"]
+			id: "53AB34359B44BC1D"
+			rewards: [
+				{
+					id: "7CA73711FA797144"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "7961294A153C9250"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5DD999C61F32C469"
+				item: { count: 1, id: "thaumadditions:wormhole_mirror" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["32A8B6B3B6A599F4"]
+			id: "271FE3528D489DC5"
+			rewards: [
+				{
+					id: "158A7029783E9B67"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "645C7104694B7DAD"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7299B910576767D5"
+				item: { count: 1, id: "thaumadditions:mithrillium_ingot" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["271FE3528D489DC5"]
+			id: "76ABF2685BAB5116"
+			rewards: [
+				{
+					id: "1EB26750022FF951"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4051D521F9505E7B"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6D58FD9ADB4397CC"
+				item: { count: 1, id: "thaumadditions:mithrillium_resonator" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["76ABF2685BAB5116"]
+			id: "39A909D23396C5A1"
+			rewards: [
+				{
+					count: 3
+					id: "325E0D4A00DBCFFE"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "115417FA4FFDAB67"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1AC92FF765EC7369"
+				item: { count: 1, id: "thaumadditions:shadow_enchanter" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["271FE3528D489DC5"]
+			id: "3C41D49F184F6D33"
+			rewards: [
+				{
+					id: "2002648D31AF4A65"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "10D095D243CAD173"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "26A51012FDD85ECA"
+				item: { count: 1, id: "thaumadditions:the_beheader" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["271FE3528D489DC5"]
+			id: "12D67F2EE2B1CE86"
+			rewards: [
+				{
+					id: "3BA6396926A9FCE4"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "438BB4AD97AD4419"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "71A60C10557E078F"
+				item: { count: 1, id: "thaumadditions:aspect_combiner" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["12D67F2EE2B1CE86"]
+			id: "04BF2C089AE54C66"
+			rewards: [
+				{
+					count: 3
+					id: "57DD2FE6C783AFE9"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2321B990C62A29C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4EAF12A1CF7C881A"
+				item: { count: 1, id: "thaumadditions:aura_charger" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["271FE3528D489DC5"]
+			id: "6DC446F1998E2118"
+			rewards: [
+				{
+					id: "02CFA8FA33D8F7FE"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "436F1D0A47DC21BB"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5578E6270468A77B"
+				item: { count: 1, id: "thaumadditions:mithrillium_smelter" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6DC446F1998E2118"]
+			id: "50F604A2A1673BC8"
+			rewards: [
+				{
+					count: 3
+					id: "74ACEB1F81D00A94"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "4F6895B3EB15B86B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "324EAFE9C8DDBFFA"
+				item: { count: 1, id: "thaumadditions:adaminite_ingot" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["50F604A2A1673BC8"]
+			id: "55AEE44A101725C0"
+			rewards: [
+				{
+					count: 3
+					id: "0870B79F792D3575"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6883F2B0DF9681E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "18C932B9AB3568B3"
+				item: { count: 1, id: "thaumadditions:adaminite_fabric" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["55AEE44A101725C0"]
+			icon: {
+				id: "thaumadditions:adaminite_robe"
+			}
+			id: "6F7118B902E568EE"
+			rewards: [
+				{
+					count: 3
+					id: "02C37C02DE7B8557"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2A2F2FC9165FE7D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "47EEC6F8DDEC4D61"
+					item: { count: 1, id: "thaumadditions:adaminite_hood" }
+					type: "item"
+				}
+				{
+					id: "55481E68CAC9855D"
+					item: { count: 1, id: "thaumadditions:adaminite_robe" }
+					type: "item"
+				}
+				{
+					id: "31986AA59357E50E"
+					item: { count: 1, id: "thaumadditions:adaminite_belt" }
+					type: "item"
+				}
+				{
+					id: "399921776CF65CEE"
+					item: { count: 1, id: "thaumadditions:adaminite_boots" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["50F604A2A1673BC8"]
+			id: "153F518688E58C7C"
+			rewards: [
+				{
+					count: 3
+					id: "310FC5806BDC588D"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "6E768020A67D805D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5B56A79A13942C63"
+				item: { count: 1, id: "thaumadditions:adaminite_sword" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["50F604A2A1673BC8"]
+			id: "68760BE7627E8FD7"
+			rewards: [
+				{
+					count: 3
+					id: "650BDF956BAF0F33"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "0A5C77A73828C538"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "36768BA4D41B1C01"
+				item: { count: 1, id: "thaumadditions:adaminite_smelter" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["68760BE7627E8FD7"]
+			id: "2548747DB2110773"
+			rewards: [
+				{
+					id: "429CF3520F0B2430"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "40B6FF21812E84F2"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6EDEA967391251CB"
+				item: { count: 1, id: "thaumadditions:mithminite_ingot" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2548747DB2110773"]
+			id: "753FEE0A36D30B7A"
+			rewards: [
+				{
+					id: "0BBEC00A19CA9A21"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "3E91168EC420ECD6"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4EA1DE8DBEBE93A6"
+				item: { count: 1, id: "thaumadditions:mithminite_fabric" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["753FEE0A36D30B7A"]
+			icon: {
+				id: "thaumadditions:mithminite_robe"
+			}
+			id: "17AC1D7B6FC9CEC0"
+			rewards: [
+				{
+					id: "0D157F658D3C0EA2"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "23B13140DA041F8A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0797EAC67E9E9F3B"
+					item: { count: 1, id: "thaumadditions:mithminite_hood" }
+					type: "item"
+				}
+				{
+					id: "7FFE4FC307F722C8"
+					item: { count: 1, id: "thaumadditions:mithminite_robe" }
+					type: "item"
+				}
+				{
+					id: "4340988DAB6DE415"
+					item: { count: 1, id: "thaumadditions:mithminite_belt" }
+					type: "item"
+				}
+				{
+					id: "5F691EF7088352DA"
+					item: { count: 1, id: "thaumadditions:mithminite_boots" }
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2548747DB2110773"]
+			id: "30122A9ACAE8CE59"
+			rewards: [
+				{
+					id: "613AF30DD14B760B"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "5C90F469F930C03F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3D73C787A62F5612"
+				item: { count: 1, id: "thaumadditions:mithminite_scythe" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2548747DB2110773"]
+			id: "7A5FC832073D30A5"
+			rewards: [
+				{
+					id: "196FD3D09A5CD292"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "55647B9227CBAD75"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "12010C46225761D4"
+				item: { count: 1, id: "thaumadditions:mithminite_smelter" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74F7000A2A85D56E"]
+			id: "5D0ADE0677EC4F2D"
+			rewards: [
+				{
+					count: 2
+					id: "7ACB0D4765FF302E"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "5A6ECF2F2024F298"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5EB340D1075230BE"
+				item: { count: 1, id: "thaumadditions:jar_brass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D0ADE0677EC4F2D"]
+			id: "4CDE90CF0E924C4C"
+			rewards: [
+				{
+					count: 2
+					id: "43E77857DA853AE4"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "1433B33B3C72D57F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "66D040321D9A7799"
+				item: { count: 1, id: "thaumadditions:jar_thaumium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4CDE90CF0E924C4C"]
+			id: "4CCCBC414695AD31"
+			rewards: [
+				{
+					count: 7
+					id: "5AE5D7565C3A5EA3"
+					item: {
+						count: 1
+						id: "kubejs:coin_rare"
+					}
+					type: "item"
+				}
+				{
+					id: "0DC2DA24FA9D7BA6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "5CD0A372D358AA44"
+				item: { count: 1, id: "thaumadditions:jar_eldritch" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4CCCBC414695AD31"
+				"271FE3528D489DC5"
+			]
+			id: "7E6B35469AD26B9C"
+			rewards: [
+				{
+					id: "296FB118B8BE2664"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "04D98C91389BFE92"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "2E907C56DEE2C2D4"
+				item: { count: 1, id: "thaumadditions:jar_mithrillium" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7E6B35469AD26B9C"
+				"50F604A2A1673BC8"
+			]
+			id: "301FD9C79B1DABC7"
+			rewards: [
+				{
+					count: 3
+					id: "25308E4054084291"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "219DD808FE3AAC37"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "4F4CCD6C966C2A75"
+				item: { count: 1, id: "thaumadditions:jar_adaminite" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"301FD9C79B1DABC7"
+				"2548747DB2110773"
+			]
+			id: "10A3C543DD22F7B0"
+			rewards: [
+				{
+					id: "1BF943AE048642DB"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "30CC688140796CE0"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "752F50138FC121E3"
+				item: { count: 1, id: "thaumadditions:jar_mithminite" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -7.0d
+		}
+	]
+}

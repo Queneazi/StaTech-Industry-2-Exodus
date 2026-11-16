@@ -1,0 +1,3 @@
+#Planets demand an environmental liner (four Curios slots) against their temperature and
+#pressure; how much each one demands is in datapacks (adastraplanets/environments). Needs Curios.
+enabled = true

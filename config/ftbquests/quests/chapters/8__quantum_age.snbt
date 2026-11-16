@@ -7,7 +7,48 @@
 		id: "modern_industrialization:quantum_circuit"
 	}
 	id: "1A02A3EECEB4BD3F"
-	images: [ ]
+	images: [
+		{
+			height: 6.0d
+			id: "1DF58DAD9FC0F6E9"
+			image: "kubejs:textures/gui/quests/pluto.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 28.5d
+			y: 14.0d
+		}
+		{
+			height: 3.0d
+			id: "380BB1A260E3E952"
+			image: "kubejs:textures/gui/quests/charon.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 27.0d
+			y: 10.5d
+		}
+		{
+			height: 6.0d
+			id: "34B2CCEBC3A4955C"
+			image: "kubejs:textures/gui/quests/eris.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 42.5d
+			y: 14.0d
+		}
+		{
+			height: 3.0d
+			id: "44366308DCA64CF7"
+			image: "kubejs:textures/gui/quests/dysnomia.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 41.0d
+			y: 10.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -456,98 +497,6 @@
 			}]
 			x: 2.25d
 			y: -1.5d
-		}
-		{
-			dependencies: [
-				"4FD7572FC6CC4140"
-				"71636395F7946F8C"
-			]
-			id: "576E585F8DFC7073"
-			min_required_dependencies: 1
-			shape: "square"
-			tasks: [{
-				id: "6375F8A05A7FFFEB"
-				item: { count: 1, id: "create:creative_motor" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: 0.75d
-		}
-		{
-			dependencies: [
-				"208D9031D68CE1AB"
-				"3DDD69F79F436684"
-				"1BE7697603B3C94F"
-				"576E585F8DFC7073"
-				"4BA636804B1524D7"
-				"784E6AF2CC87C3F2"
-			]
-			id: "1EE269859E6DD37B"
-			rewards: [{
-				id: "7AA7ECBC21067659"
-				item: {
-					count: 1
-					id: "kubejs:bartman"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 4.0d
-			tasks: [{
-				id: "61BEBC8E47AB72DB"
-				item: { count: 1, id: "create:handheld_worldshaper" }
-				type: "item"
-			}]
-			x: 25.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"4FD7572FC6CC4140"
-				"71636395F7946F8C"
-			]
-			id: "3DDD69F79F436684"
-			min_required_dependencies: 1
-			shape: "square"
-			tasks: [{
-				id: "0C5A713E14E1EA34"
-				item: { count: 1, id: "modern_industrialization:creative_tank" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: -0.75d
-		}
-		{
-			dependencies: [
-				"4FD7572FC6CC4140"
-				"71636395F7946F8C"
-			]
-			id: "1BE7697603B3C94F"
-			min_required_dependencies: 1
-			shape: "square"
-			tasks: [{
-				id: "5FB0280A13D4AC75"
-				item: { count: 1, id: "modern_industrialization:creative_barrel" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: -2.25d
-		}
-		{
-			dependencies: [
-				"4FD7572FC6CC4140"
-				"71636395F7946F8C"
-			]
-			id: "208D9031D68CE1AB"
-			min_required_dependencies: 1
-			shape: "square"
-			tasks: [{
-				id: "2EA3D8C6B04CD9AE"
-				item: { count: 1, id: "modern_industrialization:creative_storage_unit" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: -3.75d
 		}
 		{
 			dependencies: ["6CD8A3092DDAC055"]
@@ -1152,28 +1101,6 @@
 				id: "mi_tweaks:extreme_vacuum_cryofreezer"
 			}
 			id: "1F86FDA8B641EC55"
-			rewards: [
-				{
-					count: 2
-					id: "6EF9589C2456E5B4"
-					item: {
-						count: 1
-						id: "kubejs:coin_mythic"
-					}
-					type: "item"
-				}
-				{
-					id: "2BED9B031639A7D9"
-					type: "xp"
-					xp: 200
-				}
-				{
-					exclude_from_claim_all: true
-					id: "355F4C213BC8D03A"
-					table_id: 1797692254493429240L
-					type: "random"
-				}
-			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -1243,28 +1170,6 @@
 				id: "mi_tweaks:macrothermic_confluence_unit"
 			}
 			id: "5E8335E396D18094"
-			rewards: [
-				{
-					count: 2
-					id: "2686728110FD7FE4"
-					item: {
-						count: 1
-						id: "kubejs:coin_mythic"
-					}
-					type: "item"
-				}
-				{
-					id: "28759741A8BE45AC"
-					type: "xp"
-					xp: 200
-				}
-				{
-					exclude_from_claim_all: true
-					id: "75D7DB3E38A4805A"
-					table_id: 1797692254493429240L
-					type: "random"
-				}
-			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -1368,6 +1273,522 @@
 			]
 			x: 21.0d
 			y: 3.75d
+		}
+		{
+			dependencies: ["5B9A855554AD1E04"]
+			icon: {
+				id: "adastraplanets:liner_vest_5"
+			}
+			id: "4BFA54BBD9139506"
+			rewards: [
+				{
+					count: 3
+					id: "22187B36E58ABE8E"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "73123D2DDF39FBC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3FF14EACF62E2B43"
+					item: { count: 1, id: "adastraplanets:liner_hood_5" }
+					type: "item"
+				}
+				{
+					id: "4E1F317470A98E19"
+					item: { count: 1, id: "adastraplanets:liner_vest_5" }
+					type: "item"
+				}
+				{
+					id: "7BBAA84A9D57D50D"
+					item: { count: 1, id: "adastraplanets:liner_leggings_5" }
+					type: "item"
+				}
+				{
+					id: "3DB6940D20AE0085"
+					item: { count: 1, id: "adastraplanets:liner_boots_5" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3B696D37B9F56BB1"
+				"05FE2DC75D1DD3D6"
+			]
+			icon: {
+				id: "adastraplanets:tempestine_engine"
+			}
+			id: "5B9A855554AD1E04"
+			rewards: [
+				{
+					count: 3
+					id: "7166D17CF56926A5"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2C103405E07D0ED6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1066FEB1B1647C12"
+					item: { count: 1, id: "adastraplanets:nitralis_nose_cone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1AFD636BE58A2338"
+					item: { count: 1, id: "adastraplanets:nitralis_fin" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A88470BD45CDFF6"
+					item: { count: 1, id: "adastraplanets:tempestine_tank" }
+					type: "item"
+				}
+				{
+					id: "4E8EDF02BFC44A24"
+					item: { count: 1, id: "adastraplanets:tempestine_engine" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"5B9A855554AD1E04"
+				"4BFA54BBD9139506"
+			]
+			id: "761449F962A17403"
+			rewards: [
+				{
+					id: "062A4A751BBF983D"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "5B70E8F89A9E5215"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "2420ECB1950799FC"
+				item: { count: 1, id: "adastraplanets:tier_9_rocket" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["761449F962A17403"]
+			icon: {
+				id: "adastraplanets:cordium_ore"
+			}
+			id: "52B0A2A561885A97"
+			rewards: [
+				{
+					count: 3
+					id: "21E0EC61E3EFF226"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "797DB0F1D0EE8068"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 2.5d
+			tasks: [
+				{
+					dimension: "adastraplanets:pluto"
+					id: "519B838969199A41"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "698D297FB41EEE7B"
+					item: { count: 1, id: "adastraplanets:raw_cordium" }
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["761449F962A17403"]
+			icon: {
+				id: "adastraplanets:mordrine_ore"
+			}
+			id: "0466F6AE6A33233D"
+			rewards: [
+				{
+					count: 3
+					id: "1E2C2B0DBFA4B590"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "36FEB8291E1A5E87"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "adastraplanets:charon"
+					id: "3D42A438BE7A9F42"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "0D6E18863AD833FD"
+					item: { count: 1, id: "adastraplanets:raw_mordrine" }
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52B0A2A561885A97"]
+			id: "5B2C3B975AF5E2D1"
+			rewards: [
+				{
+					count: 3
+					id: "3C3D0305FFA43CC9"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "7C65989B8E5D0B36"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "4D5860B214FC307A"
+				item: { count: 1, id: "adastraplanets:rose_light_core" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"52B0A2A561885A97"
+				"0466F6AE6A33233D"
+			]
+			icon: {
+				id: "adastraplanets:cordium_engine"
+			}
+			id: "1672ACDCBD9FDD65"
+			rewards: [
+				{
+					id: "192E40085E997B8C"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "331F6BA5BA7618CE"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "22EC715F5AC68059"
+					item: { count: 1, id: "adastraplanets:mordrine_nose_cone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48CA4C0EF7B3481E"
+					item: { count: 1, id: "adastraplanets:mordrine_fin" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1BF377D81563332B"
+					item: { count: 1, id: "adastraplanets:cordium_tank" }
+					type: "item"
+				}
+				{
+					id: "474C1660083124B4"
+					item: { count: 1, id: "adastraplanets:cordium_engine" }
+					type: "item"
+				}
+			]
+			x: 33.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1672ACDCBD9FDD65"]
+			id: "66BBEFD82298EE5F"
+			rewards: [
+				{
+					id: "6AEB73DD1FC0A6EF"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "4DA6912FD7F62F09"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "564B604B34DA2BED"
+				item: { count: 1, id: "adastraplanets:tier_10_rocket" }
+				type: "item"
+			}]
+			x: 37.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["66BBEFD82298EE5F"]
+			icon: {
+				id: "adastraplanets:albedon_ore"
+			}
+			id: "0646F2860BE89943"
+			rewards: [
+				{
+					id: "51B1EC22A5E7D7F0"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "10DE66F39EE9B86C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 2.5d
+			tasks: [
+				{
+					dimension: "adastraplanets:eris"
+					id: "300830F84D691D8D"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "5F3DB0793E673F92"
+					item: { count: 1, id: "adastraplanets:raw_albedon" }
+					type: "item"
+				}
+			]
+			x: 42.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["66BBEFD82298EE5F"]
+			icon: {
+				id: "adastraplanets:shardex_ore"
+			}
+			id: "7189E3FB8CF91A3A"
+			rewards: [
+				{
+					id: "59AF53E5CC6B9651"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "24E1B3AE8B3678CF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "adastraplanets:dysnomia"
+					id: "309FFCD12EAE1F95"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "3846A82793799660"
+					item: { count: 1, id: "adastraplanets:raw_shardex" }
+					type: "item"
+				}
+			]
+			x: 41.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0646F2860BE89943"]
+			id: "6BEF1EE2751D0930"
+			rewards: [
+				{
+					id: "5A68288A2AF56044"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "6741C45A783741F3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7A202FC2BE6CD177"
+				item: { count: 1, id: "adastraplanets:frost_light_core" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6BEF1EE2751D0930"]
+			icon: {
+				id: "adastraplanets:ancient_ship"
+			}
+			id: "3C937F68391692D1"
+			rewards: [
+				{
+					id: "19FB21FD575B9D6E"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "31FC717EC54C5503"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "19079DF8B04A37A9"
+					item: { count: 1, id: "adastraplanets:ancient_helmet" }
+					type: "item"
+				}
+				{
+					id: "5EBF60E3CD74A07F"
+					item: { count: 1, id: "adastraplanets:ancient_chestplate" }
+					type: "item"
+				}
+				{
+					id: "339DA44DB2251287"
+					item: { count: 1, id: "adastraplanets:ancient_leggings" }
+					type: "item"
+				}
+				{
+					id: "77536105916E5C21"
+					item: { count: 1, id: "adastraplanets:ancient_boots" }
+					type: "item"
+				}
+				{
+					id: "24493DDA88375804"
+					item: { count: 1, id: "adastraplanets:ancient_ship" }
+					type: "item"
+				}
+			]
+			x: 50.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3E139335E6F04C69"
+				"622551564BA66E4D"
+			]
+			icon: {
+				id: "adastraplanets:tier_10_rocket"
+			}
+			id: "3B696D37B9F56BB1"
+			rewards: [
+				{
+					id: "70D9B02B4872375C"
+					item: {
+						count: 1
+						id: "kubejs:coin_mythic"
+					}
+					type: "item"
+				}
+				{
+					id: "30268BE34FADBA23"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5C66952470FBAF34"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 10.0d
 		}
 	]
 }

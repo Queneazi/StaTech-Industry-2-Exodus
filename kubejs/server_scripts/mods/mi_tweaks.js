@@ -129,7 +129,7 @@ ServerEvents.recipes((event) => {
     event
         .shaped(mt('colossal_blast_furnace'), ['PQP', 'EHE', 'CSC'], {
             Q: mi('quantum_circuit'),
-            P: mi('tungstensteel_large_plate'),
+            P: '#c:plates/igneum',
             E: mi('electric_blast_furnace'),
             H: mi('quantum_machine_hull'),
             C: mi('superconductor_coil'),
@@ -178,7 +178,7 @@ ServerEvents.recipes((event) => {
             Q: mi('quantum_circuit'),
             L: mi('large_heat_exchanger'),
             H: mi('quantum_machine_hull'),
-            O: mi('ostrum_machine_casing'),
+            O: '#c:plates/tholinar',
         })
         .id(st('macrothermic_confluence_unit'));
 
@@ -189,7 +189,7 @@ ServerEvents.recipes((event) => {
             Q: mi('quantum_circuit'),
             H: mi('quantum_machine_hull'),
             P: mi('large_advanced_pump'),
-            A: mi('aluminum_large_plate'),
+            A: '#c:plates/nivalum',
         })
         .id(st('extreme_vacuum_cryofreezer'));
 
@@ -253,7 +253,7 @@ ServerEvents.recipes((event) => {
         8,
         200,
         [
-            { amount: 2, item: mi('tungstensteel_large_plate') },
+            { amount: 2, tag: 'c:plates/igneum' },
             { amount: 2, item: mi('superconductor_coil') },
             { amount: 1, item: mi('superconductor_cable') },
             { amount: 1, item: mi('quantum_circuit') },
@@ -435,7 +435,7 @@ ServerEvents.recipes((event) => {
         [
             { amount: 2, item: mi('heat_exchanger') },
             { amount: 2, item: mi('large_heat_exchanger') },
-            { amount: 2, item: mi('ostrum_machine_casing') },
+            { amount: 2, tag: 'c:plates/tholinar' },
             { amount: 1, item: mi('quantum_machine_hull') },
             { amount: 2, item: mi('quantum_circuit') },
         ],
@@ -450,7 +450,7 @@ ServerEvents.recipes((event) => {
         200,
         [
             { amount: 3, item: mi('large_advanced_pump') },
-            { amount: 2, item: mi('aluminum_large_plate') },
+            { amount: 2, tag: 'c:plates/nivalum' },
             { amount: 1, item: mi('quantum_machine_hull') },
             { amount: 1, item: mi('vacuum_freezer') },
             { amount: 2, item: mi('quantum_circuit') },

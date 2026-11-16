@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
     // -- PROCESSING ARRAY -- //
     event
         .shaped(ei('processing_array'), ['SQS', 'GAG', 'SQS'], {
-            S: mi('clean_stainless_steel_machine_casing'),
+            S: '#c:plates/vesperine',
             G: '#c:glass_blocks',
             A: mi('assembler'),
             Q: mi('quantum_upgrade'),
@@ -134,7 +134,7 @@ ServerEvents.recipes((event) => {
         8,
         200,
         [
-            { amount: 4, item: mi('clean_stainless_steel_machine_casing') },
+            { amount: 4, tag: 'c:plates/vesperine' },
             { amount: 1, item: mi('assembler') },
             { amount: 2, item: mi('quantum_upgrade') },
             { amount: 2, tag: 'c:glass_blocks' },

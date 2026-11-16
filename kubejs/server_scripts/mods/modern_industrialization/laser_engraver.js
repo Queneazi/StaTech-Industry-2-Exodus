@@ -7,57 +7,27 @@ ServerEvents.recipes((event) => {
     // -- MOD NAMESPACE UTILITY FUNCTIONS -- //
     let st = (id) => `statech:modern_industrialization/laser_engraver/${id}`;
 
-    // -- STAR LOCATION TELEMETRY -- //
-    laserEngraver(
-        event,
-        st('star_location_telemetry'),
-        16,
-        200,
-        [
-            { amount: 1, item: kj('star_data') },
-            { amount: 1, item: mi('digital_circuit_board') },
-        ],
-        [{ amount: 1, item: kj('star_location_telemetry') }]
-    );
-
-    // -- PLANETARY LOCATION TELEMETRY -- //
-    laserEngraver(
-        event,
-        st('planetary_location_telemetry'),
-        16,
-        200,
-        [
-            { amount: 1, item: kj('planetary_data') },
-            { amount: 1, item: mi('digital_circuit_board') },
-        ],
-        [{ amount: 1, item: kj('planetary_location_telemetry') }]
-    );
-
-    // -- BLACK HOLE LOCATION TELEMETRY -- //
-    laserEngraver(
-        event,
-        st('black_hole_location_telemetry'),
-        16,
-        200,
-        [
-            { amount: 1, item: kj('black_hole_data') },
-            { amount: 1, item: mi('digital_circuit_board') },
-        ],
-        [{ amount: 1, item: kj('black_hole_location_telemetry') }]
-    );
-
-    // -- ANOMALY LOCATION TELEMETRY -- //
-    laserEngraver(
-        event,
-        st('anomaly_location_telemetry'),
-        16,
-        200,
-        [
-            { amount: 1, item: kj('anomalous_stellar_data') },
-            { amount: 1, item: mi('digital_circuit_board') },
-        ],
-        [{ amount: 1, item: kj('anomaly_location_telemetry') }]
-    );
+    // -- LOCATION TELEMETRY -- //
+    const TELEMETRY = [
+        //  Data                        Telemetry                           EU/t  Ticks
+        ['star_data', 'star_location_telemetry', 512, 400],
+        ['planetary_data', 'planetary_location_telemetry', 512, 400],
+        ['black_hole_data', 'black_hole_location_telemetry', 1024, 600],
+        ['anomalous_stellar_data', 'anomaly_location_telemetry', 2048, 800],
+    ];
+    TELEMETRY.forEach((row) => {
+        laserEngraver(
+            event,
+            st(row[1]),
+            row[2],
+            row[3],
+            [
+                { amount: 1, item: kj(row[0]) },
+                { amount: 1, item: mi('quantum_circuit_board') },
+            ],
+            [{ amount: 1, item: kj(row[1]) }]
+        );
+    });
 
     // -- PRINTED SILICON -- //
     laserEngraver(
@@ -282,7 +252,6 @@ ServerEvents.recipes((event) => {
         [kj('rabbit_model'), mc('rabbit')],
         [kj('phantom_model'), mc('phantom_membrane')],
         [kj('breeze_model'), mc('breeze_rod')],
-        [kj('drowned_model'), mi('copper_rod')],
     ];
     modelItemList.forEach((modelItem) => {
         let model = modelItem[0];

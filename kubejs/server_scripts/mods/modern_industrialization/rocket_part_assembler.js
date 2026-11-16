@@ -15,12 +15,12 @@ ServerEvents.recipes((event) => {
         32,
         900,
         [
-            { amount: 2, item: mi('stainless_steel_rotor') },
+            { amount: 2, item: mi('aluminum_rotor') },
             { amount: 4, item: mi('steel_rod') },
-            { amount: 1, item: mi('advanced_motor') },
+            { amount: 1, item: mi('motor') },
         ],
         [{ amount: 1, item: kj('rocket_propeller') }],
-        [{ amount: 100, fluid: mi('molten_enderium') }]
+        [{ amount: 100, fluid: mi('lubricant') }]
     );
 
     // -- ENGINE FRAME -- //
@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
             { amount: 2, item: mi('steel_large_plate') },
         ],
         [{ amount: 1, item: kj('engine_framebox') }],
-        [{ amount: 100, fluid: mi('molten_enderium') }]
+        [{ amount: 100, fluid: mi('lubricant') }]
     );
 
     // -- ROCKET FIN -- //
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
             { amount: 3, item: mi('steel_curved_plate') },
         ],
         [{ amount: 1, item: kj('rocket_fin') }],
-        [{ amount: 100, fluid: mi('molten_enderium') }]
+        [{ amount: 100, fluid: mi('lubricant') }]
     );
 
     // -- ROCKET NOSE CONE -- //
@@ -62,7 +62,7 @@ ServerEvents.recipes((event) => {
             { amount: 1, item: mi('redstone_tiny_dust') },
         ],
         [{ amount: 1, item: kj('rocket_cone') }],
-        [{ amount: 100, fluid: mi('molten_enderium') }]
+        [{ amount: 100, fluid: mi('lubricant') }]
     );
 
     // -- STEEL TANK -- //
@@ -73,12 +73,12 @@ ServerEvents.recipes((event) => {
         900,
         [
             { amount: 4, item: mi('steel_ring') },
-            { amount: 2, item: mi('advanced_pump') },
+            { amount: 2, item: mi('pump') },
             { amount: 8, item: mi('steel_plate') },
             { amount: 1, tag: 'c:glass_blocks' },
         ],
         [{ amount: 1, item: kj('steel_fuel_tank') }],
-        [{ amount: 250, fluid: mi('boosted_diesel') }]
+        [{ amount: 1000, fluid: mi('creosote') }]
     );
 
     // -- DESH TANK -- //
@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
             { amount: 1, item: kj('rocket_propeller') },
         ],
         [{ amount: 1, item: kj('steel_engine') }],
-        [{ amount: 100, fluid: mi('molten_enderium') }]
+        [{ amount: 100, fluid: mi('lubricant') }]
     );
 
     // -- DESH ENGINE -- //

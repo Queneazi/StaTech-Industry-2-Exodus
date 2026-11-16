@@ -1,0 +1,51 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "kubejs:rocket_cone"
+    },
+    {
+      "item": "kubejs:mkiii_probe_computer"
+    },
+    {
+      "tag": "c:storage_blocks/ostrum"
+    },
+    {
+      "tag": "c:storage_blocks/ostrum"
+    },
+    {
+      "tag": "c:storage_blocks/ostrum"
+    },
+    {
+      "tag": "c:storage_blocks/ostrum"
+    },
+    {
+      "tag": "c:storage_blocks/ostrum"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:ostrum_fuel_tank"
+    },
+    {
+      "item": "kubejs:ostrum_fuel_tank"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:ostrum_engine"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_3_rocket"
+  }
+}

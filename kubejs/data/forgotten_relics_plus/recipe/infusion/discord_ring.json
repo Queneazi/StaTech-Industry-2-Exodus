@@ -1,0 +1,62 @@
+{
+    "type":  "thaumaturge:infusion",
+    "aspects":  [
+                    {
+                        "aspect":  "thaumaturge:instrumentum",
+                        "amount":  16
+                    },
+                    {
+                        "aspect":  "thaumaturge:motus",
+                        "amount":  16
+                    },
+                    {
+                        "aspect":  "thaumaturge:praecantatio",
+                        "amount":  12
+                    },
+                    {
+                        "aspect":  "thaumaturge:permutatio",
+                        "amount":  8
+                    },
+                    {
+                        "aspect":  "thaumaturge:vacuos",
+                        "amount":  8
+                    }
+                ],
+    "catalyst":  {
+                     "item":  "thaumaturge:ring_mundane"
+                 },
+    "components":  [
+                       {
+                           "item":  "spectrum:onyx_shard"
+                       },
+                       {
+                           "item":  "thaumaturge:salis_mundus"
+                       },
+                       {
+                           "item":  "thaumaturge:ingot_void"
+                       },
+                       {
+                           "item":  "thaumaturge:salis_mundus"
+                       },
+                       {
+                           "item":  "spectrum:moonstone_shard"
+                       },
+                       {
+                           "item":  "thaumaturge:salis_mundus"
+                       },
+                       {
+                           "item":  "thaumaturge:ingot_void"
+                       },
+                       {
+                           "item":  "thaumaturge:salis_mundus"
+                       }
+                   ],
+    "instability":  2,
+    "research":  {
+                     "entry":  "forgotten_relics_plus:ring_of_discord"
+                 },
+    "result":  {
+                   "count":  1,
+                   "id":  "forgotten_relics_plus:discord_ring"
+               }
+}

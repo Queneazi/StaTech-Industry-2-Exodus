@@ -221,34 +221,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', (event) => {
     UNUSED_MD.forEach((id) => event.remove(id));
 
     const UNUSED_DEV = [
-        kj('computer_casing'),
-        kj('lens_mold'),
-        kj('short_range_lens'),
-        kj('deep_space_lens'),
-        kj('unrefined_simple_stellar_data'),
-        kj('unrefined_deep_space_stellar_data'),
-        kj('planetary_data'),
-        kj('star_data'),
-        kj('black_hole_data'),
-        kj('anomalous_stellar_data'),
-        kj('star_location_telemetry'),
-        kj('planetary_location_telemetry'),
-        kj('black_hole_location_telemetry'),
-        kj('anomaly_location_telemetry'),
-        kj('research_probe'),
-        kj('star_imploder'),
-        kj('dark_matter'),
-        kj('antimatter_housing'),
-        kj('antimatter'),
-        kj('contained_antimatter'),
-        kj('basic_space_circuit'),
-        kj('advanced_space_circuit'),
-        kj('anomalous_space_circuit'),
-        mi('supercomputer'),
-        mi('telescope'),
-        mt('large_borehole_quarry'),
-        mt('bedrock_fracking_array'),
-        mt('distillation_megatower'),
+        kj('personal_space_shield'),
         /^modern_industrialization:.*(cobalt).*/,
     ];
     UNUSED_DEV.forEach((id) => event.remove(id));
@@ -285,7 +258,6 @@ RecipeViewerEvents.removeRecipes((event) => {
         yai('/arboreous_greenhouse/4/3'),
         yai('/arboreous_greenhouse/4/4'),
         ca('/rolling/'),
-        'statech:modern_industrialization/blast_furnace/short_range_lens',
     ]);
 });
 
@@ -294,8 +266,6 @@ RecipeViewerEvents.removeCategories((event) => {
         'functionalstorage:dissolution',
         'emi:anvil_repairing',
         'emi:grinding',
-        'modern_industrialization:supercomputer',
-        'modern_industrialization:telescope',
         dc('mechanical_cutting'),
         mc('tag_recipes/item'),
         mc('tag_recipes/fluid'),

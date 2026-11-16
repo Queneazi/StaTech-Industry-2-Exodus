@@ -1,6 +1,0 @@
-{
-    "type": "commonjs",
-    "dependencies": {
-        "@eslint/js": "^10.12.0"
-    }
-}

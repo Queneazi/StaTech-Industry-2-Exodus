@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "stcm:fireproof_ring"
+                        "items": "kubejs:fireproof_ring"
                     }
                 ]
             },
@@ -19,7 +19,7 @@
         "frame": "goal",
         "icon": {
             "count": 1,
-            "id": "stcm:fireproof_ring"
+            "id": "kubejs:fireproof_ring"
         },
         "title": {
             "translate": "advancements.statech.fireproof_ring"

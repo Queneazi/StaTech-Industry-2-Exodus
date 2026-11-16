@@ -56,5 +56,9 @@
     "modern_industrialization/matter_fabricator": {
         "category": "block",
         "sounds": ["mi_sound_addon:modern_industrialization/compressor"]
+    },
+    "modern_industrialization/exodus_ark": {
+        "category": "block",
+        "sounds": ["mi_sound_addon:modern_industrialization/space_probe_launcher"]
     }
 }

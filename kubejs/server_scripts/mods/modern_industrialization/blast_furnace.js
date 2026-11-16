@@ -20,14 +20,14 @@ ServerEvents.recipes((event) => {
     blastFurnace(
         event,
         st('short_range_lens'),
-        24,
-        200,
+        128,
+        400,
         [
             { amount: 1, item: kj('lens_mold'), probability: 0.0 },
-            { amount: 1, item: mi('silicon_dust') },
+            { amount: 4, item: mi('silicon_dust') },
         ],
-        [{ amount: 1, item: kj('short_range_lens'), probability: 0.3 }],
-        [{ amount: 200, fluid: mi('oxygen') }]
+        [{ amount: 1, item: kj('short_range_lens') }],
+        [{ amount: 1000, fluid: mi('oxygen') }]
     );
 
     // -- NETHER STAR -> MOLTEN NETHER STAR -- //
@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
     blastFurnace(
         event,
         st('calorite_ingot'),
-        192,
+        128,
         600,
         [{ amount: 1, item: mi('calorite_dust') }],
         [{ amount: 1, item: mi('calorite_hot_ingot') }]
@@ -230,16 +230,11 @@ ServerEvents.recipes((event) => {
         event,
         st('lithium_tetrafluoroborate_decompose'),
         16,
-        400,
-        [
-            {
-                amount: 6,
-                item: mi('lithium_tetrafluoroborate_dust'),
-            },
-        ],
-        [{ amount: 4, item: mi('lithium_fluoride_dust') }],
+        200,
+        [{ amount: 1, item: mi('lithium_tetrafluoroborate_dust') }],
+        [{ amount: 1, item: mi('lithium_fluoride_dust') }],
         null,
-        [{ amount: 2000, fluid: mi('boron_trifluoride') }]
+        [{ amount: 1000, fluid: mi('boron_trifluoride') }]
     );
 
     // -- MOLTEN GOLD -- //

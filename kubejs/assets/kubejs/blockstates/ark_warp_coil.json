@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kubejs:block/ark_warp_coil_emissive"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "type": "thaumaturge:infusion",
+  "instability": 5,
+  "research": {
+    "entry": "thaumadditions:mithrillium_ingot"
+  },
+  "catalyst": {
+    "item": "thaumaturge:ingot_thaumium"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "item": "thaumaturge:alumentum"
+    },
+    {
+      "item": "thaumaturge:quicksilver"
+    },
+    {
+      "tag": "c:plates/platinum"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "thaumaturge:amber"
+    },
+    {
+      "item": "thaumaturge:alumentum"
+    },
+    {
+      "item": "thaumaturge:quicksilver"
+    },
+    {
+      "tag": "c:plates/platinum"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    }
+  ],
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vitreus",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 10
+    }
+  ],
+  "result": {
+    "id": "thaumadditions:mithrillium_ingot",
+    "count": 1
+  }
+}

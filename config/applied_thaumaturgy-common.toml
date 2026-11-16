@@ -1,0 +1,4 @@
+#Log detailed Thaumic Pattern Provider scheduling, validation, staging, and return steps.
+debugPatternProvider = false
+#Include ingredient and slot-by-slot details in Arcane Terminal recipe preview logs.
+debugArcaneTerminal = false

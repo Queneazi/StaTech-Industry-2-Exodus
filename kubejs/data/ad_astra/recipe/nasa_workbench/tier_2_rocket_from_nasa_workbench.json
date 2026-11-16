@@ -1,0 +1,51 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "kubejs:rocket_cone"
+    },
+    {
+      "item": "kubejs:mkii_probe_computer"
+    },
+    {
+      "tag": "c:storage_blocks/desh"
+    },
+    {
+      "tag": "c:storage_blocks/desh"
+    },
+    {
+      "tag": "c:storage_blocks/desh"
+    },
+    {
+      "tag": "c:storage_blocks/desh"
+    },
+    {
+      "tag": "c:storage_blocks/desh"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:desh_fuel_tank"
+    },
+    {
+      "item": "kubejs:desh_fuel_tank"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:desh_engine"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_2_rocket"
+  }
+}

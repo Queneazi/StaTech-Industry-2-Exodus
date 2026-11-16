@@ -1,0 +1,7 @@
+#Solar systems to hide from the planet selection screen, e.g. Ad Astra's own
+#["ad_astra:solar_system", "ad_astra:proxima_centauri"]. Their planets keep working (gravity,
+#oxygen, launching from them) but cannot be chosen as destinations, except in creative or by operators.
+#If the Overworld's system is hidden, move the Overworld to another system first (override
+#data/ad_astra/planets/earth.json in a datapack), or players cannot fly back home.
+#The server's value applies to everyone on it.
+hidden = []

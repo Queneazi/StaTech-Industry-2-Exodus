@@ -1,0 +1,4 @@
+#Enable the 5x5 Large Launch Pad recipe (rockets from tier 6 need it)
+large_launch_pad = true
+#Enable the 7x7 Huge Launch Pad recipe (rockets from tier 8 need it)
+huge_launch_pad = true

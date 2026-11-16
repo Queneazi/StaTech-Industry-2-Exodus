@@ -1,0 +1,51 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "kubejs:rocket_cone"
+    },
+    {
+      "item": "modern_industrialization:highly_advanced_machine_hull"
+    },
+    {
+      "item": "kubejs:highly_advanced_space_probe"
+    },
+    {
+      "tag": "c:storage_blocks/calorite"
+    },
+    {
+      "tag": "c:storage_blocks/calorite"
+    },
+    {
+      "tag": "c:storage_blocks/calorite"
+    },
+    {
+      "tag": "c:storage_blocks/calorite"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:calorite_fuel_tank"
+    },
+    {
+      "item": "kubejs:calorite_fuel_tank"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    },
+    {
+      "item": "kubejs:calorite_engine"
+    },
+    {
+      "item": "kubejs:rocket_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_4_rocket"
+  }
+}

@@ -16,6 +16,7 @@ ServerEvents.recipes((event) => {
         [
             { amount: 64, item: mi('nuke') },
             { amount: 1, item: mi('ultradense_metal_ball') },
+            { amount: 16, tag: 'c:plates/nitralis' },
         ],
         [{ amount: 1, item: mi('singularity') }],
         [{ amount: 1000, fluid: mi('neutronium') }]

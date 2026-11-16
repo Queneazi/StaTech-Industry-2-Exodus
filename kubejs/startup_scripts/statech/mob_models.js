@@ -42,7 +42,6 @@ StartupEvents.registry('item', (event) => {
     mobModel('rabbit');
     mobModel('phantom');
     mobModel('breeze');
-    mobModel('drowned')
 
     bossModel('wither');
     bossModel('dragon');

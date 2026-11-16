@@ -1,0 +1,3 @@
+#Rocket ids to disable, e.g. ["adastraplanets:tier_5_rocket"]. A disabled rocket loses its
+#recipe and definition (it cannot launch) and is hidden from the creative tab.
+disabled = []

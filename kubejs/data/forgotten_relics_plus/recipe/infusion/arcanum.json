@@ -1,0 +1,82 @@
+{
+    "type":  "thaumaturge:infusion",
+    "aspects":  [
+                    {
+                        "aspect":  "thaumaturge:auram",
+                        "amount":  80
+                    },
+                    {
+                        "aspect":  "thaumaturge:praecantatio",
+                        "amount":  500
+                    },
+                    {
+                        "aspect":  "thaumaturge:vacuos",
+                        "amount":  125
+                    },
+                    {
+                        "aspect":  "thaumaturge:alienis",
+                        "amount":  175
+                    },
+                    {
+                        "aspect":  "thaumaturge:tenebrae",
+                        "amount":  150
+                    },
+                    {
+                        "aspect":  "thaumaturge:motus",
+                        "amount":  100
+                    },
+                    {
+                        "aspect":  "thaumaturge:permutatio",
+                        "amount":  185
+                    }
+                ],
+    "catalyst":  {
+                     "item":  "thaumaturge:primordial_pearl"
+                 },
+    "components":  [
+                       {
+                           "item":  "thaumaturge:amulet_vis"
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_perditio"
+                       },
+                       {
+                           "item":  "spectrum:stratine_gem"
+                       },
+                       {
+                           "item":  "modern_industrialization:desh_ingot"
+                       },
+                       {
+                           "item":  "spectrum:moonstone_shard"
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_perditio"
+                       },
+                       {
+                           "item":  "forgotten_relics_plus:superposition_ring"
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_perditio"
+                       },
+                       {
+                           "item":  "spectrum:moonstone_shard"
+                       },
+                       {
+                           "item":  "modern_industrialization:desh_ingot"
+                       },
+                       {
+                           "item":  "spectrum:stratine_gem"
+                       },
+                       {
+                           "item":  "thaumaturge:crystal_perditio"
+                       }
+                   ],
+    "instability":  12,
+    "research":  {
+                     "entry":  "forgotten_relics_plus:arcanum"
+                 },
+    "result":  {
+                   "count":  1,
+                   "id":  "forgotten_relics_plus:arcanum"
+               }
+}

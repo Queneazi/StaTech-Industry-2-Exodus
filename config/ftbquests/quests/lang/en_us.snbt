@@ -14,7 +14,7 @@
 	chapter.4AF4DF6E4752DD0A.title: "&aArtifacts"
 	chapter.5336FACFCB9D5E2E.chapter_subtitle: ["Build Your Own Reactor"]
 	chapter.5336FACFCB9D5E2E.title: "&d6 - Nuclear Age"
-	chapter.5C132A91B86C59B5.chapter_subtitle: ["Awaiting for space mod..."]
+	chapter.5C132A91B86C59B5.chapter_subtitle: ["Reach for the stars!"]
 	chapter.5C132A91B86C59B5.title: "&65.5 - Space Age"
 	chapter.62C223D50B408794.title: "&dSpectrum"
 	chapter.6A3B096018B7FAD6.title: "&3Create"
@@ -125,15 +125,6 @@
 	]
 	quest.023BA92436AFFCFD.quest_subtitle: "It does more than just Copy and Paste"
 	quest.023BA92436AFFCFD.title: "Advanced Pipe Configuration"
-	quest.029B75A3C3A253DD.quest_desc: [
-		"&9Applied Flow Analytics&r tracks &aresource&r movement &cthrough&r your &dAE2&r network."
-		""
-		"Use it to see what &9enters&r and &aleaves&r the &enetwork&r, display &eflow graphs&r, and &ccontrol redstone&r based on flow rates."
-		""
-		"The &9Flow Terminal&r shows resource &ainflow&r, &coutflow&r, and &enet flow&r with detailed &9statistics&r and &agraphs&r."
-		""
-		"Select a &dresource&r to explore how its flow &achanges&r over time."
-	]
 	quest.029C56FD6F1A36F0.quest_desc: [
 		"Mixing &aCopper&r and &bZinc&r in a heated &eMechanical Mixer&r will create &6Brass&r. "
 		""
@@ -642,6 +633,8 @@
 		"To produce power using the &bNuclear Reactor&r, you need to place some form of &9Water&r in a &dFluid Hatch&r. It will turn into &7Steam&r that can then be used to produce power."
 		""
 		"&cNOTE&r: &bThe Nuclear Reactor&r &cCANNOT&r explode, emit radiation, or otherwise damage the map. The only thing that it can damage is the items you put in it if the &ctemperature&r gets too high (more on this later)."
+		""
+		"The reactor is now shielded with &8Umbrite Plates&r from &7Phobos&r. See &cMission to Mars&r in the &9Adv. Electronics&r chapter."
 	]
 	quest.0C73D9DE1468EBB1.quest_subtitle: "With great power comes great responsibility"
 	quest.0C73D9DE1468EBB1.title: "The Nuclear Reactor"
@@ -777,7 +770,7 @@
 		""
 		"- &2InventoryHUD+&r: Effects, Armor, etc. HUD elements. Can be edited in the &cconfig menu&r."
 		""
-		"- &6FPS Display&r: Can be edited in the &o&2Sodium Extra/Extras tab&r&r in the &cVideo Settings menu&r."
+		"- &6FPS Display&r: Can be edited in the &o&2Chloride/Interface tab&r&r in the &cVideo Settings menu&r."
 	]
 	quest.0EFAF86EED54E0B3.quest_desc: ["Hard, sharp and yet surprisingly brittle. These stones are found everywhere in the &eRazor Edge&r biome. Unless &dsilk touched&r, &6Pyrite&r shatters into items, requiring you to combine them again."]
 	quest.0EFD137D4D82478D.quest_desc: [
@@ -1363,16 +1356,6 @@
 	]
 	quest.1BD496A10E957F25.quest_subtitle: "A noble start to an epic journey"
 	quest.1BD496A10E957F25.title: "Punch Trees"
-	quest.1BE7697603B3C94F.quest_desc: [
-		"The &dCreative Barrel&f stores infinite amounts of whatever item is placed inside."
-		""
-		"The &aQuantum Barrel&f is blacklisted from the &bReplicator&f, so you'll need to make a bunch of them by replicating its components."
-		""
-		"&cWarning&r: You cannot break the &dCreative Barrel&r with a pickaxe, use the &eModern Industrialization Wrench&r!"
-		""
-		"You can &dclear the item&r by placing the &dCreative Barrel&r into an empty crafting grid."
-	]
-	quest.1BE7697603B3C94F.quest_subtitle: "Non-euclidean!"
 	quest.1BEF7096D03CBA96.quest_desc: [
 		"&aPolyvinyl Chloride&r is an important chemical in more advanced &bAssembler&r recipes."
 		""
@@ -1547,15 +1530,6 @@
 		"&eHover over the item and press shift to see all the controls&r."
 	]
 	quest.1EE124C7111A27F0.title: "Advanced Pipe Configuration"
-	quest.1EE269859E6DD37B.quest_desc: [
-		"&lI believe a congratulations is in order. You've done it! You've reached the end of &bStaTech &eIndustry&f. With the &dCreative Worldshaper&f you can rearrange the world into whatever you see fit. "
-		""
-		"&l&nThanks for playing!"
-		""
-		"[ \"It would be greatly appreciated if you join the \", { \"text\": \"Discord\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/RDaJEnN3uS\" } }, \" and provide feedback/suggestions to how to better improve the experience!\" ]"
-	]
-	quest.1EE269859E6DD37B.quest_subtitle: "The World is Yours"
-	quest.1EE269859E6DD37B.title: "The Creative Worldshaper"
 	quest.1EE490D2BEE9913E.quest_desc: [
 		"{image:stcm:item/spectrum_pedestal width:240 height:135 align:center}"
 		""
@@ -1604,6 +1578,8 @@
 		"Your quest for &9technological advancement&r calls for way more &6solid&r materials. Where else to get these but from &aspace&r?"
 		""
 		"The &dSpace Probe Launcher&r acts much like a &equarry,&r but will require a lot more &9advanced&r &emining tools&r and &etechnology!&r"
+		""
+		"By now you have walked on these worlds yourself. &bSpace Probes&r bring the same ores home without a pilot, so your factory never waits for the next flight."
 	]
 	quest.1F81D2DD08A45493.quest_desc: [
 		"The &aMV Steam Turbine&r is the next tier of steam turbines. It can produce up to &e128 EU/t&r by using &7Steam&r."
@@ -1682,8 +1658,6 @@
 		"{image:stcm:item/spectrum_palace width:240 height:135 align:center}"
 	]
 	quest.2058AF5271726DA0.title: "Moonstone Pigment Pedestal"
-	quest.208D9031D68CE1AB.quest_desc: ["The &dCreative Storage Unit&f is an infinite source of power. Any tier of cable can be connected to it."]
-	quest.208D9031D68CE1AB.quest_subtitle: "UNLIMITED POWER"
 	quest.20A8D6406A462AB0.quest_desc: [
 		"Once you have successfully slain &bThe Hydra&r, &cThe Ur-Ghast&r, and &aThe Snow Queen&r, the &eacid rains&r of the &dHighlands&r will cease, allowing you to finally enter. "
 		""
@@ -2442,14 +2416,6 @@
 	quest.2F8EAC597AB7E760.quest_desc: ["Increases the wearer's swim speed"]
 	quest.2FA4E183EB7E1413.quest_desc: ["The &aElectric Cutting Machine&r is the electrical version of the &6Steam Cutting Machine&r. The only recipe it unlocks is to turn &3Monocrystalline Silicon into Silicon Wafers&r, which you won't need right now. Other than that, it &dprocesses existing recipes faster and more efficiently&r."]
 	quest.2FA9CCCED8F29ACF.quest_desc: ["This &6MEGA Cell&r can hold up to &d16777216 bytes&r of &9fluids&r!!!!"]
-	quest.2FB4CE90BEA4C158.quest_desc: [
-		"&aME hatches&r connect &9Modern Industrialization&r multiblocks directly to an &dApplied Energistics 2&r network, much like an &aME interface&r."
-		""
-		"Each comes in &9item&r, &cfluid&r and &emixed&r variants. A hatch &o&aconnects&r&r to the network through its &6output face&r."
-		""
-		"&oSee the &dGuideME&r&o page for more details!&r"
-	]
-	quest.2FB4CE90BEA4C158.title: "Any ME Hatch"
 	quest.2FBDFE8B010CE3C7.quest_desc: [
 		"You may have a machine that you use for a &9&ovariety of recipes&r&r throw the &cfollowing error&r:"
 		""
@@ -2923,13 +2889,6 @@
 		"When swapping, put the &dSwap Card&r in your &aoff-hand&r and the &9&oitem to swap&r&r in your &cmain hand&r."
 	]
 	quest.39B30DBE1DD45D83.quest_subtitle: "Oddly satisfying!"
-	quest.39C5170869C0A930.quest_desc: [
-		"&9Applied Flow Analytics&r tracks &aresource&r movement &cthrough&r your &dAE2&r network."
-		""
-		"Use it to see what &9enters&r and &aleaves&r the &enetwork&r, display &eflow graphs&r, and &ccontrol redstone&r based on flow rates."
-		""
-		"The &9Flow Monitor&r displays a resource's &eflow graph&r &odirectly in the world&r, so you can watch it &awithout&r opening a &dscreen&r."
-	]
 	quest.39D48C79329C6E09.quest_desc: ["An upgrade to the &6Bronze Barrel&r. This barrel can hold up to 128 stacks of the same item. Probably really good for all the cobblestone you've been amassing."]
 	quest.39D7C87CFE4CABE0.quest_desc: ["Allows you to &a&omove&r&r &9Sophisticated Storage&r barrels around without &cbreaking&r them!"]
 	quest.39ED7019F3ACB226.quest_desc: ["An important component in &aStyrene-Butadiene Rubber&r."]
@@ -3107,13 +3066,6 @@
 	quest.3DA3CFDA837FC891.title: "Modern Dynamics Attachments"
 	quest.3DADE1F0A3BB9AB4.quest_desc: ["The &aStainless Steel Barrel&r can store an incredible &e4096 stacks&r of a single item."]
 	quest.3DD9AFAD287F29C2.quest_desc: ["The &eSpace Probe&r returns a good chunk of every space ore after some travel time. "]
-	quest.3DDD69F79F436684.quest_desc: [
-		"The &dCreative Tank&f can store an &ainfinite amount of any fluid placed inside&r."
-		""
-		"The &aQuantum Tank&f is blacklisted from the &bReplicator&f, so you'll need to make a bunch of them by replicating its components."
-		""
-		"&cNote&r: You can clear the fluid in the &dCreative Tank&r by placing it into an empty crafting grid."
-	]
 	quest.3DE02D1C71CBD94F.quest_desc: ["Your &a&oMagnus Opus&r of space cartography. The third iteration of the &9Probe Computer&r allows to reach a new frontier, closing in on the &efurthest&r, most &einaccessible&r corners of &dspace&r. "]
 	quest.3DE517F923E1627D.quest_desc: ["The &aWiremill&r will be useful in the future for the &acreation of wires&r. Combine the wires with &8Rubber Sheets&r to get &ecables.&r"]
 	quest.3DF44D4208B1684A.quest_desc: [
@@ -4431,7 +4383,7 @@
 		""
 		"The broken items will be placed into any inventory connected to the &dcontraption."
 	]
-	quest.54CA233681EC29E6.quest_desc: ["The &aElectric Packer&r is the electrical version of the &6Steam Packer&r. It will process recipes &dmuch faster&r than its steam counterpart."]
+	quest.54CA233681EC29E6.quest_desc: ["The &aElectric Packer&r is the electrical version of the &6Steam Packer&r. It doesn't open up any new recipes, but it will process recipes &dmuch faster&r than its steam counterpart."]
 	quest.54E44D576AC03FED.quest_desc: [
 		"Before you fully unlock the &dWarp Stone&r, you can use Warp Scrolls as temporary teleportation devices."
 		""
@@ -4590,7 +4542,6 @@
 		""
 		"You've worked hard to get to this point, so I'm throwing in a few freebies in the rewards."
 	]
-	quest.576E585F8DFC7073.quest_desc: ["The &dCreative Motor&f can &aprovide an unlimited and configurable amount&r of rotational force for &eCreate&f."]
 	quest.5777143D023A9131.quest_desc: [
 		"If you dislike having to constantly feed your boiler &dfuel&r, you can use the &eSun&r as your fuel instead!"
 		""
@@ -4676,6 +4627,8 @@
 	quest.58F0D9E55EF206E7.quest_subtitle: "Oddly satisfying!"
 	quest.58F52B959643FF34.quest_desc: [
 		"Welcome to &aStaTech Industry&r &d2.0&r!"
+		""
+		"&cThe Earth is dying.&r Read &cThe Dying Earth&r, the cog on the far left of this page, to learn what is happening to the world and how to live through it."
 		""
 		"This &aquest book&r will be your guide through the entirety of the modpack. &6Progression&r is broken down into &2chapters&r. You must complete all the &drequired quests&r in one chapter to advance to the next."
 		""
@@ -5232,7 +5185,11 @@
 		""
 		"&6Shift right-click&r to clear the measurement."
 	]
-	quest.649FE8A688C74216.quest_desc: ["It's time to start putting the puzzle together. &dPlutonium&r from your depleted fuel rods, various chemicals, and other materials you have processed this far."]
+	quest.649FE8A688C74216.quest_desc: [
+		"It's time to start putting the puzzle together. &dPlutonium&r from your depleted fuel rods, various chemicals, and other materials you have processed this far."
+		""
+		"Qubits now need &fPallorite Plates&r from &7Deimos&r. See &cMission to Mars&r in the &9Adv. Electronics&r chapter."
+	]
 	quest.649FE8A688C74216.quest_subtitle: "Bringing it all together"
 	quest.649FE8A688C74216.title: "Quantum Circuit Components"
 	quest.64A77382B60421C1.quest_desc: ["The &bRedstone Link&r can be used to send &credstone signals&r wirelessly. You can set the channel by right-clicking with any item on the &bRedstone Link&r."]
@@ -6866,7 +6823,6 @@
 	task.478C84E88FC040D7.title: "I've done this!"
 	task.47EC9A39F745DC3F.title: "Any Energy Input Hatch"
 	task.48329F819F038FE8.title: "More Batching!"
-	task.483DEB073F5DC942.title: "Any ME Hatch"
 	task.4848D2E9AD7513A5.title: "Eight Gemstone Lamps"
 	task.488CB74113AFA0A1.title: "Either Fusion Shrine"
 	task.48A99247A316F590.title: "Click to Acknowledge"
@@ -7110,4 +7066,818 @@
 	task.7F977398859D1046.title: "Any Fluid Input Hatch"
 	task.7FB49A46CDDC3CC6.title: "Any Energy Input Hatch"
 	task.7FEC80858FC7EF78.title: "Any Energy Input Hatch"
+	quest.5C42CEBD1F18DF28.title: "&cThe Dying Earth"
+	quest.5C42CEBD1F18DF28.quest_subtitle: "What is happening to the world"
+	quest.5C42CEBD1F18DF28.quest_desc: [
+		"The Earth you wake up on is dying. Nobody knows how long it has left, and nothing below keeps a schedule: any of it can happen on any day, from your first night to your last."
+		""
+		"&aCrop blight&r: nothing grows under the open sky any more. A crop planted outside is dead within a minute or two. Food only grows in a &asealed greenhouse&r: a closed room with a floor, walls and a roof and no gap to the outside. Glass counts as a wall, a closed door too, and a sealed cellar works as well as a glasshouse. Keep the room under about 6,000 blocks of air."
+		""
+		"&6Sandstorms&r: a wall of dust rolls over the land for a few minutes. You can barely see and barely walk in it. Wait it out indoors."
+		""
+		"&7Tremors&r: the ground shakes now and then. Underground, a strong one brings loose rock down from the ceiling."
+		""
+		"&cMeteors&r: debris from a shattered comet craters the wilderness and leaves &eMeteorite Fragments&r behind. Macerate them for iron, nickel and platinum. Once in a long while the sky opens up and a whole &cmeteor shower&r comes down for a minute or two."
+		""
+		"&9Superstorms&r: thunderstorms that throw lightning at the ground around you and set dry land on fire."
+		""
+		"Claimed chunks are spared the craters, cave-ins and lightning. The blight is not that polite."
+		""
+		"None of it can follow you off-world: &bspace&r, the other planets and &aNew Eden&r are safe. That is why we are leaving."
+	]
+	quest.0C3237F3637DDA1F.title: "The Space Program"
+	quest.0C3237F3637DDA1F.quest_subtitle: "Probes are nice. Being there is better."
+	quest.0C3237F3637DDA1F.quest_desc: [
+		"The Earth is running out of time, and everything worth having is somewhere else. With &aAd Astra&r you can go and get it yourself."
+		""
+		"Rockets are built from &dRocket Part Assembler&r parts, burn tiered fuel and need a pressurized suit to survive the trip. Every age of the main questline unlocks one more rocket tier. The &6Tier 1 Rocket&r only needs &6LV&r hardware, and it reaches the &dMoon&r."
+	]
+	quest.7A96B981D2B0C3C1.title: "Rocket Part Assembler"
+	quest.7A96B981D2B0C3C1.quest_desc: ["The &dRocket Part Assembler&r produces every engine, tank, fin and nose cone in the space program. Parts for the first rocket only take &6Lubricant&r and &8Creosote&r. From Desh parts up they want &bMolten Enderium&r and &bBoosted Diesel&r."]
+	quest.191C3C095532CB62.quest_subtitle: "The top of the LV tier"
+	quest.191C3C095532CB62.quest_desc: ["The &aNASA Workbench&r is where a rocket comes together. It's built around an &6Advanced Machine Hull&r, large steel plates and electronic circuits."]
+	quest.4E4CF70D7414A52E.quest_desc: ["Rockets are launched from a &aLaunch Pad&r. Place it on flat ground with room above it."]
+	quest.15277640359739A4.title: "Engine Internals"
+	quest.15277640359739A4.quest_desc: ["Every engine is built around an &bEngine Framebox&r and a &bRocket Propeller&r. You'll need one of each per engine, from the first rocket to the last."]
+	quest.5B7E13D4BCAD5186.title: "First Rocket Parts"
+	quest.5B7E13D4BCAD5186.quest_desc: ["A &6Tier 1 Rocket&r needs a &bNose Cone&r, four &bFins&r, a &bSteel Engine&r and two &bSteel Fuel Tanks&r. Note that Ad Astra's own engines and tanks are gone: only the assembler parts fit in the NASA Workbench."]
+	quest.6E2B0D62414201E1.quest_subtitle: "Goes up. Usually comes down."
+	quest.6E2B0D62414201E1.quest_desc: [
+		"The &6Tier 1 Rocket&r takes the parts you just made, five &7Aluminum Blocks&r for the hull and an &bMKI Probe Computer&r for guidance."
+		""
+		"It can reach the &dMoon&r and Earth Orbit."
+	]
+	quest.31FFB1DEDA13512A.title: "Rocket Fuel"
+	quest.31FFB1DEDA13512A.quest_desc: [
+		"A Tier 1 Rocket is not picky: it flies on plain &8Creosote&r from your Coke Oven. Once you have oil it also takes &6Diesel&r or &bAd Astra Fuel&r. Higher tier rockets are pickier:"
+		""
+		"&7- Tier 2 and 3:&r &6Boosted Diesel&r or &bCryo Fuel&r"
+		"&7- Tier 4:&r &bCryo Fuel&r only"
+	]
+	quest.1C46771F77EF5939.title: "Life Support"
+	quest.1C46771F77EF5939.quest_desc: ["There's no air up there. &bGas Tanks&r and &bOxygen Gear&r are the core of every space suit."]
+	quest.56605EFD9F99FB48.title: "Space Suit"
+	quest.56605EFD9F99FB48.quest_desc: ["A full &aSpace Suit&r keeps you breathing and protects you from the cold of the &dMoon&r and &cMars&r. It won't survive the heat of the inner planets, and on its own it isn't enough: every world past Earth also demands an &aEnvironmental Liner&r under the suit."]
+	quest.36A38C7D8ADE5855.quest_desc: ["The &aOxygen Loader&r splits &9Water&r into breathable oxygen and fills your suit. Feed it from a pipe and put it next to your launch site."]
+	quest.0C62E6B218D10F53.title: "Environmental Liner I"
+	quest.0C62E6B218D10F53.quest_desc: [
+		"Temperature and pressure kill faster than bad air. The four &aLiner&r pieces go in their own Curios slots under your space suit, and a set only protects at the level of its weakest piece."
+		""
+		"&7Level I:&r Moon, Mars and their orbits"
+		"&7Level II:&r Venus, Mercury, Glacio"
+		"&7Level III:&r Jupiter and Saturn systems"
+		"&7Level IV:&r Uranus and Neptune systems"
+		"&7Level V:&r Pluto and Eris systems"
+		""
+		"Inside a sealed room filled by an &aOxygen Distributor&r you don't need one."
+	]
+	quest.0C7BCC0F9339EF31.title: "One Small Step"
+	quest.0C7BCC0F9339EF31.quest_subtitle: "Please don't forget to pack a way home"
+	quest.0C7BCC0F9339EF31.quest_desc: ["Fuel up, climb in and launch. Bring spare oxygen and a &aLaunch Pad&r of your own: the pad lets you return to Earth."]
+	quest.060949BF6F273D70.title: "Lunar Mining"
+	quest.060949BF6F273D70.quest_desc: ["The &dMoon&r hides &6Desh Ore&r and &bMoon Ice Ore&r in its stone. Desh smelts in your Cupronickel blast furnace, and the next age turns it into a better rocket."]
+	quest.354849ED9A8CA344.title: "Mk I Flight Computer"
+	quest.354849ED9A8CA344.quest_desc: ["The rocket's brain: an &6Advanced Machine Hull&r, a transistor, a diode and a &bSteel Engine&r behind large steel plates. Later it will also guide your &bSpace Probes&r."]
+	quest.3E0F8A9A69065548.quest_desc: ["The &aOxygen Distributor&r fills an enclosed room with air, so your base doesn't need a suit. Seal the room properly or it will leak."]
+	quest.5FFC54EAB93DBAD8.title: "Off-World Power"
+	quest.5FFC54EAB93DBAD8.quest_desc: ["Solar panels produce far more above the atmosphere. &aSolar Panels&r and &bEtrionic Capacitors&r both need &6Desh Plates&r."]
+	quest.232DAF9551712C1E.quest_desc: ["Low gravity is fun until you're building. The &aGravity Normalizer&r gives a room normal gravity. Your Spectrum and Thaumaturge rituals won't mind."]
+	quest.3AA0DE84A8A1F83C.quest_desc: ["The &aRover&r needs &6Desh&r, a &bDesh Engine&r and a &bLarge Gas Tank&r. The Moon is big and walking is slow."]
+	quest.0E81146421E6BBC2.title: "Launch Automation"
+	quest.0E81146421E6BBC2.quest_desc: ["Tired of doing this by hand? The &aAutomation NASA Workbench&r takes parts from pipes, the &aFuel Loader&r fuels rockets on the pad and the &aRocket Sensor&r reports their state with redstone."]
+	quest.67535147484CC1CE.title: "Desh Rocket Parts"
+	quest.67535147484CC1CE.quest_desc: ["&6Desh&r is the jump from a tin can to a real spacecraft. Your assembler can now build &bDesh Engines&r and &bDesh Fuel Tanks&r."]
+	quest.3D34FF83935F04AD.quest_desc: [
+		"The &6Tier 2 Rocket&r needs &6Desh Blocks&r and an &bMKII Probe Computer&r. It can reach &cMars&r, its moons &7Phobos&r and &7Deimos&r, and the &7Asteroid Belt&r."
+		""
+		"It also refuses plain fuel: bring &6Boosted Diesel&r or &bCryo Fuel&r."
+	]
+	quest.64B0B407979642A3.title: "Red Planet"
+	quest.64B0B407979642A3.quest_subtitle: "Second planet, same mistakes"
+	quest.64B0B407979642A3.quest_desc: ["Your space suit still works here, just. Pack a &aLaunch Pad&r, spare oxygen and enough fuel for the way back."]
+	quest.299563596D3361B4.title: "The Asteroid Belt"
+	quest.299563596D3361B4.quest_desc: ["Rocks in the void and very little to stand on. An optional detour for the brave, and a nice view."]
+	quest.37F30BF552D3CDB4.title: "Martian Mining"
+	quest.37F30BF552D3CDB4.quest_desc: ["&cMars&r holds &6Ostrum Ore&r, &cRuby Ore&r, &bSapphire Ore&r and &aMonazite Ore&r. Ostrum is what the next rocket and the heat-resistant suit are built from."]
+	quest.570AFAC5695C0295.title: "Cryo Fuel"
+	quest.570AFAC5695C0295.quest_desc: [
+		"&bCryo Fuel&r is the most efficient rocket fuel there is, and from Tier 4 up it's the only one that works."
+		""
+		"Your &aVacuum Freezer&r makes it from &6Boosted Diesel&r, &bCryofluid&r and &bMoon Ice Dust&r. The &aCryo Freezer&r can also make it from ice, and &bIce Shards&r give that machine by far the best yield."
+	]
+	quest.63B21816979D31F5.title: "Mission to Mars"
+	quest.63B21816979D31F5.quest_subtitle: "Desh, digital circuits and a longer burn"
+	quest.63B21816979D31F5.quest_desc: [
+		"The &6Turbo Machine Hull&r and the &6Desh&r you brought back from the Moon make a real spacecraft possible. The &6Tier 2 Rocket&r reaches &cMars&r and its moons &7Phobos&r and &7Deimos&r."
+		""
+		"Rockets go all the way up to &6Tier 10&r, one or more per age, and every tier is built from metals found on the worlds the previous tier reached. Those metals also feed your factory: the late machines of &6Modern Industrialization&r now need them, and each quest tells you what its metal is for."
+		""
+		"Your Moon base can grow up too: this age's hardware builds oxygen distributors, solar power and a rover."
+	]
+	quest.36B31C00CA5AAD37.title: "Phobos"
+	quest.36B31C00CA5AAD37.quest_desc: ["A small grooved moon of &cMars&r, reachable with a &6Tier 2 Rocket&r."]
+	quest.7950018C981CCB35.title: "Deimos"
+	quest.7950018C981CCB35.quest_desc: ["Mars' smaller moon, buried in pale dust."]
+	quest.0EECC302F905419A.title: "Umbrite"
+	quest.0EECC302F905419A.quest_desc: ["&8Umbrite&r shields against almost anything. The &aNuclear Reactor&r now needs it."]
+	quest.4CC506ADBDF910D8.title: "Pallorite"
+	quest.4CC506ADBDF910D8.quest_desc: ["&fPallorite&r holds a quantum state better than glass does, so the &aQubit&r now needs it."]
+	quest.23DC87ACECF70EF0.quest_desc: [
+		"Somewhere on Phobos stands an abandoned &6Expedition Outpost&r with an &6Ember Light Core&r inside. &6Ember Crystal Shards&r from the local geodes open its crystal sockets."
+		""
+		"Light Cores aren't used up in crafting. You'll need this one for the &aAdvanced NASA Workbench&r."
+	]
+	quest.6FD502892AC0459F.title: "Refining Planet Metals"
+	quest.6FD502892AC0459F.quest_desc: [
+		"None of the new metals melt in a furnace. Raw ore goes straight into an &aElectric Blast Furnace&r, and the further the planet, the hotter the recipe:"
+		""
+		"&7Phobos, Deimos:&r 64 EU/t"
+		"&7Mercury:&r 256 EU/t"
+		"&7Jupiter system:&r 384 EU/t"
+		"&7Saturn system:&r 512 EU/t"
+		"&7Uranus system:&r 640 EU/t"
+		"&7Neptune system:&r 768 EU/t"
+		"&7Pluto system:&r 896 EU/t"
+		"&7Eris system:&r 1024 EU/t"
+		""
+		"Anything above 128 EU/t needs &dTungstensteel Coils&r."
+	]
+	quest.5795CF24758D30FE.title: "Mk II Flight Computer"
+	quest.5795CF24758D30FE.quest_desc: ["A &6Turbo Machine Hull&r, logic gates and a &bDesh Engine&r. Mars is too far for the old computer."]
+	quest.0A7923D5A7E200F8.title: "Netherite Space Suit"
+	quest.0A7923D5A7E200F8.quest_desc: ["The inner planets will cook you in a normal suit. The &aNetherite Space Suit&r survives both &cMercury&r and &cVenus&r, but it's made from Netherite armor and &6Ostrum Plates&r."]
+	quest.1A95B1670D94C07B.title: "Environmental Liner II"
+	quest.1A95B1670D94C07B.quest_desc: ["Upgrade each piece of your liner with &6Ostrum Plates&r. Level II is the minimum for &cVenus&r, &cMercury&r and &bGlacio&r."]
+	quest.0AFE735258A7FAF9.title: "Ostrum Rocket Parts"
+	quest.0AFE735258A7FAF9.quest_desc: ["&bOstrum Engines&r and &bOstrum Fuel Tanks&r are next on the assembler. Expect long craft times."]
+	quest.45F5A873076C5804.quest_desc: [
+		"The &6Tier 3 Rocket&r needs &6Ostrum Blocks&r and an &bMKIII Probe Computer&r, so you'll have to reach &dHighly Advanced Machine Hulls&r first. It can reach &cVenus&r."
+		""
+		"&cMercury&r sits right next to the Sun, and only a Tier 4 Rocket can make that trip."
+	]
+	quest.661ADF5D54FC9BB4.title: "Venus"
+	quest.661ADF5D54FC9BB4.quest_subtitle: "Bring sunscreen"
+	quest.661ADF5D54FC9BB4.quest_desc: ["Crushing gravity, acid and heat. Only a &aNetherite Space Suit&r with a &aLiner II&r will do."]
+	quest.1E985EFABFB49DEE.title: "Venusian Mining"
+	quest.1E985EFABFB49DEE.quest_desc: ["&cCalorite Ore&r can be mined here. You'll need a lot of it for the next rocket."]
+	quest.0C7FA0E7960C2631.title: "Mk III Flight Computer"
+	quest.0C7FA0E7960C2631.quest_desc: ["A &dHighly Advanced Machine Hull&r, an arithmetic logic unit, a memory management unit and an &bOstrum Engine&r. Keep the recipe handy: the Tier 5 Rocket takes one too."]
+	quest.178A5F42CB22FEA1.title: "Mission to Venus"
+	quest.178A5F42CB22FEA1.quest_subtitle: "Into the furnace"
+	quest.178A5F42CB22FEA1.quest_desc: ["&6Ostrum&r from Mars and the &dHighly Advanced Machine Hull&r build the &6Tier 3 Rocket&r. &cVenus&r is the only place to mine &cCalorite&r, and it will cook anyone who lands in an ordinary suit."]
+	quest.2B3E1CAACFC7F49F.title: "Calorite Rocket Parts"
+	quest.2B3E1CAACFC7F49F.quest_desc: ["The best engine you can build from the inner planets. &cCalorite&r parts take the longest time in the assembler."]
+	quest.302CAF570DAAEA8D.quest_subtitle: "Next stop: another star"
+	quest.302CAF570DAAEA8D.quest_desc: ["The &6Tier 4 Rocket&r uses &cCalorite Blocks&r, a &dHighly Advanced Machine Hull&r and a &bHighly Advanced Space Probe&r, whose survey of the inner system is the flight plan. It burns &bCryo Fuel&r only and reaches &cMercury&r and &bGlacio&r."]
+	quest.262FCDE1182E7C2F.title: "Mercury"
+	quest.262FCDE1182E7C2F.quest_subtitle: "The richest rock in the system"
+	quest.262FCDE1182E7C2F.quest_desc: ["A blasted rock next to the Sun. It's also the best mining site in the inner solar system."]
+	quest.7A322EF97054090B.title: "Mercurial Mining"
+	quest.7A322EF97054090B.quest_desc: [
+		"&cMercury&r gives you &6Helionite Ore&r deep below &7Y 16&r, plus &cCalorite Ore&r, &bSapphire Ore&r, &fSilver Ore&r and even &8Ancient Debris&r right in its stone. The debris doesn't like open air, so dig for it."
+		""
+		"Helionite builds the next rocket: &6Jupiter&r is one tier away."
+	]
+	quest.1085E35D33F97774.title: "Glacio"
+	quest.1085E35D33F97774.quest_subtitle: "You've gone further than anyone"
+	quest.1085E35D33F97774.quest_desc: ["A frozen world orbiting &bProxima Centauri&r, with breathable air. Enjoy the view."]
+	quest.14CE4353AB3DF7AB.title: "Helionite"
+	quest.14CE4353AB3DF7AB.quest_desc: ["&6Helionite&r comes from deep in &cMercury&r and it's the first real outer-system metal. The &aFusion Chamber&r now needs it, as do the next rocket, the next liner and the &aLarge Launch Pad&r."]
+	quest.1DB6A2C1D9AC6A57.quest_desc: ["Tiers 5 to 7 are too big for the old workbench. The &aAdvanced NASA Workbench&r is built around a &dHighly Advanced Machine Hull&r and your &6Ember Light Core&r, which you get back."]
+	quest.441634BEB434364D.title: "Environmental Liner III"
+	quest.441634BEB434364D.quest_desc: ["The &6Jupiter&r and &eSaturn&r systems demand Level III. Upgrade every piece with &6Helionite Plates&r."]
+	quest.0C54914126594F51.title: "Tier 5 Rocket Parts"
+	quest.0C54914126594F51.quest_desc: ["Every new part is made in the &dRocket Part Assembler&r from plates and the part of the previous tier. So a Helionite Engine starts as a Calorite Engine, and so on all the way to Tier 10. Don't throw any parts away."]
+	quest.27C31C310BF633C4.quest_desc: [
+		"The &6Tier 5 Rocket&r uses &6Helionite Blocks&r, an &bMKIII Probe Computer&r and a &dProcessing Unit&r. It reaches the whole &6Jupiter&r system."
+		""
+		"From here on, every rocket burns &bCryo Fuel&r only."
+	]
+	quest.3FC5C26FB80704B8.title: "Jupiter"
+	quest.3FC5C26FB80704B8.quest_desc: ["&bStormium&r floats high in Jupiter's clouds. It's the only metal that survives inside a &aPlasma Turbine&r."]
+	quest.11AFDC15A0E74F96.title: "Io"
+	quest.11AFDC15A0E74F96.quest_desc: ["&cIgneum&r from the sulfur plains takes extreme heat. The &aColossal Blast Furnace&r now needs it."]
+	quest.1FEC498BA270093F.title: "Europa"
+	quest.1FEC498BA270093F.quest_desc: ["Under the ice lies an ocean, and &9Abyssium&r only grows around its hydrothermal chimneys. The &aQuantum Tank&r now needs it."]
+	quest.30CBD0A800121C2B.title: "Ganymede"
+	quest.30CBD0A800121C2B.quest_desc: ["&bAurorium&r conducts like nothing else. The &aSuperconductor Storage Unit&r now needs it."]
+	quest.1CEC77030A69CE40.title: "Callisto"
+	quest.1CEC77030A69CE40.quest_desc: ["&8Eonyx&r is older than almost anything nearby. The &aQuantum Barrel&r now needs it."]
+	quest.7A7003C31F2C7AA5.quest_desc: ["An optional dive: the &6Drowned Sanctuary&r on Europa holds the &6Amber Light Core&r."]
+	quest.109F7C35381A7475.title: "Jet Suit"
+	quest.109F7C35381A7475.quest_desc: ["Built from a complete Netherite Space Suit, the &aJet Suit&r protects you from heat and cold, and it flies. You still need the right &aLiner&r under it. Quantum tech doesn't come cheap."]
+	quest.6F5A3F3925D894B5.quest_desc: ["Tiers 6 and 7 are too heavy for a normal pad. The &aLarge Launch Pad&r is 5x5, so clear the ground first. Tier 5 and lower still fit on it."]
+	quest.4D70C020D0EA2B68.title: "Tier 6 Rocket Parts"
+	quest.4D70C020D0EA2B68.quest_desc: ["A metal from every world of the Jupiter system goes into this rocket."]
+	quest.69433A381B204248.quest_desc: ["The &6Tier 6 Rocket&r uses &bAurorium Blocks&r, a &dQuantum Machine Hull&r and a &dQuantum Circuit&r. It reaches the &eSaturn&r system."]
+	quest.3257B484ADEE61D1.title: "Saturn"
+	quest.3257B484ADEE61D1.quest_desc: ["&eCassinium&r binds the &aQuantum Upgrade&r together, and it's the base of the &aHuge Launch Pad&r and &aLiner IV&r."]
+	quest.0DFF04DDF14F7288.title: "Titan"
+	quest.0DFF04DDF14F7288.quest_desc: ["Methane lakes and orange dunes. &6Tholinar&r handles extreme heat exchange, so the &aMacrothermic Confluence Unit&r now needs it. Titan's air is thick: expect high pressure."]
+	quest.6DE4D153EA007539.title: "Enceladus"
+	quest.6DE4D153EA007539.quest_desc: ["&bNivalum&r stays cold no matter what. The &aExtreme Vacuum Cryofreezer&r now needs it."]
+	quest.7FA22DDA6C8F2961.title: "Rhea"
+	quest.7FA22DDA6C8F2961.quest_desc: ["&7Ferrolith&r is hard enough to reach the planet's core, so the &aCore Mining Drill&r now needs it."]
+	quest.7EAC32066EA81A66.title: "Iapetus"
+	quest.7EAC32066EA81A66.quest_desc: ["&5Vesperine&r lets many machines share one frame. The &aProcessing Array&r now needs it."]
+	quest.44E172B8E5B54E03.quest_desc: ["The &6Library of the Rings&r on Titan keeps the &6Halo Light Core&r. You'll need it for the &aStellar NASA Workbench&r."]
+	quest.73A48368F6125301.title: "Environmental Liner IV"
+	quest.73A48368F6125301.quest_desc: ["&bUranus&r and &9Neptune&r demand Level IV. Upgrade every piece with &eCassinium Plates&r."]
+	quest.1AF0A559DE34CF46.title: "Tier 7 Rocket Parts"
+	quest.1AF0A559DE34CF46.quest_desc: ["Saturn's moons all go into this one. The &dRocket Part Assembler&r will be busy for a while."]
+	quest.7505A8F1D3C7268B.quest_desc: ["The &6Tier 7 Rocket&r uses &eCassinium Blocks&r and a whole &aNuclear Reactor&r. It reaches the &bUranus&r system."]
+	quest.1DC6096990650968.title: "Uranus"
+	quest.1DC6096990650968.quest_desc: ["&bAzurane&r is dense enough to replace Enderium in an &aUltradense Metal Ball&r."]
+	quest.310741FB7ADA75D8.title: "Miranda"
+	quest.310741FB7ADA75D8.quest_desc: ["&dMosaicon&r forms a perfect lattice, which is what the &aReplicator&r needs."]
+	quest.465EC5BFF83F54C5.title: "Oberon"
+	quest.465EC5BFF83F54C5.quest_desc: ["&8Obscurex&r takes the place of glass in the &aMulti Processing Array&r."]
+	quest.76F32594AEF28B79.title: "Titania"
+	quest.76F32594AEF28B79.quest_desc: ["&3Chasmal&r holds an impossible amount. Keep every spare plate: the &dCreative Tank&r needs a full stack."]
+	quest.0C1F27F6D7E0959E.quest_desc: ["Crushing pressure makes &bPressure Diamonds&r. Break the &bPressure Crystals&r on Uranus, or search the &6Tilted Observatory&r on Miranda. The &aStellar NASA Workbench&r and the &aAzurane Engine&r both need one."]
+	quest.0CDE970570D9DE3F.quest_desc: ["An optional detour: the &6Tilted Observatory&r on Miranda holds the &6Tide Light Core&r."]
+	quest.12EC20BD0F10FD0D.quest_desc: ["The last workbench builds Tiers 8 to 10. It uses your &6Halo Light Core&r, a &bPressure Diamond&r, and &bAzurane&r and &8Obscurex Plates&r."]
+	quest.067A11E6B2412556.quest_desc: ["Tiers 8 to 10 need a &aHuge Launch Pad&r. It's 7x7, so plan your launch site."]
+	quest.6201AD24DAA63151.title: "Tier 8 Rocket Parts"
+	quest.6201AD24DAA63151.quest_desc: ["The &aAzurane Engine&r takes a &bPressure Diamond&r on top of everything else."]
+	quest.22C94C0367F17FE5.quest_desc: ["The &6Tier 8 Rocket&r uses &bAzurane Blocks&r and a deep-space &bSpace Probe&r for guidance. It reaches the &9Neptune&r system."]
+	quest.622551564BA66E4D.title: "Neptune"
+	quest.622551564BA66E4D.quest_desc: ["&9Tempestine&r is the frame of the &aSingularity Forge&r, and the base of &aLiner V&r."]
+	quest.05FE2DC75D1DD3D6.title: "Triton"
+	quest.05FE2DC75D1DD3D6.quest_desc: ["&bNitralis&r stabilizes matter under collapse. Every &dSingularity&r now takes 16 plates."]
+	quest.41095B6787ED65F8.quest_desc: ["An optional detour: the &6Abyssal Forge&r on Triton holds the &9Cobalt Light Core&r."]
+	quest.2EC252D3188EB74C.title: "The Outer Planets"
+	quest.2EC252D3188EB74C.quest_subtitle: "Quantum hardware, further out"
+	quest.2EC252D3188EB74C.quest_desc: [
+		"With &dQuantum Machine Hulls&r your rockets can leave Jupiter behind. This age builds three of them:"
+		"&7- Tier 6:&r &eSaturn&r and its moons"
+		"&7- Tier 7:&r &bUranus&r and its moons, with a whole &aNuclear Reactor&r on board"
+		"&7- Tier 8:&r &9Neptune&r and Triton"
+		""
+		"Their metals need &7Tungstensteel coils&r in the blast furnace, and the best machines of the &dQuantum Age&r are built from them."
+	]
+	quest.4BFA54BBD9139506.title: "Environmental Liner V"
+	quest.4BFA54BBD9139506.quest_desc: ["The edge of the system demands the last liner. Upgrade every piece with &9Tempestine Plates&r."]
+	quest.5B9A855554AD1E04.title: "Tier 9 Rocket Parts"
+	quest.5B9A855554AD1E04.quest_desc: ["The stack of older parts keeps growing. So does the fuel bill."]
+	quest.761449F962A17403.quest_desc: ["The &6Tier 9 Rocket&r uses &9Tempestine Blocks&r and a &dQuantum Upgrade&r. That means you need a working &aSingularity Forge&r first. It reaches &dPluto&r and &cCharon&r."]
+	quest.52B0A2A561885A97.title: "Pluto"
+	quest.52B0A2A561885A97.quest_desc: ["&dCordium&r comes from the heart of Pluto. The &dCreative Storage Unit&r needs a full stack of plates."]
+	quest.0466F6AE6A33233D.title: "Charon"
+	quest.0466F6AE6A33233D.quest_desc: ["&cMordrine&r is the toughest metal in the system. The &dCreative Barrel&r needs a full stack of plates."]
+	quest.5B2C3B975AF5E2D1.quest_desc: ["An optional detour: the &dSealed Heart&r on Pluto holds the &dRose Light Core&r."]
+	quest.1672ACDCBD9FDD65.title: "Tier 10 Rocket Parts"
+	quest.1672ACDCBD9FDD65.quest_desc: ["The last parts you'll ever build, and each one contains every part before it."]
+	quest.66BBEFD82298EE5F.quest_subtitle: "The end of the road"
+	quest.66BBEFD82298EE5F.quest_desc: ["The &6Tier 10 Rocket&r uses &dCordium Blocks&r and a &dSingularity&r. It reaches the very edge of the solar system."]
+	quest.0646F2860BE89943.title: "Eris"
+	quest.0646F2860BE89943.quest_desc: ["&fAlbedon&r reflects almost everything. The &dCreative Tank&r needs a full stack of plates."]
+	quest.7189E3FB8CF91A3A.title: "Dysnomia"
+	quest.7189E3FB8CF91A3A.quest_desc: ["&bShardex&r is what's left of a shattered world. The &dCreative Motor&r needs a full stack of plates."]
+	quest.6BEF1EE2751D0930.title: "The Last Door"
+	quest.6BEF1EE2751D0930.quest_desc: ["Something on Eris has been waiting a very long time. Find the &bLast Door&r and pass the &bFrost Trial&r."]
+	quest.3C937F68391692D1.title: "The Ancients"
+	quest.3C937F68391692D1.quest_subtitle: "They left the door open"
+	quest.3C937F68391692D1.quest_desc: [
+		"Beyond the door lies the &dAncients' Suit&r, which needs no oxygen, liner or fuel of any kind, and the &dAncients' Ship&r, which flies on an empty tank and can reach every world there is."
+		""
+		"You've gone as far as anyone can."
+	]
+	quest.3B696D37B9F56BB1.title: "The Edge of the System"
+	quest.3B696D37B9F56BB1.quest_subtitle: "Two rockets left"
+	quest.3B696D37B9F56BB1.quest_desc: ["A &dQuantum Upgrade&r flies the &6Tier 9 Rocket&r to &dPluto&r, and a &dSingularity&r takes the &6Tier 10&r to &fEris&r, where something has been waiting for a very long time."]
+	quest.43A604D625827D71.title: "Primal Shards"
+	quest.43A604D625827D71.quest_subtitle: "The world is more than iron and steam"
+	quest.43A604D625827D71.quest_desc: ["Glowing &bcrystal clusters&r grow in caves. Break them to collect &bPrimal Shards&r of the six elements: &eAer&r, &2Terra&r, &cIgnis&r, &9Aqua&r, &fOrdo&r and &8Perditio&r."]
+	quest.20072A8643264595.title: "Salis Mundus"
+	quest.20072A8643264595.quest_desc: ["The first magical dust. Check its recipe in &aEMI&r, then use it on the world: Salis Mundus turns ordinary things into magical ones."]
+	quest.5EFEC66895652620.title: "The Thaumonomicon"
+	quest.5EFEC66895652620.quest_subtitle: "Your research lives here"
+	quest.5EFEC66895652620.quest_desc: ["Use &aSalis Mundus&r on a &6Bookshelf&r to create the &dThaumonomicon&r. From here on it tracks everything you discover, and this chapter follows along."]
+	quest.2B43AD86D096708B.quest_desc: ["Use &aSalis Mundus&r on a &6Crafting Table&r. The &aArcane Workbench&r crafts everything that needs vis."]
+	quest.319F3D7256A82D9A.title: "Your First Wand"
+	quest.319F3D7256A82D9A.quest_desc: ["Vis is the fuel of thaumaturgy, and a &dWand&r is how you carry it. Recharge it from &baura nodes&r you find in the world."]
+	quest.64DC300AD748D5A8.quest_desc: ["Scan everything. The &aThaumometer&r shows the aspects of items, blocks and creatures, and each scan gives you research points."]
+	quest.1946BB5B68DB4A16.title: "The Research Table"
+	quest.1946BB5B68DB4A16.quest_desc: ["Research is a puzzle: connect aspects on a &aResearch Note&r at the table. Run out of aspects? Scan more things."]
+	quest.04E3ED3DACB27C36.title: "A Warning About Warp"
+	quest.04E3ED3DACB27C36.quest_desc: ["Forbidden knowledge leaves a mark. &5Warp&r builds up with dark research and causes bad dreams, whispers and worse. Keep an eye on it, and read the &dWarp&r page in your Thaumonomicon."]
+	quest.1D3E64E3909C5C57.title: "The Crucible"
+	quest.1D3E64E3909C5C57.quest_desc: ["Use &aSalis Mundus&r on a &6Cauldron&r and heat it from below. Fill it with water, then dissolve items into essentia and transmute them."]
+	quest.1DF5AD24817E5501.title: "Thaumium"
+	quest.1DF5AD24817E5501.quest_desc: ["&5Thaumium&r is iron steeped in magic. It's the base of your wand caps, tools and armor."]
+	quest.7E46783F771A8871.title: "Alchemical Brass"
+	quest.7E46783F771A8871.quest_desc: ["Your first alloy from the crucible, and a key part of most thaumic machinery."]
+	quest.5F142EBE294E5402.quest_desc: ["&cAlumentum&r burns hot, explodes when thrown, and is needed in many later infusions."]
+	quest.16F83187FA3FB57F.quest_desc: ["A &eNitor&r is a little ball of living flame. It's a magical light source and a common infusion ingredient."]
+	quest.1557EADE1B07D495.title: "Warded Jars"
+	quest.1557EADE1B07D495.quest_desc: ["Essentia has to live somewhere. &aWarded Jars&r hold it safely, and &aLabels&r keep each jar locked to one aspect."]
+	quest.06B1C855FFDADBCF.title: "Essentia Smelting"
+	quest.06B1C855FFDADBCF.quest_desc: ["The &aEssentia Smelter&r boils items down into pure essentia, one aspect at a time. &aAlembics&r above it collect the result, but careless smelting pollutes the aura with &5Flux&r."]
+	quest.644222848A64B7E1.title: "Essentia Tubes"
+	quest.644222848A64B7E1.quest_desc: ["&aEssentia Tubes&r move essentia between smelters, jars and machines. Your crucible can finally be fed automatically."]
+	quest.6FCAFF82133C7E4E.quest_desc: ["A &5Thaumium&r smelter is faster and cleaner."]
+	quest.0D1F3CA05F1D0D73.title: "Alchemical Automation"
+	quest.0D1F3CA05F1D0D73.quest_desc: ["The &dThaumatorium&r is an automated crucible. Pipe in essentia, give it a formula and let it run."]
+	quest.325AB092075B23FA.quest_desc: ["The &aEssentia Centrifuge&r splits a compound aspect into its two parents."]
+	quest.784CBAE48AD278F5.quest_desc: ["Turns essentia into solid crystals, which is a clean way to carry it around."]
+	quest.2192A6D11FE26491.title: "Keeping Your Mind Clean"
+	quest.2192A6D11FE26491.quest_desc: ["&bPurifying Bath Salts&r and &bSanity Soap&r wash away temporary warp. Use them before the whispers get too loud."]
+	quest.12838C8A081ED53A.quest_desc: ["The &aEthereal Bloom&r pushes back the Taint. If the corruption reaches your base, you'll be glad to have a few."]
+	quest.5D73E50D297A7397.title: "Better Wand Caps"
+	quest.5D73E50D297A7397.quest_desc: ["Caps change how efficiently a wand spends vis. &6Gold Caps&r are the first real upgrade."]
+	quest.0CDBADC233648117.title: "Greatwood Core"
+	quest.0CDBADC233648117.quest_desc: ["A &aGreatwood&r core lets a wand hold much more vis. Look for &aGreatwood Trees&r in forests."]
+	quest.5F7DED22156A32C0.title: "Master Wand Parts"
+	quest.5F7DED22156A32C0.quest_desc: ["A &bSilverwood&r core with &5Thaumium&r caps makes a wand worthy of a master. Both need &dInfusion&r to finish."]
+	quest.40397282662BA134.title: "Wand Foci"
+	quest.40397282662BA134.quest_desc: ["A &dFocus&r shapes vis into a spell. Build your own on the &aFocal Manipulator&r from an effect, a medium and modifiers."]
+	quest.1C154D52669C7CE4.quest_desc: ["The &bAdvanced Focus&r holds a much more complex spell."]
+	quest.3D47158F7B1AC323.quest_desc: ["The &dGreater Focus&r needs a &dPrimordial Pearl&r and a Nether Star. It's the last focus you'll ever need."]
+	quest.13A29ECE67B2AC92.quest_desc: ["Charge your wands from the aura hands-free. Put a wand on the pedestal and walk away."]
+	quest.4C792D087A51BDA5.quest_desc: ["The &aVis Battery&r stores vis for your machines."]
+	quest.36B2B6BC91FC6788.quest_desc: ["A &aVis Amulet&r recharges your wand while you carry it."]
+	quest.6204DF771C9E4C15.title: "Capturing Nodes"
+	quest.6204DF771C9E4C15.quest_desc: ["A &dNode in a Jar&r lets you take a whole aura node home. Stabilizers keep it from going wild."]
+	quest.78E11EEC806BA989.title: "Harnessing Vis"
+	quest.78E11EEC806BA989.quest_desc: ["&aTransducers&r pull vis out of a node and &aVis Relays&r send it across your base."]
+	quest.169BDE1BFB9E27B9.title: "The Infusion Altar"
+	quest.169BDE1BFB9E27B9.quest_subtitle: "The heart of thaumaturgy"
+	quest.169BDE1BFB9E27B9.quest_desc: [
+		"Build the altar shown in the Thaumonomicon, then wave a wand at it. The &dRunic Matrix&r pulls items from nearby pedestals and essentia from nearby jars."
+		""
+		"Every serious relic in this chapter is infused here."
+	]
+	quest.7F9E4253696F6221.title: "Infusion Stabilizers"
+	quest.7F9E4253696F6221.quest_desc: ["Big infusions are unstable. &aStabilizers&r around the altar keep the items from flying off or the whole thing from exploding. Skulls and candles help too."]
+	quest.1016EAF958FB9D58.title: "Matrix Upgrades"
+	quest.1016EAF958FB9D58.quest_desc: ["Upgrade the matrix to spend less essentia or to work faster."]
+	quest.7057E1ED8864A3B2.quest_desc: ["Run faster, jump higher, step up blocks. Hard to go back after this."]
+	quest.5EC5E6AA2B08E123.quest_desc: ["Vis-powered flight, as long as you've got vis in your wand."]
+	quest.5F345A214F2F3AE5.quest_desc: ["Double jump on a ring."]
+	quest.36EA9435A3FB8921.quest_desc: ["The &aVerdant Charm&r cures poison and keeps you topped up."]
+	quest.3324562FD21ACE65.quest_desc: ["Learn more from every scan, at the cost of levels."]
+	quest.2BA1847CE099EB43.quest_desc: ["A &6Totem of Undying&r that can be recharged. Stronger relics later on use it as a component, so keep a few."]
+	quest.12BAB63E7D4A6407.title: "Fortress Armor"
+	quest.12BAB63E7D4A6407.quest_desc: ["Heavy &5Thaumium&r armor that shrugs off hits and takes runic upgrades."]
+	quest.202CB7DCA7B52B33.title: "Elemental Tools"
+	quest.202CB7DCA7B52B33.quest_desc: ["Infused Thaumium tools. The &aElemental Pickaxe&r is also the base of the &dMining Charm&r."]
+	quest.635FBDC9EE0E1CB2.title: "Mirror Magic"
+	quest.635FBDC9EE0E1CB2.quest_desc: ["Linked mirrors send items across any distance. The &aHand Mirror&r lets you reach your storage from anywhere."]
+	quest.305334FAD2E541B9.quest_desc: ["A furnace built from fire, lava and nether brick. Smelts quickly and sometimes gives bonus results."]
+	quest.034D76C9BE66A66E.quest_desc: ["An automated, vis-powered mining machine. Give it a focus and a pickaxe."]
+	quest.51383F45C8963DA8.quest_desc: ["Lifts anything above it, including you. The &dTome of Predestiny&r is built around this device."]
+	quest.31D8FC0AE4801CA9.title: "Arcane Lamps"
+	quest.31D8FC0AE4801CA9.quest_desc: ["The &aArcane Lamp&r lights up dark spaces by itself. The &aLamp of Growth&r speeds up crops."]
+	quest.167C5D950612A032.quest_desc: ["A vis-powered grappling hook."]
+	quest.02419EC98A19048F.title: "Golemancy"
+	quest.02419EC98A19048F.quest_desc: ["Build the &aGolem Press&r, then design a &dGolem&r from a material, head, arms, legs and addons."]
+	quest.78F4A515614277E7.title: "A Thinking Machine"
+	quest.78F4A515614277E7.quest_desc: ["A &aClockwork Mind&r lets a golem follow orders."]
+	quest.0A0140883B479FCB.title: "Control Seals"
+	quest.0A0140883B479FCB.quest_desc: ["Place &aSeals&r on the ground or on chests and golems will do the job."]
+	quest.7FF30347CCAF3720.title: "Automated Labor"
+	quest.7FF30347CCAF3720.quest_desc: ["Golems can farm and chop wood for you."]
+	quest.16219875D0FC6902.quest_desc: ["A &dBrain in a Jar&r stores experience and feeds it to you. Many spellbooks use it as a component."]
+	quest.41889ADAACF8310D.title: "The Crimson Cult"
+	quest.41889ADAACF8310D.quest_subtitle: "Something is watching"
+	quest.41889ADAACF8310D.quest_desc: ["Robed &cCultists&r roam the world. Defeat them and bring back their &cCurio of Rites&r: you need it to begin research into the Eldritch."]
+	quest.0E8D825AAD83D897.title: "Crusader"
+	quest.0E8D825AAD83D897.quest_desc: ["Hunt down &cCultist Knights&r. Their gear is useful, though wearing it comes at a price."]
+	quest.47F3D18E7AD62965.title: "Void Seeds"
+	quest.47F3D18E7AD62965.quest_desc: ["Strange things gather where the aura is damaged. Once you've found a &5Void Seed&r, scan it: it opens the road to all void magic. A &aVoid Siphon&r can produce more of them later."]
+	quest.6D60E20A319C9208.title: "Void Metal"
+	quest.6D60E20A319C9208.quest_desc: ["A strange metal that repairs itself in the dark."]
+	quest.2838A7545C6061E6.title: "Void Tools"
+	quest.2838A7545C6061E6.quest_desc: ["The best thaumic tools. They also rot away what they touch."]
+	quest.10DC11A1F171733F.title: "Void Thaumaturge Armor"
+	quest.10DC11A1F171733F.quest_desc: ["Void metal woven with cloth: the best armor for a mage."]
+	quest.65A4AB54D1D5D637.quest_desc: ["Pulls raw void out of the aura and condenses it into &5Void Seeds&r."]
+	quest.08D934E900F1EA17.quest_desc: ["A shield that eats what hits it. The &dOmega Core&r needs one."]
+	quest.705C742C4383AEB7.title: "The Oculus"
+	quest.705C742C4383AEB7.quest_desc: ["A piece of something that stares back. You'll need four of them: every obelisk door has a key."]
+	quest.110A316DE7D67BCF.title: "The Outer Lands"
+	quest.110A316DE7D67BCF.quest_subtitle: "A place that shouldn't exist"
+	quest.110A316DE7D67BCF.quest_desc: ["Find an &5obelisk&r at a Crimson Cult altar and seat four &dEldritch Eyes&r in its keystone. Channel vis through your wand until the Eye opens, and be ready: the guardians come once the third eye is in place. Take your best gear, you may not get it back."]
+	quest.333C6E4F44956778.title: "Eldritch Guardians"
+	quest.333C6E4F44956778.quest_desc: ["The silent wardens of the Outer Lands. They hit through armor."]
+	quest.03ACEADED37EF645.title: "The Warden"
+	quest.03ACEADED37EF645.quest_desc: ["The master of the labyrinth. Good luck."]
+	quest.4D7D925B761C6D88.title: "Primordial Pearls"
+	quest.4D7D925B761C6D88.quest_subtitle: "Older than the world"
+	quest.4D7D925B761C6D88.quest_desc: ["You can't craft a &dPrimordial Pearl&r. Search &6urns&r, &6crates&r and treasure in eldritch ruins, and use them wisely: every top-tier relic needs at least one."]
+	quest.6DDB3D1EE8889E6A.quest_desc: ["A pearl that sees through the Void."]
+	quest.7BF95C8284ADBD5E.quest_desc: ["Closes flux rifts. A very controlled explosion, and a strong infusion component."]
+	quest.248AED45273A216A.quest_desc: ["A pickaxe, a shovel and a primordial pearl walk into an altar..."]
+	quest.1B1EB36B7EAAF894.quest_desc: ["The final staff core, from every wand core and a pair of &dPrimal Charms&r."]
+	quest.4D92F06D10AA03AA.title: "Thaumic Energistics"
+	quest.4D92F06D10AA03AA.quest_desc: ["Essentia meets &bApplied Energistics&r. An &dEssentia Storage Cell&r keeps aspects in your ME network like any other resource."]
+	quest.20075BF3A81A4F30.title: "Arcane Terminals"
+	quest.20075BF3A81A4F30.quest_desc: ["Arcane crafting straight from your ME network, and an &dEssentia Terminal&r to see every aspect you have stored."]
+	quest.6C7533297B660D30.quest_desc: ["Connect your vis relays to the network."]
+	quest.47368ED28E140A6B.title: "Automated Thaumaturgy"
+	quest.47368ED28E140A6B.quest_desc: ["The &dKnowledge Inscriber&r records arcane recipes, the &dArcane Assembly Chamber&r crafts them from patterns, and the &dInfusion Provider&r lets your ME system run infusions."]
+	quest.4D3E2898BB5750F3.title: "Forgotten Relics"
+	quest.4D3E2898BB5750F3.quest_subtitle: "Some things refuse to stay lost"
+	quest.4D3E2898BB5750F3.quest_desc: [
+		"The Thaumonomicon has a new tab: &dForgotten Relics&r. It opens after &cThe Crimson Rites&r."
+		""
+		"These artifacts are the strongest things in the pack, so each tier asks for materials from &dThaumaturge&r, &dSpectrum&r and &6Modern Industrialization&r:"
+		""
+		"&7Tier 1:&r Onyx"
+		"&7Tier 2:&r Moonstone and Digital Circuits"
+		"&7Tier 3:&r Stratine and Desh"
+		"&7Tier 4:&r Paltaeria, Ostrum and Calorite"
+		"&7Tier 5:&r Moonstone Cores and Quantum tech"
+	]
+	quest.6BF29A5F8BF72CD8.title: "Tier I: Adept Relics"
+	quest.6BF29A5F8BF72CD8.quest_desc: ["Your first relics need &8Onyx Shards&r and &dRadiating Ender&r from Spectrum."]
+	quest.1FB0B17B5950A922.quest_desc: ["Double mining speed and two extra blocks of reach."]
+	quest.5E9628B37126DA06.quest_desc: ["Everyone wearing this ring shares their pain."]
+	quest.730D7F1E50DAB13C.quest_desc: ["Control the weather for a handful of vis."]
+	quest.5CE0E4076EEAEC21.quest_desc: ["Store a practically unlimited amount of experience."]
+	quest.333A0E112E9C0BF7.quest_desc: ["Recreate the focus the Pech use."]
+	quest.56B0F6BF8BEB1EF0.quest_desc: ["Send anything to the Nether."]
+	quest.260C498E74AB4A71.quest_desc: ["Tell it what to consume and it will devour those items from your inventory. Great for keeping cobblestone away."]
+	quest.5C30577F82CDB49F.title: "Tier II: Scholar Relics"
+	quest.5C30577F82CDB49F.quest_desc: ["Tier II relics are bound with &fMoonstone&r and stabilised by &6Digital Circuits&r."]
+	quest.77AE0E89953E8CC5.quest_desc: ["Quadruple mining speed and four extra blocks of reach."]
+	quest.70B9121154BF066B.quest_desc: ["The belt of the Cult's knights, protecting you and those around you."]
+	quest.090C23BBC3471599.quest_desc: ["A blessing for your soul. Keep it away from other sacred relics."]
+	quest.056FAF02192F5E2D.quest_desc: ["Stand still and it heals you, quickly."]
+	quest.1EBCAD6C2787A370.quest_desc: ["Random, dangerous and very useful for the Paradox."]
+	quest.37E68E47ACCBB1AA.quest_desc: ["Remember a place and return to it, even across dimensions. Requires &bPure Echo&r."]
+	quest.5949EC833D6F20C3.title: "Discord"
+	quest.5949EC833D6F20C3.quest_desc: ["Blink through space with the &dTome of Discord&r, then cast it hands-free with the &dRing of Discord&r."]
+	quest.3D5102C25448DECF.quest_desc: ["Orbs of lightning, charged with &eStorm Stones&r."]
+	quest.2C98F27D54F420F2.quest_desc: ["Control living things with telekinesis."]
+	quest.3D963A0C7BBA1CFD.quest_desc: ["A void spell that hungers for vis."]
+	quest.0ABE8EF519900E21.quest_desc: ["The Cult's own orbs, improved."]
+	quest.2F4AABF1C29021D9.title: "Tier III: Master Relics"
+	quest.2F4AABF1C29021D9.quest_subtitle: "You'll need a rocket for this"
+	quest.2F4AABF1C29021D9.quest_desc: ["Tier III relics are forged from Deeper Down &cStratine&r and &6Desh&r from the &dMoon&r. Mastery of magic alone isn't enough any more."]
+	quest.16949CF7D60BCD9B.quest_desc: ["Refills vis and teleports you out of harm's way."]
+	quest.036AAC53F073B0B9.quest_desc: ["Built on the &6Fireproof Ring&r, the seven suns burn all around you."]
+	quest.55751F1A052A6508.quest_desc: ["Tear life from everything around you, and survive it if you can."]
+	quest.6CB902572BD7F8DC.quest_desc: ["Goggles of Revealing, remade as a crown that mobs fear."]
+	quest.7513A172E0BC5A4B.quest_desc: ["Drains souls and hands you their vitality."]
+	quest.19BBCEB2A5A18369.quest_desc: ["Borrow the attack of the Eldritch Guardians."]
+	quest.2F358C3025111D0A.quest_desc: ["Unpredictable and potentially lethal, to both sides."]
+	quest.51FFC9E6995B4AD9.quest_desc: ["Throw anything into the void under the world."]
+	quest.23863A4464BDEEAF.quest_desc: ["A weapon that shouldn't exist. Needs a &dChaos Core&r and a &dVoid Sword&r."]
+	quest.4527AA2F586A58F2.title: "Tier IV: Archmage Relics"
+	quest.4527AA2F586A58F2.quest_subtitle: "Mars, Mercury and beyond"
+	quest.4527AA2F586A58F2.quest_desc: ["Only the strongest materials can hold these relics together: &aPaltaeria&r, &6Ostrum&r and &cCalorite&r."]
+	quest.40A9DC8D01E54100.quest_desc: ["Survive a killing blow. Needs a &dTotem Pendant&r and two &dCharms of Undying&r. Never carry more than one."]
+	quest.23A98398F484DAF5.quest_desc: ["A contract with Oblivion. It protects you from everything, for a price. Starts from a &cJeopardant&r."]
+	quest.1B2EB9FF230C7B11.quest_desc: ["A nightmare for everyone without exception."]
+	quest.302FFC3D694C51D9.quest_desc: ["One of the most destructive relics ever made."]
+	quest.2E46D2710EDBD308.quest_desc: ["Charged with &aPlutonium&r. Ethereal homing bursts that ignore walls."]
+	quest.72FCB056BB5DEAAA.title: "Tier V: Apotheosis"
+	quest.72FCB056BB5DEAAA.quest_subtitle: "The end of the road"
+	quest.72FCB056BB5DEAAA.quest_desc: ["&dMoonstone Cores&r are guarded by turrets in the &bPreservation Ruins&r. Combined with &dQuantum&r technology, they can hold the last two relics together."]
+	quest.5EB164BE2B0A0F5F.quest_desc: ["Summon a storm of weapons that only strikes the living."]
+	quest.7DF76AAAA779C758.quest_subtitle: "The final relic"
+	quest.7DF76AAAA779C758.quest_desc: [
+		"Near-immortality. Carry the &dOmega Core&r and fatal wounds simply won't finish the job, your vis refills itself and harmful effects can't touch you."
+		""
+		"Just don't fall below the world."
+	]
+	quest.74F7000A2A85D56E.title: "Thaumic Additions"
+	quest.74F7000A2A85D56E.quest_subtitle: "Forgotten branches of the art"
+	quest.74F7000A2A85D56E.quest_desc: [
+		"Your &5Thaumonomicon&r has grown a new tab, &dAdditions&r, right after &dFirst Steps&r. Its research notes lean on &eAlkimia&r more than anything else."
+		""
+		"West of here lie salts, crystals, farmed essentia and borrowed life. East lies the &5Void&r, and the three alloys that grow out of it."
+		""
+		"&7In this pack the alloys need planet metals: &fPlatinum&7, then &7Desh&7 from the Moon, then &cOstrum&7 and &6Calorite&7."
+	]
+	quest.7858D44C81543FE4.title: "Knowledge at Hand"
+	quest.7858D44C81543FE4.quest_desc: ["Mount your Thaumonomicon on a greatwood lectern. Anyone who uses it opens their own research, so one lectern serves the whole base."]
+	quest.389E50EBCD2FFC00.title: "Zeith Fur"
+	quest.389E50EBCD2FFC00.quest_desc: ["Infuse white wool with amber and lapis. Right-click the fur for &e20 random aspect points&r toward your research."]
+	quest.72504CACB4E4DD5B.title: "Fabric of Disenchantment"
+	quest.72504CACB4E4DD5B.quest_desc: [
+		"Craft an enchanted item together with this cloth to strip its enchantments. The name and durability stay, and you get some experience back, up to 100 points per item."
+		""
+		"The cloth lasts for &e32 uses&r."
+	]
+	quest.5643B6843FA82AE3.title: "Arcane Lighting"
+	quest.5643B6843FA82AE3.quest_desc: ["A yellow nitor framed in amber, and another set in greatwood."]
+	quest.34F7E9BB756A7708.title: "Flux Concentrator"
+	quest.34F7E9BB756A7708.quest_desc: [
+		"Pipe &5Vitium&r into the front and it fills a sealed stone chamber behind it with flux. Mushrooms inside turn into &dVishrooms&r, pumpkins into taintkins and logs into taint logs."
+		""
+		"Anything alive in the cloud gets hurt, you included. Redstone stops it."
+	]
+	quest.366E88C9168E477F.title: "Belt of the Traveller"
+	quest.366E88C9168E477F.quest_desc: ["The &dBoots of the Traveller&r, moved to your waist. Infuse a mundane girdle with air crystals, enchanted fabric, a feather and a fish."]
+	quest.139BE7AD3816C49E.title: "Striding Belt"
+	quest.139BE7AD3816C49E.quest_desc: ["More speed and higher jumps. Amber and feathers do the work."]
+	quest.5E871845B2C63AC1.title: "Belt of the Meteor"
+	quest.5E871845B2C63AC1.quest_desc: ["Faster again. Crouch in mid-air to slam down like a falling star, and &cIgnis&r soaks up most of the landing."]
+	quest.2751ADD3E613873B.title: "Levitation Device"
+	quest.2751ADD3E613873B.quest_desc: ["The first recipe the Additions tab teaches: a levitator, yellow nitor, alumentum and two complex mechanisms in an iron frame."]
+	quest.0042D2DC9ACB8631.title: "Fragrant Pendant"
+	quest.0042D2DC9ACB8631.quest_desc: ["Warp management for long trips. Brew &dOdour Powder&r from bath salts in the crucible, then set it in a mundane amulet with amber and two filters."]
+	quest.7F681ECAB5E1015B.title: "Phantom Ink"
+	quest.7F681ECAB5E1015B.quest_desc: ["Craft a piece of armour with phantom ink and it stops showing on you, but keeps its protection and enchantments. Craft it with an empty phial to get the ink back."]
+	quest.2406A7776D5ACD90.title: "Crystal Bag"
+	quest.2406A7776D5ACD90.quest_desc: ["Infuse a focus pouch with one crystal of each primal and plenty of &7Vacuos&r. It holds every kind of crystal in huge numbers, picks them up from the floor and sorts them for you."]
+	quest.4DFCA2D9E4414EEE.title: "Vis Salt"
+	quest.4DFCA2D9E4414EEE.quest_subtitle: "Seasoning for the arcane"
+	quest.4DFCA2D9E4414EEE.quest_desc: [
+		"Drop a falling anvil from two blocks up onto a few essentia crystals lying on the ground, or jump on them from 15 blocks if you're brave. They shatter into &dVis Salt&r of their aspect."
+		""
+		"Season food with it in a crafting grid to carry the aspect's effect, or mix salts together."
+	]
+	quest.0EE70FFB999B3F63.title: "Aura Disperser"
+	quest.0EE70FFB999B3F63.quest_desc: [
+		"Load it with Vis Salt and it pulses the salt's effect on every creature within &e6 blocks&r. One charge gives 20 seconds of pulses, and salt is only spent when something is actually affected."
+		""
+		"Redstone pauses it."
+	]
+	quest.6DDB9216716845D8.title: "Essentia Pistol"
+	quest.6DDB9216716845D8.quest_desc: ["A handheld disperser. Sneak-right-click to attach a jar of essentia and set the nozzle, up to 20 essentia per shot."]
+	quest.7995F6B47ADD500B.title: "Arcane Cake"
+	quest.7995F6B47ADD500B.quest_subtitle: "Spite, baked"
+	quest.7995F6B47ADD500B.quest_desc: [
+		"Infuse a cake with a primordial pearl, quicksilver, salis mundus and a Praecantatio crystal. Bitten slices grow back, each one restores four hunger and applies any salt you seasoned it with."
+		""
+		"Eating the very last slice still ends it."
+	]
+	quest.2D9BAB1291E1C680.title: "Totemancy"
+	quest.2D9BAB1291E1C680.quest_desc: ["Two aura-node rites, rebuilt. The &eTotem of Dawn&r slowly drains flux from the aura, with the odd small burst. The &5Twilight Totem&r slowly pollutes it, which is sometimes exactly what you want."]
+	quest.3A839DBAB6F35E66.title: "Puriflower"
+	quest.3A839DBAB6F35E66.quest_desc: ["A Totem of Dawn infused into a plant with shimmerleaf and vishrooms. It cleans the aura like the totem does."]
+	quest.049AF2BC58F9811C.title: "Taintkin"
+	quest.049AF2BC58F9811C.quest_desc: ["Flux colours a carved pumpkin in the crucible without making it spread taint. Add a torch for a glowing &5Taint o' Lantern&r. Neither of them builds golems."]
+	quest.170A78F8466A69AD.title: "Crystal Blocks"
+	quest.170A78F8466A69AD.quest_desc: ["Nine crystals of one aspect make a block. They store neatly, and the Growth Chamber uses one as its seed."]
+	quest.5A14B3F488C8860B.title: "Crystal Growth Chamber"
+	quest.5A14B3F488C8860B.quest_desc: [
+		"The reverse of a smelter. Give it a crystal block of an aspect, a jar of the same essentia and a strong aura, and it condenses the liquid back into crystals."
+		""
+		"It's lossy: &e6 essentia&r per crystal, and it drains the aura."
+	]
+	quest.047A46127EBE06D4.title: "Crystal Crusher"
+	quest.047A46127EBE06D4.quest_desc: ["Tired of jumping on crystals? This press crushes them into salt for you. It runs on &7Machina&r essentia from nearby jars."]
+	quest.4655EF4A767A56FA.title: "Crystal Water"
+	quest.4655EF4A767A56FA.quest_desc: ["Vitreus, Desiderium and Permutatio turn a water bucket into &bCrystal Water&r. Put it in the four diagonal cells one block below a natural crystal and the crystal grows faster, sometimes using up a source."]
+	quest.0CC0BFE6F3E231FF.title: "Crystal Bore"
+	quest.0CC0BFE6F3E231FF.quest_desc: ["Mines the crystal cluster in front of it down to one shard, so the cluster can grow back. Harvested crystals go into storage behind it. It runs on a little local aura."]
+	quest.358BE4AB6FC37375.title: "Aspect Farming"
+	quest.358BE4AB6FC37375.quest_subtitle: "Essentia that grows on stalks"
+	quest.358BE4AB6FC37375.quest_desc: [
+		"Wheat seeds and salis mundus make blank &aVis Seeds&r. Steep them in a crucible with &e8&r of a primal aspect to get two seeds of that aspect. They grow on farmland and drop &dVis Pods&r."
+		""
+		"The research needs the Thaumaturge &dCrystal Farmer&r first."
+	]
+	quest.3B6C7F5B43495187.title: "Vis Pod Alchemy"
+	quest.3B6C7F5B43495187.quest_desc: [
+		"Each pod holds &e5 essentia&r of its aspect:"
+		""
+		"&7- Sneak-right-click a jar to pour all five in."
+		"&7- Craft it with quartz to get a crystal."
+		"&7- Craft it with wheat seeds to get another seed of the same aspect."
+	]
+	quest.0A82D58B1D2D1946.title: "Compound Aspects I"
+	quest.0A82D58B1D2D1946.quest_desc: ["Gelum, Lux, Metallum, Motus, Permutatio, Potentia, Vacuos, Victus and Vitreus."]
+	quest.706E026153C43754.title: "Compound Aspects II"
+	quest.706E026153C43754.quest_desc: ["Bestia, Herba, Instrumentum, Mortuus, Praecantatio, Tenebrae, Vinculum and Volatus."]
+	quest.67C12C603BC7423D.title: "Compound Aspects III"
+	quest.67C12C603BC7423D.quest_desc: ["Alienis, Alkimia, Auram, Exanimis, Fabrico, Machina, Spiritus and Vitium."]
+	quest.4CAF2DD2D5590D47.title: "Compound Aspects IV"
+	quest.4CAF2DD2D5590D47.quest_desc: ["The last six: Aversio, Cognitio, Desiderium, Humanus, Praemunio and Sensus. From here on, every aspect you farm is one you don't have to smelt."]
+	quest.60E5C8865000C2A7.title: "Automation Seals"
+	quest.60E5C8865000C2A7.quest_desc: ["Gold nuggets and wool make blank &eSeals&r. Place one on a wall or floor and it works on the space in front of it. Only you can reconfigure yours, and redstone pauses them."]
+	quest.4FDCF3F3B343AAA6.title: "Seal Symbology"
+	quest.4FDCF3F3B343AAA6.quest_desc: [
+		"Infuse a crystal with four gold nuggets and 10 of its essentia to get a symbol. Right-click a seal to add symbols in order:"
+		""
+		"&9Aqua&r: hydrate farmland"
+		"&6Terra, Terra, Terra&r: till"
+		"&aVictus, Herba&r: fertilise"
+		"&7Instrumentum, Herba&r: harvest"
+		"&7Instrumentum, Herba, Ordo&r: harvest and replant"
+		"&fVacuos, Vacuos, Vacuos&r: pull loose items into storage"
+		"&dPraecantatio, Aer&r: passage to a paired seal"
+	]
+	quest.66D8B00CB1754E8D.title: "Seal Peeking"
+	quest.66D8B00CB1754E8D.quest_desc: ["Sneak-right-click a seal to remember it, then right-click another to copy its symbols. It also pairs two passage seals, even in different dimensions."]
+	quest.6C175C0A93A02E41.title: "Entity Cell"
+	quest.6C175C0A93A02E41.quest_desc: [
+		"Right-click a living mob with an empty cell to capture it, then right-click a block to release the same creature, name and gear included."
+		""
+		"Players, other people's pets and anything without a spawn egg can't be captured. &cIn this pack, bosses can't either.&r"
+	]
+	quest.675093D4F3CF01FE.title: "Entity Recreation"
+	quest.675093D4F3CF01FE.quest_desc: [
+		"Put a filled cell into the &dEntity Summoner&r and pipe in the creature's own aspects. It builds copies out of that essentia and pollutes the aura as it works."
+		""
+		"Aspect farming makes it cheap to run."
+	]
+	quest.2FBAFAC14E3DEF7B.title: "Chester"
+	quest.2FBAFAC14E3DEF7B.quest_desc: ["A hungry chest with a brain. It follows you around with &e36 slots&r only you can open, and teleports back to you when you outrun it. The &6Bone Eye&r tells it to stay, follow, or fold up into an item."]
+	quest.32A8B6B3B6A599F4.title: "Void Anvil"
+	quest.32A8B6B3B6A599F4.quest_subtitle: "The Void whispers about smithing"
+	quest.32A8B6B3B6A599F4.quest_desc: [
+		"An anvil infused with void plates and void metal. It never cracks, but every strike leaks a little flux."
+		""
+		"The rest of the eldritch additions start here, once you know &cThe Crimson Rites&r."
+	]
+	quest.6458891992C2C8C3.title: "Void Elemental Tools"
+	quest.6458891992C2C8C3.quest_desc: ["Your elemental tools, infused with void plates and a primordial pearl each. They slowly repair themselves from the aura's vis."]
+	quest.338ED174CFAE94CB.title: "Void Agriculture"
+	quest.338ED174CFAE94CB.quest_desc: ["Infuse wheat seeds with void plates and a primordial pearl. Void seeds grow on farmland and bear &5Void Fruit&r."]
+	quest.53AB34359B44BC1D.title: "Wormhole Mirror"
+	quest.53AB34359B44BC1D.quest_desc: ["A hand mirror infused with void plates and a thaumometer. Your essentia mirrors normally only pass essentia. This one lets them take you through as well."]
+	quest.271FE3528D489DC5.title: "Mithrillium"
+	quest.271FE3528D489DC5.quest_subtitle: "Void metal without the whispers"
+	quest.271FE3528D489DC5.quest_desc: [
+		"Infuse a &5Thaumium Ingot&r with amber, alumentum, quicksilver, salis mundus and two &fPlatinum Plates&r. You need the &5Void Smelter&r research first."
+		""
+		"The blue alloy is steadier than void metal. Three ingots press into three plates in a crafting grid."
+	]
+	quest.76ABF2685BAB5116.title: "Mithrillium Resonator"
+	quest.76ABF2685BAB5116.quest_desc: ["A morphic resonator wrapped in mithrillium plates and complex mechanisms. Every adaminite robe piece and the Shadow Enchanter use them."]
+	quest.39A909D23396C5A1.title: "Shadow Enchanter"
+	quest.39A909D23396C5A1.quest_subtitle: "Exact enchantments, no experience"
+	quest.39A909D23396C5A1.quest_desc: ["Place an item, pick the enchantments and levels you want, supply the essentia and activate it with a casting tool. It costs no experience, and some enchantments can go a level past normal."]
+	quest.3C41D49F184F6D33.title: "The Beheader"
+	quest.3C41D49F184F6D33.quest_desc: ["A thaumium axe reforged with mithrillium and two wither skeleton skulls. It's made to take heads, wither skeleton skulls above all."]
+	quest.12D67F2EE2B1CE86.title: "Aspect Combiner"
+	quest.12D67F2EE2B1CE86.quest_desc: ["The opposite of a centrifuge. Feed two aspects into the side ports and the compound they make comes out on top."]
+	quest.04BF2C089AE54C66.title: "Aura Charger"
+	quest.04BF2C089AE54C66.quest_desc: ["Gives back to the aura for once. Feed &dAuram&r in from below and it restores local vis, up to 2.5 times the normal ceiling. It's an aspect combiner bound with adaminite nuggets."]
+	quest.6DC446F1998E2118.title: "Mithrillium Smelter"
+	quest.6DC446F1998E2118.quest_desc: ["A heat-proof essentia smelter with a &e1,000&r-unit buffer and a 20-tick cycle. Studying it opens the way to Adaminite."]
+	quest.50F604A2A1673BC8.title: "Adaminite"
+	quest.50F604A2A1673BC8.quest_subtitle: "Blood-red, and priced to match"
+	quest.50F604A2A1673BC8.quest_desc: [
+		"Infuse a Mithrillium Ingot with a &fNether Star&r, a &dPrimordial Pearl&r and two &7Desh Plates&r from the Moon."
+		""
+		"Each ingot spends part of a pearl, and the full robe set needs dozens of ingots. Plan your pearls."
+	]
+	quest.55AEE44A101725C0.title: "Adaminite Weaving"
+	quest.55AEE44A101725C0.quest_desc: ["Eight pieces of enchanted fabric around one adaminite ingot weave two Adaminite Fabric."]
+	quest.6F7118B902E568EE.title: "Adaminite Robes"
+	quest.6F7118B902E568EE.quest_desc: ["Four pieces, each sewn around a Mithrillium Resonator: &e19 Adaminite Fabric&r for the whole set. They are also the base of the Mithminite dress."]
+	quest.153F518688E58C7C.title: "Adaminite Sword"
+	quest.153F518688E58C7C.quest_desc: ["A void sword infused with three adaminite plates and a primordial pearl. It's practically unbreakable, and the Mithminite Scythe's blade starts as one."]
+	quest.68760BE7627E8FD7.title: "Adaminite Smelter"
+	quest.68760BE7627E8FD7.quest_desc: ["Faster, at 15 ticks per step, with a &e2,000&r-unit buffer. It's built around your mithrillium smelter."]
+	quest.2548747DB2110773.title: "Mithminite"
+	quest.2548747DB2110773.quest_subtitle: "The wonder-alloy"
+	quest.2548747DB2110773.quest_desc: ["Infuse an Adaminite Ingot with two Mithrillium Ingots, an &cOstrum Plate&r from Mars and a &6Calorite Plate&r from Mercury."]
+	quest.753FEE0A36D30B7A.title: "Mithminite Weaving"
+	quest.753FEE0A36D30B7A.quest_desc: ["One mithminite ingot and four adaminite fabric weave two Mithminite Fabric."]
+	quest.17AC1D7B6FC9CEC0.title: "Mithminite Dress"
+	quest.17AC1D7B6FC9CEC0.quest_subtitle: "Flight, at last"
+	quest.17AC1D7B6FC9CEC0.quest_desc: [
+		"Each piece is infused onto its adaminite counterpart. Wear all four for &dsurvival flight&r, fire protection, extra health, speed, aspect sight and a sanity readout."
+		""
+		"Take any piece off and the set bonuses stop. On its own, each piece is just armour."
+	]
+	quest.30122A9ACAE8CE59.title: "Mithminite Scythe"
+	quest.30122A9ACAE8CE59.quest_desc: ["Infuse an adaminite sword into a blade, a nugget into a handle, then join both on a primordial pearl. Every swing throws a flying blade of aural vis: &e12&r melee and &e14&r ranged damage."]
+	quest.7A5FC832073D30A5.title: "Mithminite Smelter"
+	quest.7A5FC832073D30A5.quest_desc: ["The fastest smelter, at 10 ticks per step, with a &e4,000&r-unit buffer."]
+	quest.5D0ADE0677EC4F2D.title: "Brass Warded Jar"
+	quest.5D0ADE0677EC4F2D.quest_desc: ["The first of six bigger jars. Each tier wraps the previous jar in glass panes and a plate of the next metal."]
+	quest.4CDE90CF0E924C4C.title: "Thaumium Reinforced Jar"
+	quest.4CDE90CF0E924C4C.quest_desc: ["A thaumium plate on the brass jar."]
+	quest.4CCCBC414695AD31.title: "Void Reinforced Jar"
+	quest.4CCCBC414695AD31.quest_desc: ["A void plate on the thaumium jar."]
+	quest.7E6B35469AD26B9C.title: "Mithrillium Fortified Jar"
+	quest.7E6B35469AD26B9C.quest_desc: ["A mithrillium plate on the void jar."]
+	quest.301FD9C79B1DABC7.title: "Adaminite Fortified Jar"
+	quest.301FD9C79B1DABC7.quest_desc: ["An adaminite plate on the mithrillium jar."]
+	quest.10A3C543DD22F7B0.title: "Mithminite Fortified Jar"
+	quest.10A3C543DD22F7B0.quest_desc: ["The last jar is infused, not crafted: a mithminite ingot, amber, alumentum and a void jar around the adaminite jar."]
+	chapter.5CD999B877BD4CF2.title: "&5Thaumaturge"
+	chapter.5CD999B877BD4CF2.chapter_subtitle: ["From a pinch of salt to the Omega Core"]
+	quest.71B1E950DB85F7FC.title: "The Last Mission"
+	quest.71B1E950DB85F7FC.quest_subtitle: "Earth is dying"
+	quest.71B1E950DB85F7FC.quest_desc: [
+		"The quakes come every week now. The seasons have stopped making sense, the aura is thick with flux and the sky over the old cities has not been blue in years. Whatever is killing the Earth, it will not wait for us to fix it."
+		""
+		"The Ancients' ship on Eris proves something we were never sure of: there is a way between galaxies. Somewhere out there is a world that can still hold life."
+		""
+		"Find it. Build a ship big enough to carry everyone. Leave."
+		""
+		"&6Power:&r everything in this chapter runs at &e512 to 8,192 EU/t&r. A machine or multiblock controller starts with a limit of only 32 or 128 EU/t, so put upgrades in it: each &bHighly Advanced Upgrade&r adds 512 EU/t (sixteen of them reach 8,192), a &dQuantum Upgrade&r removes the limit. One &bEV Energy Hatch&r carries 8,192 EU/t."
+	]
+	quest.1E68736B492EE0F8.title: "A View Above the Smoke"
+	quest.1E68736B492EE0F8.quest_desc: ["The air down here is too thick with ash to see the stars. The &dSpace Telescope&r only works from &bEarth Orbit&r, so it goes on your space station. On Earth it forms, but never starts a scan."]
+	quest.401A1782EC51DF7A.title: "Short Range Lens"
+	quest.401A1782EC51DF7A.quest_desc: ["Assemble a &7Lens Mold&r, then fuse four silicon dust in it in the Electric Blast Furnace with oxygen (Kanthal coils, 128 EU/t). The mold comes back out every time."]
+	quest.55792846A9CD3E8E.title: "The Space Telescope"
+	quest.55792846A9CD3E8E.quest_subtitle: "Looking for a new home"
+	quest.55792846A9CD3E8E.quest_desc: [
+		"The controller is assembled around two short range lenses, tungstensteel gears and motors, processing units and a quantum circuit."
+		""
+		"Build the &dSpace Telescope&r in orbit with an item input, an item output, a fluid input and an energy hatch (it has six hatch spots). Every scan brings back &aStellar Data&r. The lens wears out on one scan in twenty; deep space lenses on one in ten."
+	]
+	quest.13FB3E4C2A6D771E.title: "Raw Starlight"
+	quest.13FB3E4C2A6D771E.quest_desc: ["Unrefined data is noise until something can read it. A short range lens and a bucket of water bring back one every thirty seconds at 512 EU/t."]
+	quest.02F12FA64E2DF754.title: "Computer Casing"
+	quest.02F12FA64E2DF754.quest_desc: ["Stainless steel, a digital circuit and an AE2 &bCalculation Processor&r make two casings. The supercomputer takes eighty-four."]
+	quest.42886361704DD8ED.title: "Deep Space Lens"
+	quest.42886361704DD8ED.quest_desc: [
+		"Two short range lenses fused around &bNivalum Plates&r from Saturn's moons see much further. The fusing needs &7Tungstensteel coils&r in the blast furnace (1,024 EU/t). Deep-space scans need cryofluid and 2,048 EU/t, and they are the only place to find &5black holes&r and &danomalies&r."
+		""
+		"Every research probe takes one of these lenses too."
+	]
+	quest.40EDB79724D81AD3.title: "The Supercomputer"
+	quest.40EDB79724D81AD3.quest_desc: [
+		"Assembled from computer casings, ME drives, &dAccumulation Processors&r and a &d256M Cell Component&r. Keep it cold."
+		""
+		"Simple data always gives a &eStar&r reading and half the time a &aPlanetary&r one. Deep data gives a &5Black Hole&r three times in five, sometimes a star, and one scan in five an &dAnomaly&r."
+	]
+	quest.605DCF86F7B27432.title: "Star Telemetry"
+	quest.605DCF86F7B27432.quest_desc: ["Laser-engrave star data onto a &bQuantum Circuit Board&r to get a star's coordinates. You'll need a lot: every basic space circuit eats one."]
+	quest.31BDD3F99A7A82C2.title: "A Door in the Dark"
+	quest.31BDD3F99A7A82C2.quest_desc: [
+		"One in many thousands of readings is wrong in a way that makes sense: a fold in space, out past the edge of the galaxy. The Ancients went through it. So will we."
+		""
+		"The Ark needs three of these: two for anomalous circuits and one for the navigation core."
+	]
+	quest.59E534B767B13200.title: "Where Do We Go?"
+	quest.59E534B767B13200.quest_desc: ["A planet in Andromeda: liquid water, a breathable sky, no flux in its aura at all. The crew has already started calling it &aNew Eden&r."]
+	quest.7E31E1AEB3193476.title: "Space Circuits"
+	quest.7E31E1AEB3193476.quest_desc: [
+		"Quantum circuits written with telemetry."
+		"&7- Basic:&r a quantum circuit, star telemetry, superconductor wire and a Calculation Processor."
+		"&7- Advanced:&r two basic circuits, planetary telemetry, Accumulation Processors and &5Void Metal&r plates."
+		"&7- Anomalous:&r two advanced circuits, anomaly telemetry, a &dCausality Collapser&r, a &dMorphic Resonator&r and a &dQuantum Entangled Singularity&r. The anomaly doesn't obey causality, so neither can the circuit that reads it."
+	]
+	quest.6A7E4C01B6E74F9C.title: "Research Probe"
+	quest.6A7E4C01B6E74F9C.quest_desc: [
+		"A space probe rebuilt around a deep space lens, flown by a basic space circuit and plated with &bNitralis&r. It can fly to the coordinates on a telemetry card and bring something back."
+		""
+		"The Ark takes nine: one for the plasma, eight for dark matter."
+	]
+	quest.57EFA1B235D815D7.title: "Stellar Plasma"
+	quest.57EFA1B235D815D7.quest_desc: ["Launch a research probe with &eStar Telemetry&r from a &dSpace Probe Launcher&r standing on a Mk I Probe Computer. It comes home with an aluminium tank of &6Stellar Plasma&r: 64 buckets, enough for 64 cells of antimatter."]
+	quest.3CB4D94A5A38FE76.title: "Antimatter Housing"
+	quest.3CB4D94A5A38FE76.quest_desc: ["Superconductor plates and coils around a quantum casing hold the field, and &5Void Metal&r takes whatever leaks. Two per craft: the only box that antimatter won't eat."]
+	quest.6E02F2300ED869EC.title: "What Should Not Be"
+	quest.6E02F2300ED869EC.quest_desc: ["The &dSingularity Forge&r presses two UU matter and a bucket of stellar plasma into one gram of &4Antimatter&r at 8,192 EU/t. Seal every gram in a housing the moment it leaves the forge."]
+	quest.33A7ECEB9244BDFC.title: "Contained Antimatter"
+	quest.33A7ECEB9244BDFC.quest_desc: ["The Ark needs fifty-six cells: thirty-two in star imploders, sixteen in the warp drive and eight for the final assembly. Start stockpiling."]
+	quest.1C596473CC0BB00F.title: "Black Hole Telemetry"
+	quest.1C596473CC0BB00F.quest_desc: ["Deep-space data refines into black hole readings most of the time. You'll need one per dark matter run, eight in all."]
+	quest.7BCDC3EFD56824AB.title: "Star Imploder"
+	quest.7BCDC3EFD56824AB.quest_desc: ["Four cells of contained antimatter around a singularity, a &cDemon Core&r to start the collapse and &bSuperconductor Tesla Windings&r to aim it. It makes a star fall in on itself."]
+	quest.38F7AA5E84D30E8E.title: "Dark Matter"
+	quest.38F7AA5E84D30E8E.quest_desc: [
+		"Send a research probe with a star imploder to a star next to a black hole. The &dQuantum Space Probe Launcher&r brings back four &5Dark Matter&r from the collapse after five minutes at 4,096 EU/t."
+		""
+		"The Ark needs twenty-nine: thirteen for the warp ring and sixteen for the drive. That's eight launches."
+	]
+	quest.3099510274A4D7D6.title: "Viewports"
+	quest.3099510274A4D7D6.quest_desc: ["Borosilicate glass in a titanium and nitralis frame, so the colonists can watch the Earth shrink."]
+	quest.7986029E5C8CC1A7.title: "Thrusters"
+	quest.7986029E5C8CC1A7.quest_desc: ["Two hull plates around a plasma-handling iridium casing and a large advanced pump, with cordium, abyssium and iridium plates. The stern takes twenty-six of them."]
+	quest.1589BA8303DE48C0.title: "Hull Plating"
+	quest.1589BA8303DE48C0.quest_desc: ["Titanium, helionite from Mercury, blastproof alloy and nitralis from Triton, eight plates at a time. The hull takes 1,032 and the thrusters 52 more, so automate it early."]
+	quest.1F12AFB74EE42CFA.title: "Warp Coils"
+	quest.1F12AFB74EE42CFA.quest_desc: ["Superconductor coils and tesla windings wound around dark matter, four coils per craft at 8,192 EU/t. They form the ring around the Ark's waist."]
+	quest.7B45A8F2C2ECCA78.title: "Raising the Hull"
+	quest.7B45A8F2C2ECCA78.quest_desc: [
+		"The &dExodus Ark&r is a multiblock &e37 long, 23 wide and 15 tall&r: 1,000+ hull plates, a warp ring, 26 thrusters, 32 viewports and 11 running lights (Glowing Steel Pillars). The bridge controller sits in the nose and the ship grows behind it."
+		""
+		"Open the controller in &bEMI&r to see the full shape. Hatches go on the &7keel&r under the centre line or on the stern plate: item inputs, fluid inputs (64 buckets of fuel need several), an energy input and an item output."
+	]
+	quest.1E35937B314B46E7.title: "The Exodus Ark"
+	quest.1E35937B314B46E7.quest_subtitle: "A ship for everyone left"
+	quest.1E35937B314B46E7.quest_desc: ["The bridge of the Ark: a quantum hull behind hull plating and viewports, with an &dAnomalous Space Circuit&r for a mind, a &d256M Cell Component&r for its memory and two &dQuantum Entangled Singularities&r so it can still hear the Earth. Place it, raise the hull behind it and feed it everything below."]
+	quest.0CF6752ECF04EF11.title: "Cryostasis"
+	quest.0CF6752ECF04EF11.quest_desc: ["A thousand colonists will sleep the whole way. Each module takes two cryo freezers, nivalum plates, superconductor coils, quantum circuits, a basic space circuit and 16 buckets of cryofluid."]
+	quest.3092B20AA1F7A199.title: "The Seed Vault"
+	quest.3092B20AA1F7A199.quest_desc: ["Every sapling, seed and flower the Earth can still spare, with &5Greatwood&r and &fSilverwood&r saplings so the new world has magic too, and an &dEntity Cell&r from Thaumic Additions holding the genes of the animals."]
+	quest.3C04F3FBB480586A.title: "Stellar Navigation Core"
+	quest.3C04F3FBB480586A.quest_desc: ["Telemetry and space circuits chart the stars. Between galaxies there are no stars, only the Void, so the core also needs an &dEldritch Eye&r, a &dPrimordial Pearl&r and Spectrum &eStar Fragments&r. Two &dQuantum Entangled Singularities&r keep the Ark in touch with the Earth from another galaxy."]
+	quest.23F2BDD3461B885A.title: "Antimatter Warp Drive"
+	quest.23F2BDD3461B885A.quest_desc: ["The Singularity Forge copies the drive of the &dAncients' Ship&r: the ship sits in the forge as the template and comes back out unharmed. The copy takes sixteen cells of antimatter, sixteen dark matter, four singularities and 16 buckets of cryofluid, for five minutes at 8,192 EU/t."]
+	quest.05D360DBDDFA5B79.title: "Exodus Ignition Key"
+	quest.05D360DBDDFA5B79.quest_subtitle: "Ten minutes at full power"
+	quest.05D360DBDDFA5B79.quest_desc: ["The Ark assembles itself: four cryostasis modules, two seed vaults, the navigation core, the warp drive, eight cells of antimatter and &b64 buckets of Cryo Fuel&r, at &e8,192 EU/t&r for ten minutes. The bridge needs a Quantum Upgrade or sixteen Highly Advanced Upgrades for that."]
+	quest.124FEC6C25326275.title: "New Eden"
+	quest.124FEC6C25326275.quest_subtitle: "The end of the pack, the start of a new world"
+	quest.124FEC6C25326275.quest_desc: [
+		"Right-click the Ark's bridge with the &6Exodus Ignition Key&r. Everyone within &e32 blocks&r of the bridge comes aboard. Ten seconds later, the Earth is behind you."
+		""
+		"You land on &aNew Eden&r, your respawn point moves there and the pack is complete. The key still works as a shuttle back to the launch site if you left something behind."
+	]
+	quest.112CE3ED95356D42.title: "Ship's Log"
+	quest.112CE3ED95356D42.quest_subtitle: "Day one"
+	quest.112CE3ED95356D42.quest_desc: [
+		"The colonists are waking up. The air smells of rain. Someone has already planted the first sapling from the vault."
+		""
+		"Thank you for playing."
+	]
+	chapter.5D93F13E4525515B.title: "&c8 - Exodus"
+	chapter.5D93F13E4525515B.chapter_subtitle: ["Leave the dying Earth behind"]
 }

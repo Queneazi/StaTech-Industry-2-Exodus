@@ -10,16 +10,10 @@ ServerEvents.recipes((event) => {
     telescope(
         event,
         st('unrefined_simple_stellar_data'),
-        64,
+        512,
         600,
         [{ amount: 1, item: kj('short_range_lens'), probability: 0.05 }],
-        [
-            {
-                amount: 1,
-                item: kj('unrefined_simple_stellar_data'),
-                probability: 0.1,
-            },
-        ],
+        [{ amount: 1, item: kj('unrefined_simple_stellar_data') }],
         [{ amount: 1000, fluid: mc('water') }]
     );
 
@@ -27,16 +21,10 @@ ServerEvents.recipes((event) => {
     telescope(
         event,
         st('unrefined_deep_space_stellar_data'),
-        64,
-        900,
-        [{ amount: 1, item: kj('deep_space_lens'), probability: 0.2 }],
-        [
-            {
-                amount: 1,
-                item: kj('unrefined_deep_space_stellar_data'),
-                probability: 0.1,
-            },
-        ],
-        [{ amount: 500, fluid: mi('cryofluid') }]
+        2048,
+        1200,
+        [{ amount: 1, item: kj('deep_space_lens'), probability: 0.1 }],
+        [{ amount: 1, item: kj('unrefined_deep_space_stellar_data') }],
+        [{ amount: 1000, fluid: mi('cryofluid') }]
     );
 });

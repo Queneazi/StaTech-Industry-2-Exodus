@@ -7,7 +7,16 @@
 		id: "modern_industrialization:digital_circuit"
 	}
 	id: "443557BD1692EA37"
-	images: [ ]
+	images: [{
+		height: 5.5d
+		id: "248131CC30AE0D5B"
+		image: "kubejs:textures/gui/quests/venus.png"
+		order: -1
+		rotation: 0.0d
+		width: 5.5d
+		x: 12.0d
+		y: -16.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -3816,38 +3825,345 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["5B497F5E8E946999"]
-			id: "2FB4CE90BEA4C158"
+			dependencies: ["178A5F42CB22FEA1"]
+			icon: {
+				id: "ad_astra:netherite_space_suit"
+			}
+			id: "0A7923D5A7E200F8"
 			rewards: [
 				{
-					count: 5
-					id: "2EA4DD55E5239885"
+					id: "75E5ECEB6103FD77"
 					item: {
 						count: 1
-						id: "kubejs:coin_rare"
+						id: "kubejs:coin_legendary"
 					}
 					type: "item"
 				}
 				{
-					id: "0BB1C80414BA0271"
+					id: "06C42EEEADF929F6"
 					type: "xp"
-					xp: 40
+					xp: 75
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1099CF884C0B838D"
-					table_id: 379087119399425756L
+					id: "77D6B0C35E5E403B"
+					table_id: 5923260596511522936L
 					type: "random"
 				}
 			]
 			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2FA3A2C4C174F2E1"
+					item: { count: 1, id: "ad_astra:netherite_space_helmet" }
+					type: "item"
+				}
+				{
+					id: "30C3924D8900B323"
+					item: { count: 1, id: "ad_astra:netherite_space_suit" }
+					type: "item"
+				}
+				{
+					id: "05C1F59BA7BCC5C3"
+					item: { count: 1, id: "ad_astra:netherite_space_pants" }
+					type: "item"
+				}
+				{
+					id: "40FA98ECD09A9BF1"
+					item: { count: 1, id: "ad_astra:netherite_space_boots" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0A7923D5A7E200F8"]
+			icon: {
+				id: "adastraplanets:liner_vest_2"
+			}
+			id: "1A95B1670D94C07B"
+			rewards: [
+				{
+					id: "414F56F48EFB12E8"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "2DB15C13B6412E89"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4287B8EA42FA7D2D"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "061F63A96DBFD0A7"
+					item: { count: 1, id: "adastraplanets:liner_hood_2" }
+					type: "item"
+				}
+				{
+					id: "0B73921000C597A2"
+					item: { count: 1, id: "adastraplanets:liner_vest_2" }
+					type: "item"
+				}
+				{
+					id: "1B9C7A5249F3F941"
+					item: { count: 1, id: "adastraplanets:liner_leggings_2" }
+					type: "item"
+				}
+				{
+					id: "7A9C673013DBA6A5"
+					item: { count: 1, id: "adastraplanets:liner_boots_2" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["178A5F42CB22FEA1"]
+			icon: {
+				id: "kubejs:ostrum_engine"
+			}
+			id: "0AFE735258A7FAF9"
+			rewards: [
+				{
+					id: "5F97FDAC6D293046"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "08EFC55C258CAB2B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "401DED3A401B28AB"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "44EFF813443111C2"
+					item: { count: 1, id: "kubejs:ostrum_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "143E0432833D088D"
+					item: { count: 1, id: "kubejs:ostrum_fuel_tank" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0AFE735258A7FAF9"
+				"0C7FA0E7960C2631"
+			]
+			id: "45F5A873076C5804"
+			rewards: [
+				{
+					id: "3846453CA5B491F6"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "74312D1BD18FDD23"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "455622430DE0C6FA"
+					table_id: 5762803210059023537L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
-				id: "483DEB073F5DC942"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:me_hatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "0A4A6FD547928760"
+				item: { count: 1, id: "ad_astra:tier_3_rocket" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: 12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"45F5A873076C5804"
+				"1A95B1670D94C07B"
+			]
+			icon: {
+				id: "ad_astra:venus_sand"
+			}
+			id: "661ADF5D54FC9BB4"
+			rewards: [
+				{
+					id: "0722F364BAF9914E"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "78DDE8CE75EF2C68"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A51834238B9395D"
+					table_id: 5762803210059023537L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 2.5d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "62A1B6EB09C909F8"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["661ADF5D54FC9BB4"]
+			icon: {
+				id: "modern_industrialization:calorite_ore"
+			}
+			id: "1E985EFABFB49DEE"
+			rewards: [
+				{
+					id: "25903301BB09E18F"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "1446D393C54C08B2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FAA6764085767DB"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "68BA9272D2BC0A74"
+				item: { count: 1, id: "modern_industrialization:raw_calorite" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0AFE735258A7FAF9"]
+			id: "0C7FA0E7960C2631"
+			rewards: [
+				{
+					id: "0600ADE54FA6309C"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "621D156CD7315BA2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCCB6B18DCE6CC0"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "26ED90D265297BA1"
+				item: { count: 1, id: "kubejs:mkiii_probe_computer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"18CE795EB630611E"
+				"37F30BF552D3CDB4"
+			]
+			icon: {
+				id: "ad_astra:tier_3_rocket"
+			}
+			id: "178A5F42CB22FEA1"
+			rewards: [
+				{
+					id: "4ABDA45AA106A983"
+					item: {
+						count: 1
+						id: "kubejs:coin_legendary"
+					}
+					type: "item"
+				}
+				{
+					id: "59054DEC493992DC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61739A8845994540"
+					table_id: 5923260596511522936L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0440F210BCCA3E4C"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -7.5d
 		}
 	]
 }

@@ -1,0 +1,8 @@
+#Show the "Found on: ..." line
+enabled = true
+#Extra or replaced lines, one entry per item: "<item id>=<where>". <where> is a translation key
+#(e.g. "planet.adastraplanets.io", from any resource pack) or plain text (e.g. "Io, near volcanoes").
+#This mod's ores already have their line built in; an entry here replaces it, and "<item id>=" with
+#nothing after the = hides it. Any item works, not only this mod's ores.
+#The line itself is the translation key tooltip.adastraplanets.found_on ("Found on: %s").
+locations = []
