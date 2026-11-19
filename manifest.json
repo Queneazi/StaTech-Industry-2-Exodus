@@ -1,6 +1,6 @@
 {
     "minecraft":  {
-                      "version": "1.0.6",
+                      "version": "1.21.1",
                       "modLoaders":  [
                                          {
                                              "id":  "neoforge-21.1.264",
