@@ -2,7 +2,7 @@
 
 Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.6
 
-## Mods (285)
+## Mods (284)
 
 | Name | Author | File |
 | --- | --- | --- |
@@ -203,7 +203,6 @@ Minecraft 1.21.1 · NeoForge 21.1.264 · pack version 1.0.6
 | [Music and Melody](https://www.curseforge.com/minecraft/mc-mods/music-and-melody) | rebel0459 | `music-and-melody-21.1-r4.3-neoforge-cf.jar` |
 | [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | Chaosyr | `NaturesCompass-1.21.1-3.4.0-neoforge.jar` |
 | [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix) | BlayTheNinth | `netherportalfix-neoforge-1.21.1-21.1.1.jar` |
-| [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports) | Aizistral | `NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar` |
 | [No Mans Land](https://www.curseforge.com/minecraft/mc-mods/no-mans-land) | Farcr | `nomansland-1.6.2.jar` |
 | [Not Enough Animations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | tr7zw | `notenoughanimations-neoforge-1.12.6-mc1.21.1.jar` |
 | [Not Enough Recipe Book [NERB]](https://www.curseforge.com/minecraft/mc-mods/notenoughrecipebook) | SSKirillSS | `Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar` |
