@@ -133,26 +133,30 @@ let fxBudget = () => {
     if (n > 6000) q *= 0.15; else if (n > 3000) q *= 0.5;
     return q;
 };
-let fxSome = (n) => { let r = n * FX.q; return Math.floor(r) + (Math.random() < r % 1 ? 1 : 0); };
+let fxSome = (n, floor) => { let r = n * Math.max(FX.q, floor || 0); return Math.floor(r) + (Math.random() < r % 1 ? 1 : 0); };
 
+// A lone meteor is a rare event and gets the full impact; shower meteors stay light.
 function fxImpact(x, y, z, power) {
-    let d = fxDist(x, y, z), big = power >= 3.5 ? 1 : 0.6;
-    FX.flash = Math.max(FX.flash, Math.max(0, 1 - d / 110) * 0.5); FX.flashColor = 0xffc070;
-    FX.shake = Math.max(FX.shake, Math.max(0, 1 - d / 110) * (2.2 + power * 0.3));
-    if (d < 60) FX.quakeUntil = FX.tick + 30;
+    let d = fxDist(x, y, z), lone = power >= 3.5;
+    let reach = lone ? 150 : 110;
+    FX.flash = Math.max(FX.flash, Math.max(0, 1 - d / reach) * (lone ? 0.65 : 0.5)); FX.flashColor = 0xffc070;
+    FX.shake = Math.max(FX.shake, Math.max(0, 1 - d / reach) * (lone ? 3.2 + power * 0.45 : 2.2 + power * 0.3));
+    if (d < (lone ? 90 : 60)) FX.quakeUntil = FX.tick + (lone ? 55 : 30);
+    if (lone && d < 80) fxTremorDust(1.4);
     if (d > 160) return;
-    let near = d < 64 ? 1 : 0.5;
-    let k = big * near;
-    for (let i = 0; i < Math.max(1, fxSome(3 * k)); i++) fxSpawn('collapse_shock', x + fxRand(-1.5, 1.5), y + 0.6 + i * 0.7, z + fxRand(-1.5, 1.5));
-    for (let i = 0; i < fxSome(4 * k); i++) fxSpawn('collapse_fireball', x + fxRand(-2, 2), y + fxRand(0.5, 3), z + fxRand(-2, 2));
-    for (let i = 0; i < fxSome(6 * k); i++) fxSpawn('collapse_trail', x + fxRand(-3, 3), y + fxRand(0.5, 4), z + fxRand(-3, 3), 0, fxRand(2.5, 4.5), 0);
-    for (let i = 0; i < fxSome(30 * k); i++) {
-        let a = Math.random() * FX_TAU, v = fxRand(0.1, 0.55);
-        fxSpawn('entry_ember', x + fxRand(-1.5, 1.5), y + fxRand(0, 2), z + fxRand(-1.5, 1.5), Math.cos(a) * v, fxRand(0.1, 0.75), Math.sin(a) * v);
+    let floor = lone ? 0.8 : 0;
+    let k = (lone ? 1 : 0.6) * (d < 64 || lone ? 1 : 0.5);
+    for (let i = 0; i < Math.max(1, fxSome(3 * k, floor)); i++) fxSpawn('collapse_shock', x + fxRand(-1.5, 1.5), y + 0.6 + i * 0.7, z + fxRand(-1.5, 1.5));
+    for (let i = 0; i < fxSome(4 * k, floor); i++) fxSpawn('collapse_fireball', x + fxRand(-2, 2), y + fxRand(0.5, 3), z + fxRand(-2, 2));
+    for (let i = 0; i < fxSome(6 * k, floor); i++) fxSpawn('collapse_trail', x + fxRand(-3, 3), y + fxRand(0.5, 4), z + fxRand(-3, 3), 0, fxRand(2.5, 4.5), 0);
+    for (let i = 0; i < fxSome((lone ? 45 : 30) * k, floor); i++) {
+        let a = Math.random() * FX_TAU, v = fxRand(0.1, lone ? 0.7 : 0.55);
+        fxSpawn('entry_ember', x + fxRand(-1.5, 1.5), y + fxRand(0, 2), z + fxRand(-1.5, 1.5), Math.cos(a) * v, fxRand(0.15, lone ? 1.0 : 0.75), Math.sin(a) * v);
     }
-    for (let i = 0; i < fxSome(10 * k); i++) fxSpawn('entry_smoke', x + fxRand(-3, 3), y + fxRand(0, 3), z + fxRand(-3, 3), 0, fxRand(0.02, 0.1), 0);
-    for (let i = 0; i < fxSome(12 * k); i++) fxSpawn('collapse_dust', x + fxRand(-4, 4), y + fxRand(0, 2), z + fxRand(-4, 4), fxRand(-0.15, 0.15), fxRand(0.15, 0.45), fxRand(-0.15, 0.15));
-    if (d < 96) FX.craters.push({ x: x, y: y, z: z, until: FX.tick + (big < 1 ? 100 : 160) });
+    for (let i = 0; i < fxSome((lone ? 16 : 10) * k, floor); i++) fxSpawn('entry_smoke', x + fxRand(-3, 3), y + fxRand(0, 3), z + fxRand(-3, 3), 0, fxRand(0.02, 0.1), 0);
+    for (let i = 0; i < fxSome((lone ? 20 : 12) * k, floor); i++) fxSpawn('collapse_dust', x + fxRand(-4, 4), y + fxRand(0, 2), z + fxRand(-4, 4), fxRand(-0.15, 0.15), fxRand(0.15, 0.45), fxRand(-0.15, 0.15));
+    // a lone impact leaves a column of smoke and dust that stands above the trees for a while
+    if (lone || d < 96) FX.craters.push({ x: x, y: y, z: z, plume: lone, until: FX.tick + (lone ? 300 : 100) });
     if (FX.craters.length > 6) FX.craters.shift();
 }
 
@@ -181,6 +185,11 @@ function fxMeteorTick() {
         return true;
     });
     FX.craters = FX.craters.filter((c) => {
+        if (c.plume) {
+            let left = (c.until - FX.tick) / 300;
+            if (FX.tick % 2 == 0 && Math.random() < Math.max(FX.q, 0.6) * (0.4 + left)) fxSpawn('entry_smoke', c.x + fxRand(-1.2, 1.2), c.y + fxRand(0, 4), c.z + fxRand(-1.2, 1.2), fxRand(-0.01, 0.01), fxRand(0.12, 0.22), fxRand(-0.01, 0.01));
+            if (FX.tick % 3 == 0 && Math.random() < Math.max(FX.q, 0.6) * left) fxSpawn('collapse_sand', c.x + fxRand(-2, 2), c.y + fxRand(5, 14), c.z + fxRand(-2, 2), fxRand(-0.02, 0.02), fxRand(0.05, 0.1), fxRand(-0.02, 0.02));
+        }
         if (FX.tick % 6 == 0 && Math.random() < FX.q) fxSpawn('entry_smoke', c.x + fxRand(-1.5, 1.5), c.y + fxRand(0, 1), c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.12), 0);
         if (FX.tick % 10 == 0 && Math.random() < FX.q) fxSpawn('entry_ember', c.x + fxRand(-1.5, 1.5), c.y + 0.3, c.z + fxRand(-1.5, 1.5), 0, fxRand(0.05, 0.2), 0);
         return c.until > FX.tick;

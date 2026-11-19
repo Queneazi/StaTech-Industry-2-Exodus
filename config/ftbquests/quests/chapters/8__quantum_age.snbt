@@ -406,47 +406,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3E139335E6F04C69"]
-			id: "152140F96FA2944E"
-			shape: "square"
-			tasks: [{
-				id: "6D351210538120EF"
-				item: { count: 1, id: "modern_industrialization:quantum_sword" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: 2.25d
-		}
-		{
-			dependencies: ["3E139335E6F04C69"]
-			id: "1E378F2F641048F1"
-			shape: "square"
-			tasks: [
-				{
-					id: "440CCB26E0647CDA"
-					item: { count: 1, id: "modern_industrialization:quantum_helmet" }
-					type: "item"
-				}
-				{
-					id: "70601770FFA024F0"
-					item: { count: 1, id: "modern_industrialization:quantum_chestplate" }
-					type: "item"
-				}
-				{
-					id: "54FD233050BEB88A"
-					item: { count: 1, id: "modern_industrialization:quantum_leggings" }
-					type: "item"
-				}
-				{
-					id: "40ACE927E2106954"
-					item: { count: 1, id: "modern_industrialization:quantum_boots" }
-					type: "item"
-				}
-			]
-			x: 20.0d
-			y: 3.75d
-		}
-		{
 			dependencies: ["10943911EAB7196F"]
 			id: "5E0967F2B54D6B34"
 			rewards: [
@@ -1234,45 +1193,6 @@
 			]
 			x: 3.75d
 			y: -4.5d
-		}
-		{
-			dependencies: ["152140F96FA2944E"]
-			id: "4BA636804B1524D7"
-			tasks: [{
-				id: "28FEDAC5D9DDFD94"
-				item: { count: 1, id: "extended_industrialization:nano_quantum_saber" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: 2.25d
-		}
-		{
-			dependencies: ["1E378F2F641048F1"]
-			id: "784E6AF2CC87C3F2"
-			tasks: [
-				{
-					id: "21590DBC53E98173"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_helmet" }
-					type: "item"
-				}
-				{
-					id: "74F69D0EE088D8A7"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0C53A87FE2C95D6A"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_leggings" }
-					type: "item"
-				}
-				{
-					id: "258F05EB8FE88EFD"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_boots" }
-					type: "item"
-				}
-			]
-			x: 21.0d
-			y: 3.75d
 		}
 		{
 			dependencies: ["5B9A855554AD1E04"]

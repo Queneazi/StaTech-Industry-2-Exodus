@@ -1077,13 +1077,6 @@
 	quest.14D72A06A59AFAC5.quest_desc: ["The &aDragonrending Pickaxe&r is a real powerhouse of a pick for when you want to break &chard blocks&r. It comes pre-enchanted with &dRazing&r, which &3increases&r your mining speed depending on the &2hardness&r of the block"]
 	quest.14F9EFD54739898B.quest_desc: ["Can be used to &dduplicate&r &eString.&r"]
 	quest.14F9EFD54739898B.title: "Nylon"
-	quest.152140F96FA2944E.quest_desc: [
-		"The &dQuantum Sword&f is the most powerful sword in the entire game. It will &cinstantly kill&r anything you hit with it (this includes your friends)."
-		""
-		"Still not as cool as the &aSword of the Cosmos&f..."
-	]
-	quest.152140F96FA2944E.quest_subtitle: "A sword to end all swords"
-	quest.152140F96FA2944E.title: "Quantum Sword"
 	quest.152E753AE4B119C1.quest_desc: [
 		"&aEnder Tanks&r are exactly like &bEnder Chests&r, but they can store fluids instead."
 		""
@@ -1483,13 +1476,6 @@
 		"&oThat's all.&r"
 	]
 	quest.1DE4D0BC31E15CCA.quest_subtitle: "You call that a processing chain?"
-	quest.1E378F2F641048F1.quest_desc: [
-		"The &dQuantum Suit&f is an empowered suit of armor that's the most powerful armor in the game. &cYou don't take damage while wearing the entire suit&r and you have &6creative-flight&r similar to the &dGravichestplate&f."
-		""
-		"Each piece &aindividually adds a 25% chance to not take damage&f, with full protection when wearing the entire set."
-	]
-	quest.1E378F2F641048F1.quest_subtitle: "Basically creative mode"
-	quest.1E378F2F641048F1.title: "The Quantum Suit"
 	quest.1E3B2DB51FDD6CAA.quest_desc: [
 		"The &aME Extended Pattern Terminal&r is an advanced version of the &bME Pattern Terminal&r and boasts &6three additionnal functions&r:"
 		""
@@ -3769,8 +3755,6 @@
 	quest.4B5EFD81AA487CC0.quest_desc: ["The &bDisplay Link&r can be used to display dynamic data on &aDisplay Boards&r. First right-click the &aDisplay Border&r with the &bDisplay Link&r then right-click the block you want to read from with the &bDisplay Link&r."]
 	quest.4B648AE558C01675.quest_desc: ["The &bDepot&r can be used as a stationary belt element. You can place items on the &bDepot&r by right-clicking. Items can be taken off the &bDepot&r using &dRobot Arms&r or &cChutes&r."]
 	quest.4B85407F8A2D7EDC.quest_desc: ["The weapon of the &dLich&r. It &eshoots projectiles&r when you press right-click. Can be recharged with &aender pearls&r."]
-	quest.4BA636804B1524D7.quest_desc: ["Basically a &aQuantum Sword&r but just better. Has a &dLooting&r and &dBeheading&r mode. Comes with a large AoE attack."]
-	quest.4BA636804B1524D7.quest_subtitle: "An even cooler sword"
 	quest.4BC45FE0A3D522C3.quest_desc: ["&aPropene&r is important for creating &3Acryllic Acid&r, which can be creates &eDiethyl Ether&r, an important component in &6Boosted Diesel&r. &3Acryllic Acid&r can also be reacted into &eAcryllic Glue&r, a form of creating infinite &aSlime.&r"]
 	quest.4BC54781892D5F76.quest_desc: [
 		"The &aME Storage Bus&r, when attached to another inventory block in the world lets you access that inventory via networked functions. This allows you to use &bchests, barrels, or other types of item storage&r in your &dnetworks&r. "
@@ -4019,7 +4003,7 @@
 	quest.4FD7572FC6CC4140.quest_desc: [
 		"With &a100 mB&r of liquid &dUU-Matter&f, the &eReplicator&r can &dduplicate &o(almost)&r any item in the game."
 		""
-		"While this might seem like the end, &cit is not&r. With &3complete molecular rearrangement&r at your fingertips, it's time to make a ton of &dUU-Matter&f and get the materials needed to make the &dcreative items&r."
+		"While this might seem like the end, &cit is not&r. With &3complete molecular rearrangement&r at your fingertips, it's time to make a ton of &dUU-Matter&f: the &dSingularity Forge&r turns it into antimatter for the &cArk&r."
 	]
 	quest.4FD7572FC6CC4140.quest_subtitle: "Legal Duping"
 	quest.4FDAFBD64AA710A1.quest_desc: ["Increases experience dropped by mobs"]
@@ -5732,13 +5716,13 @@
 	quest.71636395F7946F8C.quest_desc: [
 		"&cDISCLAIMER:&r This quest is absolutely, completely &cUNNECESSARY&r for any sane person. It only exists to show a &apossible&r way to play the pack that some players have done and found a lot of fun doing."
 		""
-		"The &dReplicator&r is a really powerful tool; maybe &otoo powerful&r in fact. The amount of &zSingularities&r required for completing the pack is around &e2048&r, which is an &cinsane&r amount that you usually want to just replicate."
+		"The &dReplicator&r is a really powerful tool; maybe &otoo powerful&r in fact. The amount of &zSingularities&r required for completing the pack is &cinsane&r, and you usually want to just replicate them."
 		""
 		"This quest is for the truly dedicated; some would say they are &dinsane&r."
 		""
-		"A \"&6Replicatorless run&r\" is a &6challenge run&r in which you willfully &cdon't&r use the &dreplicator&r or the &dcreative items&r to finish the pack. "
+		"A \"&6Replicatorless run&r\" is a &6challenge run&r in which you willfully &cdon't&r use the &dreplicator&r to finish the pack. "
 		""
-		"Since you cannot replicate singularities in such a run, you have to craft the 2048 singularities &efrom its most basic components&r. Since the &zSingularity&r is the culmination of all technology in the pack, this requires a &l&9colossal&r amount of infrastructure to perform in a reasonable time."
+		"Since you cannot replicate singularities in such a run, you have to craft every singularity &efrom its most basic components&r. Since the &zSingularity&r is the culmination of all technology in the pack, this requires a &l&9colossal&r amount of infrastructure to perform in a reasonable time."
 	]
 	quest.71636395F7946F8C.quest_subtitle: "Not for the faint of heart"
 	quest.717AC9D60B7E0AEA.quest_desc: ["The &6Exposure mod&r allows you to place &2&oimages&r&r you've taken &3in world&r &olike paintings&r, and also lets you put images from the &9internet&r &oin the world.&r"]
@@ -6091,8 +6075,6 @@
 	]
 	quest.78427B969C4E2188.quest_desc: ["&cFiery Tears&r are an exclusive item dropped from the &cUr-Ghast&r. You can use them to make &cFiery Ingots&r, which can be used to make special sets of &aarmor and tools&r. The &2Fiery Pickaxe&r features auto-smelting, while the &3Fiery Sword&r has a built in &dFire Aspect&r. Lastly, the &bFiery Armors&r will light attackers &eon fire&r."]
 	quest.784BFD67397D2D4E.quest_desc: ["The &bExtended Interface&r is an advanced version of the Interface that has &a4 rows&r of &a9 slots&r (spread on two pages) to stock&r or receive&r &2items&r or &9fluids&r instead of the regular 9!"]
-	quest.784E6AF2CC87C3F2.quest_desc: ["A direct upgrade to the &aQuantum Armor&r with &deven cooler features&r. It also makes you look awesome."]
-	quest.784E6AF2CC87C3F2.quest_subtitle: "Even more creative modey"
 	quest.786ACF473177AA23.quest_desc: ["With the &bTurbo Machine Hulls&r you now have access to &aUltimate Solar Panels&r. This will generate &e48 EU/t&r during the day, and&6 8 EU/t at night&r. By this point you probably have better power generation, but this is free and could be good for any automations you want to setup away from your base."]
 	quest.788B6EC0B441EEC8.quest_desc: ["&eBoron Trioxide Dust&r then needs to be mixed with some &eQuartz Dust&r and some &eAluminum Tiny Dust&r to prepare it for &bGlass&r production."]
 	quest.78AB0A6DF24A608F.quest_desc: [
@@ -7295,7 +7277,7 @@
 	quest.465EC5BFF83F54C5.title: "Oberon"
 	quest.465EC5BFF83F54C5.quest_desc: ["&8Obscurex&r takes the place of glass in the &aMulti Processing Array&r."]
 	quest.76F32594AEF28B79.title: "Titania"
-	quest.76F32594AEF28B79.quest_desc: ["&3Chasmal&r holds an impossible amount. Keep every spare plate: the &dCreative Tank&r needs a full stack."]
+	quest.76F32594AEF28B79.quest_desc: ["&3Chasmal&r holds an impossible amount, so the best rocket fuel tanks are built from it."]
 	quest.0C1F27F6D7E0959E.quest_desc: ["Crushing pressure makes &bPressure Diamonds&r. Break the &bPressure Crystals&r on Uranus, or search the &6Tilted Observatory&r on Miranda. The &aStellar NASA Workbench&r and the &aAzurane Engine&r both need one."]
 	quest.0CDE970570D9DE3F.quest_desc: ["An optional detour: the &6Tilted Observatory&r on Miranda holds the &6Tide Light Core&r."]
 	quest.12EC20BD0F10FD0D.quest_desc: ["The last workbench builds Tiers 8 to 10. It uses your &6Halo Light Core&r, a &bPressure Diamond&r, and &bAzurane&r and &8Obscurex Plates&r."]
@@ -7324,18 +7306,18 @@
 	quest.5B9A855554AD1E04.quest_desc: ["The stack of older parts keeps growing. So does the fuel bill."]
 	quest.761449F962A17403.quest_desc: ["The &6Tier 9 Rocket&r uses &9Tempestine Blocks&r and a &dQuantum Upgrade&r. That means you need a working &aSingularity Forge&r first. It reaches &dPluto&r and &cCharon&r."]
 	quest.52B0A2A561885A97.title: "Pluto"
-	quest.52B0A2A561885A97.quest_desc: ["&dCordium&r comes from the heart of Pluto. The &dCreative Storage Unit&r needs a full stack of plates."]
+	quest.52B0A2A561885A97.quest_desc: ["&dCordium&r comes from the heart of Pluto. The engines and fuel tanks of the last rocket are built from it, and so are the Ark's thrusters."]
 	quest.0466F6AE6A33233D.title: "Charon"
-	quest.0466F6AE6A33233D.quest_desc: ["&cMordrine&r is the toughest metal in the system. The &dCreative Barrel&r needs a full stack of plates."]
+	quest.0466F6AE6A33233D.quest_desc: ["&cMordrine&r is the toughest metal in the system. The fins and nose cone of the last rocket are made from it."]
 	quest.5B2C3B975AF5E2D1.quest_desc: ["An optional detour: the &dSealed Heart&r on Pluto holds the &dRose Light Core&r."]
 	quest.1672ACDCBD9FDD65.title: "Tier 10 Rocket Parts"
 	quest.1672ACDCBD9FDD65.quest_desc: ["The last parts you'll ever build, and each one contains every part before it."]
 	quest.66BBEFD82298EE5F.quest_subtitle: "The end of the road"
 	quest.66BBEFD82298EE5F.quest_desc: ["The &6Tier 10 Rocket&r uses &dCordium Blocks&r and a &dSingularity&r. It reaches the very edge of the solar system."]
 	quest.0646F2860BE89943.title: "Eris"
-	quest.0646F2860BE89943.quest_desc: ["&fAlbedon&r reflects almost everything. The &dCreative Tank&r needs a full stack of plates."]
+	quest.0646F2860BE89943.quest_desc: ["&fAlbedon&r reflects almost everything."]
 	quest.7189E3FB8CF91A3A.title: "Dysnomia"
-	quest.7189E3FB8CF91A3A.quest_desc: ["&bShardex&r is what's left of a shattered world. The &dCreative Motor&r needs a full stack of plates."]
+	quest.7189E3FB8CF91A3A.quest_desc: ["&bShardex&r is what's left of a shattered world."]
 	quest.6BEF1EE2751D0930.title: "The Last Door"
 	quest.6BEF1EE2751D0930.quest_desc: ["Something on Eris has been waiting a very long time. Find the &bLast Door&r and pass the &bFrost Trial&r."]
 	quest.3C937F68391692D1.title: "The Ancients"

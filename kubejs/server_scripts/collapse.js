@@ -72,6 +72,18 @@ let collapseClaimed = (level, x, z) => {
     }
 };
 
+// a column somewhere in front of the player, so a lone meteor lands where it can be seen
+let collapseFrontColumn = (level, player, min, max) => {
+    let yaw = Math.random() * Math.PI * 2;
+    try {
+        let look = player.getLookAngle();
+        if (Math.abs(look.x()) + Math.abs(look.z()) > 0.01) yaw = Math.atan2(-look.x(), look.z());
+    } catch (e) { }
+    yaw += (Math.random() - 0.5) * 1.6;
+    let dist = min + Math.random() * (max - min);
+    return collapseColumn(level, Math.floor(player.x - Math.sin(yaw) * dist), Math.floor(player.z + Math.cos(yaw) * dist));
+};
+
 let collapseRandomColumn = (level, player, min, max) => {
     let angle = Math.random() * Math.PI * 2;
     let dist = min + Math.random() * (max - min);
@@ -79,6 +91,20 @@ let collapseRandomColumn = (level, player, min, max) => {
 };
 
 let collapseExposed = (level, player) => level.canSeeSky($CollapseBlockPos.containing(player.x, player.y + 1.6, player.z));
+
+// the column's top block is a fluid (sea, river, lava lake)
+let collapseWet = (level, col) => !level.getBlockState(new $CollapseBlockPos(col.x, col.y - 1, col.z)).getFluidState().isEmpty();
+// tries a few spots and keeps the first one on dry land; over open sea it falls back to the last try
+let collapseLandTarget = (level, pick) => {
+    let last = null;
+    for (let i = 0; i < 8; i++) {
+        let col = pick();
+        if (!col) continue;
+        if (!collapseWet(level, col)) return col;
+        last = col;
+    }
+    return last;
+};
 
 let collapseGriefing = (level) => level.getGameRules().getBoolean($CollapseGameRules.RULE_MOBGRIEFING);
 
@@ -115,7 +141,7 @@ let collapseTremor = (server, level, player) => {
 // -- METEORS -- //
 
 let collapseLaunchMeteor = (server, level, player, small) => {
-    let target = small ? collapseRandomColumn(level, player, 20, 96) : collapseRandomColumn(level, player, 36, 80);
+    let target = collapseLandTarget(level, () => (small ? collapseRandomColumn(level, player, 20, 96) : collapseFrontColumn(level, player, 28, 60)));
     if (!target) return false;
     let meteor = {
         x: target.x, y: target.y, z: target.z,
@@ -140,7 +166,7 @@ let collapseMeteorTick = (server) => {
         meteor.t++;
         if (meteor.t < meteor.duration) return true;
         if (!level.getChunkSource().getChunkNow(meteor.x >> 4, meteor.z >> 4)) return false;
-        let power = meteor.small ? 2 + Math.random() * 0.8 : 3.5 + Math.random() * 2;
+        let power = meteor.small ? 2 + Math.random() * 0.8 : 4 + Math.random() * 1.5;
         let grief = !meteor.shielded && collapseGriefing(level);
         level.explode(null, null, null, meteor.x + 0.5, meteor.y + 0.5, meteor.z + 0.5, power, grief && !meteor.small, grief ? $CollapseExplosion.MOB : $CollapseExplosion.NONE,
             collapseParticle('entry_smoke'), collapseParticle('collapse_shock'), $CollapseSounds.GENERIC_EXPLODE);
@@ -149,12 +175,23 @@ let collapseMeteorTick = (server) => {
         if (grief) collapseCommand(server, `execute in minecraft:overworld positioned ${meteor.x + 0.5} ${meteor.y + 0.5} ${meteor.z + 0.5} run kill @e[type=minecraft:item,distance=..10,nbt={Age:0s}]`);
         if (grief) {
             let crater = collapseColumn(level, meteor.x, meteor.z);
-            if (crater) level.getBlock(meteor.x, crater.y - 1, meteor.z).set('minecraft:magma_block');
+            if (crater && !collapseWet(level, crater)) level.getBlock(meteor.x, crater.y - 1, meteor.z).set('minecraft:magma_block');
+            // scorched ground around a lone meteor's crater
+            if (!meteor.small) for (let i = 0; i < 14; i++) {
+                let a = Math.random() * Math.PI * 2, r = 2 + Math.random() * 3;
+                let sx = Math.floor(meteor.x + Math.cos(a) * r), sz = Math.floor(meteor.z + Math.sin(a) * r);
+                let col = collapseColumn(level, sx, sz);
+                if (!col || collapseWet(level, col)) continue;
+                let ground = level.getBlock(sx, col.y - 1, sz);
+                if (!ground.hasTag('minecraft:dirt') && !ground.hasTag('minecraft:base_stone_overworld') && !ground.hasTag('minecraft:sand')) continue;
+                ground.set(['minecraft:coarse_dirt', 'minecraft:blackstone', 'minecraft:coarse_dirt', 'minecraft:magma_block'][Math.floor(Math.random() * 4)]);
+            }
         }
         let landed = collapseColumn(level, meteor.x, meteor.z);
         let dropY = landed ? landed.y : meteor.y + 1;
         level.getBlock(meteor.x, dropY, meteor.z).popItem(Item.of('kubejs:meteorite_fragment', meteor.small ? Math.floor(Math.random() * 2) + 1 : 2 + Math.floor(Math.random() * 3)));
         collapseCommand(server, `execute in minecraft:overworld run playsound minecraft:entity.lightning_bolt.thunder master @a ${meteor.x} ${meteor.y} ${meteor.z} 8 0.5`);
+        if (!meteor.small) collapseCommand(server, `execute in minecraft:overworld run playsound minecraft:entity.generic.explode master @a ${meteor.x} ${meteor.y} ${meteor.z} 10 0.55`);
         return false;
     });
 };

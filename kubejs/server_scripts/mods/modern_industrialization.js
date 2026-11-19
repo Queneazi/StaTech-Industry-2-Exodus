@@ -20,6 +20,11 @@ ServerEvents.recipes((event) => {
         mi('armor/smithing/quantum_helmet'),
         mi('armor/smithing/quantum_chestplate'),
         mi('armor/smithing/quantum_boots'),
+        mi('upgrade/packer/quantum/helmet'),
+        mi('upgrade/packer/quantum/chestplate'),
+        mi('upgrade/packer/quantum/leggings'),
+        mi('upgrade/packer/quantum/boots'),
+        mi('upgrade/packer/quantum/sword'),
         mi('vanilla_recipes/mixer/netherite'),
         mi('materials/cupronickel/craft/coil'),
         mi('vanilla_recipes/chains'),
@@ -382,16 +387,6 @@ ServerEvents.recipes((event) => {
             C: mi('bronze_machine_casing'),
         })
         .id(mi('steam_age/bronze/boiler_asbl'));
-
-    // -- CLEAR FLUID FROM CREATIVE TANK -- //
-    event
-        .shapeless(mi('creative_tank'), mi('creative_tank'))
-        .id(st('clear_fluids_from_creative_tank'));
-
-    // -- CLEAR ITEM FROM CREATIVE BARREL -- //
-    event
-        .shapeless(mi('creative_barrel'), mi('creative_barrel'))
-        .id(st('clear_items_from_creative_barrel'));
 
     // -- GRAVICHESTPLATE -- //
     event
